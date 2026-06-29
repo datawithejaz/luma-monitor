@@ -214,10 +214,13 @@ async function main() {
   if (newEvents.length > 0) {
     if (emailConfigured()) {
       await sendEmail(newEvents);
+      // Only mark events as seen once they've actually been emailed, so a run
+      // without email configured (or a failed send) re-alerts on the next run.
+      newEvents.forEach((e) => seen.add(e.api_id));
     } else {
       console.warn(
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
-          `Recorded ${newEvents.length} new event(s) without sending.`
+          `Found ${newEvents.length} new event(s); not recording them so they alert once email is set up.`
       );
       newEvents.forEach((e) => console.log(`   • ${e.name} — ${e.url}`));
     }
@@ -225,8 +228,6 @@ async function main() {
     console.log("No new events.");
   }
 
-  // Mark every relevant event as seen so we never re-alert on the same event.
-  relevant.forEach((e) => seen.add(e.api_id));
   saveSeen(seen);
   console.log(`Done. Seen pool: ${seen.size}`);
 }
