@@ -43,11 +43,6 @@ automatically once enabled).
 ### 2. Add the Gmail secrets (required for email)
 Repo → **Settings → Secrets and variables → Actions → New repository secret**:
 
-| Secret | Value |
-|---|---|
-| `GMAIL_USER` | `ejazahmed.workemail@gmail.com` |
-| `GMAIL_APP_PASSWORD` | a 16-character Gmail **App Password** (no spaces) |
-| `NOTIFY_EMAIL` | `ejazahmed.workemail@gmail.com` |
 
 Create an App Password at <https://myaccount.google.com/apppasswords> (requires
 2-Step Verification). Gmail rejects your normal account password from scripts.
