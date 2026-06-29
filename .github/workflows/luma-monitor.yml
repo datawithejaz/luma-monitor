@@ -1,0 +1,55 @@
+name: Luma London Monitor
+
+on:
+  schedule:
+    # Every 10 minutes. GitHub's cron is best-effort — scheduled runs can be
+    # delayed under platform load. Change to "*/5 * * * *" for 5-minute polling.
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # manual "Run workflow" button for testing
+
+permissions:
+  contents: write         # needed to commit seen_events.json back
+
+concurrency:
+  group: luma-monitor
+  cancel-in-progress: false   # let an in-flight run finish before the next starts
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: src/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./src
+
+      - name: Run monitor
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: node src/monitor.js
+
+      - name: Commit updated seen_events.json (only if changed)
+        run: |
+          git config user.name  "luma-monitor[bot]"
+          git config user.email "luma-monitor@users.noreply.github.com"
+          git add src/seen_events.json
+          if git diff --staged --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "chore: update seen events [skip ci]"
+            git pull --rebase --autostash origin "${{ github.ref_name }}" || true
+            git push
+          fi

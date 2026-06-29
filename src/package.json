@@ -1,0 +1,16 @@
+{
+  "name": "luma-monitor",
+  "version": "1.0.0",
+  "description": "Lu.ma London event monitor — notifies via email when new relevant events appear",
+  "main": "monitor.js",
+  "scripts": {
+    "start": "node monitor.js",
+    "test": "node monitor.js"
+  },
+  "dependencies": {
+    "nodemailer": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,15 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Local env / secrets
+.env
+
+# Archived prototype (kept locally, not published)
+_archive/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Note: src/seen_events.json is intentionally tracked — it is the monitor's state.
