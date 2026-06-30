@@ -13,12 +13,19 @@ const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
 // We resolve it live from the page; this is a fallback if resolution ever fails.
 const FALLBACK_PLACE_ID = "discplace-QCcNk3HXowOR97j"; // London (verified 2026-06)
 
-// An event is kept if its text matches at least one of these (case-insensitive).
+// An event is kept if name / host text matches at least one keyword (case-insensitive).
+// Short tokens use word boundaries to avoid false positives (e.g. "ai" in "Saint").
 const CATEGORY_KEYWORDS = [
   "tech", "ai", "artificial intelligence", "marketing", "entrepreneurship",
-  "business", "networking", "startup", "data", "product", "design",
-  "developer", "coding", "hackathon", "workshop", "demo",
+  "entrepreneur", "founder", "business", "networking", "startup", "data",
+  "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
+  "fintech", "vc", "venture", "seo",
 ];
+
+// Keywords that must match as whole words, not substrings inside other words.
+const WORD_BOUNDARY_KEYWORDS = new Set([
+  "ai", "vc", "seo", "data", "tech", "demo", "product", "design",
+]);
 
 const HEADERS = {
   "Accept": "application/json, text/html",
@@ -108,12 +115,26 @@ async function fetchAllEntries(placeId) {
     const batch = data.entries || [];
     entries.push(...batch);
 
-    if (!data.has_more || !data.next_cursor) break;
+    // Stop when there is no cursor or the API returns an empty page.
+    // Don't rely on has_more alone — Lu.ma sometimes sets has_more=false while
+    // still returning a next_cursor.
+    if (!data.next_cursor || batch.length === 0) break;
     cursor = data.next_cursor;
   }
 
   console.log(`Total fetched: ${entries.length} events`);
   return entries;
+}
+
+function formatPrice(ticket) {
+  if (!ticket) return null;
+  if (ticket.is_free) return "FREE";
+  const price = ticket.price;
+  if (!price || price.cents == null) return null;
+  const amount = price.cents / 100;
+  const currency = (price.currency || "gbp").toUpperCase();
+  if (currency === "GBP") return `£${Number.isInteger(amount) ? amount : amount.toFixed(2)}`;
+  return `${amount} ${currency}`;
 }
 
 /** Flatten a raw discover entry into the fields this monitor cares about. */
@@ -122,17 +143,27 @@ function normalise(entry) {
   const calendar = entry.calendar || {};
   const geo = event.geo_address_info || {};
   const slug = event.url || "";
+  const ticket = entry.ticket_info || {};
+  const hostNames = (entry.hosts || [])
+    .map((h) => h.name || h.user?.name || "")
+    .filter(Boolean)
+    .join(" ");
 
   return {
     api_id: event.api_id || entry.api_id || "",
     name: event.name || "",
     url: slug ? `https://lu.ma/${slug}` : "",
-    start_at: event.start_at || "",
+    start_at: event.start_at || entry.start_at || "",
     location_type: event.location_type || "",
     venue: geo.full_address || geo.city_state || geo.city || "",
-    host: calendar.name || "",
-    is_free: event.ticket_info ? event.ticket_info.is_free === true : null,
-    price: event.ticket_info ? event.ticket_info.price : null,
+    host: calendar.name || hostNames || "",
+    hosts_text: hostNames,
+    is_free: ticket.is_free === true,
+    price_label: formatPrice(ticket),
+    registration_availability: entry.registration_availability || "",
+    is_sold_out: ticket.is_sold_out === true,
+    spots_remaining: ticket.spots_remaining ?? null,
+    is_near_capacity: ticket.is_near_capacity === true,
   };
 }
 
@@ -140,9 +171,59 @@ function isInPerson(event) {
   return event.location_type === "offline";
 }
 
+function isUpcoming(event) {
+  if (!event.start_at) return true;
+  return new Date(event.start_at) >= new Date();
+}
+
+function escapeRegex(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function keywordMatches(haystack, kw) {
+  const lower = haystack.toLowerCase();
+  const token = kw.toLowerCase();
+
+  if (token.includes(" ")) return lower.includes(token);
+
+  if (WORD_BOUNDARY_KEYWORDS.has(token)) {
+    return new RegExp(`\\b${escapeRegex(token)}\\b`, "i").test(lower);
+  }
+
+  return lower.includes(token);
+}
+
 function matchesCategory(event) {
-  const haystack = `${event.name} ${event.host} ${event.venue}`.toLowerCase();
-  return CATEGORY_KEYWORDS.some((kw) => haystack.includes(kw));
+  // Match on title and hosts only — venue addresses cause false positives.
+  const haystack = `${event.name} ${event.host} ${event.hosts_text}`.trim();
+  return CATEGORY_KEYWORDS.some((kw) => keywordMatches(haystack, kw));
+}
+
+function registrationPriority(event) {
+  if (event.is_sold_out || event.registration_availability === "sold-out") return 2;
+  if (event.registration_availability === "waitlist") return 1;
+  return 0;
+}
+
+function formatRegistrationStatus(event) {
+  if (event.is_sold_out || event.registration_availability === "sold-out") {
+    return "🔴 SOLD OUT — join waitlist on page";
+  }
+  if (event.registration_availability === "waitlist") {
+    return "🟡 WAITLIST — registration full, waitlist open";
+  }
+  if (event.is_near_capacity) {
+    const spots =
+      event.spots_remaining != null ? ` (${event.spots_remaining} spots left)` : "";
+    return `🟠 NEAR CAPACITY${spots} — register soon`;
+  }
+  if (event.spots_remaining != null && event.spots_remaining > 0) {
+    return `🟢 OPEN — ${event.spots_remaining} spot${event.spots_remaining === 1 ? "" : "s"} left`;
+  }
+  if (event.registration_availability === "open") {
+    return "🟢 OPEN — registration available";
+  }
+  return "🟢 OPEN — check page for availability";
 }
 
 // ── Email ─────────────────────────────────────────────────────────────────────
@@ -159,7 +240,7 @@ function formatEventEmail(events) {
         ? new Date(e.start_at).toLocaleString("en-GB", { timeZone: "Europe/London" })
         : "TBC";
       const venue = e.venue || "London";
-      const price = e.is_free ? "FREE" : e.price ? `£${e.price}` : "Check page";
+      const price = e.price_label || "Check page";
       return [
         "🔴 NEW EVENT DETECTED",
         "━━━━━━━━━━━━━━━━━━━━",
@@ -167,6 +248,7 @@ function formatEventEmail(events) {
         `📅 ${start}`,
         `📍 ${venue}`,
         `🎟  ${price}`,
+        `📋 ${formatRegistrationStatus(e)}`,
         `🏷  ${e.host || "—"}`,
         `🔗 ${e.url}`,
       ].join("\n");
@@ -180,11 +262,21 @@ async function sendEmail(events) {
     auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
   });
 
-  const count = events.length;
-  const subject = `🚨 ${count} New Luma London Event${count > 1 ? "s" : ""} — Register Now`;
+  const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
+  const openCount = sorted.filter((e) => registrationPriority(e) === 0).length;
+  const count = sorted.length;
+
+  let subject = `🚨 ${count} New Luma London Event${count > 1 ? "s" : ""}`;
+  if (openCount > 0) {
+    subject += ` — ${openCount} Open for Registration`;
+  } else {
+    subject += " — Waitlist / Sold Out";
+  }
+
   const text =
-    `${count} new event${count > 1 ? "s" : ""} matching your criteria just appeared on Lu.ma London.\n\n` +
-    `${formatEventEmail(events)}\n\n---\nLuma London: https://lu.ma/london`;
+    `${count} new upcoming event${count > 1 ? "s" : ""} matching your criteria on Lu.ma London.\n` +
+    `Sorted with open registration first.\n\n` +
+    `${formatEventEmail(sorted)}\n\n---\nLuma London: https://lu.ma/london`;
 
   await transporter.sendMail({
     from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
@@ -203,10 +295,14 @@ async function main() {
   const placeId = await resolvePlaceId(LONDON_SLUG);
   const entries = await fetchAllEntries(placeId);
 
-  const relevant = entries
-    .map(normalise)
-    .filter((e) => e.api_id && isInPerson(e) && matchesCategory(e));
-  console.log(`Relevant after filter (in-person + category): ${relevant.length}`);
+  const normalised = entries.map(normalise);
+  const inPerson = normalised.filter((e) => e.api_id && isInPerson(e));
+  const upcoming = inPerson.filter(isUpcoming);
+  const relevant = upcoming.filter(matchesCategory);
+
+  console.log(`In-person: ${inPerson.length}`);
+  console.log(`Upcoming (not started): ${upcoming.length}`);
+  console.log(`Relevant after category filter: ${relevant.length}`);
 
   const newEvents = relevant.filter((e) => !seen.has(e.api_id));
   console.log(`New events: ${newEvents.length}`);
@@ -222,7 +318,10 @@ async function main() {
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
           `Found ${newEvents.length} new event(s); not recording them so they alert once email is set up.`
       );
-      newEvents.forEach((e) => console.log(`   • ${e.name} — ${e.url}`));
+      const sorted = [...newEvents].sort((a, b) => registrationPriority(a) - registrationPriority(b));
+      sorted.forEach((e) =>
+        console.log(`   • ${e.name} — ${formatRegistrationStatus(e)} — ${e.url}`)
+      );
     }
   } else {
     console.log("No new events.");
