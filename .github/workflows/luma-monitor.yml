@@ -2,9 +2,9 @@ name: Luma London Monitor
 
 on:
   schedule:
-    # Every 10 minutes. GitHub's cron is best-effort — scheduled runs can be
-    # delayed under platform load. Change to "*/5 * * * *" for 5-minute polling.
-    - cron: "*/10 * * * *"
+    # Every 5 minutes for faster alerts. GitHub's cron is best-effort — runs can
+    # still be delayed under platform load, but this is the fastest practical interval.
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}   # manual "Run workflow" button for testing
 
 permissions:

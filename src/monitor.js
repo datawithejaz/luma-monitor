@@ -233,58 +233,63 @@ function emailConfigured() {
   );
 }
 
-function formatEventEmail(events) {
-  return events
-    .map((e) => {
-      const start = e.start_at
-        ? new Date(e.start_at).toLocaleString("en-GB", { timeZone: "Europe/London" })
-        : "TBC";
-      const venue = e.venue || "London";
-      const price = e.price_label || "Check page";
-      return [
-        "🔴 NEW EVENT DETECTED",
-        "━━━━━━━━━━━━━━━━━━━━",
-        `📌 ${e.name}`,
-        `📅 ${start}`,
-        `📍 ${venue}`,
-        `🎟  ${price}`,
-        `📋 ${formatRegistrationStatus(e)}`,
-        `🏷  ${e.host || "—"}`,
-        `🔗 ${e.url}`,
-      ].join("\n");
-    })
-    .join("\n\n");
+function formatEventBlock(event) {
+  const start = event.start_at
+    ? new Date(event.start_at).toLocaleString("en-GB", { timeZone: "Europe/London" })
+    : "TBC";
+  const venue = event.venue || "London";
+  const price = event.price_label || "Check page";
+  return [
+    "🔴 NEW EVENT DETECTED",
+    "━━━━━━━━━━━━━━━━━━━━",
+    `📌 ${event.name}`,
+    `📅 ${start}`,
+    `📍 ${venue}`,
+    `🎟  ${price}`,
+    `📋 ${formatRegistrationStatus(event)}`,
+    `🏷  ${event.host || "—"}`,
+    `🔗 ${event.url}`,
+  ].join("\n");
 }
 
-async function sendEmail(events) {
+function eventEmailSubject(event) {
+  const priority = registrationPriority(event);
+  let subject = `🚨 New: ${event.name}`;
+  if (subject.length > 90) subject = `${subject.slice(0, 87)}...`;
+  if (priority === 0) return `${subject} — Register Now`;
+  if (priority === 1) return `${subject} — Waitlist`;
+  return `${subject} — Sold Out`;
+}
+
+/** Send one email per new event so each alert goes out as soon as it is detected. */
+async function alertNewEvents(events, seen) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
   });
 
   const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
-  const openCount = sorted.filter((e) => registrationPriority(e) === 0).length;
-  const count = sorted.length;
+  let sent = 0;
 
-  let subject = `🚨 ${count} New Luma London Event${count > 1 ? "s" : ""}`;
-  if (openCount > 0) {
-    subject += ` — ${openCount} Open for Registration`;
-  } else {
-    subject += " — Waitlist / Sold Out";
+  for (const event of sorted) {
+    const text =
+      "A new event matching your criteria just appeared on Lu.ma London.\n\n" +
+      `${formatEventBlock(event)}\n\n---\nLuma London: https://lu.ma/london`;
+
+    await transporter.sendMail({
+      from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
+      to: process.env.NOTIFY_EMAIL,
+      subject: eventEmailSubject(event),
+      text,
+    });
+
+    seen.add(event.api_id);
+    saveSeen(seen);
+    sent++;
+    console.log(`✅ Email sent — ${event.name}`);
   }
 
-  const text =
-    `${count} new upcoming event${count > 1 ? "s" : ""} matching your criteria on Lu.ma London.\n` +
-    `Sorted with open registration first.\n\n` +
-    `${formatEventEmail(sorted)}\n\n---\nLuma London: https://lu.ma/london`;
-
-  await transporter.sendMail({
-    from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
-    to: process.env.NOTIFY_EMAIL,
-    subject,
-    text,
-  });
-  console.log(`✅ Email sent — ${count} new event(s)`);
+  return sent;
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -309,10 +314,8 @@ async function main() {
 
   if (newEvents.length > 0) {
     if (emailConfigured()) {
-      await sendEmail(newEvents);
-      // Only mark events as seen once they've actually been emailed, so a run
-      // without email configured (or a failed send) re-alerts on the next run.
-      newEvents.forEach((e) => seen.add(e.api_id));
+      const sent = await alertNewEvents(newEvents, seen);
+      console.log(`Sent ${sent} individual alert(s).`);
     } else {
       console.warn(
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
