@@ -9,10 +9,14 @@ const META_PATH = path.join(__dirname, "event_meta.json");
 const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
-// Send at most one alert per workflow run so bursts don't hit your inbox all at once.
-// Additional new events stay queued and alert on subsequent runs (~5–15 min apart).
-const MAX_ALERTS_PER_RUN = 1;
 const LONDON_TZ = "Europe/London";
+
+// Calendars to poll in addition to the London discover feed. Some events (e.g.
+// Cursor hackathons) are published on a host calendar but never appear on lu.ma/london.
+const TRACKED_CALENDAR_SLUGS = ["cursor-london-uk"];
+const FALLBACK_CALENDAR_IDS = {
+  "cursor-london-uk": "cal-QQGEIJl1K33N0zb",
+};
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
 // We resolve it live from the page; this is a fallback if resolution ever fails.
@@ -24,7 +28,7 @@ const CATEGORY_KEYWORDS = [
   "tech", "ai", "artificial intelligence", "marketing", "entrepreneurship",
   "entrepreneur", "founder", "business", "networking", "startup", "data",
   "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
-  "fintech", "vc", "venture", "seo",
+  "fintech", "vc", "venture", "seo", "cursor",
 ];
 
 // Keywords that must match as whole words, not substrings inside other words.
@@ -166,8 +170,26 @@ async function resolvePlaceId(slug) {
   }
 }
 
-/** Page through the discover API and return raw entries. */
-async function fetchAllEntries(placeId) {
+/** Resolve a calendar slug (e.g. "cursor-london-uk") to its api id via __NEXT_DATA__. */
+async function resolveCalendarId(slug) {
+  try {
+    const html = await fetchText(`https://lu.ma/${slug}`);
+    const match = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+    if (!match) throw new Error("__NEXT_DATA__ not found");
+    const blob = JSON.parse(match[1]);
+    const calendarId = blob?.props?.pageProps?.initialData?.data?.calendar?.api_id;
+    if (!calendarId) throw new Error("calendar id not present in page data");
+    return calendarId;
+  } catch (err) {
+    const fallback = FALLBACK_CALENDAR_IDS[slug];
+    if (!fallback) throw err;
+    console.warn(`Could not resolve calendar id for "${slug}" (${err.message}) — using fallback.`);
+    return fallback;
+  }
+}
+
+/** Page through the London discover API and return raw entries. */
+async function fetchDiscoverEntries(placeId) {
   const entries = [];
   let cursor = null;
 
@@ -190,8 +212,40 @@ async function fetchAllEntries(placeId) {
     cursor = data.next_cursor;
   }
 
-  console.log(`Total fetched: ${entries.length} events`);
+  console.log(`Discover feed: ${entries.length} events`);
   return entries;
+}
+
+/** Fetch events from a host calendar (catches events missing from the city discover feed). */
+async function fetchCalendarEntries(slug) {
+  const calendarId = await resolveCalendarId(slug);
+  const data = await fetchJSON(
+    `https://api.lu.ma/calendar/get-items?calendar_api_id=${encodeURIComponent(calendarId)}`
+  );
+  const entries = data.entries || [];
+  console.log(`Calendar "${slug}": ${entries.length} event(s)`);
+  return entries;
+}
+
+function dedupeEntries(entries) {
+  const byId = new Map();
+  for (const entry of entries) {
+    const id = entry.event?.api_id || entry.api_id;
+    if (id && !byId.has(id)) byId.set(id, entry);
+  }
+  return [...byId.values()];
+}
+
+/** Merge London discover results with tracked host calendars. */
+async function fetchAllSources(placeId) {
+  const discover = await fetchDiscoverEntries(placeId);
+  const merged = [...discover];
+  for (const slug of TRACKED_CALENDAR_SLUGS) {
+    merged.push(...(await fetchCalendarEntries(slug)));
+  }
+  const unique = dedupeEntries(merged);
+  console.log(`Total unique events: ${unique.length}`);
+  return unique;
 }
 
 function formatPrice(ticket) {
@@ -320,16 +374,16 @@ function formatEventBlock(event, meta) {
   ].join("\n");
 }
 
-function eventEmailSubject(event) {
-  const priority = registrationPriority(event);
-  let subject = `🚨 New: ${event.name}`;
-  if (subject.length > 90) subject = `${subject.slice(0, 87)}...`;
-  if (priority === 0) return `${subject} — Register Now`;
-  if (priority === 1) return `${subject} — Waitlist`;
-  return `${subject} — Sold Out`;
+function batchEmailSubject(events) {
+  const openCount = events.filter((e) => registrationPriority(e) === 0).length;
+  const count = events.length;
+  let subject = `🚨 ${count} New Luma London Event${count > 1 ? "s" : ""}`;
+  if (openCount > 0) subject += ` — ${openCount} Open for Registration`;
+  else subject += " — Waitlist / Sold Out";
+  return subject;
 }
 
-/** Send one email per event in the batch (usually one per run). */
+/** Send one batched email when multiple new events are found in the same run. */
 async function alertNewEvents(events, seen, meta) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
@@ -337,31 +391,31 @@ async function alertNewEvents(events, seen, meta) {
   });
 
   const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
-  let sent = 0;
+  const count = sorted.length;
+  const text =
+    `${count} new upcoming event${count > 1 ? "s" : ""} matching your criteria on Lu.ma London.\n` +
+    `Sorted with open registration first.\n\n` +
+    `${sorted.map((event) => formatEventBlock(event, meta)).join("\n\n")}\n\n` +
+    `---\nLuma London: https://lu.ma/london`;
 
-  for (const event of sorted) {
-    const text =
-      "A new event matching your criteria just appeared on Lu.ma London.\n\n" +
-      `${formatEventBlock(event, meta)}\n\n---\nLuma London: https://lu.ma/london`;
+  await transporter.sendMail({
+    from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
+    to: process.env.NOTIFY_EMAIL,
+    subject: batchEmailSubject(sorted),
+    text,
+  });
 
-    await transporter.sendMail({
-      from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
-      to: process.env.NOTIFY_EMAIL,
-      subject: eventEmailSubject(event),
-      text,
-    });
-
+  const alertedAt = new Date().toISOString();
+  sorted.forEach((event) => {
     seen.add(event.api_id);
-    if (meta[event.api_id]) {
-      meta[event.api_id].first_alerted_at = new Date().toISOString();
-    }
-    saveSeen(seen);
-    saveMeta(meta);
-    sent++;
-    console.log(`✅ Email sent — ${event.name}`);
-  }
+    if (meta[event.api_id]) meta[event.api_id].first_alerted_at = alertedAt;
+  });
+  saveSeen(seen);
+  saveMeta(meta);
+  console.log(`✅ Email sent — ${count} new event(s) in one message`);
+  sorted.forEach((event) => console.log(`   • ${event.name}`));
 
-  return sent;
+  return count;
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -371,7 +425,7 @@ async function main() {
   const seen = loadSeen();
   const meta = loadMeta();
   const placeId = await resolvePlaceId(LONDON_SLUG);
-  const entries = await fetchAllEntries(placeId);
+  const entries = await fetchAllSources(placeId);
 
   const normalised = entries.map(normalise);
   const inPerson = normalised.filter((e) => e.api_id && isInPerson(e));
@@ -391,17 +445,9 @@ async function main() {
     sorted.forEach((event) => noteFirstSeen(meta, event, detectedAt));
     saveMeta(meta);
 
-    const toAlert = sorted.slice(0, MAX_ALERTS_PER_RUN);
-    const queued = sorted.length - toAlert.length;
-    if (queued > 0) {
-      console.log(
-        `Queueing ${queued} additional new event(s) for upcoming runs (max ${MAX_ALERTS_PER_RUN} alert per run).`
-      );
-    }
-
     if (emailConfigured()) {
-      const sent = await alertNewEvents(toAlert, seen, meta);
-      console.log(`Sent ${sent} alert(s) this run.`);
+      const sent = await alertNewEvents(sorted, seen, meta);
+      console.log(`Sent ${sent} event(s) in one email.`);
     } else {
       console.warn(
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
