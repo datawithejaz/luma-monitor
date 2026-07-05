@@ -12,4 +12,5 @@ _archive/
 .DS_Store
 Thumbs.db
 
-# Note: src/seen_events.json and src/event_meta.json are intentionally tracked — monitor state.
+# Note: src/seen_events.json, src/event_meta.json, src/known_calendars.json, and
+# src/tracked_calendars.json are intentionally tracked — monitor state/config.

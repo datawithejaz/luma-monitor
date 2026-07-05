@@ -6,17 +6,13 @@ const path = require("path");
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
 const META_PATH = path.join(__dirname, "event_meta.json");
+const TRACKED_CALENDARS_PATH = path.join(__dirname, "tracked_calendars.json");
+const KNOWN_CALENDARS_PATH = path.join(__dirname, "known_calendars.json");
 const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
+const MAX_CALENDARS_TO_POLL = 80; // safety cap when many calendars are discovered
 const LONDON_TZ = "Europe/London";
-
-// Calendars to poll in addition to the London discover feed. Some events (e.g.
-// Cursor hackathons) are published on a host calendar but never appear on lu.ma/london.
-const TRACKED_CALENDAR_SLUGS = ["cursor-london-uk"];
-const FALLBACK_CALENDAR_IDS = {
-  "cursor-london-uk": "cal-QQGEIJl1K33N0zb",
-};
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
 // We resolve it live from the page; this is a fallback if resolution ever fails.
@@ -43,10 +39,10 @@ const HEADERS = {
 };
 
 // ── HTTP helpers ──────────────────────────────────────────────────────────────
-function fetchText(url, redirectsLeft = 5) {
+function fetchText(url, redirectsLeft = 5, extraHeaders = {}) {
   return new Promise((resolve, reject) => {
     https
-      .get(url, { headers: HEADERS }, (res) => {
+      .get(url, { headers: { ...HEADERS, ...extraHeaders } }, (res) => {
         const { statusCode, headers } = res;
         // lu.ma 301-redirects (e.g. lu.ma/london -> luma.com/london); follow it.
         if (statusCode >= 300 && statusCode < 400 && headers.location) {
@@ -67,8 +63,8 @@ function fetchText(url, redirectsLeft = 5) {
   });
 }
 
-async function fetchJSON(url) {
-  const body = await fetchText(url);
+async function fetchJSON(url, extraHeaders = {}) {
+  const body = await fetchText(url, 5, extraHeaders);
   try {
     return JSON.parse(body);
   } catch {
@@ -153,6 +149,105 @@ function formatListedOn(meta, apiId) {
   return formatLondonDateTime(entry.first_seen_at);
 }
 
+function loadTrackedCalendars() {
+  try {
+    const data = JSON.parse(fs.readFileSync(TRACKED_CALENDARS_PATH, "utf8"));
+    return (data.calendars || []).map((cal) => ({
+      api_id: cal.api_id,
+      name: cal.name || "",
+      slug: cal.slug || "",
+      source: "manual",
+      reason: cal.reason || "",
+    }));
+  } catch {
+    return [];
+  }
+}
+
+function loadKnownCalendars() {
+  try {
+    return JSON.parse(fs.readFileSync(KNOWN_CALENDARS_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function saveKnownCalendars(registry) {
+  const sorted = Object.fromEntries(
+    Object.entries(registry).sort(([a], [b]) => a.localeCompare(b))
+  );
+  fs.writeFileSync(KNOWN_CALENDARS_PATH, JSON.stringify(sorted, null, 2));
+}
+
+function upsertCalendar(registry, cal) {
+  if (!cal?.api_id) return;
+  const existing = registry[cal.api_id] || {};
+  registry[cal.api_id] = {
+    api_id: cal.api_id,
+    name: cal.name || existing.name || "",
+    slug: cal.slug || existing.slug || "",
+    source: cal.source || existing.source || "unknown",
+    reason: cal.reason || existing.reason || "",
+    last_seen_at: new Date().toISOString(),
+  };
+}
+
+function extractCalendarsFromEntries(entries, source) {
+  const calendars = [];
+  for (const entry of entries) {
+    const cal = entry.calendar || {};
+    const apiId = cal.api_id || entry.calendar_api_id;
+    if (!apiId) continue;
+    // Skip anonymous one-off "Personal" calendars — noisy and rarely hold hidden gems.
+    if (cal.name === "Personal" && !cal.slug) continue;
+    calendars.push({
+      api_id: apiId,
+      name: cal.name || "",
+      slug: cal.slug || "",
+      source,
+    });
+  }
+  return calendars;
+}
+
+function isLondonEntry(entry) {
+  const event = entry.event || entry;
+  if (event.location_type === "online") return false;
+  const geo = event.geo_address_info || {};
+  const parts = [geo.city, geo.city_state, geo.full_address, geo.short_address]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+  return parts.includes("london");
+}
+
+function mergeCalendarList(...lists) {
+  const registry = new Map();
+  const priority = { manual: 0, subscription: 1, featured: 2, discover: 3 };
+
+  for (const list of lists) {
+    for (const cal of list) {
+      if (!cal?.api_id) continue;
+      const existing = registry.get(cal.api_id);
+      if (!existing || priority[cal.source] < priority[existing.source]) {
+        registry.set(cal.api_id, { ...existing, ...cal });
+      } else if (existing) {
+        registry.set(cal.api_id, {
+          ...existing,
+          name: existing.name || cal.name,
+          slug: existing.slug || cal.slug,
+        });
+      }
+    }
+  }
+
+  return [...registry.values()].sort((a, b) => {
+    const byPriority = priority[a.source] - priority[b.source];
+    if (byPriority !== 0) return byPriority;
+    return (a.name || a.api_id).localeCompare(b.name || b.api_id);
+  });
+}
+
 // ── lu.ma fetching ────────────────────────────────────────────────────────────
 /** Resolve a city slug (e.g. "london") to its discover place id via __NEXT_DATA__. */
 async function resolvePlaceId(slug) {
@@ -170,22 +265,72 @@ async function resolvePlaceId(slug) {
   }
 }
 
-/** Resolve a calendar slug (e.g. "cursor-london-uk") to its api id via __NEXT_DATA__. */
-async function resolveCalendarId(slug) {
-  try {
-    const html = await fetchText(`https://lu.ma/${slug}`);
-    const match = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
-    if (!match) throw new Error("__NEXT_DATA__ not found");
-    const blob = JSON.parse(match[1]);
-    const calendarId = blob?.props?.pageProps?.initialData?.data?.calendar?.api_id;
-    if (!calendarId) throw new Error("calendar id not present in page data");
-    return calendarId;
-  } catch (err) {
-    const fallback = FALLBACK_CALENDAR_IDS[slug];
-    if (!fallback) throw err;
-    console.warn(`Could not resolve calendar id for "${slug}" (${err.message}) — using fallback.`);
-    return fallback;
+/** Fetch Lu.ma calendars the signed-in user follows (requires LUMA_AUTH_COOKIE secret). */
+async function fetchFollowingCalendars() {
+  const cookie = process.env.LUMA_AUTH_COOKIE;
+  if (!cookie) {
+    console.log("LUMA_AUTH_COOKIE not set — skipping your Lu.ma calendar subscriptions.");
+    return [];
   }
+
+  try {
+    const data = await fetchJSON("https://api.lu.ma/home/get-following-calendars", {
+      Cookie: cookie,
+    });
+    const raw = data.calendars || data.entries || data.items || [];
+    const calendars = raw
+      .map((item) => {
+        const cal = item.calendar || item;
+        return {
+          api_id: cal.api_id,
+          name: cal.name || "",
+          slug: cal.slug || "",
+          source: "subscription",
+        };
+      })
+      .filter((cal) => cal.api_id);
+
+    console.log(`Lu.ma subscriptions: ${calendars.length} calendar(s)`);
+    return calendars;
+  } catch (err) {
+    console.warn(`Could not fetch Lu.ma subscriptions (${err.message}).`);
+    return [];
+  }
+}
+
+/** Calendars featured on the London discover page (small curated list). */
+async function fetchFeaturedCalendars(placeId) {
+  try {
+    const data = await fetchJSON(
+      `https://api.lu.ma/discover/get-calendars?discover_place_api_id=${encodeURIComponent(placeId)}`
+    );
+    return (data.calendars || []).map((cal) => ({
+      api_id: cal.api_id,
+      name: cal.name || "",
+      slug: cal.slug || "",
+      source: "featured",
+    }));
+  } catch (err) {
+    console.warn(`Could not fetch featured calendars (${err.message}).`);
+    return [];
+  }
+}
+
+/** Fetch all events published on a host calendar by api id. */
+async function fetchCalendarItems(calendarId) {
+  const data = await fetchJSON(
+    `https://api.lu.ma/calendar/get-items?calendar_api_id=${encodeURIComponent(calendarId)}`
+  );
+  return data.entries || [];
+}
+
+function dedupeEntries(entries) {
+  const byId = new Map();
+  for (const entry of entries) {
+    const id = entry.event?.api_id || entry.api_id;
+    if (id && !byId.has(id)) byId.set(id, entry);
+  }
+  return [...byId.values()];
 }
 
 /** Page through the London discover API and return raw entries. */
@@ -216,35 +361,49 @@ async function fetchDiscoverEntries(placeId) {
   return entries;
 }
 
-/** Fetch events from a host calendar (catches events missing from the city discover feed). */
-async function fetchCalendarEntries(slug) {
-  const calendarId = await resolveCalendarId(slug);
-  const data = await fetchJSON(
-    `https://api.lu.ma/calendar/get-items?calendar_api_id=${encodeURIComponent(calendarId)}`
-  );
-  const entries = data.entries || [];
-  console.log(`Calendar "${slug}": ${entries.length} event(s)`);
-  return entries;
-}
-
-function dedupeEntries(entries) {
-  const byId = new Map();
-  for (const entry of entries) {
-    const id = entry.event?.api_id || entry.api_id;
-    if (id && !byId.has(id)) byId.set(id, entry);
-  }
-  return [...byId.values()];
-}
-
-/** Merge London discover results with tracked host calendars. */
+/** Fetch events from every calendar we know about, not just the city discover feed. */
 async function fetchAllSources(placeId) {
   const discover = await fetchDiscoverEntries(placeId);
-  const merged = [...discover];
-  for (const slug of TRACKED_CALENDAR_SLUGS) {
-    merged.push(...(await fetchCalendarEntries(slug)));
+  const manual = loadTrackedCalendars();
+  const subscriptions = await fetchFollowingCalendars();
+  const featured = await fetchFeaturedCalendars(placeId);
+  const fromDiscover = extractCalendarsFromEntries(discover, "discover");
+
+  const calendars = mergeCalendarList(manual, subscriptions, featured, fromDiscover);
+  const toPoll = calendars.slice(0, MAX_CALENDARS_TO_POLL);
+  if (calendars.length > MAX_CALENDARS_TO_POLL) {
+    console.warn(
+      `Polling ${MAX_CALENDARS_TO_POLL}/${calendars.length} calendars (cap). ` +
+        "Add must-have calendars to src/tracked_calendars.json."
+    );
   }
+
+  console.log(
+    `Calendars to poll: ${toPoll.length} ` +
+      `(manual ${manual.length}, subscriptions ${subscriptions.length}, ` +
+      `featured ${featured.length}, discover ${fromDiscover.length})`
+  );
+
+  const knownRegistry = loadKnownCalendars();
+  toPoll.forEach((cal) => upsertCalendar(knownRegistry, cal));
+  saveKnownCalendars(knownRegistry);
+
+  const merged = [...discover];
+
+  for (const cal of toPoll) {
+    try {
+      const items = (await fetchCalendarItems(cal.api_id)).filter(isLondonEntry);
+      merged.push(...items);
+      if (items.length > 0) {
+        console.log(`  • ${cal.name || cal.api_id}: ${items.length} London event(s)`);
+      }
+    } catch (err) {
+      console.warn(`  • ${cal.name || cal.api_id}: failed (${err.message})`);
+    }
+  }
+
   const unique = dedupeEntries(merged);
-  console.log(`Total unique events: ${unique.length}`);
+  console.log(`Total unique events: ${unique.length} (discover ${discover.length}, +${unique.length - discover.length} from calendars)`);
   return unique;
 }
 

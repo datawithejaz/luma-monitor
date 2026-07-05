@@ -1,0 +1,338 @@
+{
+  "cal-0jikzPhENNNJBGU": {
+    "api_id": "cal-0jikzPhENNNJBGU",
+    "name": "incident.io",
+    "slug": "incident",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-18D3FoIDNG1INZG": {
+    "api_id": "cal-18D3FoIDNG1INZG",
+    "name": "Peer Suite",
+    "slug": "peer-suite",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-2z1hnHaEqoXRsNr": {
+    "api_id": "cal-2z1hnHaEqoXRsNr",
+    "name": "london calling",
+    "slug": "ldn-calling",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-40Ym3ZLnIXQCmUd": {
+    "api_id": "cal-40Ym3ZLnIXQCmUd",
+    "name": "Dex",
+    "slug": "meetdex",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-4fRKeqLQiRTsrql": {
+    "api_id": "cal-4fRKeqLQiRTsrql",
+    "name": "Fleek Events",
+    "slug": "joinfleek",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-8hcK7emYCS5LbFl": {
+    "api_id": "cal-8hcK7emYCS5LbFl",
+    "name": "The Offline Club | London",
+    "slug": "theofflineclublondon",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-8keGx2hPWefhJFK": {
+    "api_id": "cal-8keGx2hPWefhJFK",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-9BC46CcbhZPajam": {
+    "api_id": "cal-9BC46CcbhZPajam",
+    "name": "Knowledge Quarter",
+    "slug": "knowledgequarter",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-BHvlIEtmyMuIbvr": {
+    "api_id": "cal-BHvlIEtmyMuIbvr",
+    "name": "The Founder-writer Collective",
+    "slug": "founder-writers",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-cl57AMcV2gdbbau": {
+    "api_id": "cal-cl57AMcV2gdbbau",
+    "name": "Superteam",
+    "slug": "superteam",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-dCIVCipaWBngRnI": {
+    "api_id": "cal-dCIVCipaWBngRnI",
+    "name": "Founders & Funders",
+    "slug": "foundersnfunders",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-DjA8RBzCDCCpK2A": {
+    "api_id": "cal-DjA8RBzCDCCpK2A",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-Dr6cQpUYyVXF3V1": {
+    "api_id": "cal-Dr6cQpUYyVXF3V1",
+    "name": "The Startup Stroll",
+    "slug": "thestartupstroll",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-eP031AKL1RBuO3j": {
+    "api_id": "cal-eP031AKL1RBuO3j",
+    "name": "Future: UK",
+    "slug": "ldn",
+    "source": "featured",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-FAtYQ9ilaLj34DO": {
+    "api_id": "cal-FAtYQ9ilaLj34DO",
+    "name": "PLUGGED",
+    "slug": "plugged",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-hk5F8DXgOojd3rU": {
+    "api_id": "cal-hk5F8DXgOojd3rU",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-hToMGw3ot55mird": {
+    "api_id": "cal-hToMGw3ot55mird",
+    "name": "Novabook",
+    "slug": "novabook",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-IepG8puWnNp6EJJ": {
+    "api_id": "cal-IepG8puWnNp6EJJ",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-inj4UfkKnAAR9X5": {
+    "api_id": "cal-inj4UfkKnAAR9X5",
+    "name": "Jumpstart",
+    "slug": "js5k",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-j2rW2ZS8BbNYnsk": {
+    "api_id": "cal-j2rW2ZS8BbNYnsk",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-JKorjt7utRHmQT7": {
+    "api_id": "cal-JKorjt7utRHmQT7",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-jpvjsRLBNDALoVk": {
+    "api_id": "cal-jpvjsRLBNDALoVk",
+    "name": "Attio Events",
+    "slug": "attio",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-krNCEY0YRqUi3GW": {
+    "api_id": "cal-krNCEY0YRqUi3GW",
+    "name": "Offline Women",
+    "slug": "offlinewomen",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-MeZEH0axGTgm5dv": {
+    "api_id": "cal-MeZEH0axGTgm5dv",
+    "name": "Fuckup Nights London",
+    "slug": "FUNLondon",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-OCSfN320OzjhUpH": {
+    "api_id": "cal-OCSfN320OzjhUpH",
+    "name": "Brighteye Events",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-ofXMwxW9NLr0RDU": {
+    "api_id": "cal-ofXMwxW9NLr0RDU",
+    "name": "Granola",
+    "slug": "granola",
+    "source": "featured",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-oOcEhpitmO6aEhC": {
+    "api_id": "cal-oOcEhpitmO6aEhC",
+    "name": "Adam Smith Institute",
+    "slug": "adamsmithinstituteevents",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-OTLA6Ppc1wXRy16": {
+    "api_id": "cal-OTLA6Ppc1wXRy16",
+    "name": "Zed",
+    "slug": "zedindustries",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-oVo9cQ4EP19G6xQ": {
+    "api_id": "cal-oVo9cQ4EP19G6xQ",
+    "name": "Analogue Nights",
+    "slug": "analogue",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-QQGEIJl1K33N0zb": {
+    "api_id": "cal-QQGEIJl1K33N0zb",
+    "name": "Cursor London, England",
+    "slug": "cursor-london-uk",
+    "source": "manual",
+    "reason": "Hackathons and Cursor events often never appear on lu.ma/london",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-sFTrK4nTPxd9zJe": {
+    "api_id": "cal-sFTrK4nTPxd9zJe",
+    "name": "MTUK Calendar",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-SwHrfSaaRPdwqZ3": {
+    "api_id": "cal-SwHrfSaaRPdwqZ3",
+    "name": "Dust",
+    "slug": "dust",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-tcBV7zXlgqIT8P9": {
+    "api_id": "cal-tcBV7zXlgqIT8P9",
+    "name": "TechGames",
+    "slug": "techgames",
+    "source": "featured",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-WhYFLhJHVydczem": {
+    "api_id": "cal-WhYFLhJHVydczem",
+    "name": "Innovate Finance",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-wUMj2JMQlCImsFA": {
+    "api_id": "cal-wUMj2JMQlCImsFA",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-wYUHzvdQoq1zEOx": {
+    "api_id": "cal-wYUHzvdQoq1zEOx",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-xHLsjN3eFSgskaT": {
+    "api_id": "cal-xHLsjN3eFSgskaT",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-XqDIe2oUVLcybKK": {
+    "api_id": "cal-XqDIe2oUVLcybKK",
+    "name": "Fin",
+    "slug": "fin",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-Y4uwtHKiquV5OVx": {
+    "api_id": "cal-Y4uwtHKiquV5OVx",
+    "name": "Zapier Partner Events Calendar",
+    "slug": "zapierpartnerscalendar",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "cal-Z69QcBVoW7W08mj": {
+    "api_id": "cal-Z69QcBVoW7W08mj",
+    "name": "Personal",
+    "slug": "",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:54:48.894Z"
+  },
+  "cal-zb1rwDqfkoFsAH0": {
+    "api_id": "cal-zb1rwDqfkoFsAH0",
+    "name": "London Tech Leaders",
+    "slug": "londontechleaders",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  },
+  "evgrp-f8F1bDAHhBNDM1f": {
+    "api_id": "evgrp-f8F1bDAHhBNDM1f",
+    "name": "Solana Breakpoint",
+    "slug": "breakpoint",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-07-05T18:55:31.324Z"
+  }
+}
