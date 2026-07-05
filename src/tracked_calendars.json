@@ -1,10 +1,160 @@
 {
   "calendars": [
     {
+      "api_id": "cal-TOpA5LAFfuDeFpu",
+      "slug": "claudecommunity",
+      "name": "Claude Community Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-dCIVCipaWBngRnI",
+      "slug": "foundersnfunders",
+      "name": "Founders & Funders",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-ofXMwxW9NLr0RDU",
+      "slug": "granola",
+      "name": "Granola",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-7Q5A70Bz5Idxopu",
+      "slug": "deepmind",
+      "name": "Google DeepMind",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-FAtYQ9ilaLj34DO",
+      "slug": "plugged",
+      "name": "PLUGGED",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-lRtuNbDBacd0u5K",
+      "slug": "claude-startups",
+      "name": "Claude Startups",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-2z1hnHaEqoXRsNr",
+      "slug": "ldn-calling",
+      "name": "london calling",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-hToMGw3ot55mird",
+      "slug": "novabook",
+      "name": "Novabook",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-mhz06WD1vzBGJcs",
+      "slug": "uk-builders-collective",
+      "name": "[UK] Builders Collective",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-oGKPs8y5BbMisbK",
+      "slug": "artificially-intelligent",
+      "name": "Artificially Intelligent",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-Yb1ZRZuBRgJ18yH",
+      "slug": "opencode",
+      "name": "Open Code",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-Y4uwtHKiquV5OVx",
+      "slug": "zapierpartnerscalendar",
+      "name": "Zapier Partner Events Calendar",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-OCSfN320OzjhUpH",
+      "slug": "",
+      "name": "Brighteye Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-2RFjmQ4ZSmQPCkA",
+      "slug": "cccl",
+      "name": "CCCL",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-4fRKeqLQiRTsrql",
+      "slug": "joinfleek",
+      "name": "Fleek Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-MeZEH0axGTgm5dv",
+      "slug": "FUNLondon",
+      "name": "Fuckup Nights London",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-H0TZXVNhkEOsD04",
+      "slug": "genailondon",
+      "name": "GenAI London",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-uR6a84UTxT34pPv",
+      "slug": "heysalad",
+      "name": "HeySalad®",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-OErAx8480sqDAtW",
+      "slug": "london-ai",
+      "name": "London AI",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-yoMaeA020efY3U1",
+      "slug": "mafia",
+      "name": "Unicorn Mafia",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-X3TOThcQU7sSzzZ",
+      "slug": "basedhouse",
+      "name": "basedhouse: london",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-vMmsdRuRpHpwEhB",
+      "slug": "celesto",
+      "name": "Celesto AI",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-BPEgptYSXJ6bqy3",
+      "slug": "londonmaxxing",
+      "name": "Londonmaxxing Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-eAGvLODxA9KEuN1",
+      "slug": "opencourt",
+      "name": "Open Court",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-lfZsS1HrTbRIiTk",
+      "slug": "reasoningproject",
+      "name": "Reasoning Project",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-QQGEIJl1K33N0zb",
       "slug": "cursor-london-uk",
       "name": "Cursor London, England",
-      "reason": "Hackathons and Cursor events often never appear on lu.ma/london"
+      "reason": "Not in your follows — add on Lu.ma. Hackathons often missing from lu.ma/london"
     }
   ]
 }
