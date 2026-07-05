@@ -5,9 +5,14 @@ const path = require("path");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
+const META_PATH = path.join(__dirname, "event_meta.json");
 const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
+// Send at most one alert per workflow run so bursts don't hit your inbox all at once.
+// Additional new events stay queued and alert on subsequent runs (~5–15 min apart).
+const MAX_ALERTS_PER_RUN = 1;
+const LONDON_TZ = "Europe/London";
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
 // We resolve it live from the page; this is a fallback if resolution ever fails.
@@ -79,6 +84,69 @@ function loadSeen() {
 function saveSeen(seen) {
   // Sorted so the committed diff is deterministic (no spurious churn).
   fs.writeFileSync(SEEN_PATH, JSON.stringify([...seen].sort(), null, 2));
+}
+
+function loadMeta() {
+  try {
+    return JSON.parse(fs.readFileSync(META_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function saveMeta(meta) {
+  const sorted = Object.fromEntries(
+    Object.entries(meta).sort(([a], [b]) => a.localeCompare(b))
+  );
+  fs.writeFileSync(META_PATH, JSON.stringify(sorted, null, 2));
+}
+
+function noteFirstSeen(meta, event, iso) {
+  if (!meta[event.api_id]) {
+    meta[event.api_id] = {
+      name: event.name,
+      first_seen_at: iso,
+    };
+  }
+}
+
+function formatLondonDay(iso) {
+  return new Date(iso).toLocaleDateString("en-GB", {
+    timeZone: LONDON_TZ,
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+function formatLondonTime(iso) {
+  return (
+    new Date(iso).toLocaleTimeString("en-GB", {
+      timeZone: LONDON_TZ,
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }) + " (London)"
+  );
+}
+
+function formatLondonDateTime(iso) {
+  return `${formatLondonDay(iso)} at ${formatLondonTime(iso)}`;
+}
+
+function formatEventSchedule(event) {
+  if (!event.start_at) return { day: "TBC", time: "TBC" };
+  return {
+    day: formatLondonDay(event.start_at),
+    time: formatLondonTime(event.start_at),
+  };
+}
+
+function formatListedOn(meta, apiId) {
+  const entry = meta[apiId];
+  if (!entry?.first_seen_at) return "Just detected this run";
+  return formatLondonDateTime(entry.first_seen_at);
 }
 
 // ── lu.ma fetching ────────────────────────────────────────────────────────────
@@ -233,17 +301,17 @@ function emailConfigured() {
   );
 }
 
-function formatEventBlock(event) {
-  const start = event.start_at
-    ? new Date(event.start_at).toLocaleString("en-GB", { timeZone: "Europe/London" })
-    : "TBC";
+function formatEventBlock(event, meta) {
+  const { day, time } = formatEventSchedule(event);
   const venue = event.venue || "London";
   const price = event.price_label || "Check page";
   return [
     "🔴 NEW EVENT DETECTED",
     "━━━━━━━━━━━━━━━━━━━━",
     `📌 ${event.name}`,
-    `📅 ${start}`,
+    `📅 Day:   ${day}`,
+    `🕐 Time:  ${time}`,
+    `📡 Listed on Lu.ma London: ${formatListedOn(meta, event.api_id)}`,
     `📍 ${venue}`,
     `🎟  ${price}`,
     `📋 ${formatRegistrationStatus(event)}`,
@@ -261,8 +329,8 @@ function eventEmailSubject(event) {
   return `${subject} — Sold Out`;
 }
 
-/** Send one email per new event so each alert goes out as soon as it is detected. */
-async function alertNewEvents(events, seen) {
+/** Send one email per event in the batch (usually one per run). */
+async function alertNewEvents(events, seen, meta) {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
@@ -274,7 +342,7 @@ async function alertNewEvents(events, seen) {
   for (const event of sorted) {
     const text =
       "A new event matching your criteria just appeared on Lu.ma London.\n\n" +
-      `${formatEventBlock(event)}\n\n---\nLuma London: https://lu.ma/london`;
+      `${formatEventBlock(event, meta)}\n\n---\nLuma London: https://lu.ma/london`;
 
     await transporter.sendMail({
       from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
@@ -284,7 +352,11 @@ async function alertNewEvents(events, seen) {
     });
 
     seen.add(event.api_id);
+    if (meta[event.api_id]) {
+      meta[event.api_id].first_alerted_at = new Date().toISOString();
+    }
     saveSeen(seen);
+    saveMeta(meta);
     sent++;
     console.log(`✅ Email sent — ${event.name}`);
   }
@@ -297,6 +369,7 @@ async function main() {
   console.log(`[${new Date().toISOString()}] Starting Luma monitor...`);
 
   const seen = loadSeen();
+  const meta = loadMeta();
   const placeId = await resolvePlaceId(LONDON_SLUG);
   const entries = await fetchAllEntries(placeId);
 
@@ -313,17 +386,31 @@ async function main() {
   console.log(`New events: ${newEvents.length}`);
 
   if (newEvents.length > 0) {
+    const sorted = [...newEvents].sort((a, b) => registrationPriority(a) - registrationPriority(b));
+    const detectedAt = new Date().toISOString();
+    sorted.forEach((event) => noteFirstSeen(meta, event, detectedAt));
+    saveMeta(meta);
+
+    const toAlert = sorted.slice(0, MAX_ALERTS_PER_RUN);
+    const queued = sorted.length - toAlert.length;
+    if (queued > 0) {
+      console.log(
+        `Queueing ${queued} additional new event(s) for upcoming runs (max ${MAX_ALERTS_PER_RUN} alert per run).`
+      );
+    }
+
     if (emailConfigured()) {
-      const sent = await alertNewEvents(newEvents, seen);
-      console.log(`Sent ${sent} individual alert(s).`);
+      const sent = await alertNewEvents(toAlert, seen, meta);
+      console.log(`Sent ${sent} alert(s) this run.`);
     } else {
       console.warn(
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
           `Found ${newEvents.length} new event(s); not recording them so they alert once email is set up.`
       );
-      const sorted = [...newEvents].sort((a, b) => registrationPriority(a) - registrationPriority(b));
       sorted.forEach((e) =>
-        console.log(`   • ${e.name} — ${formatRegistrationStatus(e)} — ${e.url}`)
+        console.log(
+          `   • ${e.name} — listed ${formatListedOn(meta, e.api_id)} — ${formatRegistrationStatus(e)} — ${e.url}`
+        )
       );
     }
   } else {
@@ -331,6 +418,7 @@ async function main() {
   }
 
   saveSeen(seen);
+  saveMeta(meta);
   console.log(`Done. Seen pool: ${seen.size}`);
 }
 

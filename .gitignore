@@ -12,4 +12,4 @@ _archive/
 .DS_Store
 Thumbs.db
 
-# Note: src/seen_events.json is intentionally tracked — it is the monitor's state.
+# Note: src/seen_events.json and src/event_meta.json are intentionally tracked — monitor state.
