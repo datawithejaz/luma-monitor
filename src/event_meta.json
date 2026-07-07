@@ -143,5 +143,10 @@
     "name": "London Startup Operators RunClub & Social",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-zMQrJIftB4BpAe1": {
+    "name": "Camp AI: Agents at Work //London//",
+    "first_seen_at": "2026-07-07T18:12:31.732Z",
+    "first_alerted_at": "2026-07-07T18:12:32.667Z"
   }
 }
