@@ -29,15 +29,35 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-apyLysmgdrqHbkA": {
+    "name": "The Data Pitch Lab: How to Turn Your Love for Data into a Show",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
   "evt-aU1zU4jVP6c4Fo8": {
     "name": "Fin x Fyxer: Building AI Products that Scale",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-BQ3HYxDppFBQDPF": {
+    "name": "Product Evenings LDN: Clarity Wins, Not the Model",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-BR1o0OqybLWc6Bz": {
+    "name": "Fold, Encode, Reflect: A Hands-on Data Portrait Zine for Londoners",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
   "evt-cNFaO7alNhoMCDR": {
     "name": "KQ Social: Data in the City",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-eZde8EoJOyYggfq": {
+    "name": "Demo Event LDN:Directing AI Agents with Cursor",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
   "evt-FC3VCOC8EcMLCjC": {
     "name": "The Agent Economy Buildathon | $20k in bounties",
@@ -59,6 +79,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-HhbZHUFoyJFRgG0": {
+    "name": "Demo Event LDN:Designing with Granola and Claude Code",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
   "evt-holC1YMjySBBEsd": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -68,6 +93,11 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-JRXNS9SfOsMfk7j": {
+    "name": "Demo Event LDN: From Idea to Prototype with Lovable",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
   "evt-K5nydzBtNzw3CF7": {
     "name": "founder coworking + pizza night",
@@ -109,6 +139,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-PDdvHUcrxntVF9M": {
+    "name": "Build. Pitch. Fund. - Startup Funding Event - London",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
   "evt-QNSLnKSsoBiMtdL": {
     "name": "Humanising Data for Healthier, Fairer Futures",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -118,6 +153,21 @@
     "name": "Health Hack Your GP: Workshops and Social Mixer",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-QrXaSWzkz2qTVDI": {
+    "name": "Design Evenings LDN: The Future of Design in the Age of AI",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-QweLB7bWd37LZru": {
+    "name": "Demo Event LDN:Prompt, Build, Deploy with Replit",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-Qxh9FL4d4sHhZQd": {
+    "name": "Demo Event LDN: Fin's Claude Code Playbook for AI Native Teams",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
   "evt-RU9nlt8VC53fFfD": {
     "name": "funded founders coworking + pizza night (ft AI Agents workshop)",
@@ -143,6 +193,21 @@
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-X0sVKbpE6fzESCu": {
+    "name": "Fooled by beautiful data – bias and data visualization",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-XbmQ0Sdm01mhvly": {
+    "name": "Tech After-Hours LDN: Summer Social 2026",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-xIZgvVKRlH1heLk": {
+    "name": "Election bias and ballot mapping",
+    "first_seen_at": "2026-07-09T16:41:58.357Z",
+    "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
   "evt-yKirdEMQumV8Ba1": {
     "name": "AI & Willing Servitude - Andreas Mogensen (Oxford University) + Q&A + Networking",
