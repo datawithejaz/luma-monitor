@@ -179,6 +179,18 @@ function loadKnownCalendars() {
   }
 }
 
+/** Turn the persisted registry into a pollable calendar list. */
+function listKnownCalendars(registry) {
+  return Object.values(registry)
+    .filter((cal) => cal?.api_id)
+    .map((cal) => ({
+      api_id: cal.api_id,
+      name: cal.name || "",
+      slug: cal.slug || "",
+      source: "known",
+    }));
+}
+
 function saveKnownCalendars(registry) {
   const sorted = Object.fromEntries(
     Object.entries(registry).sort(([a], [b]) => a.localeCompare(b))
@@ -230,7 +242,7 @@ function isLondonEntry(entry) {
 
 function mergeCalendarList(...lists) {
   const registry = new Map();
-  const priority = { manual: 0, subscription: 1, featured: 2, discover: 3 };
+  const priority = { manual: 0, subscription: 1, featured: 2, discover: 3, known: 4 };
 
   for (const list of lists) {
     for (const cal of list) {
@@ -375,23 +387,40 @@ async function fetchAllSources(placeId) {
   const subscriptions = await fetchFollowingCalendars();
   const featured = await fetchFeaturedCalendars(placeId);
   const fromDiscover = extractCalendarsFromEntries(discover, "discover");
+  const knownRegistry = loadKnownCalendars();
+  const fromKnown = listKnownCalendars(knownRegistry);
 
-  const calendars = mergeCalendarList(manual, subscriptions, featured, fromDiscover);
-  const toPoll = calendars.slice(0, MAX_CALENDARS_TO_POLL);
+  const calendars = mergeCalendarList(manual, subscriptions, featured, fromDiscover, fromKnown);
+  let toPoll = calendars.slice(0, MAX_CALENDARS_TO_POLL);
   if (calendars.length > MAX_CALENDARS_TO_POLL) {
     console.warn(
-      `Polling ${MAX_CALENDARS_TO_POLL}/${calendars.length} calendars (cap). ` +
-        "Add must-have calendars to src/tracked_calendars.json."
+      `Priority cap: ${MAX_CALENDARS_TO_POLL}/${calendars.length} calendars ` +
+        "(manual/subscription/featured/discover first)."
     );
+  }
+
+  // Always poll every calendar in the persisted registry, even if it dropped
+  // off the London discover feed — that's the whole point of known_calendars.json.
+  const polledIds = new Set(toPoll.map((cal) => cal.api_id));
+  let addedFromRegistry = 0;
+  for (const cal of fromKnown) {
+    if (!polledIds.has(cal.api_id)) {
+      toPoll.push(cal);
+      polledIds.add(cal.api_id);
+      addedFromRegistry++;
+    }
+  }
+  if (addedFromRegistry > 0) {
+    console.log(`Added ${addedFromRegistry} calendar(s) from known_calendars.json registry.`);
   }
 
   console.log(
     `Calendars to poll: ${toPoll.length} ` +
       `(manual ${manual.length}, subscriptions ${subscriptions.length}, ` +
-      `featured ${featured.length}, discover ${fromDiscover.length})`
+      `featured ${featured.length}, discover ${fromDiscover.length}, ` +
+      `known registry ${fromKnown.length})`
   );
 
-  const knownRegistry = loadKnownCalendars();
   toPoll.forEach((cal) => upsertCalendar(knownRegistry, cal));
   saveKnownCalendars(knownRegistry);
 
