@@ -24,6 +24,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-7oHA3DO6jFtD1hn": {
+    "name": "Building Breakout Companies: Index Ventures X Scope",
+    "first_seen_at": "2026-07-10T18:59:51.299Z",
+    "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
   "evt-apP4UgoULATVHFr": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -48,6 +53,11 @@
     "name": "Fold, Encode, Reflect: A Hands-on Data Portrait Zine for Londoners",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-C6AzzVhPQPMcZDO": {
+    "name": "Inside the AI-Native Marketing Team: An Evening with Gamma",
+    "first_seen_at": "2026-07-10T18:59:51.299Z",
+    "first_alerted_at": "2026-07-10T18:59:52.809Z"
   },
   "evt-cdb8nIkNXHQnHH7": {
     "name": "EAST2046 Party and Performance (f.t. London Data Week Social Mixer)",
@@ -134,6 +144,11 @@
     "first_seen_at": "2026-07-05T23:30:31.543Z",
     "first_alerted_at": "2026-07-05T23:30:33.000Z"
   },
+  "evt-NLHPGrGuQCDiy8t": {
+    "name": "London Loras: Seedance ⌁ The Future of Advertising",
+    "first_seen_at": "2026-07-10T18:59:51.299Z",
+    "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
   "evt-NsGCKhfsStygmI9": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -198,6 +213,11 @@
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-WowjP91fOB5hHwO": {
+    "name": "OpenAI Build Week Community Hackathon - London",
+    "first_seen_at": "2026-07-10T18:59:51.299Z",
+    "first_alerted_at": "2026-07-10T18:59:52.809Z"
   },
   "evt-X0sVKbpE6fzESCu": {
     "name": "Fooled by beautiful data – bias and data visualization",
