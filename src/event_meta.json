@@ -69,6 +69,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-d2Px9611wLen7wH": {
+    "name": "Founders Rooftop Party",
+    "first_seen_at": "2026-07-11T19:45:30.564Z",
+    "first_alerted_at": "2026-07-11T19:45:32.695Z"
+  },
   "evt-eZde8EoJOyYggfq": {
     "name": "Demo Event LDN:Directing AI Agents with Cursor",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
