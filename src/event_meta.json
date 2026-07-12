@@ -29,6 +29,11 @@
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
   },
+  "evt-a2KjaxeQ1DnY717": {
+    "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
+    "first_seen_at": "2026-07-12T12:32:09.745Z",
+    "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
   "evt-apP4UgoULATVHFr": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -254,9 +259,19 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-ZhtAcuX6JqLBoKq": {
+    "name": "ABRC: YESTERYEAR BOOKCLUB",
+    "first_seen_at": "2026-07-12T12:32:09.745Z",
+    "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
   "evt-zMQrJIftB4BpAe1": {
     "name": "Camp AI: Agents at Work //London//",
     "first_seen_at": "2026-07-07T18:12:31.732Z",
     "first_alerted_at": "2026-07-07T18:12:32.667Z"
+  },
+  "evt-zNGYLwH7v3JRwUo": {
+    "name": "ABRC X BRIEF ENCOUNTERS: READING ROOM",
+    "first_seen_at": "2026-07-12T12:32:09.745Z",
+    "first_alerted_at": "2026-07-12T12:32:11.019Z"
   }
 }
