@@ -1,6 +1,12 @@
 {
   "calendars": [
     {
+      "api_id": "cal-8keGx2hPWefhJFK",
+      "slug": "",
+      "name": "ABRC",
+      "reason": "User request — personal calendar (no public slug)"
+    },
+    {
       "api_id": "cal-TOpA5LAFfuDeFpu",
       "slug": "claudecommunity",
       "name": "Claude Community Events",
