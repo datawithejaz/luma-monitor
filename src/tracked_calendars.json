@@ -155,6 +155,12 @@
       "slug": "cursor-london-uk",
       "name": "Cursor London, England",
       "reason": "Not in your follows — add on Lu.ma. Hackathons often missing from lu.ma/london"
+    },
+    {
+      "api_id": "cal-8keGx2hPWefhJFK",
+      "slug": "abrc",
+      "name": "ABRC",
+      "reason": "User subscription — book club, film club, reading room events"
     }
   ]
 }

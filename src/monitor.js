@@ -25,6 +25,7 @@ const CATEGORY_KEYWORDS = [
   "entrepreneur", "founder", "business", "networking", "startup", "data",
   "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
   "fintech", "vc", "venture", "seo", "cursor",
+  "abrc",
 ];
 
 const FOOD_KEYWORDS = [
