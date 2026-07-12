@@ -24,7 +24,7 @@ const CATEGORY_KEYWORDS = [
   "tech", "ai", "artificial intelligence", "marketing", "entrepreneurship",
   "entrepreneur", "founder", "business", "networking", "startup", "data",
   "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
-  "fintech", "vc", "venture", "seo", "cursor",
+  "fintech", "vc", "venture", "seo", "cursor", "abrc",
 ];
 
 const FOOD_KEYWORDS = [
@@ -165,9 +165,24 @@ function loadTrackedCalendars() {
       slug: cal.slug || "",
       source: "manual",
       reason: cal.reason || "",
+      include_all_events: cal.include_all_events === true,
     }));
   } catch {
     return [];
+  }
+}
+
+/** Calendar api_ids where every in-person London event should alert (skip keyword filter). */
+function loadIncludeAllCalendarIds() {
+  try {
+    const data = JSON.parse(fs.readFileSync(TRACKED_CALENDARS_PATH, "utf8"));
+    return new Set(
+      (data.calendars || [])
+        .filter((cal) => cal.include_all_events && cal.api_id)
+        .map((cal) => cal.api_id)
+    );
+  } catch {
+    return new Set();
   }
 }
 
@@ -468,6 +483,7 @@ function normalise(entry) {
 
   return {
     api_id: event.api_id || entry.api_id || "",
+    calendar_api_id: calendar.api_id || entry.calendar_api_id || "",
     name: event.name || "",
     url: slug ? `https://lu.ma/${slug}` : "",
     start_at: event.start_at || entry.start_at || "",
@@ -510,7 +526,10 @@ function keywordMatches(haystack, kw) {
   return lower.includes(token);
 }
 
-function matchesCategory(event) {
+function matchesCategory(event, includeAllCalendarIds = new Set()) {
+  if (event.calendar_api_id && includeAllCalendarIds.has(event.calendar_api_id)) {
+    return true;
+  }
   // Match on title and hosts only — venue addresses cause false positives.
   const haystack = `${event.name} ${event.host} ${event.hosts_text}`.trim();
   return CATEGORY_KEYWORDS.some((kw) => keywordMatches(haystack, kw));
@@ -706,9 +725,14 @@ async function main() {
   const entries = await fetchAllSources(placeId);
 
   const normalised = entries.map(normalise);
+  const includeAllCalendars = loadIncludeAllCalendarIds();
   const inPerson = normalised.filter((e) => e.api_id && isInPerson(e));
   const upcoming = inPerson.filter(isUpcoming);
-  const relevant = upcoming.filter(matchesCategory);
+  const relevant = upcoming.filter((e) => matchesCategory(e, includeAllCalendars));
+
+  if (includeAllCalendars.size > 0) {
+    console.log(`Include-all calendars: ${includeAllCalendars.size}`);
+  }
 
   console.log(`In-person: ${inPerson.length}`);
   console.log(`Upcoming (not started): ${upcoming.length}`);

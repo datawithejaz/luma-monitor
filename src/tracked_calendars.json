@@ -4,7 +4,10 @@
       "api_id": "cal-8keGx2hPWefhJFK",
       "slug": "",
       "name": "ABRC",
-      "reason": "User request — personal calendar (no public slug)"
+      "user_api_id": "usr-xKBHGQBW3FEjAJr",
+      "sample_event_url": "https://luma.com/sb6gxi0t",
+      "include_all_events": true,
+      "reason": "User request — personal calendar (no public slug); all London events"
     },
     {
       "api_id": "cal-TOpA5LAFfuDeFpu",
