@@ -7,60 +7,24 @@
       "user_api_id": "usr-xKBHGQBW3FEjAJr",
       "sample_event_url": "https://luma.com/sb6gxi0t",
       "include_all_events": true,
-      "reason": "User request — personal calendar (no public slug); all London events"
-    },
-    {
-      "api_id": "cal-TOpA5LAFfuDeFpu",
-      "slug": "claudecommunity",
-      "name": "Claude Community Events",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-dCIVCipaWBngRnI",
-      "slug": "foundersnfunders",
-      "name": "Founders & Funders",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-ofXMwxW9NLr0RDU",
-      "slug": "granola",
-      "name": "Granola",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-7Q5A70Bz5Idxopu",
-      "slug": "deepmind",
-      "name": "Google DeepMind",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-FAtYQ9ilaLj34DO",
-      "slug": "plugged",
-      "name": "PLUGGED",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-lRtuNbDBacd0u5K",
-      "slug": "claude-startups",
-      "name": "Claude Startups",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-2z1hnHaEqoXRsNr",
-      "slug": "ldn-calling",
-      "name": "london calling",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-hToMGw3ot55mird",
-      "slug": "novabook",
-      "name": "Novabook",
-      "reason": "User subscription"
+      "reason": "User request \u2014 personal calendar (no public slug); all London events"
     },
     {
       "api_id": "cal-mhz06WD1vzBGJcs",
       "slug": "uk-builders-collective",
-      "name": "[UK] Builders Collective",
+      "name": "[UK] HackerSquad",
+      "reason": "User subscription (formerly [UK] Builders Collective)"
+    },
+    {
+      "api_id": "cal-Wr4LXGWinr1UiCW",
+      "slug": "aidemonights",
+      "name": "AI Demo Nights",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-a6GjHykuKt5q8iI",
+      "slug": "aiengine",
+      "name": "AI Engine",
       "reason": "User subscription"
     },
     {
@@ -70,15 +34,21 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-Yb1ZRZuBRgJ18yH",
-      "slug": "opencode",
-      "name": "Open Code",
+      "api_id": "cal-jpvjsRLBNDALoVk",
+      "slug": "attio",
+      "name": "Attio Events",
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-Y4uwtHKiquV5OVx",
-      "slug": "zapierpartnerscalendar",
-      "name": "Zapier Partner Events Calendar",
+      "api_id": "cal-inLTbBIZPpPPkRP",
+      "slug": "auth0events-europe",
+      "name": "Auth0 Events - Europe",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-X3TOThcQU7sSzzZ",
+      "slug": "basedhouse",
+      "name": "basedhouse: london",
       "reason": "User subscription"
     },
     {
@@ -94,9 +64,57 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-vMmsdRuRpHpwEhB",
+      "slug": "celesto",
+      "name": "Celesto AI",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-TOpA5LAFfuDeFpu",
+      "slug": "claudecommunity",
+      "name": "Claude Community Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-lRtuNbDBacd0u5K",
+      "slug": "claude-startups",
+      "name": "Claude Startups",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-qHEDltsO0Gr0WtD",
+      "slug": "deepgram",
+      "name": "Deepgram",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-0Hm4rRqtyGbM8ke",
+      "slug": "doordash-design",
+      "name": "DoorDash Design",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-SwHrfSaaRPdwqZ3",
+      "slug": "dust",
+      "name": "Dust",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-XqDIe2oUVLcybKK",
+      "slug": "fin",
+      "name": "Fin",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-4fRKeqLQiRTsrql",
       "slug": "joinfleek",
       "name": "Fleek Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-dCIVCipaWBngRnI",
+      "slug": "foundersnfunders",
+      "name": "Founders & Funders",
       "reason": "User subscription"
     },
     {
@@ -106,15 +124,33 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-gXdl6C3jfqcBpFT",
+      "slug": "meetgamma",
+      "name": "Gamma",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-H0TZXVNhkEOsD04",
       "slug": "genailondon",
       "name": "GenAI London",
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-7Q5A70Bz5Idxopu",
+      "slug": "deepmind",
+      "name": "Google DeepMind",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-ofXMwxW9NLr0RDU",
+      "slug": "granola",
+      "name": "Granola",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-uR6a84UTxT34pPv",
       "slug": "heysalad",
-      "name": "HeySalad®",
+      "name": "HeySalad\u00ae",
       "reason": "User subscription"
     },
     {
@@ -124,21 +160,9 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-yoMaeA020efY3U1",
-      "slug": "mafia",
-      "name": "Unicorn Mafia",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-X3TOThcQU7sSzzZ",
-      "slug": "basedhouse",
-      "name": "basedhouse: london",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-vMmsdRuRpHpwEhB",
-      "slug": "celesto",
-      "name": "Celesto AI",
+      "api_id": "cal-2z1hnHaEqoXRsNr",
+      "slug": "ldn-calling",
+      "name": "london calling",
       "reason": "User subscription"
     },
     {
@@ -148,9 +172,39 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-hToMGw3ot55mird",
+      "slug": "novabook",
+      "name": "Novabook",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-Yb1ZRZuBRgJ18yH",
+      "slug": "opencode",
+      "name": "Open Code",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-eAGvLODxA9KEuN1",
       "slug": "opencourt",
       "name": "Open Court",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-FhWvOxHV0AGL38z",
+      "slug": "",
+      "name": "OpenAI Build Week",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-FAtYQ9ilaLj34DO",
+      "slug": "plugged",
+      "name": "PLUGGED",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-TIm7UJmG29YvMBs",
+      "slug": "rtm",
+      "name": "RealTime Mandarin Calendar",
       "reason": "User subscription"
     },
     {
@@ -160,10 +214,34 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-8R5h2fthl7npVqi",
+      "slug": "sentientpro",
+      "name": "SentientPro",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-Dr6cQpUYyVXF3V1",
+      "slug": "thestartupstroll",
+      "name": "The Startup Stroll",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-yoMaeA020efY3U1",
+      "slug": "mafia",
+      "name": "Unicorn Mafia",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-Y4uwtHKiquV5OVx",
+      "slug": "zapierpartnerscalendar",
+      "name": "Zapier Partner Events Calendar",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-QQGEIJl1K33N0zb",
       "slug": "cursor-london-uk",
       "name": "Cursor London, England",
-      "reason": "Not in your follows — add on Lu.ma. Hackathons often missing from lu.ma/london"
+      "reason": "Not in your follows \u2014 add on Lu.ma. Hackathons often missing from lu.ma/london"
     }
   ]
 }
