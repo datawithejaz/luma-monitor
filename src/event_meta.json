@@ -84,6 +84,11 @@
     "first_seen_at": "2026-07-11T19:45:30.564Z",
     "first_alerted_at": "2026-07-11T19:45:32.695Z"
   },
+  "evt-DVq3b5MtRwjlApx": {
+    "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
+    "first_seen_at": "2026-07-14T00:52:58.804Z",
+    "first_alerted_at": "2026-07-14T00:53:00.486Z"
+  },
   "evt-eZde8EoJOyYggfq": {
     "name": "Demo Event LDN:Directing AI Agents with Cursor",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -159,6 +164,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-M5aSQieY4xfY3Ef": {
+    "name": "Engineering Leaders Building AI 001 - Private Dinner",
+    "first_seen_at": "2026-07-14T00:52:58.804Z",
+    "first_alerted_at": "2026-07-14T00:53:00.486Z"
+  },
   "evt-N8RnLh3QCSc9eyP": {
     "name": "Summer Drinks: an evening with founders, investors and friends of Seapoint",
     "first_seen_at": "2026-07-08T20:02:58.613Z",
@@ -188,6 +198,11 @@
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-QHgMlQLJYpDA5PD": {
+    "name": "Building AI - Founders 002 - Founder Dinner",
+    "first_seen_at": "2026-07-14T00:52:58.804Z",
+    "first_alerted_at": "2026-07-14T00:53:00.486Z"
   },
   "evt-QNSLnKSsoBiMtdL": {
     "name": "Humanising Data for Healthier, Fairer Futures",
