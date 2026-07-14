@@ -269,6 +269,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-Un7LciHzFwys0S3": {
+    "name": "DEEPTECH LONDON",
+    "first_seen_at": "2026-07-14T23:09:20.778Z",
+    "first_alerted_at": "2026-07-14T23:09:22.356Z"
+  },
   "evt-vkdQRtP1d7XM0F3": {
     "name": "TypeScript AI: The only conference for TypeScript AI developers | In-person + Online",
     "first_seen_at": "2026-07-09T01:14:25.533Z",
