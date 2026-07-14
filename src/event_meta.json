@@ -69,10 +69,20 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-C1mDVDbGXgSbZuD": {
+    "name": "The Mirror That Never Pushes Back: Investigating AI Delusions",
+    "first_seen_at": "2026-07-14T19:56:54.657Z",
+    "first_alerted_at": "2026-07-14T19:56:57.021Z"
+  },
   "evt-C6AzzVhPQPMcZDO": {
     "name": "Inside the AI-Native Marketing Team: An Evening with Gamma",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
+  "evt-CC6KASp7LV2DfB3": {
+    "name": "Harness Engineering: Code and Data That Agents Can Trust",
+    "first_seen_at": "2026-07-14T19:56:54.657Z",
+    "first_alerted_at": "2026-07-14T19:56:57.021Z"
   },
   "evt-cdb8nIkNXHQnHH7": {
     "name": "EAST2046 Party and Performance (f.t. London Data Week Social Mixer)",
@@ -204,6 +214,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-ozjB3T0ACJEEc2j": {
+    "name": "Vibe Code a Sport App",
+    "first_seen_at": "2026-07-14T19:56:54.657Z",
+    "first_alerted_at": "2026-07-14T19:56:57.021Z"
+  },
   "evt-PDdvHUcrxntVF9M": {
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -293,6 +308,11 @@
     "name": "London Startup Operators RunClub & Social",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-zHLkUMSjbZUHpAs": {
+    "name": "AI ROI: Why the Agent Isn't the Answer",
+    "first_seen_at": "2026-07-14T19:56:54.657Z",
+    "first_alerted_at": "2026-07-14T19:56:57.021Z"
   },
   "evt-ZhtAcuX6JqLBoKq": {
     "name": "ABRC: YESTERYEAR BOOKCLUB",
