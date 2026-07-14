@@ -1,4 +1,9 @@
 {
+  "evt-0SZfv1XNqrB51Dy": {
+    "name": "Frideside Chat w/ Siadhal Magos - Metaview Founder & Summer Drinks by Glassray",
+    "first_seen_at": "2026-07-14T16:04:40.852Z",
+    "first_alerted_at": "2026-07-14T16:04:42.189Z"
+  },
   "evt-2IxZ46V7WhUptDq": {
     "name": "Cursor iOS London Hackathon",
     "first_seen_at": "2026-07-05T15:23:35.991Z",
@@ -103,6 +108,11 @@
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-FMOjllO9eEEAshe": {
+    "name": "Turks in Tech UK - 14 July 2026",
+    "first_seen_at": "2026-07-14T16:04:40.852Z",
+    "first_alerted_at": "2026-07-14T16:04:42.189Z"
   },
   "evt-FPAQGfy4VtUKOtF": {
     "name": "Graphics programming with GLSL shaders [c3s meetup #12]",
