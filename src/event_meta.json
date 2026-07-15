@@ -14,6 +14,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-3THjyDM88FItmPg": {
+    "name": "Arc Accelerator Meetup & Workshop",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-4bNrnZHcsokiIz5": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -34,10 +39,25 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-7iIJgmckKWYczPb": {
+    "name": "Encode London Hackathon and Conference",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-7oHA3DO6jFtD1hn": {
     "name": "Building Breakout Companies: Index Ventures X Scope",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
+  "evt-9dPcH73ouhaF1H9": {
+    "name": "Ship & Chips: Open Tech/AI Demos",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-9Nk75MW20mSAaz0": {
+    "name": "Daytona AI Builders - London, July 2026",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-a2KjaxeQ1DnY717": {
     "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
@@ -58,6 +78,11 @@
     "name": "Fin x Fyxer: Building AI Products that Scale",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-ba9nNBfxsxQaBH8": {
+    "name": "AI on Draught: All About Insurance",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-BQ3HYxDppFBQDPF": {
     "name": "Product Evenings LDN: Clarity Wins, Not the Model",
@@ -129,6 +154,16 @@
     "first_seen_at": "2026-07-06T21:57:34.392Z",
     "first_alerted_at": "2026-07-06T21:57:35.770Z"
   },
+  "evt-fpQPyH7Fxq5v2dK": {
+    "name": "BiteLabs Digital Health & Innovation Demo Day (Summer 2026)",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-fSmKjifvZiAeZXw": {
+    "name": "First Step: Graduate to AI",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-GgGzmQJ7o6cNuBQ": {
     "name": "Pride in FinTech 2026 | Celebratory Event",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -144,6 +179,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-iYNBhkU2E3Q1jpW": {
+    "name": "Summer Sundown Social @ the Hub",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-JEjCdfA6GowO9kV": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -158,6 +198,11 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-KG0n620r02dMifq": {
+    "name": "Ship & Chips: Open Tech/AI Demos",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-kloQ7IuDRXfsswj": {
     "name": "[London] AI After Hours - London Library",
@@ -189,6 +234,16 @@
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
   },
+  "evt-m6uaG7F6rYHYp3j": {
+    "name": "Ship & Chips: Open Tech/AI Demos",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-MlAedCD8ECSpCNe": {
+    "name": "Arc Blockrun Workshop",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-N8RnLh3QCSc9eyP": {
     "name": "Summer Drinks: an evening with founders, investors and friends of Seapoint",
     "first_seen_at": "2026-07-08T20:02:58.613Z",
@@ -218,6 +273,11 @@
     "name": "Vibe Code a Sport App",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
     "first_alerted_at": "2026-07-14T19:56:57.021Z"
+  },
+  "evt-p6F7NrrQLwnKjiG": {
+    "name": "Ship & Chips: Open Tech/AI Demos",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-PDdvHUcrxntVF9M": {
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
@@ -259,10 +319,20 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-TrViCCEst0fpCFJ": {
+    "name": "Ship & Chips: Open Tech/AI Demos",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-Tx7J1wbHn9SxueO": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-UAe1KjIWVcXJB7L": {
+    "name": "Monad Blitz London Hackathon",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-UM4hkiapUIxiPGG": {
     "name": "Peer Suite | Women's Networking Morning",
@@ -279,10 +349,20 @@
     "first_seen_at": "2026-07-09T01:14:25.533Z",
     "first_alerted_at": "2026-07-09T01:14:26.589Z"
   },
+  "evt-vMO53ln65CLmZPu": {
+    "name": "Ship & Chips: Open Tech/AI Demos",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-WGoMIVmBQQl3ifg": {
+    "name": "House London | Data Hackathon",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-WowjP91fOB5hHwO": {
     "name": "OpenAI Build Week Community Hackathon - London",
@@ -328,6 +408,11 @@
     "name": "Camp AI: Agents at Work //London//",
     "first_seen_at": "2026-07-07T18:12:31.732Z",
     "first_alerted_at": "2026-07-07T18:12:32.667Z"
+  },
+  "evt-zmseLxjFjLR7n9I": {
+    "name": "Arc Community / Accelerator Workshop",
+    "first_seen_at": "2026-07-15T18:42:33.488Z",
+    "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
   "evt-zNGYLwH7v3JRwUo": {
     "name": "ABRC X BRIEF ENCOUNTERS: READING ROOM",
