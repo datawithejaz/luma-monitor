@@ -169,6 +169,11 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-fYZ8F6mIshXOTCU": {
+    "name": "Manus & Matcha",
+    "first_seen_at": "2026-07-17T01:09:54.619Z",
+    "first_alerted_at": "2026-07-17T01:09:56.320Z"
+  },
   "evt-GgGzmQJ7o6cNuBQ": {
     "name": "Pride in FinTech 2026 | Celebratory Event",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -183,6 +188,11 @@
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-HsEbNVOIbH11BHA": {
+    "name": "A Mini Demo Night",
+    "first_seen_at": "2026-07-17T01:09:54.619Z",
+    "first_alerted_at": "2026-07-17T01:09:56.320Z"
   },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
@@ -228,6 +238,11 @@
     "name": "Reimagine Health with eMed & OpenAI",
     "first_seen_at": "2026-07-11T20:31:32.623Z",
     "first_alerted_at": "2026-07-11T20:31:34.628Z"
+  },
+  "evt-kQSHxwIT54L24AN": {
+    "name": "London Fintech Breakfast",
+    "first_seen_at": "2026-07-17T01:09:54.619Z",
+    "first_alerted_at": "2026-07-17T01:09:56.320Z"
   },
   "evt-l4Sjovwpo9T124i": {
     "name": "The Startup Stroll",
