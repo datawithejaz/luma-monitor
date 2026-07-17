@@ -4,6 +4,11 @@
     "first_seen_at": "2026-07-14T16:04:40.852Z",
     "first_alerted_at": "2026-07-14T16:04:42.189Z"
   },
+  "evt-17WP6GRIC0OmhQm": {
+    "name": "AlgoRhythms",
+    "first_seen_at": "2026-07-17T18:16:18.213Z",
+    "first_alerted_at": "2026-07-17T18:16:19.761Z"
+  },
   "evt-2IxZ46V7WhUptDq": {
     "name": "Cursor iOS London Hackathon",
     "first_seen_at": "2026-07-05T15:23:35.991Z",
@@ -274,6 +279,11 @@
     "first_seen_at": "2026-07-08T20:02:58.613Z",
     "first_alerted_at": "2026-07-08T20:02:59.564Z"
   },
+  "evt-NJF4X2gjVKXB9x6": {
+    "name": "London Summer Party",
+    "first_seen_at": "2026-07-17T18:16:18.213Z",
+    "first_alerted_at": "2026-07-17T18:16:19.761Z"
+  },
   "evt-nJH26LiQwGxHwnc": {
     "name": "Mental Health in the Age of AI",
     "first_seen_at": "2026-07-05T23:30:31.543Z",
@@ -344,6 +354,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-tIKp5kksXHkeBmb": {
+    "name": "Tools for Live-coding Visuals",
+    "first_seen_at": "2026-07-17T18:16:18.213Z",
+    "first_alerted_at": "2026-07-17T18:16:19.761Z"
+  },
   "evt-tJFHdNcgxicOHA0": {
     "name": "build fridays london - work on your startup alongside others (bring laptop)",
     "first_seen_at": "2026-07-17T14:26:16.826Z",
@@ -353,6 +368,11 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-TtqPED0UgBXoFoq": {
+    "name": "AlgoLush",
+    "first_seen_at": "2026-07-17T18:16:18.213Z",
+    "first_alerted_at": "2026-07-17T18:16:19.761Z"
   },
   "evt-Tx7J1wbHn9SxueO": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
@@ -373,6 +393,11 @@
     "name": "DEEPTECH LONDON",
     "first_seen_at": "2026-07-14T23:09:20.778Z",
     "first_alerted_at": "2026-07-14T23:09:22.356Z"
+  },
+  "evt-VHyuGNwjYm9CrCz": {
+    "name": "Tools for Live-coding Music",
+    "first_seen_at": "2026-07-17T18:16:18.213Z",
+    "first_alerted_at": "2026-07-17T18:16:19.761Z"
   },
   "evt-vkdQRtP1d7XM0F3": {
     "name": "TypeScript AI: The only conference for TypeScript AI developers | In-person + Online",
