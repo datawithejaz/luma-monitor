@@ -89,6 +89,11 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-BF9m98CBU55A1wx": {
+    "name": "London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-07-18T16:07:12.554Z",
+    "first_alerted_at": "2026-07-18T16:07:14.859Z"
+  },
   "evt-bJf9GKZdHEsfHUs": {
     "name": "AI Agents for Finance Teams Workshop",
     "first_seen_at": "2026-07-16T11:06:55.885Z",
@@ -133,6 +138,11 @@
     "name": "Founders Rooftop Party",
     "first_seen_at": "2026-07-11T19:45:30.564Z",
     "first_alerted_at": "2026-07-11T19:45:32.695Z"
+  },
+  "evt-DDCFdYEoSYsy1PQ": {
+    "name": "London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-07-18T16:07:12.554Z",
+    "first_alerted_at": "2026-07-18T16:07:14.859Z"
   },
   "evt-DVq3b5MtRwjlApx": {
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
