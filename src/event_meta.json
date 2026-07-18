@@ -9,6 +9,11 @@
     "first_seen_at": "2026-07-17T18:16:18.213Z",
     "first_alerted_at": "2026-07-17T18:16:19.761Z"
   },
+  "evt-1APCJm4jcxkAiwD": {
+    "name": "Founders vs VCs: Agent Wars",
+    "first_seen_at": "2026-07-18T23:01:44.141Z",
+    "first_alerted_at": "2026-07-18T23:01:46.186Z"
+  },
   "evt-2IxZ46V7WhUptDq": {
     "name": "Cursor iOS London Hackathon",
     "first_seen_at": "2026-07-05T15:23:35.991Z",
@@ -53,6 +58,11 @@
     "name": "Building Breakout Companies: Index Ventures X Scope",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
+  "evt-8b5xBZ7g0yjlZ4M": {
+    "name": "2026 Amazon Sustainability Accelerator Demo Day",
+    "first_seen_at": "2026-07-18T23:01:44.141Z",
+    "first_alerted_at": "2026-07-18T23:01:46.186Z"
   },
   "evt-9dPcH73ouhaF1H9": {
     "name": "Ship & Chips: Open Tech/AI Demos",
