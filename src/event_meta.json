@@ -279,6 +279,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-l7XVdpspIbHwkJ4": {
+    "name": "AI for the rest of us | Summer Social",
+    "first_seen_at": "2026-07-19T20:24:59.422Z",
+    "first_alerted_at": "2026-07-19T20:25:00.769Z"
+  },
   "evt-M5aSQieY4xfY3Ef": {
     "name": "Engineering Leaders Building AI 001 - Private Dinner",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
@@ -343,6 +348,11 @@
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-Phq8JB9Fuhk6Y1D": {
+    "name": "Arts + Tech Mixer",
+    "first_seen_at": "2026-07-19T20:24:59.422Z",
+    "first_alerted_at": "2026-07-19T20:25:00.769Z"
   },
   "evt-QHgMlQLJYpDA5PD": {
     "name": "Building AI - Founders 002 - Founder Dinner",
