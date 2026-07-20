@@ -114,6 +114,11 @@
     "first_seen_at": "2026-07-16T11:06:55.885Z",
     "first_alerted_at": "2026-07-16T11:06:57.938Z"
   },
+  "evt-bKJnAp5koY1kCCA": {
+    "name": "Battle Bots Hack Night & Watch Party",
+    "first_seen_at": "2026-07-20T16:15:19.429Z",
+    "first_alerted_at": "2026-07-20T16:15:22.962Z"
+  },
   "evt-BQ3HYxDppFBQDPF": {
     "name": "Product Evenings LDN: Clarity Wins, Not the Model",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -483,6 +488,11 @@
     "name": "AI & Willing Servitude - Andreas Mogensen (Oxford University) + Q&A + Networking",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-Z5s65x3pNjweEja": {
+    "name": "The Big Startup 5k hosted by Jumpstart **HOLD**",
+    "first_seen_at": "2026-07-20T16:15:19.429Z",
+    "first_alerted_at": "2026-07-20T16:15:22.962Z"
   },
   "evt-Z6D6lhi79ilMn7U": {
     "name": "London Startup Operators RunClub & Social",
