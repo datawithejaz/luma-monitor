@@ -69,6 +69,11 @@
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
   },
+  "evt-7PPMGvGRanQ6njh": {
+    "name": "The Future of Finance Hackathon",
+    "first_seen_at": "2026-07-21T17:44:54.707Z",
+    "first_alerted_at": "2026-07-21T17:44:56.406Z"
+  },
   "evt-8b5xBZ7g0yjlZ4M": {
     "name": "2026 Amazon Sustainability Accelerator Demo Day",
     "first_seen_at": "2026-07-18T23:01:44.141Z",
@@ -153,6 +158,11 @@
     "name": "EAST2046 Party and Performance (f.t. London Data Week Social Mixer)",
     "first_seen_at": "2026-07-10T13:03:30.212Z",
     "first_alerted_at": "2026-07-10T13:03:33.274Z"
+  },
+  "evt-CGQFbJaOFXXsovg": {
+    "name": "Launch Event: Fashion Tech, AI & Luxury",
+    "first_seen_at": "2026-07-21T17:44:54.707Z",
+    "first_alerted_at": "2026-07-21T17:44:56.406Z"
   },
   "evt-cNFaO7alNhoMCDR": {
     "name": "KQ Social: Data in the City",
@@ -458,6 +468,11 @@
     "name": "DEEPTECH LONDON",
     "first_seen_at": "2026-07-14T23:09:20.778Z",
     "first_alerted_at": "2026-07-14T23:09:22.356Z"
+  },
+  "evt-VaxGbawnuO23yJv": {
+    "name": "Capital & Castling: Chess Night for the Startup Community",
+    "first_seen_at": "2026-07-21T17:44:54.707Z",
+    "first_alerted_at": "2026-07-21T17:44:56.406Z"
   },
   "evt-VHyuGNwjYm9CrCz": {
     "name": "Tools for Live-coding Music",
