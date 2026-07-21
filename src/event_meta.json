@@ -364,6 +364,11 @@
     "first_seen_at": "2026-07-14T19:56:54.657Z",
     "first_alerted_at": "2026-07-14T19:56:57.021Z"
   },
+  "evt-P0PCWp6TcKk6AMu": {
+    "name": "Vibe Coding Voice Agents w/ Replit",
+    "first_seen_at": "2026-07-21T14:52:45.629Z",
+    "first_alerted_at": "2026-07-21T14:52:47.584Z"
+  },
   "evt-p6F7NrrQLwnKjiG": {
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -468,6 +473,11 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-VOVYqblLJTT9JaP": {
+    "name": "Optimistic Picnic at Hyde Park",
+    "first_seen_at": "2026-07-21T14:52:45.629Z",
+    "first_alerted_at": "2026-07-21T14:52:47.584Z"
   },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
