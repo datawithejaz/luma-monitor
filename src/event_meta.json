@@ -389,6 +389,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-nVfY9tTvVPuDX80": {
+    "name": "Voice AI Meetup: London Chapter",
+    "first_seen_at": "2026-07-24T21:44:16.952Z",
+    "first_alerted_at": "2026-07-24T21:44:21.156Z"
+  },
   "evt-oftjeu9ILMT8ZU6": {
     "name": "Executive Dinner: Rip and Replace, or Wrap and Renew? The Modernisation Dilemma",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -398,6 +403,11 @@
     "name": "Hot Girls, Cool Tech | AI After 5 drinks",
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
+  },
+  "evt-oN4FBBHk746K4lj": {
+    "name": "Scaling Agentic Coding with Claude Code",
+    "first_seen_at": "2026-07-24T21:44:16.952Z",
+    "first_alerted_at": "2026-07-24T21:44:21.156Z"
   },
   "evt-ozjB3T0ACJEEc2j": {
     "name": "Vibe Code a Sport App",
