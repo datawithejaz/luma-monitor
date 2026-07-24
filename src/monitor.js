@@ -628,65 +628,17 @@ function emailConfigured() {
   );
 }
 
-/** Walk Lu.ma ProseMirror docs and pull only `text` leaves (skip type labels). */
-function extractTextsFromMirror(node, out = []) {
-  if (node == null) return out;
-  if (typeof node === "string") {
-    out.push(node);
-    return out;
-  }
-  if (Array.isArray(node)) {
-    node.forEach((item) => extractTextsFromMirror(item, out));
-    return out;
-  }
-  if (typeof node === "object") {
-    if (typeof node.text === "string") out.push(node.text);
-    if (node.content) extractTextsFromMirror(node.content, out);
-  }
-  return out;
-}
-
-/** Flatten Lu.ma rich-text description into plain text for subjects / body. */
-function extractPlainDescription(detail) {
-  if (!detail || typeof detail !== "object") return "";
-
-  const parts = [
-    ...extractTextsFromMirror(detail.description_mirror),
-    ...extractTextsFromMirror(detail.event?.description_mirror),
-    ...extractTextsFromMirror(detail.description),
-    ...extractTextsFromMirror(detail.event?.description),
-  ];
-
-  return parts.join(" ").replace(/\s+/g, " ").trim();
-}
-
-function truncateText(text, maxLen) {
-  if (!text) return "";
-  if (text.length <= maxLen) return text;
-  return `${text.slice(0, Math.max(0, maxLen - 1)).trimEnd()}…`;
-}
-
-function formatEventBlock(event, meta, detail, { includeDescription = false } = {}) {
+function formatEventBlock(event, meta, detail) {
   const { day, time } = formatEventSchedule(event);
   const venue = event.venue || "London";
   const price = event.price_label || "Check page";
   const food = extractFoodInfo(detail);
-  const lines = [
+  return [
     "🔴 NEW EVENT DETECTED",
     "━━━━━━━━━━━━━━━━━━━━",
     "",
     `📌 Event: ${event.name}`,
     `🏷 Host: ${event.host || "—"}`,
-  ];
-
-  if (includeDescription) {
-    const description = extractPlainDescription(detail);
-    if (description) {
-      lines.push("", "📝 DESCRIPTION", `• ${description}`);
-    }
-  }
-
-  lines.push(
     "",
     "🗓 DATE & TIME",
     `• Day: ${day}`,
@@ -707,23 +659,14 @@ function formatEventBlock(event, meta, detail, { includeDescription = false } = 
     `• Details: ${food.details}`,
     "",
     "🔗 LINK",
-    event.url
-  );
-
-  return lines.join("\n");
+    event.url,
+  ].join("\n");
 }
 
-/** Subject: single-event mails carry name + description; batches keep a count summary. */
-function batchEmailSubject(events, detailsById = {}) {
+/** Subject: single-event mails use the event name; batches keep a count summary. */
+function batchEmailSubject(events) {
   if (events.length === 1) {
-    const event = events[0];
-    const description = truncateText(
-      extractPlainDescription(detailsById[event.api_id]),
-      100
-    );
-    let subject = `🚨 ${event.name}`;
-    if (description) subject += ` — ${description}`;
-    return truncateText(subject, 180);
+    return `🚨 ${events[0].name}`;
   }
 
   const openCount = events.filter((e) => registrationPriority(e) === 0).length;
@@ -750,24 +693,17 @@ async function alertNewEvents(events, seen, meta) {
     })
   );
 
-  const single = count === 1;
   const text =
     `${count} new upcoming event${count > 1 ? "s" : ""} matching your criteria on Lu.ma London.\n` +
     `Sorted with open registration first.\n` +
     `Sections include date/time, location, registration, and food info.\n\n` +
-    `${sorted
-      .map((event) =>
-        formatEventBlock(event, meta, detailsById[event.api_id], {
-          includeDescription: single,
-        })
-      )
-      .join("\n\n")}\n\n` +
+    `${sorted.map((event) => formatEventBlock(event, meta, detailsById[event.api_id])).join("\n\n")}\n\n` +
     `---\nLuma London: https://lu.ma/london`;
 
   await transporter.sendMail({
     from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
     to: process.env.NOTIFY_EMAIL,
-    subject: batchEmailSubject(sorted, detailsById),
+    subject: batchEmailSubject(sorted),
     text,
   });
 
