@@ -569,6 +569,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-WbC0fBHRtALF7To": {
+    "name": "Indispensable Room: Founders Meet Up",
+    "first_seen_at": "2026-07-25T19:48:33.996Z",
+    "first_alerted_at": "2026-07-25T19:48:35.843Z"
+  },
   "evt-wfusUyMhVWZhN9Q": {
     "name": "Fundraising for Physical AI: How VCs evaluate startups",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
@@ -583,6 +588,11 @@
     "name": "OpenAI Build Week Community Hackathon - London",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
+  "evt-wpODJuoIMseKh4q": {
+    "name": "London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-07-25T19:48:33.996Z",
+    "first_alerted_at": "2026-07-25T19:48:35.843Z"
   },
   "evt-X0sVKbpE6fzESCu": {
     "name": "Fooled by beautiful data – bias and data visualization",
