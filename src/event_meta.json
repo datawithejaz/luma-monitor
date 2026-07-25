@@ -274,6 +274,11 @@
     "first_seen_at": "2026-07-17T01:09:54.619Z",
     "first_alerted_at": "2026-07-17T01:09:56.320Z"
   },
+  "evt-HSt480UvBLuPsH1": {
+    "name": "ABRC BOOKCLUB: THE MASTER AND MARGARITA",
+    "first_seen_at": "2026-07-25T11:38:35.321Z",
+    "first_alerted_at": "2026-07-25T11:38:36.935Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -298,6 +303,11 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-KHzpQaZ4FjN2FWf": {
+    "name": "ABRC BOOKCLUB: LOVE IN THE TIME OF CHOLERA",
+    "first_seen_at": "2026-07-25T11:38:35.321Z",
+    "first_alerted_at": "2026-07-25T11:38:36.935Z"
   },
   "evt-kloQ7IuDRXfsswj": {
     "name": "[London] AI After Hours - London Library",
