@@ -114,6 +114,11 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-ASFW4QplbDlOnQI": {
+    "name": "Invention Institutions After AI",
+    "first_seen_at": "2026-07-25T22:31:07.403Z",
+    "first_alerted_at": "2026-07-25T22:31:09.867Z"
+  },
   "evt-aU1zU4jVP6c4Fo8": {
     "name": "Fin x Fyxer: Building AI Products that Scale",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
