@@ -59,6 +59,11 @@
     "first_seen_at": "2026-07-13T10:39:04.580Z",
     "first_alerted_at": "2026-07-13T10:39:06.918Z"
   },
+  "evt-5V7TdzAzGSNM7jA": {
+    "name": "EF saturday_club",
+    "first_seen_at": "2026-07-27T18:08:20.579Z",
+    "first_alerted_at": "2026-07-27T18:08:22.166Z"
+  },
   "evt-5xnwSPpcFWqFsCw": {
     "name": "Unblock: Challenges in AI for Science Salon",
     "first_seen_at": "2026-07-25T18:32:29.229Z",
