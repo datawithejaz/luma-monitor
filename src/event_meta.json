@@ -29,6 +29,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-3JdKdPlg9Z1ptrD": {
+    "name": "Durable AI Meetup - London",
+    "first_seen_at": "2026-07-27T16:30:22.572Z",
+    "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
   "evt-3THjyDM88FItmPg": {
     "name": "Arc Accelerator Meetup & Workshop",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -43,6 +48,11 @@
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-58EFwLbrlfKYg1N": {
+    "name": "Hackathon: Empathetic Agents",
+    "first_seen_at": "2026-07-27T16:30:22.572Z",
+    "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
   "evt-5Q9dAYpobKMxdQE": {
     "name": "Design Engineering Night #9",
@@ -334,6 +344,11 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-khFJKHACcu0Gh9A": {
+    "name": "AI Designer Dinner + Demos",
+    "first_seen_at": "2026-07-27T16:30:22.572Z",
+    "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
   "evt-KHzpQaZ4FjN2FWf": {
     "name": "ABRC BOOKCLUB: LOVE IN THE TIME OF CHOLERA",
     "first_seen_at": "2026-07-25T11:38:35.321Z",
@@ -373,6 +388,11 @@
     "name": "AI for the rest of us | Summer Social",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
+  },
+  "evt-LNQtBv91h7ovmeh": {
+    "name": "UNKNW x Metaview Design Leaders Ship on Saturday.",
+    "first_seen_at": "2026-07-27T16:30:22.572Z",
+    "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
   "evt-LRBbuS1QtRpAlNg": {
     "name": "AI in Practice - How we are actually using it.",
@@ -618,6 +638,11 @@
     "name": "Fooled by beautiful data – bias and data visualization",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-X6STMkQ7sBlwuZS": {
+    "name": "Capital & Castling: Chess Night for the Startup Community",
+    "first_seen_at": "2026-07-27T16:30:22.572Z",
+    "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
   "evt-XbmQ0Sdm01mhvly": {
     "name": "Tech After-Hours LDN: Summer Social 2026",
