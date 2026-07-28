@@ -294,6 +294,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-Grlp3D2D1TwPa49": {
+    "name": "ABRC POTTERY & CERAMICS WORKSHOP",
+    "first_seen_at": "2026-07-28T17:04:40.078Z",
+    "first_alerted_at": "2026-07-28T17:04:41.689Z"
+  },
   "evt-GtbhHz9lcYa4lIk": {
     "name": "AI Movie Club x Ghost In The Shell (1995)",
     "first_seen_at": "2026-07-25T18:32:29.229Z",
