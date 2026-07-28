@@ -24,6 +24,11 @@
     "first_seen_at": "2026-07-05T15:23:35.991Z",
     "first_alerted_at": "2026-07-05T15:23:37.745Z"
   },
+  "evt-3BP6aWHAchjrrsm": {
+    "name": "build night",
+    "first_seen_at": "2026-07-28T20:05:48.516Z",
+    "first_alerted_at": "2026-07-28T20:05:50.186Z"
+  },
   "evt-3IvgVLdQNgh4yRe": {
     "name": "Executive Dinner: Retail Rewired: Turning AI & Data into Operational Advantage",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
