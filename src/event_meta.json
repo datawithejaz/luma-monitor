@@ -54,6 +54,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-4t6JDLrsYiGJosx": {
+    "name": "Building Voice AI with Dex & OpenAI",
+    "first_seen_at": "2026-07-29T15:30:49.001Z",
+    "first_alerted_at": "2026-07-29T15:30:51.153Z"
+  },
   "evt-58EFwLbrlfKYg1N": {
     "name": "Hackathon: Empathetic Agents",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
