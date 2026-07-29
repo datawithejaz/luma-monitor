@@ -559,6 +559,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-tADHGhKElP7Za4u": {
+    "name": "AI After 5 x C-réer: What happens after 5?",
+    "first_seen_at": "2026-07-29T09:49:03.836Z",
+    "first_alerted_at": "2026-07-29T09:49:05.869Z"
+  },
   "evt-tIKp5kksXHkeBmb": {
     "name": "Tools for Live-coding Visuals",
     "first_seen_at": "2026-07-17T18:16:18.213Z",
