@@ -724,6 +724,11 @@
     "first_seen_at": "2026-07-25T19:48:33.996Z",
     "first_alerted_at": "2026-07-25T19:48:35.843Z"
   },
+  "evt-WxC3Blwl7QLAaeH": {
+    "name": "BrainFest",
+    "first_seen_at": "2026-08-01T22:36:18.739Z",
+    "first_alerted_at": "2026-08-01T22:36:21.537Z"
+  },
   "evt-X0sVKbpE6fzESCu": {
     "name": "Fooled by beautiful data – bias and data visualization",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
