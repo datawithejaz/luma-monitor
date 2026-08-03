@@ -149,6 +149,11 @@
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
   },
+  "evt-A9S31Oc2YBps7Gn": {
+    "name": "Building on Arc: A Technical Workshop with Blockradar",
+    "first_seen_at": "2026-08-03T16:37:07.892Z",
+    "first_alerted_at": "2026-08-03T16:37:08.935Z"
+  },
   "evt-apP4UgoULATVHFr": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -698,6 +703,11 @@
     "name": "Optimistic Picnic at Hyde Park",
     "first_seen_at": "2026-07-21T14:52:45.629Z",
     "first_alerted_at": "2026-07-21T14:52:47.584Z"
+  },
+  "evt-VpLgyXcrvGVUXPE": {
+    "name": "Vibe Coding for 100% beginners",
+    "first_seen_at": "2026-08-03T16:37:07.892Z",
+    "first_alerted_at": "2026-08-03T16:37:08.935Z"
   },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
