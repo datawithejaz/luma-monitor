@@ -194,6 +194,11 @@
     "first_seen_at": "2026-07-18T16:07:12.554Z",
     "first_alerted_at": "2026-07-18T16:07:14.859Z"
   },
+  "evt-BhZFabCYAJBECDW": {
+    "name": "House London #1 | Data Hackathon",
+    "first_seen_at": "2026-08-04T23:35:25.257Z",
+    "first_alerted_at": "2026-08-04T23:35:27.940Z"
+  },
   "evt-bJf9GKZdHEsfHUs": {
     "name": "AI Agents for Finance Teams Workshop",
     "first_seen_at": "2026-07-16T11:06:55.885Z",
@@ -643,6 +648,11 @@
     "name": "Tech & Tonic | Summer Drinks",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
     "first_alerted_at": "2026-08-04T16:28:53.113Z"
+  },
+  "evt-SyGRddO5qHtXeRh": {
+    "name": "Founder Cowork Club: Focus and Flow with Special Guest Lindsay Brielle Strouse",
+    "first_seen_at": "2026-08-04T23:35:25.257Z",
+    "first_alerted_at": "2026-08-04T23:35:27.940Z"
   },
   "evt-tADHGhKElP7Za4u": {
     "name": "AI After 5 x C-réer: What happens after 5?",
