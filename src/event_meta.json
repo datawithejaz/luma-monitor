@@ -199,6 +199,11 @@
     "first_seen_at": "2026-07-18T16:07:12.554Z",
     "first_alerted_at": "2026-07-18T16:07:14.859Z"
   },
+  "evt-bhUdFAB787EbuiQ": {
+    "name": "Adaptive Demo Night",
+    "first_seen_at": "2026-08-05T21:37:10.995Z",
+    "first_alerted_at": "2026-08-05T21:37:14.145Z"
+  },
   "evt-BhZFabCYAJBECDW": {
     "name": "House London #1 | Data Hackathon",
     "first_seen_at": "2026-08-04T23:35:25.257Z",
