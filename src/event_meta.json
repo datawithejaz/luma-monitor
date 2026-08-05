@@ -59,6 +59,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-4ocjf1HqB25okG2": {
+    "name": "Beyond AI Coding: Build an Autonomous Product Loop",
+    "first_seen_at": "2026-08-05T11:37:08.390Z",
+    "first_alerted_at": "2026-08-05T11:37:13.505Z"
+  },
   "evt-4t6JDLrsYiGJosx": {
     "name": "Building Voice AI with Dex & OpenAI",
     "first_seen_at": "2026-07-29T15:30:49.001Z",
@@ -203,6 +208,11 @@
     "name": "AI Agents for Finance Teams Workshop",
     "first_seen_at": "2026-07-16T11:06:55.885Z",
     "first_alerted_at": "2026-07-16T11:06:57.938Z"
+  },
+  "evt-BkfljbOWYL8Ahio": {
+    "name": "AI ROI: Why the Agent Isn't the Answer",
+    "first_seen_at": "2026-08-05T11:37:08.390Z",
+    "first_alerted_at": "2026-08-05T11:37:13.505Z"
   },
   "evt-bKJnAp5koY1kCCA": {
     "name": "Battle Bots Hack Night & Watch Party",
