@@ -284,6 +284,11 @@
     "first_seen_at": "2026-07-18T16:07:12.554Z",
     "first_alerted_at": "2026-07-18T16:07:14.859Z"
   },
+  "evt-DgSGKs5KqbIXv0F": {
+    "name": "ABRC X SONDER: TRIVIA & BOARD GAMES NIGHT",
+    "first_seen_at": "2026-08-05T18:46:05.562Z",
+    "first_alerted_at": "2026-08-05T18:46:06.987Z"
+  },
   "evt-DVq3b5MtRwjlApx": {
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
