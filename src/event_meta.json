@@ -4,6 +4,11 @@
     "first_seen_at": "2026-07-20T18:22:24.568Z",
     "first_alerted_at": "2026-07-20T18:22:25.993Z"
   },
+  "evt-0S449Vcf4WeTegv": {
+    "name": "Consumer Health, Longevity & the New Care Economy",
+    "first_seen_at": "2026-08-06T11:53:07.249Z",
+    "first_alerted_at": "2026-08-06T11:53:08.981Z"
+  },
   "evt-0SZfv1XNqrB51Dy": {
     "name": "Frideside Chat w/ Siadhal Magos - Metaview Founder & Summer Drinks by Glassray",
     "first_seen_at": "2026-07-14T16:04:40.852Z",
@@ -819,6 +824,11 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-xAuGVHZUB1QXXUJ": {
+    "name": "Trivia Night with Sonder x ABRC",
+    "first_seen_at": "2026-08-06T11:53:07.249Z",
+    "first_alerted_at": "2026-08-06T11:53:08.981Z"
+  },
   "evt-XbmQ0Sdm01mhvly": {
     "name": "Tech After-Hours LDN: Summer Social 2026",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -828,6 +838,11 @@
     "name": "Election bias and ballot mapping",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-YH2wzaFok65vcBx": {
+    "name": "freeCodeCamp x Encode | AI - Workshop: Hermes Agent w/ your Local LLM models such as Qwen, Deepseek, etc",
+    "first_seen_at": "2026-08-06T11:53:07.249Z",
+    "first_alerted_at": "2026-08-06T11:53:08.981Z"
   },
   "evt-yKirdEMQumV8Ba1": {
     "name": "AI & Willing Servitude - Andreas Mogensen (Oxford University) + Q&A + Networking",
