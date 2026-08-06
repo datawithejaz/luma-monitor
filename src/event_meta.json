@@ -594,6 +594,11 @@
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
   },
+  "evt-OLaK0ZUdO5KTUe0": {
+    "name": "London | Claude Founder House: Builder Cohort",
+    "first_seen_at": "2026-08-06T22:36:38.510Z",
+    "first_alerted_at": "2026-08-06T22:36:40.348Z"
+  },
   "evt-oN4FBBHk746K4lj": {
     "name": "Scaling Agentic Coding with Claude Code",
     "first_seen_at": "2026-07-24T21:44:16.952Z",
@@ -833,6 +838,11 @@
     "name": "Tech After-Hours LDN: Summer Social 2026",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-xCFDI2BRPxY1zOe": {
+    "name": "Hackathon | Translating AI Safety (Content x Comms)",
+    "first_seen_at": "2026-08-06T22:36:38.510Z",
+    "first_alerted_at": "2026-08-06T22:36:40.348Z"
   },
   "evt-xIZgvVKRlH1heLk": {
     "name": "Election bias and ballot mapping",
