@@ -804,6 +804,11 @@
     "first_seen_at": "2026-07-28T13:09:31.857Z",
     "first_alerted_at": "2026-07-28T13:09:34.688Z"
   },
+  "evt-woFQIm1zGC1ye2P": {
+    "name": "Urdu Poetry Workshop: Faiz Ahmed Faiz",
+    "first_seen_at": "2026-08-07T17:04:27.044Z",
+    "first_alerted_at": "2026-08-07T17:04:31.128Z"
+  },
   "evt-WowjP91fOB5hHwO": {
     "name": "OpenAI Build Week Community Hackathon - London",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
