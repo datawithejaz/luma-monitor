@@ -354,6 +354,11 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-fREItN7eWaN7lM6": {
+    "name": "UM x EF Coworking",
+    "first_seen_at": "2026-08-09T13:57:09.815Z",
+    "first_alerted_at": "2026-08-09T13:57:11.428Z"
+  },
   "evt-fSmKjifvZiAeZXw": {
     "name": "First Step: Graduate to AI",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
