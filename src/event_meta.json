@@ -909,6 +909,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-Z8MgSUStRxJ7FrA": {
+    "name": "Audio-Reactive Visual Workshop - TouchDesigner + Pure Data",
+    "first_seen_at": "2026-08-10T14:40:43.544Z",
+    "first_alerted_at": "2026-08-10T14:40:45.182Z"
+  },
   "evt-z9e8NE6GCvFzC4D": {
     "name": "Founder Cowork Club [UNFACILITATED]",
     "first_seen_at": "2026-08-05T13:19:39.803Z",
