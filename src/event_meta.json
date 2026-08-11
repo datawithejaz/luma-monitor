@@ -424,6 +424,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-hPHVXpCyYWni59C": {
+    "name": "AlgoRhythms",
+    "first_seen_at": "2026-08-11T17:33:51.686Z",
+    "first_alerted_at": "2026-08-11T17:33:53.204Z"
+  },
   "evt-HsEbNVOIbH11BHA": {
     "name": "A Mini Demo Night",
     "first_seen_at": "2026-07-17T01:09:54.619Z",
