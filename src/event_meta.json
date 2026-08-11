@@ -404,6 +404,11 @@
     "first_seen_at": "2026-07-25T18:32:29.229Z",
     "first_alerted_at": "2026-07-25T18:32:31.310Z"
   },
+  "evt-H3GY868HSZiEVg0": {
+    "name": "Live Coding Meetup",
+    "first_seen_at": "2026-08-11T20:21:52.901Z",
+    "first_alerted_at": "2026-08-11T20:21:54.490Z"
+  },
   "evt-HhbZHUFoyJFRgG0": {
     "name": "Demo Event LDN:Designing with Granola and Claude Code",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
