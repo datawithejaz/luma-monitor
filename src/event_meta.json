@@ -714,6 +714,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-s3nNK1NgBxZF9ch": {
+    "name": "Stripe & Notion: AI Agents for Professionals",
+    "first_seen_at": "2026-08-11T00:36:53.517Z",
+    "first_alerted_at": "2026-08-11T00:36:55.950Z"
+  },
   "evt-SbRJq1b952aWaFH": {
     "name": "Tech & Tonic | Summer Drinks",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
