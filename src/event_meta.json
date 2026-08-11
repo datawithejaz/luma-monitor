@@ -464,6 +464,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-jiyNXuvBbDB4xxD": {
+    "name": "AI Leaders Dinner - Encord",
+    "first_seen_at": "2026-08-11T11:23:32.755Z",
+    "first_alerted_at": "2026-08-11T11:23:34.532Z"
+  },
   "evt-JRXNS9SfOsMfk7j": {
     "name": "Demo Event LDN: From Idea to Prototype with Lovable",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
