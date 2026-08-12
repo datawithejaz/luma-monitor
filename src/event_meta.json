@@ -754,6 +754,11 @@
     "first_seen_at": "2026-08-12T10:20:08.660Z",
     "first_alerted_at": "2026-08-12T10:20:10.734Z"
   },
+  "evt-Smlm1GwHOeLnLyI": {
+    "name": "UK AI Agent lab: Gemini Edition",
+    "first_seen_at": "2026-08-12T18:31:19.453Z",
+    "first_alerted_at": "2026-08-12T18:31:20.897Z"
+  },
   "evt-SyGRddO5qHtXeRh": {
     "name": "Founder Cowork Club: Focus and Flow with Special Guest Lindsay Brielle Strouse",
     "first_seen_at": "2026-08-04T23:35:25.257Z",
