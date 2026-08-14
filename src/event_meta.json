@@ -589,6 +589,11 @@
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
   },
+  "evt-M0ysOkQ0fcbOWeb": {
+    "name": "AI Native Dev - London",
+    "first_seen_at": "2026-08-14T11:29:06.406Z",
+    "first_alerted_at": "2026-08-14T11:29:07.894Z"
+  },
   "evt-M5aSQieY4xfY3Ef": {
     "name": "Engineering Leaders Building AI 001 - Private Dinner",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
