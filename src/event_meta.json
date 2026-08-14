@@ -279,6 +279,11 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-BR7CgZPKaquf9GM": {
+    "name": "AI Healthcare Hackathon with Anima x OpenAI",
+    "first_seen_at": "2026-08-14T17:28:51.292Z",
+    "first_alerted_at": "2026-08-14T17:28:53.019Z"
+  },
   "evt-C1mDVDbGXgSbZuD": {
     "name": "The Mirror That Never Pushes Back: Investigating AI Delusions",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
