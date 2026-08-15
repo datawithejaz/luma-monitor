@@ -2,16 +2,22 @@ const https = require("https");
 const nodemailer = require("nodemailer");
 const fs = require("fs");
 const path = require("path");
+const { parseSitemapXml, pickUncheckedBatch } = require("./sitemap");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
 const META_PATH = path.join(__dirname, "event_meta.json");
 const TRACKED_CALENDARS_PATH = path.join(__dirname, "tracked_calendars.json");
 const KNOWN_CALENDARS_PATH = path.join(__dirname, "known_calendars.json");
+const SITEMAP_CHECKED_PATH = path.join(__dirname, "sitemap_checked.json");
 const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
 const MAX_CALENDARS_TO_POLL = 80; // safety cap when many calendars are discovered
+const SITEMAP_URL = "https://sitemap.luma.com/sitemap-0.xml";
+const SITEMAP_BATCH = 200; // steady-state new sitemap slugs per run
+const SITEMAP_CATCHUP_BATCH = 400; // larger while the checked set is still small
+const SITEMAP_CONCURRENCY = 8;
 const LONDON_TZ = "Europe/London";
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
@@ -24,7 +30,7 @@ const CATEGORY_KEYWORDS = [
   "tech", "ai", "artificial intelligence", "marketing", "entrepreneurship",
   "entrepreneur", "founder", "business", "networking", "startup", "data",
   "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
-  "fintech", "vc", "venture", "seo", "cursor", "abrc",
+  "fintech", "vc", "venture", "seo", "cursor", "abrc", "prompt", "llm", "genai",
 ];
 
 const FOOD_KEYWORDS = [
@@ -36,8 +42,11 @@ const FOOD_KEYWORDS = [
 
 // Keywords that must match as whole words, not substrings inside other words.
 const WORD_BOUNDARY_KEYWORDS = new Set([
-  "ai", "vc", "seo", "data", "tech", "demo", "product", "design",
+  "ai", "vc", "seo", "data", "tech", "demo", "product", "design", "llm",
 ]);
+
+// Lu.ma's own category tags — title keywords miss events like "Prompt Club" / "CapCut".
+const LUMA_INTEREST_CATEGORIES = new Set(["cat-ai", "cat-tech", "cat-crypto"]);
 
 const HEADERS = {
   "Accept": "application/json, text/html",
@@ -211,6 +220,36 @@ function saveKnownCalendars(registry) {
     Object.entries(registry).sort(([a], [b]) => a.localeCompare(b))
   );
   fs.writeFileSync(KNOWN_CALENDARS_PATH, JSON.stringify(sorted, null, 2));
+}
+
+function loadSitemapChecked() {
+  try {
+    const data = JSON.parse(fs.readFileSync(SITEMAP_CHECKED_PATH, "utf8"));
+    return new Set(Array.isArray(data) ? data : []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveSitemapChecked(checked) {
+  fs.writeFileSync(
+    SITEMAP_CHECKED_PATH,
+    JSON.stringify([...checked].sort(), null, 2)
+  );
+}
+
+async function mapPool(items, concurrency, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const index = next++;
+      results[index] = await fn(items[index], index);
+    }
+  }
+  const size = Math.max(1, Math.min(concurrency, items.length));
+  await Promise.all(Array.from({ length: size }, worker));
+  return results;
 }
 
 function upsertCalendar(registry, cal) {
@@ -497,6 +536,7 @@ function normalise(entry) {
     is_sold_out: ticket.is_sold_out === true,
     spots_remaining: ticket.spots_remaining ?? null,
     is_near_capacity: ticket.is_near_capacity === true,
+    categories: (entry.categories || []).map((c) => c.api_id || c).filter(Boolean),
   };
 }
 
@@ -528,6 +568,9 @@ function keywordMatches(haystack, kw) {
 
 function matchesCategory(event, includeAllCalendarIds = new Set()) {
   if (event.calendar_api_id && includeAllCalendarIds.has(event.calendar_api_id)) {
+    return true;
+  }
+  if ((event.categories || []).some((id) => LUMA_INTEREST_CATEGORIES.has(id))) {
     return true;
   }
   // Match on title and hosts only — venue addresses cause false positives.
@@ -619,6 +662,85 @@ async function fetchEventDetails(apiId) {
   } catch {
     return null;
   }
+}
+
+/** Turn an event/get payload into the same shape as a discover entry. */
+function entryFromDetail(detail) {
+  if (!detail?.event?.api_id) return null;
+  return {
+    api_id: detail.event.api_id,
+    event: detail.event,
+    calendar: detail.calendar || {},
+    hosts: detail.hosts || [],
+    ticket_info: detail.ticket_info,
+    registration_availability: detail.registration_availability,
+    start_at: detail.start_at || detail.event.start_at,
+    categories: detail.categories || [],
+  };
+}
+
+/**
+ * City discover is a small featured list (~50). Lu.ma's public sitemap lists
+ * tens of thousands of events; Forkcast uses that to find London listings that
+ * never appear on lu.ma/london. Each run resolves a newest-first batch of
+ * unchecked slugs (event/get accepts the public slug as event_api_id).
+ */
+async function fetchSitemapEntries(alreadyHaveIds) {
+  const checked = loadSitemapChecked();
+  let parsed = [];
+  try {
+    const xml = await fetchText(SITEMAP_URL);
+    parsed = parseSitemapXml(xml);
+  } catch (err) {
+    console.warn(`Sitemap fetch failed (${err.message}) — skipping sitemap scan.`);
+    return [];
+  }
+
+  const batchSize =
+    Number(process.env.SITEMAP_BATCH) ||
+    (checked.size < 2000 ? SITEMAP_CATCHUP_BATCH : SITEMAP_BATCH);
+  const batch = pickUncheckedBatch(parsed, checked, batchSize);
+  console.log(
+    `Sitemap: ${parsed.length} event URLs, ${checked.size} already checked, resolving ${batch.length}`
+  );
+
+  const details = await mapPool(batch, SITEMAP_CONCURRENCY, async (item) => {
+    const detail = await fetchEventDetails(item.slug);
+    return { slug: item.slug, detail };
+  });
+
+  const entries = [];
+  for (const { slug, detail } of details) {
+    checked.add(slug);
+    const entry = entryFromDetail(detail);
+    if (!entry) continue;
+    if (alreadyHaveIds.has(entry.event.api_id)) continue;
+    if (!isLondonEntry(entry)) continue;
+    entries.push(entry);
+  }
+
+  saveSitemapChecked(checked);
+  console.log(`Sitemap London in-person hits this batch: ${entries.length}`);
+  return entries;
+}
+
+/** Fetch Lu.ma category tags for title/host keyword misses so tagged AI/tech events still alert. */
+async function fillLumaCategories(events, includeAllCalendarIds, seen) {
+  let fetched = 0;
+  let recovered = 0;
+  for (const event of events) {
+    if (seen.has(event.api_id)) continue;
+    if (matchesCategory(event, includeAllCalendarIds)) continue;
+    const detail = await fetchEventDetails(event.api_id);
+    fetched++;
+    const cats = (detail?.categories || []).map((c) => c.api_id).filter(Boolean);
+    if (cats.length) event.categories = cats;
+    if (matchesCategory(event, includeAllCalendarIds)) recovered++;
+  }
+  if (fetched > 0) {
+    console.log(`Luma category lookup: ${fetched} keyword-miss(es), ${recovered} recovered via cat-ai/tech/crypto`);
+  }
+  return events;
 }
 
 // ── Email ─────────────────────────────────────────────────────────────────────
@@ -728,11 +850,17 @@ async function main() {
   const meta = loadMeta();
   const placeId = await resolvePlaceId(LONDON_SLUG);
   const entries = await fetchAllSources(placeId);
+  const haveIds = new Set(
+    entries.map((entry) => entry.event?.api_id || entry.api_id).filter(Boolean)
+  );
+  const sitemapEntries = await fetchSitemapEntries(haveIds);
+  const allEntries = dedupeEntries([...entries, ...sitemapEntries]);
 
-  const normalised = entries.map(normalise);
+  const normalised = allEntries.map(normalise);
   const includeAllCalendars = loadIncludeAllCalendarIds();
   const inPerson = normalised.filter((e) => e.api_id && isInPerson(e));
   const upcoming = inPerson.filter(isUpcoming);
+  await fillLumaCategories(upcoming, includeAllCalendars, seen);
   const relevant = upcoming.filter((e) => matchesCategory(e, includeAllCalendars));
 
   if (includeAllCalendars.size > 0) {
@@ -751,6 +879,27 @@ async function main() {
     const detectedAt = new Date().toISOString();
     sorted.forEach((event) => noteFirstSeen(meta, event, detectedAt));
     saveMeta(meta);
+
+    const sitemapApiIds = new Set(
+      sitemapEntries.map((entry) => entry.event?.api_id).filter(Boolean)
+    );
+    const registry = loadKnownCalendars();
+    let addedCalendars = 0;
+    for (const event of sorted) {
+      if (!sitemapApiIds.has(event.api_id) || !event.calendar_api_id) continue;
+      if (registry[event.calendar_api_id]) continue;
+      upsertCalendar(registry, {
+        api_id: event.calendar_api_id,
+        name: event.host,
+        source: "sitemap",
+        reason: "London event found via Lu.ma sitemap (not on city discover)",
+      });
+      addedCalendars++;
+    }
+    if (addedCalendars > 0) {
+      saveKnownCalendars(registry);
+      console.log(`Tracked ${addedCalendars} new calendar(s) from sitemap hits (incl. personal hosts).`);
+    }
 
     if (emailConfigured()) {
       const sent = await alertNewEvents(sorted, seen, meta);

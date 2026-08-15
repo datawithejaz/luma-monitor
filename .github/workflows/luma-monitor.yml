@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name  "luma-monitor[bot]"
           git config user.email "luma-monitor@users.noreply.github.com"
-          git add src/seen_events.json src/event_meta.json src/known_calendars.json
+          git add src/seen_events.json src/event_meta.json src/known_calendars.json src/sitemap_checked.json
           if git diff --staged --quiet; then
             echo "No changes — nothing to commit."
           else

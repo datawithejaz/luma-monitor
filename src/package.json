@@ -5,7 +5,7 @@
   "main": "monitor.js",
   "scripts": {
     "start": "node monitor.js",
-    "test": "node monitor.js"
+    "test": "node --test sitemap.test.js"
   },
   "dependencies": {
     "nodemailer": "^9.0.1"
