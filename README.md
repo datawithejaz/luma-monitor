@@ -12,7 +12,7 @@ appear. Runs free on a public GitHub repo.
 2. Filters each event: **in-person** (`location_type = offline`) **and** a
    category-keyword match (name / host / venue).
 3. Diffs against `src/seen_events.json` to find genuinely new events.
-4. New events → an email with name, date, venue, price and a direct link.
+4. New events → an email with name, date range, venue, registration status, and a structured food claim (organiser claim / pay-at-venue / no mention, plus meal types).
 5. Commits the updated `src/seen_events.json` back to the repo (only when it
    changes), so the same event never alerts twice.
 
@@ -79,6 +79,8 @@ Edit `src/monitor.js`:
   entrepreneurship, business, networking, startup, data, product, design, …).
 - `LONDON_SLUG` — swap `london` for another city slug (`sf`, `nyc`, `paris`, …).
 - `PAGINATION_LIMIT` / `MAX_PAGES` — how many events to scan per run.
+- Food labels live in `src/food.js` (meal types, claim vs pay-at-venue). Run
+  `npm test` in `src/` after changing them.
 
 ## Notes
 

@@ -2,6 +2,7 @@ const https = require("https");
 const nodemailer = require("nodemailer");
 const fs = require("fs");
 const path = require("path");
+const { extractFoodInfo, formatFoodLines } = require("./food");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
@@ -25,13 +26,6 @@ const CATEGORY_KEYWORDS = [
   "entrepreneur", "founder", "business", "networking", "startup", "data",
   "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
   "fintech", "vc", "venture", "seo", "cursor", "abrc",
-];
-
-const FOOD_KEYWORDS = [
-  "food", "pizza", "dinner", "lunch", "breakfast", "snack", "snacks",
-  "refreshment", "refreshments", "drink", "drinks", "catering", "buffet",
-  "bbq", "sushi", "taco", "tacos", "sandwich", "sandwiches", "beer", "wine",
-  "canape", "canapes", "meal", "meals",
 ];
 
 // Keywords that must match as whole words, not substrings inside other words.
@@ -127,15 +121,14 @@ function formatLondonDay(iso) {
   });
 }
 
-function formatLondonTime(iso) {
-  return (
-    new Date(iso).toLocaleTimeString("en-GB", {
-      timeZone: LONDON_TZ,
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-    }) + " (London)"
-  );
+function formatLondonTime(iso, { withZone = true } = {}) {
+  const time = new Date(iso).toLocaleTimeString("en-GB", {
+    timeZone: LONDON_TZ,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  });
+  return withZone ? `${time} (London)` : time;
 }
 
 function formatLondonDateTime(iso) {
@@ -144,9 +137,13 @@ function formatLondonDateTime(iso) {
 
 function formatEventSchedule(event) {
   if (!event.start_at) return { day: "TBC", time: "TBC" };
+  const day = formatLondonDay(event.start_at);
+  if (!event.end_at) {
+    return { day, time: formatLondonTime(event.start_at) };
+  }
   return {
-    day: formatLondonDay(event.start_at),
-    time: formatLondonTime(event.start_at),
+    day,
+    time: `${formatLondonTime(event.start_at, { withZone: false })}–${formatLondonTime(event.end_at)}`,
   };
 }
 
@@ -487,8 +484,9 @@ function normalise(entry) {
     name: event.name || "",
     url: slug ? `https://lu.ma/${slug}` : "",
     start_at: event.start_at || entry.start_at || "",
+    end_at: event.end_at || entry.end_at || "",
     location_type: event.location_type || "",
-    venue: geo.full_address || geo.city_state || geo.city || "",
+    venue: geo.full_address || geo.city_state || geo.city || geo.address || "",
     host: calendar.name || hostNames || "",
     hosts_text: hostNames,
     is_free: ticket.is_free === true,
@@ -497,6 +495,39 @@ function normalise(entry) {
     is_sold_out: ticket.is_sold_out === true,
     spots_remaining: ticket.spots_remaining ?? null,
     is_near_capacity: ticket.is_near_capacity === true,
+    require_approval: ticket.require_approval === true,
+  };
+}
+
+function venueFromGeo(geo) {
+  if (!geo || typeof geo !== "object") return "";
+  return geo.full_address || geo.address || geo.city_state || geo.city || "";
+}
+
+/** Overlay event/get details — more accurate than the discover feed for tickets and venue. */
+function applyEventDetails(event, detail) {
+  if (!detail || typeof detail !== "object") return event;
+  const ticket = detail.ticket_info || {};
+  const inner = detail.event || {};
+  const geo = inner.geo_address_info || {};
+  const approval =
+    ticket.require_approval === true ||
+    (Array.isArray(detail.ticket_types) &&
+      detail.ticket_types.some((type) => type.require_approval === true));
+
+  return {
+    ...event,
+    end_at: event.end_at || inner.end_at || detail.end_at || "",
+    venue: venueFromGeo(geo) || event.venue,
+    registration_availability: detail.registration_availability || event.registration_availability,
+    is_sold_out:
+      ticket.is_sold_out != null ? ticket.is_sold_out === true : event.is_sold_out,
+    spots_remaining: ticket.spots_remaining ?? event.spots_remaining,
+    is_near_capacity:
+      ticket.is_near_capacity != null ? ticket.is_near_capacity === true : event.is_near_capacity,
+    is_free: ticket.is_free != null ? ticket.is_free === true : event.is_free,
+    price_label: formatPrice(ticket) || event.price_label,
+    require_approval: approval || event.require_approval === true,
   };
 }
 
@@ -553,62 +584,14 @@ function formatRegistrationStatus(event) {
       event.spots_remaining != null ? ` (${event.spots_remaining} spots left)` : "";
     return `🟠 NEAR CAPACITY${spots} — register soon`;
   }
+  const approval = event.require_approval ? " — approval required" : "";
   if (event.spots_remaining != null && event.spots_remaining > 0) {
-    return `🟢 OPEN — ${event.spots_remaining} spot${event.spots_remaining === 1 ? "" : "s"} left`;
+    return `🟢 OPEN — ${event.spots_remaining} spot${event.spots_remaining === 1 ? "" : "s"} left${approval}`;
   }
   if (event.registration_availability === "open") {
-    return "🟢 OPEN — registration available";
+    return `🟢 OPEN — registration available${approval}`;
   }
-  return "🟢 OPEN — check page for availability";
-}
-
-function collectStringsDeep(value, out = [], depth = 0) {
-  if (value == null || depth > 8) return out;
-  if (typeof value === "string") {
-    out.push(value);
-    return out;
-  }
-  if (Array.isArray(value)) {
-    value.forEach((item) => collectStringsDeep(item, out, depth + 1));
-    return out;
-  }
-  if (typeof value === "object") {
-    Object.values(value).forEach((item) => collectStringsDeep(item, out, depth + 1));
-  }
-  return out;
-}
-
-function extractFoodInfo(detail) {
-  if (!detail || typeof detail !== "object") {
-    return { status: "Unknown", details: "No event details available." };
-  }
-
-  const haystack = collectStringsDeep([
-    detail.description,
-    detail.event?.description,
-    detail.description_mirror,
-    detail.event?.description_mirror,
-    detail.agenda,
-    detail.event?.agenda,
-  ])
-    .join(" \n ")
-    .toLowerCase();
-
-  if (!haystack.trim()) {
-    return { status: "Unknown", details: "Food info is not published in details." };
-  }
-
-  const matched = FOOD_KEYWORDS.find((kw) => haystack.includes(kw));
-  if (!matched) {
-    return { status: "No mention", details: "No explicit food/drinks mention found." };
-  }
-
-  const idx = haystack.indexOf(matched);
-  const snippet = haystack
-    .slice(Math.max(0, idx - 60), Math.min(haystack.length, idx + 160))
-    .replace(/\s+/g, " ")
-    .trim();
-  return { status: "Mentioned", details: snippet };
+  return `🟢 OPEN — check page for availability${approval}`;
 }
 
 async function fetchEventDetails(apiId) {
@@ -628,11 +611,10 @@ function emailConfigured() {
   );
 }
 
-function formatEventBlock(event, meta, detail) {
+function formatEventBlock(event, meta, food) {
   const { day, time } = formatEventSchedule(event);
   const venue = event.venue || "London";
   const price = event.price_label || "Check page";
-  const food = extractFoodInfo(detail);
   return [
     "🔴 NEW EVENT DETECTED",
     "━━━━━━━━━━━━━━━━━━━━",
@@ -655,18 +637,26 @@ function formatEventBlock(event, meta, detail) {
     `• Price: ${price}`,
     "",
     "🍽 FOOD",
-    `• Availability: ${food.status}`,
-    `• Details: ${food.details}`,
+    ...formatFoodLines(food),
     "",
     "🔗 LINK",
     event.url,
   ].join("\n");
 }
 
+function foodSubjectHint(food) {
+  if (!food) return "";
+  if (food.badge === "PAY") return "pay at venue";
+  if (food.meal_types.length > 0) return food.meal_types.join(" + ");
+  if (food.badge === "CLAIM") return "food listed";
+  return "";
+}
+
 /** Subject: single-event mails use the event name; batches keep a count summary. */
-function batchEmailSubject(events) {
+function batchEmailSubject(events, foodById = {}) {
   if (events.length === 1) {
-    return `🚨 ${events[0].name}`;
+    const hint = foodSubjectHint(foodById[events[0].api_id]);
+    return hint ? `🚨 ${events[0].name} — ${hint}` : `🚨 ${events[0].name}`;
   }
 
   const openCount = events.filter((e) => registrationPriority(e) === 0).length;
@@ -684,38 +674,55 @@ async function alertNewEvents(events, seen, meta) {
     auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
   });
 
-  const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
-  const count = sorted.length;
   const detailsById = {};
   await Promise.all(
-    sorted.map(async (event) => {
+    events.map(async (event) => {
       detailsById[event.api_id] = await fetchEventDetails(event.api_id);
     })
   );
 
+  const enriched = [...events]
+    .map((event) => applyEventDetails(event, detailsById[event.api_id]))
+    .sort((a, b) => registrationPriority(a) - registrationPriority(b));
+  const count = enriched.length;
+  const foodById = {};
+  for (const event of enriched) {
+    const food = extractFoodInfo(detailsById[event.api_id]);
+    foodById[event.api_id] = food;
+    if (meta[event.api_id]) {
+      meta[event.api_id].food = {
+        badge: food.badge,
+        status: food.status,
+        meal_types: food.meal_types,
+        provided: food.provided,
+        details: food.details,
+      };
+    }
+  }
+
   const text =
     `${count} new upcoming event${count > 1 ? "s" : ""} matching your criteria on Lu.ma London.\n` +
     `Sorted with open registration first.\n` +
-    `Sections include date/time, location, registration, and food info.\n\n` +
-    `${sorted.map((event) => formatEventBlock(event, meta, detailsById[event.api_id])).join("\n\n")}\n\n` +
+    `Food is labelled as an organiser claim, pay-at-venue, or no mention — not a raw keyword snippet.\n\n` +
+    `${enriched.map((event) => formatEventBlock(event, meta, foodById[event.api_id])).join("\n\n")}\n\n` +
     `---\nLuma London: https://lu.ma/london`;
 
   await transporter.sendMail({
     from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
     to: process.env.NOTIFY_EMAIL,
-    subject: batchEmailSubject(sorted),
+    subject: batchEmailSubject(enriched, foodById),
     text,
   });
 
   const alertedAt = new Date().toISOString();
-  sorted.forEach((event) => {
+  enriched.forEach((event) => {
     seen.add(event.api_id);
     if (meta[event.api_id]) meta[event.api_id].first_alerted_at = alertedAt;
   });
   saveSeen(seen);
   saveMeta(meta);
   console.log(`✅ Email sent — ${count} new event(s) in one message`);
-  sorted.forEach((event) => console.log(`   • ${event.name}`));
+  enriched.forEach((event) => console.log(`   • ${event.name}`));
 
   return count;
 }
