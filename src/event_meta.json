@@ -884,6 +884,11 @@
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
   },
+  "evt-VHERFeCxwq9prXc": {
+    "name": "Rebuild Private Markets: The Ylookup x Encode AI Hackathon",
+    "first_seen_at": "2026-08-17T08:53:57.782Z",
+    "first_alerted_at": "2026-08-17T08:53:59.534Z"
+  },
   "evt-VHyuGNwjYm9CrCz": {
     "name": "Tools for Live-coding Music",
     "first_seen_at": "2026-07-17T18:16:18.213Z",
@@ -1018,6 +1023,11 @@
     "name": "Founder Cowork Club [UNFACILITATED]",
     "first_seen_at": "2026-08-05T13:19:39.803Z",
     "first_alerted_at": "2026-08-05T13:19:42.463Z"
+  },
+  "evt-zbD5OpLsWaIw0B8": {
+    "name": "Build your AI Outbound Cockpit - a Hands-On London Workshop",
+    "first_seen_at": "2026-08-17T08:53:57.782Z",
+    "first_alerted_at": "2026-08-17T08:53:59.534Z"
   },
   "evt-zHLkUMSjbZUHpAs": {
     "name": "AI ROI: Why the Agent Isn't the Answer",
