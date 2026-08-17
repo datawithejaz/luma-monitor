@@ -249,6 +249,11 @@
     "first_seen_at": "2026-07-18T16:07:12.554Z",
     "first_alerted_at": "2026-07-18T16:07:14.859Z"
   },
+  "evt-BFeE4k7CxaidEWJ": {
+    "name": "Leaders in Fintech:The Future of Fintech",
+    "first_seen_at": "2026-08-17T10:46:12.833Z",
+    "first_alerted_at": "2026-08-17T10:46:14.568Z"
+  },
   "evt-bhUdFAB787EbuiQ": {
     "name": "Adaptive Demo Night",
     "first_seen_at": "2026-08-05T21:37:10.995Z",
@@ -693,6 +698,11 @@
     "name": "Executive Dinner: Rip and Replace, or Wrap and Renew? The Modernisation Dilemma",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-OGyk34qP273KcPU": {
+    "name": "Demo Event LDN:Prompt, Build, Deploy with Replit",
+    "first_seen_at": "2026-08-17T10:46:12.833Z",
+    "first_alerted_at": "2026-08-17T10:46:14.568Z"
   },
   "evt-ojOw05lql2PSISt": {
     "name": "Hot Girls, Cool Tech | AI After 5 drinks",
