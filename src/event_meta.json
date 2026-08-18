@@ -899,6 +899,11 @@
     "first_seen_at": "2026-07-26T21:32:32.624Z",
     "first_alerted_at": "2026-07-26T21:32:34.226Z"
   },
+  "evt-UKJRN1uz3HDeMdH": {
+    "name": "dev_night London",
+    "first_seen_at": "2026-08-18T15:49:41.686Z",
+    "first_alerted_at": "2026-08-18T15:49:42.963Z"
+  },
   "evt-UM4hkiapUIxiPGG": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
