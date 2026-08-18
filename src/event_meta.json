@@ -24,6 +24,11 @@
     "first_seen_at": "2026-07-17T18:16:18.213Z",
     "first_alerted_at": "2026-07-17T18:16:19.761Z"
   },
+  "evt-18dgz1W7iCXcCDd": {
+    "name": "Founder Cowork Club: Focus and Flow with Louise Doherty",
+    "first_seen_at": "2026-08-18T16:50:21.772Z",
+    "first_alerted_at": "2026-08-18T16:50:23.029Z"
+  },
   "evt-1APCJm4jcxkAiwD": {
     "name": "Founders vs VCs: Agent Wars",
     "first_seen_at": "2026-07-18T23:01:44.141Z",
@@ -378,6 +383,11 @@
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
+  },
+  "evt-E3444OznibfGroO": {
+    "name": "FuN Hackathon",
+    "first_seen_at": "2026-08-18T16:50:21.772Z",
+    "first_alerted_at": "2026-08-18T16:50:23.029Z"
   },
   "evt-eAtVHqstF7IMGfA": {
     "name": "AI Demo Nights #12 ⚡️ AUG 2026",
