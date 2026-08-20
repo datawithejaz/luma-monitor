@@ -824,6 +824,11 @@
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
   },
+  "evt-QA7giiEvzKXn9SR": {
+    "name": "AI Breakfast Club",
+    "first_seen_at": "2026-08-20T17:22:15.492Z",
+    "first_alerted_at": "2026-08-20T17:22:16.949Z"
+  },
   "evt-QHgMlQLJYpDA5PD": {
     "name": "Building AI - Founders 002 - Founder Dinner",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
