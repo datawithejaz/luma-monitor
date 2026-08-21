@@ -289,6 +289,11 @@
     "first_seen_at": "2026-07-16T11:06:55.885Z",
     "first_alerted_at": "2026-07-16T11:06:57.938Z"
   },
+  "evt-BJYXsYLZKXl6e2A": {
+    "name": "T-0: Cohort 2 Launch",
+    "first_seen_at": "2026-08-21T10:39:19.237Z",
+    "first_alerted_at": "2026-08-21T10:39:20.588Z"
+  },
   "evt-BkfljbOWYL8Ahio": {
     "name": "AI ROI: Why the Agent Isn't the Answer",
     "first_seen_at": "2026-08-05T11:37:08.390Z",
@@ -1118,6 +1123,11 @@
     "name": "Scaling the AI Safety Frontier: LISA Grantmaking Panel",
     "first_seen_at": "2026-08-17T23:16:38.461Z",
     "first_alerted_at": "2026-08-17T23:16:39.830Z"
+  },
+  "evt-YV5mAei6fQxiLfh": {
+    "name": "Lychee's Startup Games Night",
+    "first_seen_at": "2026-08-21T10:39:19.237Z",
+    "first_alerted_at": "2026-08-21T10:39:20.588Z"
   },
   "evt-Z5s65x3pNjweEja": {
     "name": "The Big Startup 5k hosted by Jumpstart **HOLD**",
