@@ -694,9 +694,6 @@ async function alertNewEvents(events, seen, meta) {
   );
 
   const text =
-    `${count} new upcoming event${count > 1 ? "s" : ""} matching your criteria on Lu.ma London.\n` +
-    `Sorted with open registration first.\n` +
-    `Sections include date/time, location, registration, and food info.\n\n` +
     `${sorted.map((event) => formatEventBlock(event, meta, detailsById[event.api_id])).join("\n\n")}\n\n` +
     `---\nLuma London: https://lu.ma/london`;
 
