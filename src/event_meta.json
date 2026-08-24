@@ -929,6 +929,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-QOOZC080xfoB4gH": {
+    "name": "ABRC IMPROV ACTING CLASS",
+    "first_seen_at": "2026-08-24T18:27:21.310Z",
+    "first_alerted_at": "2026-08-24T18:27:22.695Z"
+  },
   "evt-QQFsMOdpOybQslx": {
     "name": "Health Hack Your GP: Workshops and Social Mixer",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
