@@ -424,6 +424,11 @@
     "first_seen_at": "2026-08-14T02:43:24.836Z",
     "first_alerted_at": "2026-08-14T02:43:26.589Z"
   },
+  "evt-dnANDGTN3oMYeSm": {
+    "name": "Why work at a startup?",
+    "first_seen_at": "2026-08-24T22:01:38.621Z",
+    "first_alerted_at": "2026-08-24T22:01:41.124Z"
+  },
   "evt-DVq3b5MtRwjlApx": {
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
