@@ -27,13 +27,6 @@ const CATEGORY_KEYWORDS = [
   "fintech", "vc", "venture", "seo", "cursor", "abrc",
 ];
 
-const FOOD_KEYWORDS = [
-  "food", "pizza", "dinner", "lunch", "breakfast", "snack", "snacks",
-  "refreshment", "refreshments", "drink", "drinks", "catering", "buffet",
-  "bbq", "sushi", "taco", "tacos", "sandwich", "sandwiches", "beer", "wine",
-  "canape", "canapes", "meal", "meals",
-];
-
 // Keywords that must match as whole words, not substrings inside other words.
 const WORD_BOUNDARY_KEYWORDS = new Set([
   "ai", "vc", "seo", "data", "tech", "demo", "product", "design",
@@ -559,66 +552,7 @@ function formatRegistrationStatus(event) {
   if (event.registration_availability === "open") {
     return "🟢 OPEN — registration available";
   }
-  return "🟢 OPEN — check page for availability";
-}
-
-function collectStringsDeep(value, out = [], depth = 0) {
-  if (value == null || depth > 8) return out;
-  if (typeof value === "string") {
-    out.push(value);
-    return out;
-  }
-  if (Array.isArray(value)) {
-    value.forEach((item) => collectStringsDeep(item, out, depth + 1));
-    return out;
-  }
-  if (typeof value === "object") {
-    Object.values(value).forEach((item) => collectStringsDeep(item, out, depth + 1));
-  }
-  return out;
-}
-
-function extractFoodInfo(detail) {
-  if (!detail || typeof detail !== "object") {
-    return { status: "Unknown", details: "No event details available." };
-  }
-
-  const haystack = collectStringsDeep([
-    detail.description,
-    detail.event?.description,
-    detail.description_mirror,
-    detail.event?.description_mirror,
-    detail.agenda,
-    detail.event?.agenda,
-  ])
-    .join(" \n ")
-    .toLowerCase();
-
-  if (!haystack.trim()) {
-    return { status: "Unknown", details: "Food info is not published in details." };
-  }
-
-  const matched = FOOD_KEYWORDS.find((kw) => haystack.includes(kw));
-  if (!matched) {
-    return { status: "No mention", details: "No explicit food/drinks mention found." };
-  }
-
-  const idx = haystack.indexOf(matched);
-  const snippet = haystack
-    .slice(Math.max(0, idx - 60), Math.min(haystack.length, idx + 160))
-    .replace(/\s+/g, " ")
-    .trim();
-  return { status: "Mentioned", details: snippet };
-}
-
-async function fetchEventDetails(apiId) {
-  try {
-    return await fetchJSON(
-      `https://api.lu.ma/event/get?event_api_id=${encodeURIComponent(apiId)}`
-    );
-  } catch {
-    return null;
-  }
+  return `🟢 OPEN — check page for availability`;
 }
 
 // ── Email ─────────────────────────────────────────────────────────────────────
@@ -628,11 +562,10 @@ function emailConfigured() {
   );
 }
 
-function formatEventBlock(event, meta, detail) {
+function formatEventBlock(event, meta) {
   const { day, time } = formatEventSchedule(event);
   const venue = event.venue || "London";
   const price = event.price_label || "Check page";
-  const food = extractFoodInfo(detail);
   return [
     "🔴 NEW EVENT DETECTED",
     "━━━━━━━━━━━━━━━━━━━━",
@@ -653,10 +586,6 @@ function formatEventBlock(event, meta, detail) {
     "🎟 REGISTRATION",
     `• Status: ${formatRegistrationStatus(event)}`,
     `• Price: ${price}`,
-    "",
-    "🍽 FOOD",
-    `• Availability: ${food.status}`,
-    `• Details: ${food.details}`,
     "",
     "🔗 LINK",
     event.url,
@@ -686,15 +615,9 @@ async function alertNewEvents(events, seen, meta) {
 
   const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
   const count = sorted.length;
-  const detailsById = {};
-  await Promise.all(
-    sorted.map(async (event) => {
-      detailsById[event.api_id] = await fetchEventDetails(event.api_id);
-    })
-  );
 
   const text =
-    `${sorted.map((event) => formatEventBlock(event, meta, detailsById[event.api_id])).join("\n\n")}\n\n` +
+    `${sorted.map((event) => formatEventBlock(event, meta)).join("\n\n")}\n\n` +
     `---\nLuma London: https://lu.ma/london`;
 
   await transporter.sendMail({
