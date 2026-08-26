@@ -369,6 +369,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-cqB2EmcF1o3HaRu": {
+    "name": "Grishin Robotics Accelerator Cohort 4 Demo Day",
+    "first_seen_at": "2026-08-26T16:16:05.960Z",
+    "first_alerted_at": "2026-08-26T16:16:07.192Z"
+  },
   "evt-CqsI2fTQHTn9zrr": {
     "name": "Wine, Dine, Refine: From Procrastination to Productivity",
     "first_seen_at": "2026-07-23T13:06:59.491Z",
@@ -838,6 +843,11 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-NTvGJ8ZfyWMOwR2": {
+    "name": "Chess x ML Hackathon: Build, train, win.",
+    "first_seen_at": "2026-08-26T16:16:05.960Z",
+    "first_alerted_at": "2026-08-26T16:16:07.192Z"
   },
   "evt-nVfY9tTvVPuDX80": {
     "name": "Voice AI Meetup: London Chapter",
