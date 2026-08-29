@@ -684,6 +684,11 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-jX9hSPrF96rBIPf": {
+    "name": "ABRC BOOKCLUB: THE STRANGER",
+    "first_seen_at": "2026-08-29T10:13:32.129Z",
+    "first_alerted_at": "2026-08-29T10:13:35.482Z"
+  },
   "evt-jywQQdD6sew01fp": {
     "name": "Clueless outfitpicker | Vibecode with AI After 5",
     "first_seen_at": "2026-08-28T21:30:59.762Z",
@@ -753,6 +758,11 @@
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-L7BSGdGOLud5FkA": {
+    "name": "Build your UX Portfolio with Claude Code",
+    "first_seen_at": "2026-08-29T10:13:32.129Z",
+    "first_alerted_at": "2026-08-29T10:13:35.482Z"
   },
   "evt-l7XVdpspIbHwkJ4": {
     "name": "AI for the rest of us | Summer Social",
