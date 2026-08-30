@@ -389,6 +389,11 @@
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
   },
+  "evt-cUaD8QYgaJNqRGA": {
+    "name": "London Fintech Breakfast",
+    "first_seen_at": "2026-08-30T01:17:25.395Z",
+    "first_alerted_at": "2026-08-30T01:17:26.774Z"
+  },
   "evt-CZEy8OAE2jwGpx4": {
     "name": "AI Safety Cinema Society #1: The AI Doc + Seat at the Table",
     "first_seen_at": "2026-07-30T19:52:36.248Z",
