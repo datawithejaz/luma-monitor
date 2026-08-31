@@ -959,6 +959,11 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-pBZQp2l2uPtPvJp": {
+    "name": "Cursor Commerce London Hackathon",
+    "first_seen_at": "2026-08-31T11:58:54.114Z",
+    "first_alerted_at": "2026-08-31T11:58:55.682Z"
+  },
   "evt-PDdvHUcrxntVF9M": {
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -983,6 +988,11 @@
     "name": "Building AI Products with Hyperstack",
     "first_seen_at": "2026-08-24T09:11:26.754Z",
     "first_alerted_at": "2026-08-24T09:11:28.408Z"
+  },
+  "evt-q0Xg9fuxIGFxCBx": {
+    "name": "Alternative Intelligence: How AI Powers Private Markets - A fireside chat with Dust and Vega",
+    "first_seen_at": "2026-08-31T11:58:54.114Z",
+    "first_alerted_at": "2026-08-31T11:58:55.682Z"
   },
   "evt-q4ZoqAXNrcl3bDT": {
     "name": "Physical AI Hack",
