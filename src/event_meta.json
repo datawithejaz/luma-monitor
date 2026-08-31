@@ -274,6 +274,11 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-bb2dEU5nf1xoxsm": {
+    "name": "London AI Builders: The Devin Mixer",
+    "first_seen_at": "2026-08-31T23:10:38.291Z",
+    "first_alerted_at": "2026-08-31T23:10:39.932Z"
+  },
   "evt-BbqOu1XHpC4oRcZ": {
     "name": "XPlace : FinTech Lunch & Learn at Somerset House",
     "first_seen_at": "2026-07-28T09:06:57.531Z",
