@@ -5,6 +5,7 @@
   "main": "monitor.js",
   "scripts": {
     "start": "node monitor.js",
+    "sync-calendars": "node sync-tracked-calendars.js",
     "test": "node monitor.js"
   },
   "dependencies": {
