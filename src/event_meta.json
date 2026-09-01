@@ -669,6 +669,11 @@
     "first_seen_at": "2026-08-04T12:04:14.153Z",
     "first_alerted_at": "2026-08-04T12:04:15.537Z"
   },
+  "evt-ILvGNzahJaMEerY": {
+    "name": "Building with Managed Agents & the Gemini Interactions API",
+    "first_seen_at": "2026-09-01T12:06:55.138Z",
+    "first_alerted_at": "2026-09-01T12:06:57.248Z"
+  },
   "evt-IMabqLxo7E5nCgn": {
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-08-26T11:02:28.068Z",
@@ -1304,6 +1309,11 @@
     "first_seen_at": "2026-08-25T11:49:32.516Z",
     "first_alerted_at": "2026-08-25T11:49:34.059Z"
   },
+  "evt-xO2jhIdVYxel8yn": {
+    "name": "Grok Bot Meetup London",
+    "first_seen_at": "2026-09-01T12:06:55.138Z",
+    "first_alerted_at": "2026-09-01T12:06:57.248Z"
+  },
   "evt-XYakDbymezTd8qT": {
     "name": "Hot girls, Go Hiking | Hot Gal Hike Club x AI After 5",
     "first_seen_at": "2026-08-07T12:54:35.124Z",
@@ -1393,6 +1403,11 @@
     "name": "Cursor Conversations London | Maximising ROI on Intelligence",
     "first_seen_at": "2026-08-27T04:11:49.452Z",
     "first_alerted_at": "2026-08-27T04:11:50.614Z"
+  },
+  "evt-ZSumqyLCLiayDFf": {
+    "name": "Staying Ahead of the Curve: Policy & Compliance in Audiovisual AI",
+    "first_seen_at": "2026-09-01T12:06:55.138Z",
+    "first_alerted_at": "2026-09-01T12:06:57.248Z"
   },
   "evt-ZwVEGDGpZRtBOqB": {
     "name": "Can AI Be Conscious In Ohio? (Austin Smith/Heather Alexander) + Q&A + Networking",
