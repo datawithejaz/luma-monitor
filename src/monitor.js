@@ -360,6 +360,52 @@ function dedupeEntries(entries) {
   return [...byId.values()];
 }
 
+function normalizeSeriesText(text) {
+  return (text || "").trim().toLowerCase().replace(/\s+/g, " ");
+}
+
+/** Key for recurring series: same title + host from the same organiser. */
+function seriesKey(event) {
+  return `${normalizeSeriesText(event.name)}::${normalizeSeriesText(event.host)}`;
+}
+
+function compareByStartAt(a, b) {
+  if (!a.start_at && !b.start_at) return 0;
+  if (!a.start_at) return 1;
+  if (!b.start_at) return -1;
+  return new Date(a.start_at) - new Date(b.start_at);
+}
+
+/**
+ * Collapse recurring listings (e.g. weekly pizza nights) to one alert per series.
+ * Keeps the nearest upcoming date for email; skips the rest so one batched mail
+ * doesn't repeat the same event title.
+ */
+function dedupeRecurringSeries(events) {
+  const groups = new Map();
+  for (const event of events) {
+    const key = seriesKey(event);
+    const list = groups.get(key);
+    if (list) list.push(event);
+    else groups.set(key, [event]);
+  }
+
+  const toAlert = [];
+  const skipped = [];
+
+  for (const group of groups.values()) {
+    if (group.length === 1) {
+      toAlert.push(group[0]);
+      continue;
+    }
+    const sorted = [...group].sort(compareByStartAt);
+    toAlert.push(sorted[0]);
+    skipped.push(...sorted.slice(1));
+  }
+
+  return { toAlert, skipped };
+}
+
 /** Page through the London discover API and return raw entries. */
 async function fetchDiscoverEntries(placeId) {
   const entries = [];
@@ -667,12 +713,24 @@ async function main() {
   console.log(`New events: ${newEvents.length}`);
 
   if (newEvents.length > 0) {
-    const sorted = [...newEvents].sort((a, b) => registrationPriority(a) - registrationPriority(b));
+    const { toAlert, skipped } = dedupeRecurringSeries(newEvents);
+    if (skipped.length > 0) {
+      console.log(
+        `Recurring series dedupe: ${skipped.length} later date(s) skipped ` +
+          "(same title + host — keeping nearest upcoming only)."
+      );
+      skipped.forEach((event) =>
+        console.log(`   ↳ skip: ${event.name} — ${event.start_at || "TBC"} (${event.api_id})`)
+      );
+    }
+
     const detectedAt = new Date().toISOString();
-    sorted.forEach((event) => noteFirstSeen(meta, event, detectedAt));
-    saveMeta(meta);
+    [...toAlert, ...skipped].forEach((event) => noteFirstSeen(meta, event, detectedAt));
 
     if (emailConfigured()) {
+      skipped.forEach((event) => seen.add(event.api_id));
+
+      const sorted = [...toAlert].sort((a, b) => registrationPriority(a) - registrationPriority(b));
       const sent = await alertNewEvents(sorted, seen, meta);
       console.log(`Sent ${sent} event(s) in one email.`);
     } else {
@@ -680,6 +738,7 @@ async function main() {
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
           `Found ${newEvents.length} new event(s); not recording them so they alert once email is set up.`
       );
+      const sorted = [...toAlert].sort((a, b) => registrationPriority(a) - registrationPriority(b));
       sorted.forEach((e) =>
         console.log(
           `   • ${e.name} — listed ${formatListedOn(meta, e.api_id)} — ${formatRegistrationStatus(e)} — ${e.url}`
