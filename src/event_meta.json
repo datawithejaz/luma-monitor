@@ -194,6 +194,11 @@
     "first_seen_at": "2026-07-18T23:01:44.141Z",
     "first_alerted_at": "2026-07-18T23:01:46.186Z"
   },
+  "evt-8SHTt4biBolsK5f": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-01T16:34:38.391Z",
+    "first_alerted_at": "2026-09-01T16:34:39.609Z"
+  },
   "evt-8TOn3xiURFJvW6P": {
     "name": "Work in Fintech AI Summit 2026",
     "first_seen_at": "2026-07-29T16:52:29.228Z",
@@ -218,6 +223,11 @@
     "name": "Building on Arc: A Technical Workshop with Blockradar",
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
+  },
+  "evt-ACa0wbLjOGTprbs": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-01T16:34:38.391Z",
+    "first_alerted_at": "2026-09-01T16:34:39.609Z"
   },
   "evt-aCXxDSroyizikXq": {
     "name": "Tech for Good Meetup",
@@ -658,6 +668,11 @@
     "name": "London Voice AI Exchange",
     "first_seen_at": "2026-08-17T11:10:25.845Z",
     "first_alerted_at": "2026-08-17T11:10:27.822Z"
+  },
+  "evt-IajS0FZ7DrQu1Pp": {
+    "name": "London Tech Leaders Executive Dinner - The CTO Confidence Gap",
+    "first_seen_at": "2026-09-01T16:34:38.391Z",
+    "first_alerted_at": "2026-09-01T16:34:39.609Z"
   },
   "evt-IeVrZ6PgzUPHwph": {
     "name": "Build Vision AI 2.0 LDN",
@@ -1179,6 +1194,11 @@
     "first_seen_at": "2026-07-31T11:39:46.758Z",
     "first_alerted_at": "2026-07-31T11:39:50.366Z"
   },
+  "evt-UVRRRHHEDbCRWBG": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-01T16:34:38.391Z",
+    "first_alerted_at": "2026-09-01T16:34:39.609Z"
+  },
   "evt-VaxGbawnuO23yJv": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
     "first_seen_at": "2026-07-21T17:44:54.707Z",
@@ -1213,6 +1233,11 @@
     "name": "Vibe Coding for 100% beginners",
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
+  },
+  "evt-vVhhLkUmKbOSPpm": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-01T16:34:38.391Z",
+    "first_alerted_at": "2026-09-01T16:34:39.609Z"
   },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
