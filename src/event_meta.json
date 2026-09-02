@@ -194,6 +194,10 @@
     "first_seen_at": "2026-07-18T23:01:44.141Z",
     "first_alerted_at": "2026-07-18T23:01:46.186Z"
   },
+  "evt-8SHTt4biBolsK5f": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
+  },
   "evt-8TOn3xiURFJvW6P": {
     "name": "Work in Fintech AI Summit 2026",
     "first_seen_at": "2026-07-29T16:52:29.228Z",
@@ -218,6 +222,10 @@
     "name": "Building on Arc: A Technical Workshop with Blockradar",
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
+  },
+  "evt-ACa0wbLjOGTprbs": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
   },
   "evt-aCXxDSroyizikXq": {
     "name": "Tech for Good Meetup",
@@ -658,6 +666,10 @@
     "name": "London Voice AI Exchange",
     "first_seen_at": "2026-08-17T11:10:25.845Z",
     "first_alerted_at": "2026-08-17T11:10:27.822Z"
+  },
+  "evt-IajS0FZ7DrQu1Pp": {
+    "name": "London Tech Leaders Executive Dinner - The CTO Confidence Gap",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
   },
   "evt-IeVrZ6PgzUPHwph": {
     "name": "Build Vision AI 2.0 LDN",
@@ -1154,6 +1166,10 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-uBk98QVDtAYDx7w": {
+    "name": "Pitch Night at the Movies",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
+  },
   "evt-Uc8GjZBLC8EgKZO": {
     "name": "AI Engineering Benchmarks: What Good Actually Looks Like",
     "first_seen_at": "2026-07-26T21:32:32.624Z",
@@ -1178,6 +1194,14 @@
     "name": "LIaiSE Summer Picnic Mixer",
     "first_seen_at": "2026-07-31T11:39:46.758Z",
     "first_alerted_at": "2026-07-31T11:39:50.366Z"
+  },
+  "evt-UVRRRHHEDbCRWBG": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
+  },
+  "evt-UWLzBEtkstgJg1K": {
+    "name": "The AI Fluency Map: How Good Are You At AI?",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
   },
   "evt-VaxGbawnuO23yJv": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
@@ -1213,6 +1237,10 @@
     "name": "Vibe Coding for 100% beginners",
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
+  },
+  "evt-vVhhLkUmKbOSPpm": {
+    "name": "founder coworking + pizza night",
+    "first_seen_at": "2026-09-02T22:58:19.808Z"
   },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",

@@ -304,7 +304,7 @@ async function fetchFollowingCalendars() {
     const data = await fetchJSON("https://api.lu.ma/home/get-following-calendars", {
       Cookie: cookie,
     });
-    const raw = data.calendars || data.entries || data.items || [];
+    const raw = data.infos || data.calendars || data.entries || data.items || [];
     const calendars = raw
       .map((item) => {
         const cal = item.calendar || item;

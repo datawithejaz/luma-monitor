@@ -58,6 +58,10 @@ function isPinnedManual(cal) {
   return false;
 }
 
+function isHardPinned(cal) {
+  return cal.include_all_events === true;
+}
+
 async function fetchFollowingCalendars() {
   const cookie = process.env.LUMA_AUTH_COOKIE;
   if (!cookie) {
@@ -69,7 +73,7 @@ async function fetchFollowingCalendars() {
   const data = await fetchJSON("https://api.lu.ma/home/get-following-calendars", {
     Cookie: cookie,
   });
-  const raw = data.calendars || data.entries || data.items || [];
+  const raw = data.infos || data.calendars || data.entries || data.items || [];
   return raw
     .map((item) => {
       const cal = item.calendar || item;
@@ -84,12 +88,13 @@ async function fetchFollowingCalendars() {
 }
 
 function mergeTracked(existing, subscriptions) {
-  const pinned = existing.filter(isPinnedManual);
-  const pinnedIds = new Set(pinned.map((cal) => cal.api_id));
+  const hardPinned = existing.filter(isHardPinned);
+  const softPinned = existing.filter((cal) => isPinnedManual(cal) && !isHardPinned(cal));
+  const hardPinnedIds = new Set(hardPinned.map((cal) => cal.api_id));
   const subscriptionIds = new Set(subscriptions.map((cal) => cal.api_id));
 
-  const merged = [...pinned];
-  const mergedIds = new Set(pinnedIds);
+  const merged = [...hardPinned];
+  const mergedIds = new Set(hardPinnedIds);
 
   for (const cal of subscriptions) {
     if (mergedIds.has(cal.api_id)) continue;
@@ -106,14 +111,23 @@ function mergeTracked(existing, subscriptions) {
     mergedIds.add(cal.api_id);
   }
 
+  // Keep soft-pinned entries only if they still aren't followed on Lu.ma.
+  for (const cal of softPinned) {
+    if (subscriptionIds.has(cal.api_id) || mergedIds.has(cal.api_id)) continue;
+    merged.push(cal);
+    mergedIds.add(cal.api_id);
+  }
+
   const removed = existing.filter(
     (cal) =>
-      !isPinnedManual(cal) &&
+      !isHardPinned(cal) &&
       (cal.reason || "").includes("User subscription") &&
       !subscriptionIds.has(cal.api_id)
   );
 
-  return { merged, removed, added: subscriptions.filter((cal) => !pinnedIds.has(cal.api_id)) };
+  const added = subscriptions.filter((cal) => !hardPinnedIds.has(cal.api_id));
+
+  return { merged, removed, added };
 }
 
 async function main() {
@@ -122,7 +136,7 @@ async function main() {
   const { merged, removed, added } = mergeTracked(existing, subscriptions);
 
   console.log(`Lu.ma subscriptions: ${subscriptions.length}`);
-  console.log(`Pinned manual entries kept: ${existing.filter(isPinnedManual).length}`);
+  console.log(`Pinned manual entries kept: ${existing.filter(isHardPinned).length}`);
   console.log(`Tracked total: ${existing.length} -> ${merged.length}`);
 
   if (added.length > 0) {
