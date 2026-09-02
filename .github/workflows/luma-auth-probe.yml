@@ -1,0 +1,27 @@
+name: Luma Auth Capability Probe
+
+# Manual only — this is a diagnostic, not part of the monitoring loop.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read          # read-only: the probe never writes state back
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Probe what the cookie unlocks
+        env:
+          LUMA_AUTH_COOKIE: ${{ secrets.LUMA_AUTH_COOKIE }}
+        run: node src/probe_auth.js
