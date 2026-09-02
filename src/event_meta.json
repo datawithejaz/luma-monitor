@@ -29,6 +29,10 @@
     "first_seen_at": "2026-08-18T16:50:21.772Z",
     "first_alerted_at": "2026-08-18T16:50:23.029Z"
   },
+  "evt-19DeIU6CEew5vuC": {
+    "name": "Economic Possibilities for our Grandchildren",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-1APCJm4jcxkAiwD": {
     "name": "Founders vs VCs: Agent Wars",
     "first_seen_at": "2026-07-18T23:01:44.141Z",
@@ -79,6 +83,10 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-3oQOryODbACfnlg": {
+    "name": "Building & Scaling Engineering Teams",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-3THjyDM88FItmPg": {
     "name": "Arc Accelerator Meetup & Workshop",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -114,6 +122,10 @@
     "first_seen_at": "2026-08-18T10:39:26.484Z",
     "first_alerted_at": "2026-08-18T10:39:28.335Z"
   },
+  "evt-4Syp9gOOW8ZSU6l": {
+    "name": "Arc Demos & Meetup",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-4t6JDLrsYiGJosx": {
     "name": "Building Voice AI with Dex & OpenAI",
     "first_seen_at": "2026-07-29T15:30:49.001Z",
@@ -148,6 +160,10 @@
     "name": "Junior VC Drinks",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-66u3RU1wQj1e9IU": {
+    "name": "Frontier Dinners: Interest Form",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-6bTnOrQNM2FyNGV": {
     "name": "Peer Suite | Women's Networking Morning",
@@ -237,6 +253,10 @@
     "first_seen_at": "2026-08-27T15:15:24.435Z",
     "first_alerted_at": "2026-08-27T15:15:27.179Z"
   },
+  "evt-aHdhUcjDBPfHh4H": {
+    "name": "Modal x Pydantic London Meetup: How We Build Dev Tools for You and Your Agents",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-AHYchnULuPc7yU2": {
     "name": "First Commit #2: Where Founding Engineers & Founders Meet",
     "first_seen_at": "2026-08-11T09:35:57.864Z",
@@ -266,6 +286,10 @@
     "name": "Fin x Fyxer: Building AI Products that Scale",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-AzYwYtMKyVfuM39": {
+    "name": "Battle of the Accelerators: YC vs Speedrun vs EF vs Techstars",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-b8qhCSzYbAfBPQx": {
     "name": "Novabook x Deel Founders Dinner | Expanding to the US",
@@ -317,6 +341,10 @@
     "first_seen_at": "2026-08-04T23:35:25.257Z",
     "first_alerted_at": "2026-08-04T23:35:27.940Z"
   },
+  "evt-bIDVJSjZK6vm0EE": {
+    "name": "Architect x Corgi Cafe - Saturday Open House",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-bJf9GKZdHEsfHUs": {
     "name": "AI Agents for Finance Teams Workshop",
     "first_seen_at": "2026-07-16T11:06:55.885Z",
@@ -367,6 +395,10 @@
     "first_seen_at": "2026-08-28T21:30:59.762Z",
     "first_alerted_at": "2026-08-28T21:31:01.521Z"
   },
+  "evt-CA9a2lYE6233ajC": {
+    "name": "Pioneer Watch Party - London",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-CC6KASp7LV2DfB3": {
     "name": "Harness Engineering: Code and Data That Agents Can Trust",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -377,10 +409,18 @@
     "first_seen_at": "2026-07-10T13:03:30.212Z",
     "first_alerted_at": "2026-07-10T13:03:33.274Z"
   },
+  "evt-CDs3t9kdm1yNDW7": {
+    "name": "Made in the UK: Cameron Leslie",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-CGQFbJaOFXXsovg": {
     "name": "Launch Event: Fashion Tech, AI & Luxury",
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
+  },
+  "evt-chxCQWRaz25Mv4f": {
+    "name": "Weekly football 7-aside by Granola!",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-clyhSgSo7RIMvBe": {
     "name": "If Your AI Were Conscious, How Would You Know? (Megan Peters) + Q&A + Networking",
@@ -497,6 +537,10 @@
     "first_seen_at": "2026-08-20T13:06:01.049Z",
     "first_alerted_at": "2026-08-20T13:06:02.634Z"
   },
+  "evt-eqhLLmBg2QmIzEF": {
+    "name": "Community Tooling Hack Day #2",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-eZde8EoJOyYggfq": {
     "name": "Demo Event LDN:Directing AI Agents with Cursor",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -521,6 +565,10 @@
     "name": "AI Agents for CS Teams Workshop",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
     "first_alerted_at": "2026-07-20T18:22:25.993Z"
+  },
+  "evt-FM2ByBOUKQp2IpB": {
+    "name": "Builders & Brews London",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-FMOjllO9eEEAshe": {
     "name": "Turks in Tech UK - 14 July 2026",
@@ -622,6 +670,10 @@
     "first_seen_at": "2026-08-11T17:33:51.686Z",
     "first_alerted_at": "2026-08-11T17:33:53.204Z"
   },
+  "evt-hqwfNFDIPkBYqSv": {
+    "name": "GenAI London 2026",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-HRCNCepYOktHzug": {
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T11:35:18.746Z",
@@ -671,6 +723,10 @@
     "name": "London Tech Leaders Executive Dinner - The CTO Confidence Gap",
     "first_seen_at": "2026-09-02T22:58:19.808Z"
   },
+  "evt-iC1TboEs4OjWWdP": {
+    "name": "She Bytes Back x Funding Circle: Bringing Engineering Standards to Agentic Workflows",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-IeVrZ6PgzUPHwph": {
     "name": "Build Vision AI 2.0 LDN",
     "first_seen_at": "2026-08-07T22:47:26.813Z",
@@ -680,6 +736,10 @@
     "name": "Corgi x London AI: Paint By Tokens",
     "first_seen_at": "2026-08-04T12:04:14.153Z",
     "first_alerted_at": "2026-08-04T12:04:15.537Z"
+  },
+  "evt-igH4zc27I1O2X1I": {
+    "name": "London | Claude Cyber Meetup",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-ILvGNzahJaMEerY": {
     "name": "Building with Managed Agents & the Gemini Interactions API",
@@ -715,6 +775,10 @@
     "name": "AI Leaders Dinner - Encord",
     "first_seen_at": "2026-08-11T11:23:32.755Z",
     "first_alerted_at": "2026-08-11T11:23:34.532Z"
+  },
+  "evt-jRrTg3mcvSTUUsD": {
+    "name": "Agentic A.I. Private Dinner",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-JRXNS9SfOsMfk7j": {
     "name": "Demo Event LDN: From Idea to Prototype with Lovable",
@@ -755,6 +819,10 @@
     "name": "ABRC BOOKCLUB: LOVE IN THE TIME OF CHOLERA",
     "first_seen_at": "2026-07-25T11:38:35.321Z",
     "first_alerted_at": "2026-07-25T11:38:36.935Z"
+  },
+  "evt-KkFv8BmVTpjLSHF": {
+    "name": "Architect x Corgi Cafe - Sunday Designathon",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-kloQ7IuDRXfsswj": {
     "name": "[London] AI After Hours - London Library",
@@ -806,6 +874,14 @@
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
   },
+  "evt-lhQrTTfJkcAMpTI": {
+    "name": "Pitch Perfect: Investing in You with Monzo",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
+  "evt-lkuxrz8CMaJdksF": {
+    "name": "Arc Community Co-working",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-LNQtBv91h7ovmeh": {
     "name": "UNKNW x Metaview Design Leaders Ship on Saturday.",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
@@ -841,6 +917,10 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-maadASzTw2SlGKG": {
+    "name": "From Lab to Lasting: Building Life Science and Biotech Companies That Endure",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-mIHFwEiefa5wpAv": {
     "name": "AI-Assisted Math Research Paper Club by Nebius Academy",
     "first_seen_at": "2026-08-03T20:08:29.517Z",
@@ -871,6 +951,14 @@
     "first_seen_at": "2026-07-30T16:54:48.415Z",
     "first_alerted_at": "2026-07-30T16:54:49.943Z"
   },
+  "evt-N32bYgNssdaiF2H": {
+    "name": "Arc Demos & Meetup",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
+  "evt-n5nRPH4E3k11UWm": {
+    "name": "Oasis Salon Series: Community Social",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-N8d7K6ClZ1YK7wf": {
     "name": "Superlinked X Qwen Hackathon",
     "first_seen_at": "2026-07-31T03:55:16.297Z",
@@ -880,6 +968,10 @@
     "name": "Summer Drinks: an evening with founders, investors and friends of Seapoint",
     "first_seen_at": "2026-07-08T20:02:58.613Z",
     "first_alerted_at": "2026-07-08T20:02:59.564Z"
+  },
+  "evt-NboIm6mRMncKUo6": {
+    "name": "Made in the UK: Corin Mellor",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-nepH9RE1clJegI7": {
     "name": "ABRC FILM CLUB & DISCUSSION: PUNCH-DRUNK LOVE",
@@ -961,6 +1053,10 @@
     "first_seen_at": "2026-08-03T18:23:55.212Z",
     "first_alerted_at": "2026-08-03T18:23:57.014Z"
   },
+  "evt-OOCAuwcjCMC4frM": {
+    "name": "💻 Female Builders Co-Working Day: Open Work Session",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-Oye0S4kSwbdFZkx": {
     "name": "London Startup Operator RunClub & Social",
     "first_seen_at": "2026-08-19T10:46:03.392Z",
@@ -1036,6 +1132,10 @@
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
   },
+  "evt-Ql9fAnMSUIuMRYY": {
+    "name": "[O]pen House Fireside with Attio | Hosted by R[3]sidency x Construct",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-QNSLnKSsoBiMtdL": {
     "name": "Humanising Data for Healthier, Fairer Futures",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1071,6 +1171,14 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-Rd0kTBukhJAT2tc": {
+    "name": "Google DeepMind x Corgi: London Builder Evening",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
+  "evt-rlgege86MEjVOFe": {
+    "name": "OpenAI Builder Lounge London",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-RrmQcuoSoMWBXNd": {
     "name": "Does AI Belong In The Creator Economy?",
     "first_seen_at": "2026-07-31T20:09:42.522Z",
@@ -1091,10 +1199,18 @@
     "first_seen_at": "2026-08-04T16:28:51.673Z",
     "first_alerted_at": "2026-08-04T16:28:53.113Z"
   },
+  "evt-SG1UMx3i22rlbx0": {
+    "name": "TRD x BEYOND FITNESS Class 2.0 💪🔥🧡",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-SlGc0MlKa6Q4r8x": {
     "name": "Founder Nation: Padel Social - London",
     "first_seen_at": "2026-08-12T10:20:08.660Z",
     "first_alerted_at": "2026-08-12T10:20:10.734Z"
+  },
+  "evt-slMHV4kfSyFQt7c": {
+    "name": "Back to School LLM London Social Meetup: The Flying Horse Pub near Liverpool Street",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-Smlm1GwHOeLnLyI": {
     "name": "UK AI Agent lab: Gemini Edition",
@@ -1161,10 +1277,22 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-u4Ae4oXJmyc7Vcm": {
+    "name": "Made in the UK: Anne Boden",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-UAe1KjIWVcXJB7L": {
     "name": "Monad Blitz London Hackathon",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-uaihfbed4kyoD7O": {
+    "name": "Don't Swipe, Show Up 💘 — Singles Pitch Night with Canva",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
+  "evt-UAz5c2wZbnJODQc": {
+    "name": "VAST Builders Challenge - London",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-uBk98QVDtAYDx7w": {
     "name": "Pitch Night at the Movies",
@@ -1242,10 +1370,18 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-09-02T22:58:19.808Z"
   },
+  "evt-vw9yQbOl9wBMqek": {
+    "name": "Hiring during the Hypergrowth",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-wA382H0a3tfjS3E": {
+    "name": "SEV0 - The reliability conference (LDN)",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-WbC0fBHRtALF7To": {
     "name": "Indispensable Room: Founders Meet Up",
@@ -1272,6 +1408,10 @@
     "first_seen_at": "2026-08-19T10:46:03.392Z",
     "first_alerted_at": "2026-08-19T10:46:05.299Z"
   },
+  "evt-WmbCe3qj0tV4n36": {
+    "name": "Cultural Strategy - Industry Community Evening",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-woFQIm1zGC1ye2P": {
     "name": "Urdu Poetry Workshop: Faiz Ahmed Faiz",
     "first_seen_at": "2026-08-07T17:04:27.044Z",
@@ -1292,15 +1432,27 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-wwBmoFfwpTI5QLU": {
+    "name": "Quantum In Pubs - QUIPs",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-WxC3Blwl7QLAaeH": {
     "name": "BrainFest",
     "first_seen_at": "2026-08-01T22:36:18.739Z",
     "first_alerted_at": "2026-08-01T22:36:21.537Z"
   },
+  "evt-wyDWPxTohH7JKtI": {
+    "name": "React Native London Meetup - September 2026",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-X0sVKbpE6fzESCu": {
     "name": "Fooled by beautiful data – bias and data visualization",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-x18sFHsWoSwnaIP": {
+    "name": "Monad Metropolis Hacker House: London",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-X6STMkQ7sBlwuZS": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
@@ -1402,6 +1554,14 @@
     "first_seen_at": "2026-08-17T08:53:57.782Z",
     "first_alerted_at": "2026-08-17T08:53:59.534Z"
   },
+  "evt-zDs4mdQLLhDReFR": {
+    "name": "London Systems Club",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
+  "evt-zgnQtwzqGyv4sH6": {
+    "name": "Ground Game 101: Cutting Through the Noise with IRL Events | Hearts, Minds & Market Share",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
+  },
   "evt-zHLkUMSjbZUHpAs": {
     "name": "AI ROI: Why the Agent Isn't the Answer",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -1441,6 +1601,10 @@
     "name": "Can AI Be Conscious In Ohio? (Austin Smith/Heather Alexander) + Q&A + Networking",
     "first_seen_at": "2026-07-15T11:16:12.724Z",
     "first_alerted_at": "2026-07-15T11:16:14.139Z"
+  },
+  "evt-zxumEA56YHooWSo": {
+    "name": "TRD x BEYOND FITNESS Class 1.0 💪🔥🧡",
+    "first_seen_at": "2026-09-02T23:10:06.267Z"
   },
   "evt-zYrvR0hdFt8t75l": {
     "name": "The state of harness engineering",

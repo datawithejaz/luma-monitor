@@ -2,6 +2,7 @@ const https = require("https");
 const nodemailer = require("nodemailer");
 const fs = require("fs");
 const path = require("path");
+const { discoverLondonCalendars } = require("./sitemap-discovery");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
@@ -12,25 +13,45 @@ const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
 const MAX_CALENDARS_TO_POLL = 80; // safety cap when many calendars are discovered
+const SITEMAP_BATCH_SIZE = 250; // sitemap slugs resolved per run (~35s)
 const LONDON_TZ = "Europe/London";
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
 // We resolve it live from the page; this is a fallback if resolution ever fails.
 const FALLBACK_PLACE_ID = "discplace-QCcNk3HXowOR97j"; // London (verified 2026-06)
 
-// An event is kept if name / host text matches at least one keyword (case-insensitive).
-// Short tokens use word boundaries to avoid false positives (e.g. "ai" in "Saint").
+// An event is kept if name / host / description text matches at least one keyword
+// (case-insensitive). Short tokens use word boundaries to avoid false positives
+// (e.g. "ai" in "Saint"). Only applies to calendars you don't explicitly follow.
 const CATEGORY_KEYWORDS = [
   "tech", "ai", "artificial intelligence", "marketing", "entrepreneurship",
   "entrepreneur", "founder", "business", "networking", "startup", "data",
   "product", "design", "developer", "coding", "hackathon", "workshop", "demo",
   "fintech", "vc", "venture", "seo", "cursor", "abrc",
+  // Terms that were letting obvious matches slip through (builder evenings,
+  // agent/LLM meetups, demo days, accelerator and infra events).
+  "builder", "build", "agent", "agentic", "llm", "gpt", "copilot", "prompt",
+  "engineer", "engineering", "software", "meetup", "pitch", "accelerator",
+  "incubator", "saas", "b2b", "growth", "crypto", "web3", "robotics",
+  "quantum", "devops", "infra", "infrastructure", "platform", "open source",
+  "opensource", "community", "coworking", "reliability", "security", "cyber",
 ];
 
 // Keywords that must match as whole words, not substrings inside other words.
 const WORD_BOUNDARY_KEYWORDS = new Set([
   "ai", "vc", "seo", "data", "tech", "demo", "product", "design",
+  "build", "agent", "llm", "gpt", "b2b", "infra", "cyber",
 ]);
+
+// "ai" as a bare word misses the cases that matter most: OpenAI, GenAI, A.I.,
+// AI/ML, #AI. Match those explicitly instead of loosening the word boundary,
+// which would match "Saint", "Dubai", "chair", etc.
+const AI_PATTERNS = [
+  /\ba\.?\s?i\.?\b/i,
+  /\b(?:open|gen|vertex|azure|safe|xet)ai\b/i,
+  /\bai[-/](?:ml|native|first|agents?|engineer)/i,
+  /\b(?:ml|mlops|genai|agi)\b/i,
+];
 
 const HEADERS = {
   "Accept": "application/json, text/html",
@@ -165,13 +186,20 @@ function loadTrackedCalendars() {
   }
 }
 
-/** Calendar api_ids where every in-person London event should alert (skip keyword filter). */
+/**
+ * Calendar api_ids where every in-person London event should alert.
+ *
+ * Following a calendar on Lu.ma is already a relevance signal, so tracked
+ * calendars are trusted by default — keyword filtering them dropped things like
+ * "OpenAI Builder Lounge London". Set `"keyword_filter": true` on a noisy
+ * calendar to opt it back into the keyword check.
+ */
 function loadIncludeAllCalendarIds() {
   try {
     const data = JSON.parse(fs.readFileSync(TRACKED_CALENDARS_PATH, "utf8"));
     return new Set(
       (data.calendars || [])
-        .filter((cal) => cal.include_all_events && cal.api_id)
+        .filter((cal) => cal.api_id && cal.keyword_filter !== true)
         .map((cal) => cal.api_id)
     );
   } catch {
@@ -250,7 +278,14 @@ function isLondonEntry(entry) {
 
 function mergeCalendarList(...lists) {
   const registry = new Map();
-  const priority = { manual: 0, subscription: 1, featured: 2, discover: 3, known: 4 };
+  const priority = {
+    manual: 0,
+    subscription: 1,
+    featured: 2,
+    discover: 3,
+    sitemap: 4,
+    known: 5,
+  };
 
   for (const list of lists) {
     for (const cal of list) {
@@ -321,6 +356,28 @@ async function fetchFollowingCalendars() {
     return calendars;
   } catch (err) {
     console.warn(`Could not fetch Lu.ma subscriptions (${err.message}).`);
+    return [];
+  }
+}
+
+/**
+ * Walk a slice of Lu.ma's calendar sitemap looking for London calendars we
+ * don't track yet. Disable with SKIP_SITEMAP_DISCOVERY=1.
+ */
+async function discoverCalendarsFromSitemap(alreadyKnown) {
+  if (process.env.SKIP_SITEMAP_DISCOVERY === "1") {
+    console.log("Sitemap discovery skipped (SKIP_SITEMAP_DISCOVERY=1).");
+    return [];
+  }
+
+  const batchSize = Number(process.env.SITEMAP_BATCH_SIZE) || SITEMAP_BATCH_SIZE;
+  const knownCalendarIds = new Set(alreadyKnown.map((cal) => cal.api_id).filter(Boolean));
+
+  try {
+    const { calendars } = await discoverLondonCalendars({ knownCalendarIds, batchSize });
+    return calendars;
+  } catch (err) {
+    console.warn(`Sitemap discovery failed (${err.message}) — continuing without it.`);
     return [];
   }
 }
@@ -398,7 +455,25 @@ async function fetchAllSources(placeId) {
   const knownRegistry = loadKnownCalendars();
   const fromKnown = listKnownCalendars(knownRegistry);
 
-  const calendars = mergeCalendarList(manual, subscriptions, featured, fromDiscover, fromKnown);
+  // Walk a slice of Lu.ma's sitemap each run to find London calendars that
+  // never surface on the city page. Newly found ones join the registry below
+  // and are polled on every subsequent run.
+  const fromSitemap = await discoverCalendarsFromSitemap([
+    ...manual,
+    ...subscriptions,
+    ...featured,
+    ...fromDiscover,
+    ...fromKnown,
+  ]);
+
+  const calendars = mergeCalendarList(
+    manual,
+    subscriptions,
+    featured,
+    fromDiscover,
+    fromSitemap,
+    fromKnown
+  );
   let toPoll = calendars.slice(0, MAX_CALENDARS_TO_POLL);
   if (calendars.length > MAX_CALENDARS_TO_POLL) {
     console.warn(
@@ -426,7 +501,7 @@ async function fetchAllSources(placeId) {
     `Calendars to poll: ${toPoll.length} ` +
       `(manual ${manual.length}, subscriptions ${subscriptions.length}, ` +
       `featured ${featured.length}, discover ${fromDiscover.length}, ` +
-      `known registry ${fromKnown.length})`
+      `sitemap ${fromSitemap.length}, known registry ${fromKnown.length})`
   );
 
   toPoll.forEach((cal) => upsertCalendar(knownRegistry, cal));
@@ -478,6 +553,7 @@ function normalise(entry) {
     api_id: event.api_id || entry.api_id || "",
     calendar_api_id: calendar.api_id || entry.calendar_api_id || "",
     name: event.name || "",
+    description: event.description_short || event.description_mirror?.text || "",
     url: slug ? `https://lu.ma/${slug}` : "",
     start_at: event.start_at || entry.start_at || "",
     location_type: event.location_type || "",
@@ -523,8 +599,9 @@ function matchesCategory(event, includeAllCalendarIds = new Set()) {
   if (event.calendar_api_id && includeAllCalendarIds.has(event.calendar_api_id)) {
     return true;
   }
-  // Match on title and hosts only — venue addresses cause false positives.
-  const haystack = `${event.name} ${event.host} ${event.hosts_text}`.trim();
+  // Match on title, hosts and description — venue addresses cause false positives.
+  const haystack = `${event.name} ${event.host} ${event.hosts_text} ${event.description}`.trim();
+  if (AI_PATTERNS.some((re) => re.test(haystack))) return true;
   return CATEGORY_KEYWORDS.some((kw) => keywordMatches(haystack, kw));
 }
 

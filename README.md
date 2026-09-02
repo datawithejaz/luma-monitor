@@ -6,15 +6,82 @@ appear. Runs free on a public GitHub repo.
 
 ## How it works
 
-1. Resolves the London discover page to its internal place id (from the page's
-   `__NEXT_DATA__`), then pages through the public discover API:
-   `https://api.lu.ma/discover/get-paginated-events?discover_place_api_id=<id>`
-2. Filters each event: **in-person** (`location_type = offline`) **and** a
-   category-keyword match (name / host / venue).
-3. Diffs against `src/seen_events.json` to find genuinely new events.
-4. New events → an email with name, date, venue, price and a direct link.
-5. Commits the updated `src/seen_events.json` back to the repo (only when it
-   changes), so the same event never alerts twice.
+1. **Collects calendars** from five sources, merged by priority:
+   - `src/tracked_calendars.json` — your Lu.ma follows (synced automatically)
+   - Your live Lu.ma subscriptions (needs `LUMA_AUTH_COOKIE`)
+   - Calendars featured on the London discover page
+   - Calendars extracted from the London discover feed
+   - `src/known_calendars.json` — every calendar ever seen, polled forever
+   - **Sitemap discovery** — see [Coverage](#coverage) below
+2. **Fetches events** from the London discover feed *and* every known calendar
+   (`https://api.lu.ma/calendar/get-items`), then dedupes by event id.
+3. **Filters** to in-person (`location_type = offline`) London events that are
+   still upcoming. Relevance depends on the calendar:
+   - Calendars you follow are **trusted** — every London event alerts.
+   - Everything else must match `CATEGORY_KEYWORDS` on name / host / description.
+4. Diffs against `src/seen_events.json` to find genuinely new events.
+5. New events → an email with name, date, venue, price and a direct link.
+6. Commits updated state back to the repo (only when it changes), so the same
+   event never alerts twice.
+
+## Coverage
+
+`lu.ma/london` is **capped at ~55 events** (Lu.ma's own `event_count`), so the
+city page alone misses most of what's happening. Two mechanisms close that gap.
+
+**Calendar polling.** Most events arrive here — roughly 210 of 265 per run come
+from polling calendars directly rather than the city feed.
+
+**Sitemap discovery** (`src/sitemap-discovery.js`). Calendar polling can only
+reach calendars we already know, so a London event on an unknown calendar stays
+invisible. Lu.ma publishes every public event and calendar in
+`https://sitemap.luma.com/sitemap.xml` (~60k URLs). Each run resolves a batch of
+slugs (default 250, ~40s), and any calendar running London events is added to
+`known_calendars.json` permanently. A cursor in `src/sitemap_crawl.json` makes
+the crawl resumable, so a full pass completes over many runs and then restarts
+from the newest entries.
+
+Tuning:
+
+| Variable | Effect |
+|---|---|
+| `SITEMAP_BATCH_SIZE` | Slugs resolved per run (default 250) |
+| `SKIP_SITEMAP_DISCOVERY=1` | Disable the crawl entirely |
+
+## Which events alert
+
+Following a calendar on Lu.ma is already a relevance signal, so events from
+`tracked_calendars.json` skip keyword filtering — that's what previously dropped
+things like *OpenAI Builder Lounge London* and *Claude Cyber Meetup*, whose
+titles contain no matching keyword.
+
+If a followed calendar is too noisy, opt it back into keyword filtering:
+
+```json
+{
+  "api_id": "cal-xxxx",
+  "slug": "some-calendar",
+  "name": "Some Calendar",
+  "reason": "User subscription",
+  "keyword_filter": true
+}
+```
+
+## Syncing your Lu.ma follows
+
+`src/sync-tracked-calendars.js` rewrites `tracked_calendars.json` from your live
+Lu.ma Following list. It runs automatically before each monitor pass when
+`LUMA_AUTH_COOKIE` is set, and can be run by hand:
+
+```bash
+cd src
+LUMA_AUTH_COOKIE='...' npm run sync-calendars
+```
+
+Get the cookie from a signed-in browser: DevTools → Network → any `api.lu.ma`
+request → copy the whole `Cookie` request header. Store it as the
+`LUMA_AUTH_COOKIE` repository secret. Calendars with `include_all_events` are
+pinned and survive the sync even if you unfollow them.
 
 If the Gmail secrets aren't set yet, the monitor still runs, logs the new events,
 and updates the seen list — it just skips sending. Email turns on the moment you
@@ -25,10 +92,16 @@ add the secrets, with no code change.
 ```
 luma-monitor/
 ├── src/
-│   ├── monitor.js          # the monitor (fetch → filter → diff → email → save)
+│   ├── monitor.js                 # the monitor (fetch → filter → diff → email → save)
+│   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
+│   ├── sitemap-discovery.js       # find London calendars via Lu.ma's sitemap
 │   ├── package.json
 │   ├── package-lock.json
-│   └── seen_events.json    # state: ids already alerted on (tracked in git)
+│   ├── tracked_calendars.json     # config: calendars you follow
+│   ├── known_calendars.json       # state: every calendar ever seen (auto)
+│   ├── seen_events.json           # state: ids already alerted on (auto)
+│   ├── event_meta.json            # state: per-event first-seen metadata (auto)
+│   └── sitemap_crawl.json         # state: sitemap crawl cursor (auto)
 ├── .github/workflows/luma-monitor.yml
 ├── README.md
 └── .gitignore
@@ -64,8 +137,8 @@ GMAIL_USER=you@gmail.com GMAIL_APP_PASSWORD=xxxx NOTIFY_EMAIL=you@gmail.com node
 
 ## Schedule & cost
 
-- Polls every **10 minutes** (`*/10 * * * *`). Edit the `cron` in
-  `.github/workflows/luma-monitor.yml` to change it (e.g. `*/5 * * * *`).
+- Polls every **5 minutes** (`*/5 * * * *`). Edit the `cron` in
+  `.github/workflows/luma-monitor.yml` to change it.
 - GitHub's cron is **best-effort** — runs are often delayed and can be skipped
   under load. Treat the interval as a target, not a guarantee.
 - **Public repo → unlimited free Action minutes.** (On a private repo a 5–10 min
@@ -75,10 +148,13 @@ GMAIL_USER=you@gmail.com GMAIL_APP_PASSWORD=xxxx NOTIFY_EMAIL=you@gmail.com node
 ## Customise
 
 Edit `src/monitor.js`:
-- `CATEGORY_KEYWORDS` — topics to match (currently broad: tech, ai, marketing,
-  entrepreneurship, business, networking, startup, data, product, design, …).
+- `CATEGORY_KEYWORDS` — topics to match for calendars you don't follow.
+- `AI_PATTERNS` — regexes catching AI spellings a word-boundary match misses
+  (`OpenAI`, `GenAI`, `A.I.`, `AI/ML`).
 - `LONDON_SLUG` — swap `london` for another city slug (`sf`, `nyc`, `paris`, …).
 - `PAGINATION_LIMIT` / `MAX_PAGES` — how many events to scan per run.
+- `MAX_CALENDARS_TO_POLL` — priority cap; registry calendars are always polled.
+- `SITEMAP_BATCH_SIZE` — sitemap slugs resolved per run.
 
 ## Notes
 
