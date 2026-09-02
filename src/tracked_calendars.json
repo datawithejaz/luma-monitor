@@ -100,6 +100,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-v8PuFjastlj2pZp",
+      "slug": "corgilondon",
+      "name": "Corgi London",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-qHEDltsO0Gr0WtD",
       "slug": "deepgram",
       "name": "Deepgram",
