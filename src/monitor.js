@@ -304,7 +304,9 @@ async function fetchFollowingCalendars() {
     const data = await fetchJSON("https://api.lu.ma/home/get-following-calendars", {
       Cookie: cookie,
     });
-    const raw = data.calendars || data.entries || data.items || [];
+    // lu.ma returns `infos: [{ calendar, featured_events }]`; the others are
+    // defensive fallbacks in case the shape changes again.
+    const raw = data.infos || data.calendars || data.entries || data.items || [];
     const calendars = raw
       .map((item) => {
         const cal = item.calendar || item;
@@ -316,6 +318,15 @@ async function fetchFollowingCalendars() {
         };
       })
       .filter((cal) => cal.api_id);
+
+    // A valid session with zero subscriptions is possible but unlikely — far more
+    // likely the payload shape moved again, which would otherwise fail silently.
+    if (calendars.length === 0) {
+      console.warn(
+        `Lu.ma subscriptions: 0 calendar(s) — unexpected payload shape? Top-level keys: ${Object.keys(data).join(", ")}`
+      );
+      return [];
+    }
 
     console.log(`Lu.ma subscriptions: ${calendars.length} calendar(s)`);
     return calendars;
