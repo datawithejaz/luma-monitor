@@ -156,6 +156,21 @@ Edit `src/monitor.js`:
 - `MAX_CALENDARS_TO_POLL` — priority cap; registry calendars are always polled.
 - `SITEMAP_BATCH_SIZE` — sitemap slugs resolved per run.
 
+## Auth capability probe
+
+`src/probe_auth.js` is a read-only diagnostic that reports what a signed-in
+session (`LUMA_AUTH_COOKIE`) can see that the anonymous monitor can't. It calls
+each endpoint twice — once anonymously, once with the cookie — and compares.
+
+Run it from Actions → **Luma Auth Capability Probe → Run workflow**, or locally:
+
+```bash
+LUMA_AUTH_COOKIE='...' node src/probe_auth.js
+```
+
+It prints status codes, counts and field names only — never names, emails, bios
+or social handles, because Actions logs on a public repo are public.
+
 ## Notes
 
 - Reads only public Lu.ma listing data via the same endpoints the website uses.
