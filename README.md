@@ -152,10 +152,13 @@ GMAIL_USER=you@gmail.com GMAIL_APP_PASSWORD=xxxx NOTIFY_EMAIL=you@gmail.com node
 
 ## Schedule & cost
 
-- Polls every **5 minutes** (`*/5 * * * *`). Edit the `cron` in
-  `.github/workflows/luma-monitor.yml` to change it.
-- GitHub's cron is **best-effort** — runs are often delayed and can be skipped
-  under load. Treat the interval as a target, not a guarantee.
+- The cron asks for every **5 minutes** (`*/5 * * * *`). Edit it in
+  `.github/workflows/luma-monitor.yml`.
+- **In practice it runs ~7 times a day.** GitHub's scheduled-workflow cron is
+  best-effort and heavily throttled: measured over 8 days, the gap between runs
+  averaged 3.6 hours (median 2.9h, worst 11.2h) against the 5 minutes requested.
+  Tightening the cron does not help — closing this gap needs an external trigger
+  (a scheduler calling `workflow_dispatch`) or a runner outside GitHub cron.
 - **Public repo → unlimited free Action minutes.** (On a private repo a 5–10 min
   cron would exceed the 2,000 free minutes/month; widen the interval if you make
   it private.)
