@@ -6,6 +6,12 @@ on:
     # still be delayed under platform load, but this is the fastest practical interval.
     - cron: "*/5 * * * *"
   workflow_dispatch: {}   # manual "Run workflow" button for testing
+  # Also run on pushes so agents/PRs can verify secrets without workflow_dispatch
+  # permission. Bot commits use [skip ci] and will not re-trigger.
+  push:
+    branches:
+      - main
+      - "cursor/**"
 
 permissions:
   contents: write         # needed to commit seen_events.json back
