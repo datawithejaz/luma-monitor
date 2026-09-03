@@ -88,7 +88,14 @@ async function probeSession() {
   section("Session");
   const res = await request("https://api.lu.ma/home/get-following-calendars", { auth: true });
   const ok = res.status === 200;
-  const count = (res.json?.calendars || res.json?.entries || res.json?.items || []).length;
+  // lu.ma returns follows under `infos`; the rest are older/alternate shapes.
+  const count = (
+    res.json?.infos ||
+    res.json?.calendars ||
+    res.json?.entries ||
+    res.json?.items ||
+    []
+  ).length;
   record(
     "Cookie is a valid signed-in session",
     ok,
