@@ -54,6 +54,11 @@
     "first_seen_at": "2026-08-12T15:37:54.176Z",
     "first_alerted_at": "2026-08-12T15:37:55.856Z"
   },
+  "evt-298UICmngbSOVHg": {
+    "name": "Open Code #22",
+    "first_seen_at": "2026-09-03T18:39:12.018Z",
+    "first_alerted_at": "2026-09-03T18:39:13.755Z"
+  },
   "evt-2IxZ46V7WhUptDq": {
     "name": "Cursor iOS London Hackathon",
     "first_seen_at": "2026-07-05T15:23:35.991Z",
@@ -103,6 +108,11 @@
     "name": "Cursor Cybersecurity London Hackathon",
     "first_seen_at": "2026-07-19T23:11:30.580Z",
     "first_alerted_at": "2026-07-19T23:11:33.737Z"
+  },
+  "evt-4afo3DU3OqLPQfA": {
+    "name": "Open Code #20",
+    "first_seen_at": "2026-09-03T18:39:12.018Z",
+    "first_alerted_at": "2026-09-03T18:39:13.755Z"
   },
   "evt-4bNrnZHcsokiIz5": {
     "name": "Peer Suite | Women's Networking Morning",
@@ -1281,6 +1291,11 @@
     "name": "Founder Cowork Club: Focus and Flow with Special Guest Lindsay Brielle Strouse",
     "first_seen_at": "2026-08-04T23:35:25.257Z",
     "first_alerted_at": "2026-08-04T23:35:27.940Z"
+  },
+  "evt-t90eLlxPaTK1V0F": {
+    "name": "Open Code #21",
+    "first_seen_at": "2026-09-03T18:39:12.018Z",
+    "first_alerted_at": "2026-09-03T18:39:13.755Z"
   },
   "evt-tADHGhKElP7Za4u": {
     "name": "AI After 5 x C-réer: What happens after 5?",
