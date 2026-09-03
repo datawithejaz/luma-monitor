@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node monitor.js",
     "sync-calendars": "node sync-tracked-calendars.js",
-    "test": "node monitor.js"
+    "probe-auth": "node probe_auth.js",
+    "test": "node --test"
   },
   "dependencies": {
     "nodemailer": "^9.0.1"
