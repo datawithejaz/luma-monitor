@@ -67,6 +67,26 @@ If a followed calendar is too noisy, opt it back into keyword filtering:
 }
 ```
 
+## One alert per series
+
+Lu.ma gives every date of a recurring event its own id, so a weekly meetup looks
+like a stream of unrelated new events. `src/alerting.js` collapses them in two
+passes:
+
+1. **Within a run** — new events are grouped by organiser plus a normalised
+   title, and only the nearest upcoming date is emailed. Normalising strips the
+   things that differ between instalments: `#21`, `Class 2.0`, `4th`,
+   `September 2026`, a `Brand:` prefix, and singular/plural drift. So *Open Code
+   #20*, *#21* and *#22* are one alert, not three, and *TRD: London Startups
+   Operator RunClub* matches *London Startup Operators RunClub*.
+2. **Across runs** — a series that already emailed within the last 30 days is
+   held back, because the later dates arrive in separate runs that never see
+   each other. Held events are recorded in `seen_events.json` so they don't
+   queue up.
+
+Set `SERIES_REALERT_DAYS` to change the window, or `0` to alert on every date.
+Both passes log what they held back, prefixed `↳ skip:` and `↳ hold:`.
+
 ## Syncing your Lu.ma follows
 
 **Required for new follows.** Without `LUMA_AUTH_COOKIE`, the workflow never
@@ -98,8 +118,11 @@ add the secrets, with no code change.
 luma-monitor/
 ├── src/
 │   ├── monitor.js                 # the monitor (fetch → filter → diff → email → save)
+│   ├── alerting.js                # series dedupe + email batching (unit-tested)
+│   ├── alerting.test.js           # node --test suite
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
 │   ├── sitemap-discovery.js       # find London calendars via Lu.ma's sitemap
+│   ├── probe_auth.js              # read-only LUMA_AUTH_COOKIE diagnostic
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── tracked_calendars.json     # config: calendars you follow
@@ -108,9 +131,30 @@ luma-monitor/
 │   ├── event_meta.json            # state: per-event first-seen metadata (auto)
 │   └── sitemap_crawl.json         # state: sitemap crawl cursor (auto)
 ├── .github/workflows/luma-monitor.yml
+├── .github/workflows/luma-auth-probe.yml
+├── .github/workflows/test.yml
 ├── README.md
 └── .gitignore
 ```
+
+## Tests
+
+```bash
+cd src
+npm test        # node --test — no network, no secrets
+```
+
+Covers series dedupe and email batching (`src/alerting.js`). CI runs it on every
+pull request and on pushes to `main`. The fetch/filter path is not covered — it
+needs the live Lu.ma API — so exercise it with a real run:
+
+```bash
+cd src
+SKIP_SITEMAP_DISCOVERY=1 node monitor.js   # prints what it would send
+```
+
+Without the Gmail secrets this reports new events without sending or recording
+them, which makes it safe to run against the committed state.
 
 ## Setup
 
@@ -163,6 +207,26 @@ GMAIL_USER=you@gmail.com GMAIL_APP_PASSWORD=xxxx NOTIFY_EMAIL=you@gmail.com node
   cron would exceed the 2,000 free minutes/month; widen the interval if you make
   it private.)
 
+### Getting the real 5-minute cadence
+
+Only an external trigger fixes the throttling. The workflow already accepts
+`workflow_dispatch`, so any scheduler that can make one HTTPS request will do —
+cron-job.org, a Cloudflare Worker cron, or a box you already own:
+
+```bash
+curl -fsS -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_PAT" \
+  https://api.github.com/repos/datawithejaz/luma-monitor/actions/workflows/luma-monitor.yml/dispatches \
+  -d '{"ref":"main"}'
+```
+
+`GITHUB_PAT` needs a fine-grained token scoped to this repo with **Actions:
+read and write**. Keep it in the scheduler — never as a repo secret, since a
+token that can dispatch workflows shouldn't live in a public repo's settings.
+The workflow's `concurrency` group already stops overlapping runs, so an
+over-eager scheduler queues rather than doubles up.
+
 ## Customise
 
 Edit `src/monitor.js`:
@@ -171,8 +235,12 @@ Edit `src/monitor.js`:
   (`OpenAI`, `GenAI`, `A.I.`, `AI/ML`).
 - `LONDON_SLUG` — swap `london` for another city slug (`sf`, `nyc`, `paris`, …).
 - `PAGINATION_LIMIT` / `MAX_PAGES` — how many events to scan per run.
-- `MAX_CALENDARS_TO_POLL` — priority cap; registry calendars are always polled.
+- `MAX_CALENDARS_TO_POLL` — timeout guard on the final poll list (default 400,
+  currently ~199 in use). Calendars are dropped lowest-priority first, so
+  registry stragglers go before anything you follow.
 - `SITEMAP_BATCH_SIZE` — sitemap slugs resolved per run.
+- `MAX_EVENTS_PER_EMAIL` — events per message before it splits into parts.
+- `SERIES_REALERT_DAYS` — cooldown before a recurring series can alert again.
 
 ## Auth capability probe
 
