@@ -108,6 +108,13 @@ request → copy the whole `Cookie` request header. Store it as the
 `LUMA_AUTH_COOKIE` repository secret. Calendars with `include_all_events` are
 pinned and survive the sync even if you unfollow them.
 
+The sync refuses to write when Lu.ma reports zero follows, or when the list
+would more than halve. A 200 response with a renamed field looks exactly like
+"you follow nothing", and that is how `calendars` → `infos` once emptied this
+file and quietly sent every followed calendar back through keyword filtering.
+The step fails loudly instead; use `ALLOW_TRACKED_SHRINK=1` if you really did
+unfollow that many.
+
 If the Gmail secrets aren't set yet, the monitor still runs, logs the new events,
 and updates the seen list — it just skips sending. Email turns on the moment you
 add the secrets, with no code change.
