@@ -23,14 +23,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: npm
-          cache-dependency-path: src/package-lock.json
 
-      - name: Install dependencies
-        run: npm ci
-        working-directory: ./src
-
-      # No network and no secrets: these cover alert shaping only.
+      # Unit tests import only Node builtins. npm ci hung until this job's
+      # 5-minute timeout (run 33817356913) downloading nodemailer, which the
+      # suite never loads.
       - name: Run tests
         run: npm test
         working-directory: ./src
