@@ -130,10 +130,36 @@ function mergeTracked(existing, subscriptions) {
   return { merged, removed, added };
 }
 
+/**
+ * A 200 response with an unfamiliar payload shape is indistinguishable from
+ * "you follow nothing" — that is exactly how Lu.ma renaming `calendars` to
+ * `infos` silently emptied this list and sent every followed calendar back
+ * through keyword filtering. Refuse to rewrite the file instead of trusting it.
+ */
+function assertPlausibleSync(existing, subscriptions, merged) {
+  if (subscriptions.length === 0) {
+    throw new Error(
+      "Lu.ma returned 0 followed calendars. That normally means an expired session or a " +
+        "changed payload shape, not that you unfollowed everything. Left " +
+        "tracked_calendars.json untouched — set ALLOW_TRACKED_SHRINK=1 to override."
+    );
+  }
+
+  if (process.env.ALLOW_TRACKED_SHRINK === "1" || existing.length === 0) return;
+
+  if (merged.length * 2 < existing.length) {
+    throw new Error(
+      `Sync would cut tracked calendars from ${existing.length} to ${merged.length}. ` +
+        "Refusing as a likely API change — set ALLOW_TRACKED_SHRINK=1 if intended."
+    );
+  }
+}
+
 async function main() {
   const existing = loadTracked();
   const subscriptions = await fetchFollowingCalendars();
   const { merged, removed, added } = mergeTracked(existing, subscriptions);
+  assertPlausibleSync(existing, subscriptions, merged);
 
   console.log(`Lu.ma subscriptions: ${subscriptions.length}`);
   console.log(`Pinned manual entries kept: ${existing.filter(isHardPinned).length}`);
@@ -155,7 +181,12 @@ async function main() {
   console.log(`\nWrote ${TRACKED_CALENDARS_PATH}`);
 }
 
-main().catch((err) => {
-  console.error("Fatal:", err.message);
-  process.exit(1);
-});
+// Guarded so the merge logic can be required from tests without syncing.
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("Fatal:", err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = { assertPlausibleSync, mergeTracked };

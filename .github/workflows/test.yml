@@ -1,0 +1,39 @@
+name: Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Unit tests import only Node builtins. npm ci hung until this job's
+      # 5-minute timeout (run 33817356913) downloading nodemailer, which the
+      # suite never loads.
+      - name: Run tests
+        run: npm test
+        working-directory: ./src
+
+      - name: Check every script parses
+        run: |
+          for file in monitor.js sync-tracked-calendars.js sitemap-discovery.js probe_auth.js alerting.js calendar-digest.js; do
+            node --check "$file"
+          done
+        working-directory: ./src

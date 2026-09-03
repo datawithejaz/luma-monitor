@@ -41,12 +41,18 @@ slugs (default 250, ~40s), and any calendar running London events is added to
 the crawl resumable, so a full pass completes over many runs and then restarts
 from the newest entries.
 
+Newly found calendars that you don't already follow land in a **weekly digest
+email** with a follow link. Follow them on Lu.ma and the next run's cookie sync
+adds them to `tracked_calendars.json` — you don't edit the repo. See
+[Weekly calendar digest](#weekly-calendar-digest).
+
 Tuning:
 
 | Variable | Effect |
 |---|---|
 | `SITEMAP_BATCH_SIZE` | Slugs resolved per run (default 250) |
 | `SKIP_SITEMAP_DISCOVERY=1` | Disable the crawl entirely |
+| `CALENDAR_DIGEST_DAYS` | Days between unfollowed-calendar emails (default 7; `0` disables) |
 
 ## Which events alert
 
@@ -66,6 +72,26 @@ If a followed calendar is too noisy, opt it back into keyword filtering:
   "keyword_filter": true
 }
 ```
+
+## One alert per series
+
+Lu.ma gives every date of a recurring event its own id, so a weekly meetup looks
+like a stream of unrelated new events. `src/alerting.js` collapses them in two
+passes:
+
+1. **Within a run** — new events are grouped by organiser plus a normalised
+   title, and only the nearest upcoming date is emailed. Normalising strips the
+   things that differ between instalments: `#21`, `Class 2.0`, `4th`,
+   `September 2026`, a `Brand:` prefix, and singular/plural drift. So *Open Code
+   #20*, *#21* and *#22* are one alert, not three, and *TRD: London Startups
+   Operator RunClub* matches *London Startup Operators RunClub*.
+2. **Across runs** — a series that already emailed within the last 30 days is
+   held back, because the later dates arrive in separate runs that never see
+   each other. Held events are recorded in `seen_events.json` so they don't
+   queue up.
+
+Set `SERIES_REALERT_DAYS` to change the window, or `0` to alert on every date.
+Both passes log what they held back, prefixed `↳ skip:` and `↳ hold:`.
 
 ## Syncing your Lu.ma follows
 
@@ -88,6 +114,29 @@ request → copy the whole `Cookie` request header. Store it as the
 `LUMA_AUTH_COOKIE` repository secret. Calendars with `include_all_events` are
 pinned and survive the sync even if you unfollow them.
 
+The sync refuses to write when Lu.ma reports zero follows, or when the list
+would more than halve. A 200 response with a renamed field looks exactly like
+"you follow nothing", and that is how `calendars` → `infos` once emptied this
+file and quietly sent every followed calendar back through keyword filtering.
+The step fails loudly instead; use `ALLOW_TRACKED_SHRINK=1` if you really did
+unfollow that many.
+
+## Weekly calendar digest
+
+Once a week the monitor emails London calendars it discovered that you don't
+follow yet — name, upcoming London event count, how they were found (sitemap /
+discover / featured), and a `https://lu.ma/<slug>` follow link.
+
+Follow the ones you want on Lu.ma. The next run's `LUMA_AUTH_COOKIE` sync writes
+them into `tracked_calendars.json` and they start alerting on every in-person
+London event. Nothing is added to the tracked list from the digest itself.
+
+Already-followed calendars and the pre-existing registry are omitted, so the
+first email isn't a dump of everything already in `known_calendars.json`. The
+first digest goes out as soon as something new is found; after that it waits
+7 days. Set `CALENDAR_DIGEST_DAYS=0` to disable, or a different number to
+change the interval.
+
 If the Gmail secrets aren't set yet, the monitor still runs, logs the new events,
 and updates the seen list — it just skips sending. Email turns on the moment you
 add the secrets, with no code change.
@@ -98,19 +147,43 @@ add the secrets, with no code change.
 luma-monitor/
 ├── src/
 │   ├── monitor.js                 # the monitor (fetch → filter → diff → email → save)
+│   ├── alerting.js                # series dedupe + email batching (unit-tested)
+│   ├── alerting.test.js           # node --test suite
+│   ├── calendar-digest.js         # weekly unfollowed-calendar email (unit-tested)
+│   ├── calendar-digest.test.js
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
-│   ├── sitemap-discovery.js       # find London calendars via Lu.ma's sitemap
-│   ├── package.json
-│   ├── package-lock.json
 │   ├── tracked_calendars.json     # config: calendars you follow
 │   ├── known_calendars.json       # state: every calendar ever seen (auto)
+│   ├── calendar_digest.json       # state: last weekly calendar digest (auto)
 │   ├── seen_events.json           # state: ids already alerted on (auto)
 │   ├── event_meta.json            # state: per-event first-seen metadata (auto)
 │   └── sitemap_crawl.json         # state: sitemap crawl cursor (auto)
 ├── .github/workflows/luma-monitor.yml
+├── .github/workflows/luma-auth-probe.yml
+├── .github/workflows/test.yml
 ├── README.md
 └── .gitignore
 ```
+
+## Tests
+
+```bash
+cd src
+npm test        # node --test — no network, no secrets
+```
+
+Covers series dedupe, email batching, the calendar-sync guards, and the weekly
+calendar digest. CI runs it on every pull request and on pushes to `main`. The
+fetch/filter path is not covered — it needs the live Lu.ma API — so exercise it
+with a real run:
+
+```bash
+cd src
+SKIP_SITEMAP_DISCOVERY=1 node monitor.js   # prints what it would send
+```
+
+Without the Gmail secrets this reports new events without sending or recording
+them, which makes it safe to run against the committed state.
 
 ## Setup
 
@@ -152,13 +225,36 @@ GMAIL_USER=you@gmail.com GMAIL_APP_PASSWORD=xxxx NOTIFY_EMAIL=you@gmail.com node
 
 ## Schedule & cost
 
-- Polls every **5 minutes** (`*/5 * * * *`). Edit the `cron` in
-  `.github/workflows/luma-monitor.yml` to change it.
-- GitHub's cron is **best-effort** — runs are often delayed and can be skipped
-  under load. Treat the interval as a target, not a guarantee.
+- The cron asks for every **5 minutes** (`*/5 * * * *`). Edit it in
+  `.github/workflows/luma-monitor.yml`.
+- **In practice it runs ~7 times a day.** GitHub's scheduled-workflow cron is
+  best-effort and heavily throttled: measured over 8 days, the gap between runs
+  averaged 3.6 hours (median 2.9h, worst 11.2h) against the 5 minutes requested.
+  Tightening the cron does not help — closing this gap needs an external trigger
+  (a scheduler calling `workflow_dispatch`) or a runner outside GitHub cron.
 - **Public repo → unlimited free Action minutes.** (On a private repo a 5–10 min
   cron would exceed the 2,000 free minutes/month; widen the interval if you make
   it private.)
+
+### Getting the real 5-minute cadence
+
+Only an external trigger fixes the throttling. The workflow already accepts
+`workflow_dispatch`, so any scheduler that can make one HTTPS request will do —
+cron-job.org, a Cloudflare Worker cron, or a box you already own:
+
+```bash
+curl -fsS -X POST \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer $GITHUB_PAT" \
+  https://api.github.com/repos/datawithejaz/luma-monitor/actions/workflows/luma-monitor.yml/dispatches \
+  -d '{"ref":"main"}'
+```
+
+`GITHUB_PAT` needs a fine-grained token scoped to this repo with **Actions:
+read and write**. Keep it in the scheduler — never as a repo secret, since a
+token that can dispatch workflows shouldn't live in a public repo's settings.
+The workflow's `concurrency` group already stops overlapping runs, so an
+over-eager scheduler queues rather than doubles up.
 
 ## Customise
 
@@ -168,8 +264,14 @@ Edit `src/monitor.js`:
   (`OpenAI`, `GenAI`, `A.I.`, `AI/ML`).
 - `LONDON_SLUG` — swap `london` for another city slug (`sf`, `nyc`, `paris`, …).
 - `PAGINATION_LIMIT` / `MAX_PAGES` — how many events to scan per run.
-- `MAX_CALENDARS_TO_POLL` — priority cap; registry calendars are always polled.
+- `MAX_CALENDARS_TO_POLL` — timeout guard on the final poll list (default 400,
+  currently ~199 in use). Calendars are dropped lowest-priority first, so
+  registry stragglers go before anything you follow.
 - `SITEMAP_BATCH_SIZE` — sitemap slugs resolved per run.
+- `MAX_EVENTS_PER_EMAIL` — events per message before it splits into parts.
+- `SERIES_REALERT_DAYS` — cooldown before a recurring series can alert again.
+- `CALENDAR_DIGEST_DAYS` — how often to email newly discovered unfollowed
+  calendars (default 7; `0` disables).
 
 ## Auth capability probe
 
