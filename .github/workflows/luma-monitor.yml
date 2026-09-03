@@ -6,6 +6,12 @@ on:
     # still be delayed under platform load, but this is the fastest practical interval.
     - cron: "*/5 * * * *"
   workflow_dispatch: {}   # manual "Run workflow" button for testing
+  # Also run on pushes so agents/PRs can verify secrets without workflow_dispatch
+  # permission. Bot commits use [skip ci] and will not re-trigger.
+  push:
+    branches:
+      - main
+      - "cursor/**"
 
 permissions:
   contents: write         # needed to commit seen_events.json back
@@ -40,8 +46,13 @@ jobs:
         run: |
           if [ -n "$LUMA_AUTH_COOKIE" ]; then
             node src/sync-tracked-calendars.js
+            echo "### Calendar sync" >> "$GITHUB_STEP_SUMMARY"
+            echo "Synced \`tracked_calendars.json\` from your Lu.ma Following list." >> "$GITHUB_STEP_SUMMARY"
           else
+            echo "::warning title=LUMA_AUTH_COOKIE missing::New Lu.ma follows will NOT be tracked. Add the LUMA_AUTH_COOKIE repository secret (Cookie header from a signed-in api.lu.ma request), then re-run this workflow."
             echo "LUMA_AUTH_COOKIE not set — using tracked_calendars.json as-is."
+            echo "### Calendar sync" >> "$GITHUB_STEP_SUMMARY"
+            echo "⚠️ **\`LUMA_AUTH_COOKIE\` is not set.** New follows on Lu.ma are ignored until you add this repository secret." >> "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Run monitor

@@ -69,6 +69,11 @@ If a followed calendar is too noisy, opt it back into keyword filtering:
 
 ## Syncing your Lu.ma follows
 
+**Required for new follows.** Without `LUMA_AUTH_COOKIE`, the workflow never
+refreshes `tracked_calendars.json` — calendars you follow on Lu.ma after the
+last manual sync stay invisible to the include-all filter (and may never be
+polled). Every Actions run currently logs a warning when this secret is missing.
+
 `src/sync-tracked-calendars.js` rewrites `tracked_calendars.json` from your live
 Lu.ma Following list. It runs automatically before each monitor pass when
 `LUMA_AUTH_COOKIE` is set, and can be run by hand:
@@ -116,11 +121,21 @@ automatically once enabled).
 ### 2. Add the Gmail secrets (required for email)
 Repo → **Settings → Secrets and variables → Actions → New repository secret**:
 
+| Secret | Value |
+|---|---|
+| `GMAIL_USER` | your Gmail address |
+| `GMAIL_APP_PASSWORD` | [App Password](https://myaccount.google.com/apppasswords) |
+| `NOTIFY_EMAIL` | where alerts should go |
 
 Create an App Password at <https://myaccount.google.com/apppasswords> (requires
 2-Step Verification). Gmail rejects your normal account password from scripts.
 
-### 3. Test it
+### 3. Add `LUMA_AUTH_COOKIE` (required to track new follows)
+Without this secret, newly followed Lu.ma calendars never enter
+`tracked_calendars.json`. Copy the full `Cookie` header from any signed-in
+`api.lu.ma` request and store it as `LUMA_AUTH_COOKIE`.
+
+### 4. Test it
 Actions → **Luma London Monitor → Run workflow**. Each run writes a summary to the
 Actions log; new events are committed to `src/seen_events.json`.
 
