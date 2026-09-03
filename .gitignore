@@ -13,5 +13,5 @@ _archive/
 Thumbs.db
 
 # Note: src/seen_events.json, src/event_meta.json, src/known_calendars.json,
-# src/sitemap_crawl.json and src/tracked_calendars.json are intentionally
-# tracked — monitor state/config.
+# src/sitemap_crawl.json, src/calendar_digest.json and src/tracked_calendars.json
+# are intentionally tracked — monitor state/config.

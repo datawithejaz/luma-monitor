@@ -41,12 +41,18 @@ slugs (default 250, ~40s), and any calendar running London events is added to
 the crawl resumable, so a full pass completes over many runs and then restarts
 from the newest entries.
 
+Newly found calendars that you don't already follow land in a **weekly digest
+email** with a follow link. Follow them on Lu.ma and the next run's cookie sync
+adds them to `tracked_calendars.json` — you don't edit the repo. See
+[Weekly calendar digest](#weekly-calendar-digest).
+
 Tuning:
 
 | Variable | Effect |
 |---|---|
 | `SITEMAP_BATCH_SIZE` | Slugs resolved per run (default 250) |
 | `SKIP_SITEMAP_DISCOVERY=1` | Disable the crawl entirely |
+| `CALENDAR_DIGEST_DAYS` | Days between unfollowed-calendar emails (default 7; `0` disables) |
 
 ## Which events alert
 
@@ -115,6 +121,22 @@ file and quietly sent every followed calendar back through keyword filtering.
 The step fails loudly instead; use `ALLOW_TRACKED_SHRINK=1` if you really did
 unfollow that many.
 
+## Weekly calendar digest
+
+Once a week the monitor emails London calendars it discovered that you don't
+follow yet — name, upcoming London event count, how they were found (sitemap /
+discover / featured), and a `https://lu.ma/<slug>` follow link.
+
+Follow the ones you want on Lu.ma. The next run's `LUMA_AUTH_COOKIE` sync writes
+them into `tracked_calendars.json` and they start alerting on every in-person
+London event. Nothing is added to the tracked list from the digest itself.
+
+Already-followed calendars and the pre-existing registry are omitted, so the
+first email isn't a dump of everything already in `known_calendars.json`. The
+first digest goes out as soon as something new is found; after that it waits
+7 days. Set `CALENDAR_DIGEST_DAYS=0` to disable, or a different number to
+change the interval.
+
 If the Gmail secrets aren't set yet, the monitor still runs, logs the new events,
 and updates the seen list — it just skips sending. Email turns on the moment you
 add the secrets, with no code change.
@@ -127,13 +149,12 @@ luma-monitor/
 │   ├── monitor.js                 # the monitor (fetch → filter → diff → email → save)
 │   ├── alerting.js                # series dedupe + email batching (unit-tested)
 │   ├── alerting.test.js           # node --test suite
+│   ├── calendar-digest.js         # weekly unfollowed-calendar email (unit-tested)
+│   ├── calendar-digest.test.js
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
-│   ├── sitemap-discovery.js       # find London calendars via Lu.ma's sitemap
-│   ├── probe_auth.js              # read-only LUMA_AUTH_COOKIE diagnostic
-│   ├── package.json
-│   ├── package-lock.json
 │   ├── tracked_calendars.json     # config: calendars you follow
 │   ├── known_calendars.json       # state: every calendar ever seen (auto)
+│   ├── calendar_digest.json       # state: last weekly calendar digest (auto)
 │   ├── seen_events.json           # state: ids already alerted on (auto)
 │   ├── event_meta.json            # state: per-event first-seen metadata (auto)
 │   └── sitemap_crawl.json         # state: sitemap crawl cursor (auto)
@@ -151,9 +172,10 @@ cd src
 npm test        # node --test — no network, no secrets
 ```
 
-Covers series dedupe and email batching (`src/alerting.js`). CI runs it on every
-pull request and on pushes to `main`. The fetch/filter path is not covered — it
-needs the live Lu.ma API — so exercise it with a real run:
+Covers series dedupe, email batching, the calendar-sync guards, and the weekly
+calendar digest. CI runs it on every pull request and on pushes to `main`. The
+fetch/filter path is not covered — it needs the live Lu.ma API — so exercise it
+with a real run:
 
 ```bash
 cd src
@@ -248,6 +270,8 @@ Edit `src/monitor.js`:
 - `SITEMAP_BATCH_SIZE` — sitemap slugs resolved per run.
 - `MAX_EVENTS_PER_EMAIL` — events per message before it splits into parts.
 - `SERIES_REALERT_DAYS` — cooldown before a recurring series can alert again.
+- `CALENDAR_DIGEST_DAYS` — how often to email newly discovered unfollowed
+  calendars (default 7; `0` disables).
 
 ## Auth capability probe
 

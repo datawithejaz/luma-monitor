@@ -10,12 +10,19 @@ const {
   dedupeRecurringSeries,
   suppressAlertedSeries,
 } = require("./alerting");
+const {
+  DEFAULT_DIGEST_DAYS,
+  formatDigestEmail,
+  selectPendingCalendars,
+  shouldSendDigest,
+} = require("./calendar-digest");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
 const META_PATH = path.join(__dirname, "event_meta.json");
 const TRACKED_CALENDARS_PATH = path.join(__dirname, "tracked_calendars.json");
 const KNOWN_CALENDARS_PATH = path.join(__dirname, "known_calendars.json");
+const DIGEST_PATH = path.join(__dirname, "calendar_digest.json");
 const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
@@ -32,6 +39,12 @@ const MAX_EVENTS_PER_EMAIL = 8;
 const SERIES_REALERT_DAYS = parseDaysEnv(
   process.env.SERIES_REALERT_DAYS,
   DEFAULT_REALERT_DAYS
+);
+// Weekly email of newly discovered calendars you don't follow yet.
+// Set CALENDAR_DIGEST_DAYS=0 to disable.
+const CALENDAR_DIGEST_DAYS = parseDaysEnv(
+  process.env.CALENDAR_DIGEST_DAYS,
+  DEFAULT_DIGEST_DAYS
 );
 
 function parseDaysEnv(raw, fallback) {
@@ -262,17 +275,44 @@ function saveKnownCalendars(registry) {
   fs.writeFileSync(KNOWN_CALENDARS_PATH, JSON.stringify(sorted, null, 2));
 }
 
+function loadCalendarDigest() {
+  try {
+    return JSON.parse(fs.readFileSync(DIGEST_PATH, "utf8"));
+  } catch {
+    return {};
+  }
+}
+
+function saveCalendarDigest(digest) {
+  fs.writeFileSync(DIGEST_PATH, JSON.stringify(digest, null, 2) + "\n");
+}
+
 function upsertCalendar(registry, cal) {
   if (!cal?.api_id) return;
-  const existing = registry[cal.api_id] || {};
+  const existing = registry[cal.api_id];
+  const isNew = !existing;
+  const now = new Date().toISOString();
+  // listKnownCalendars tags everything "known" on reload, which would wipe the
+  // original discovery source (sitemap / discover / featured) that the weekly
+  // digest uses. Prefer a specific incoming source, else keep the stored one.
+  const incomingSource = cal.source && cal.source !== "known" ? cal.source : null;
+  const storedSource =
+    existing?.source && existing.source !== "known" ? existing.source : null;
   registry[cal.api_id] = {
     api_id: cal.api_id,
-    name: cal.name || existing.name || "",
-    slug: cal.slug || existing.slug || "",
-    source: cal.source || existing.source || "unknown",
-    reason: cal.reason || existing.reason || "",
-    last_seen_at: new Date().toISOString(),
+    name: cal.name || existing?.name || "",
+    slug: cal.slug || existing?.slug || "",
+    source: incomingSource || storedSource || cal.source || existing?.source || "unknown",
+    reason: cal.reason || existing?.reason || "",
+    last_seen_at: now,
+    ...(existing?.london_event_count != null
+      ? { london_event_count: existing.london_event_count }
+      : {}),
   };
+  // Only brand-new calendars get first_seen_at, so the first digest isn't a
+  // dump of the whole pre-existing registry.
+  const firstSeen = existing?.first_seen_at || (isNew ? now : undefined);
+  if (firstSeen) registry[cal.api_id].first_seen_at = firstSeen;
 }
 
 function extractCalendarsFromEntries(entries, source) {
@@ -556,6 +596,9 @@ async function fetchAllSources(placeId) {
     try {
       const items = (await fetchCalendarItems(cal.api_id)).filter(isLondonEntry);
       merged.push(...items);
+      if (knownRegistry[cal.api_id]) {
+        knownRegistry[cal.api_id].london_event_count = items.length;
+      }
       if (items.length > 0) {
         console.log(`  • ${cal.name || cal.api_id}: ${items.length} London event(s)`);
       }
@@ -564,9 +607,11 @@ async function fetchAllSources(placeId) {
     }
   }
 
+  saveKnownCalendars(knownRegistry);
+
   const unique = dedupeEntries(merged);
   console.log(`Total unique events: ${unique.length} (discover ${discover.length}, +${unique.length - discover.length} from calendars)`);
-  return unique;
+  return { entries: unique, knownRegistry };
 }
 
 function formatPrice(ticket) {
@@ -726,12 +771,22 @@ function batchEmailSubject(events) {
   return subject;
 }
 
-/** Send one batched email when multiple new events are found in the same run. */
-async function alertNewEvents(events, seen, meta) {
-  const transporter = nodemailer.createTransport({
+function createMailer() {
+  return nodemailer.createTransport({
     service: "gmail",
     auth: { user: process.env.GMAIL_USER, pass: process.env.GMAIL_APP_PASSWORD },
   });
+}
+
+function describeSmtp(info) {
+  const accepted = info?.accepted?.length ?? 0;
+  const rejected = info?.rejected?.length ?? 0;
+  return { accepted, rejected, response: info?.response || "no response" };
+}
+
+/** Send one batched email when multiple new events are found in the same run. */
+async function alertNewEvents(events, seen, meta) {
+  const transporter = createMailer();
 
   const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
   const chunks = chunkEvents(sorted, MAX_EVENTS_PER_EMAIL);
@@ -755,12 +810,11 @@ async function alertNewEvents(events, seen, meta) {
 
     // Addresses are repo secrets, so log counts and the SMTP reply only — never
     // the recipient itself. Actions logs on a public repo are public.
-    const accepted = info?.accepted?.length ?? 0;
-    const rejected = info?.rejected?.length ?? 0;
+    const { accepted, rejected, response } = describeSmtp(info);
     if (accepted === 0) {
       console.error(
         `❌ Email NOT accepted${batchLabel} — ${rejected} recipient(s) rejected. ` +
-          `SMTP said: ${info?.response || "no response"}. Leaving ${count} event(s) ` +
+          `SMTP said: ${response}. Leaving ${count} event(s) ` +
           "unmarked so the next run retries them."
       );
       break;
@@ -777,12 +831,84 @@ async function alertNewEvents(events, seen, meta) {
     emails++;
     console.log(
       `✅ Email sent — ${count} new event(s) in one message${batchLabel} ` +
-        `[SMTP accepted ${accepted}, rejected ${rejected}: ${info?.response || "no response"}]`
+        `[SMTP accepted ${accepted}, rejected ${rejected}: ${response}]`
     );
     chunk.forEach((event) => console.log(`   • ${event.name}`));
   }
 
   return { sent: totalSent, emails };
+}
+
+/**
+ * Once a week, email newly discovered calendars that aren't in your follows.
+ * Follow them on Lu.ma; the cookie sync writes them into tracked_calendars.json
+ * on the next run. Nothing is added to the tracked list from here.
+ */
+async function maybeSendCalendarDigest(knownRegistry) {
+  const digest = loadCalendarDigest();
+  const trackedIds = new Set(loadTrackedCalendars().map((cal) => cal.api_id));
+  const pending = selectPendingCalendars({
+    registry: knownRegistry,
+    trackedIds,
+    lastSentAt: digest.last_sent_at || null,
+  });
+  const send = shouldSendDigest({
+    lastSentAt: digest.last_sent_at || null,
+    pendingCount: pending.length,
+    intervalDays: CALENDAR_DIGEST_DAYS,
+  });
+
+  if (!send) {
+    if (CALENDAR_DIGEST_DAYS <= 0) return;
+    if (pending.length > 0) {
+      console.log(
+        `Calendar digest: ${pending.length} new untracked calendar(s) waiting ` +
+          `(sends every ${CALENDAR_DIGEST_DAYS} day(s)).`
+      );
+    } else {
+      console.log("Calendar digest: nothing new to follow this week.");
+    }
+    return;
+  }
+
+  console.log(`Calendar digest: ${pending.length} new untracked calendar(s).`);
+  pending.forEach((cal) => {
+    const url = cal.slug ? `https://lu.ma/${cal.slug}` : "(no slug)";
+    console.log(`   • ${cal.name || cal.api_id} — ${cal.london_event_count ?? "?"} London event(s) — ${url}`);
+  });
+
+  if (!emailConfigured()) {
+    console.warn(
+      "⚠️  Email not configured — calendar digest not sent. " +
+        "It will retry on the next run that still has pending calendars."
+    );
+    return;
+  }
+
+  const { subject, text } = formatDigestEmail(pending);
+  const info = await createMailer().sendMail({
+    from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
+    to: process.env.NOTIFY_EMAIL,
+    subject,
+    text,
+  });
+  const { accepted, rejected, response } = describeSmtp(info);
+  if (accepted === 0) {
+    console.error(
+      `❌ Calendar digest NOT accepted — ${rejected} recipient(s) rejected. ` +
+        `SMTP said: ${response}. Will retry next run.`
+    );
+    return;
+  }
+
+  saveCalendarDigest({
+    last_sent_at: new Date().toISOString(),
+    last_count: pending.length,
+  });
+  console.log(
+    `✅ Calendar digest sent — ${pending.length} calendar(s) ` +
+      `[SMTP accepted ${accepted}, rejected ${rejected}: ${response}]`
+  );
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -792,7 +918,7 @@ async function main() {
   const seen = loadSeen();
   const meta = loadMeta();
   const placeId = await resolvePlaceId(LONDON_SLUG);
-  const entries = await fetchAllSources(placeId);
+  const { entries, knownRegistry } = await fetchAllSources(placeId);
 
   const normalised = entries.map(normalise);
   const includeAllCalendars = loadIncludeAllCalendarIds();
@@ -871,6 +997,7 @@ async function main() {
 
   saveSeen(seen);
   saveMeta(meta);
+  await maybeSendCalendarDigest(knownRegistry);
   console.log(`Done. Seen pool: ${seen.size}`);
 }
 

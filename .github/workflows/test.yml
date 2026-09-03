@@ -36,7 +36,7 @@ jobs:
 
       - name: Check every script parses
         run: |
-          for file in monitor.js sync-tracked-calendars.js sitemap-discovery.js probe_auth.js alerting.js; do
+          for file in monitor.js sync-tracked-calendars.js sitemap-discovery.js probe_auth.js alerting.js calendar-digest.js; do
             node --check "$file"
           done
         working-directory: ./src
