@@ -14,6 +14,9 @@ const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
 const MAX_CALENDARS_TO_POLL = 80; // safety cap when many calendars are discovered
 const SITEMAP_BATCH_SIZE = 250; // sitemap slugs resolved per run (~35s)
+// Keep each alert email small — one giant batch (40+) often lands in spam
+// or gets quietly dropped even when SMTP accepts it.
+const MAX_EVENTS_PER_EMAIL = 8;
 const LONDON_TZ = "Europe/London";
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
@@ -748,30 +751,40 @@ async function alertNewEvents(events, seen, meta) {
   });
 
   const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
-  const count = sorted.length;
+  let totalSent = 0;
 
-  const text =
-    `${sorted.map((event) => formatEventBlock(event, meta)).join("\n\n")}\n\n` +
-    `---\nLuma London: https://lu.ma/london`;
+  for (let i = 0; i < sorted.length; i += MAX_EVENTS_PER_EMAIL) {
+    const chunk = sorted.slice(i, i + MAX_EVENTS_PER_EMAIL);
+    const count = chunk.length;
+    const batchLabel =
+      sorted.length > MAX_EVENTS_PER_EMAIL
+        ? ` (part ${Math.floor(i / MAX_EVENTS_PER_EMAIL) + 1}/${Math.ceil(sorted.length / MAX_EVENTS_PER_EMAIL)})`
+        : "";
 
-  await transporter.sendMail({
-    from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
-    to: process.env.NOTIFY_EMAIL,
-    subject: batchEmailSubject(sorted),
-    text,
-  });
+    const text =
+      `${chunk.map((event) => formatEventBlock(event, meta)).join("\n\n")}\n\n` +
+      `---\nLuma London: https://lu.ma/london`;
 
-  const alertedAt = new Date().toISOString();
-  sorted.forEach((event) => {
-    seen.add(event.api_id);
-    if (meta[event.api_id]) meta[event.api_id].first_alerted_at = alertedAt;
-  });
-  saveSeen(seen);
-  saveMeta(meta);
-  console.log(`✅ Email sent — ${count} new event(s) in one message`);
-  sorted.forEach((event) => console.log(`   • ${event.name}`));
+    await transporter.sendMail({
+      from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
+      to: process.env.NOTIFY_EMAIL,
+      subject: batchEmailSubject(chunk) + batchLabel,
+      text,
+    });
 
-  return count;
+    const alertedAt = new Date().toISOString();
+    chunk.forEach((event) => {
+      seen.add(event.api_id);
+      if (meta[event.api_id]) meta[event.api_id].first_alerted_at = alertedAt;
+    });
+    saveSeen(seen);
+    saveMeta(meta);
+    totalSent += count;
+    console.log(`✅ Email sent — ${count} new event(s) in one message${batchLabel}`);
+    chunk.forEach((event) => console.log(`   • ${event.name}`));
+  }
+
+  return totalSent;
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
