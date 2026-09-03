@@ -3,6 +3,13 @@ const nodemailer = require("nodemailer");
 const fs = require("fs");
 const path = require("path");
 const { discoverLondonCalendars } = require("./sitemap-discovery");
+const {
+  DEFAULT_REALERT_DAYS,
+  buildSeriesHistory,
+  chunkEvents,
+  dedupeRecurringSeries,
+  suppressAlertedSeries,
+} = require("./alerting");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
@@ -12,11 +19,26 @@ const KNOWN_CALENDARS_PATH = path.join(__dirname, "known_calendars.json");
 const LONDON_SLUG = "london";
 const PAGINATION_LIMIT = 50; // lu.ma caps the discover API around 50 per page
 const MAX_PAGES = 10; // safety cap: 10 x 50 = up to 500 events
-const MAX_CALENDARS_TO_POLL = 80; // safety cap when many calendars are discovered
+// Ceiling on calendars polled per run. Applied to the final list, registry
+// included, so it is a real timeout guard — at ~0.5s per calendar, 400 keeps a
+// run well inside the workflow's 15-minute limit.
+const MAX_CALENDARS_TO_POLL = 400;
 const SITEMAP_BATCH_SIZE = 250; // sitemap slugs resolved per run (~35s)
 // Keep each alert email small — one giant batch (40+) often lands in spam
 // or gets quietly dropped even when SMTP accepts it.
 const MAX_EVENTS_PER_EMAIL = 8;
+// Don't re-alert a recurring series that already emailed within this many days.
+// Set SERIES_REALERT_DAYS=0 to alert on every new date.
+const SERIES_REALERT_DAYS = parseDaysEnv(
+  process.env.SERIES_REALERT_DAYS,
+  DEFAULT_REALERT_DAYS
+);
+
+function parseDaysEnv(raw, fallback) {
+  if (raw === undefined || raw.trim() === "") return fallback;
+  const days = Number(raw);
+  return Number.isFinite(days) && days >= 0 ? days : fallback;
+}
 const LONDON_TZ = "Europe/London";
 
 // lu.ma's discover API is keyed by an internal place id, not the city slug.
@@ -129,6 +151,9 @@ function noteFirstSeen(meta, event, iso) {
   if (!meta[event.api_id]) {
     meta[event.api_id] = {
       name: event.name,
+      // Recorded so a later run can tell two identically titled series apart
+      // when deciding whether one has already been alerted.
+      host: event.host || null,
       first_seen_at: iso,
     };
   }
@@ -431,52 +456,6 @@ function dedupeEntries(entries) {
   return [...byId.values()];
 }
 
-function normalizeSeriesText(text) {
-  return (text || "").trim().toLowerCase().replace(/\s+/g, " ");
-}
-
-/** Key for recurring series: same title + host from the same organiser. */
-function seriesKey(event) {
-  return `${normalizeSeriesText(event.name)}::${normalizeSeriesText(event.host)}`;
-}
-
-function compareByStartAt(a, b) {
-  if (!a.start_at && !b.start_at) return 0;
-  if (!a.start_at) return 1;
-  if (!b.start_at) return -1;
-  return new Date(a.start_at) - new Date(b.start_at);
-}
-
-/**
- * Collapse recurring listings (e.g. weekly pizza nights) to one alert per series.
- * Keeps the nearest upcoming date for email; skips the rest so one batched mail
- * doesn't repeat the same event title.
- */
-function dedupeRecurringSeries(events) {
-  const groups = new Map();
-  for (const event of events) {
-    const key = seriesKey(event);
-    const list = groups.get(key);
-    if (list) list.push(event);
-    else groups.set(key, [event]);
-  }
-
-  const toAlert = [];
-  const skipped = [];
-
-  for (const group of groups.values()) {
-    if (group.length === 1) {
-      toAlert.push(group[0]);
-      continue;
-    }
-    const sorted = [...group].sort(compareByStartAt);
-    toAlert.push(sorted[0]);
-    skipped.push(...sorted.slice(1));
-  }
-
-  return { toAlert, skipped };
-}
-
 /** Page through the London discover API and return raw entries. */
 async function fetchDiscoverEntries(placeId) {
   const entries = [];
@@ -534,16 +513,12 @@ async function fetchAllSources(placeId) {
     fromSitemap,
     fromKnown
   );
-  let toPoll = calendars.slice(0, MAX_CALENDARS_TO_POLL);
-  if (calendars.length > MAX_CALENDARS_TO_POLL) {
-    console.warn(
-      `Priority cap: ${MAX_CALENDARS_TO_POLL}/${calendars.length} calendars ` +
-        "(manual/subscription/featured/discover first)."
-    );
-  }
+  let toPoll = [...calendars];
 
   // Always poll every calendar in the persisted registry, even if it dropped
   // off the London discover feed — that's the whole point of known_calendars.json.
+  // Appended last so the cap below drops registry stragglers before anything
+  // you actually follow.
   const polledIds = new Set(toPoll.map((cal) => cal.api_id));
   let addedFromRegistry = 0;
   for (const cal of fromKnown) {
@@ -555,6 +530,14 @@ async function fetchAllSources(placeId) {
   }
   if (addedFromRegistry > 0) {
     console.log(`Added ${addedFromRegistry} calendar(s) from known_calendars.json registry.`);
+  }
+
+  if (toPoll.length > MAX_CALENDARS_TO_POLL) {
+    console.warn(
+      `Calendar cap: polling ${MAX_CALENDARS_TO_POLL} of ${toPoll.length} ` +
+        "(manual/subscription/featured/discover first, registry last)."
+    );
+    toPoll = toPoll.slice(0, MAX_CALENDARS_TO_POLL);
   }
 
   console.log(
@@ -751,26 +734,37 @@ async function alertNewEvents(events, seen, meta) {
   });
 
   const sorted = [...events].sort((a, b) => registrationPriority(a) - registrationPriority(b));
+  const chunks = chunkEvents(sorted, MAX_EVENTS_PER_EMAIL);
   let totalSent = 0;
+  let emails = 0;
 
-  for (let i = 0; i < sorted.length; i += MAX_EVENTS_PER_EMAIL) {
-    const chunk = sorted.slice(i, i + MAX_EVENTS_PER_EMAIL);
+  for (const [index, chunk] of chunks.entries()) {
     const count = chunk.length;
-    const batchLabel =
-      sorted.length > MAX_EVENTS_PER_EMAIL
-        ? ` (part ${Math.floor(i / MAX_EVENTS_PER_EMAIL) + 1}/${Math.ceil(sorted.length / MAX_EVENTS_PER_EMAIL)})`
-        : "";
+    const batchLabel = chunks.length > 1 ? ` (part ${index + 1}/${chunks.length})` : "";
 
     const text =
       `${chunk.map((event) => formatEventBlock(event, meta)).join("\n\n")}\n\n` +
       `---\nLuma London: https://lu.ma/london`;
 
-    await transporter.sendMail({
+    const info = await transporter.sendMail({
       from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
       to: process.env.NOTIFY_EMAIL,
       subject: batchEmailSubject(chunk) + batchLabel,
       text,
     });
+
+    // Addresses are repo secrets, so log counts and the SMTP reply only — never
+    // the recipient itself. Actions logs on a public repo are public.
+    const accepted = info?.accepted?.length ?? 0;
+    const rejected = info?.rejected?.length ?? 0;
+    if (accepted === 0) {
+      console.error(
+        `❌ Email NOT accepted${batchLabel} — ${rejected} recipient(s) rejected. ` +
+          `SMTP said: ${info?.response || "no response"}. Leaving ${count} event(s) ` +
+          "unmarked so the next run retries them."
+      );
+      break;
+    }
 
     const alertedAt = new Date().toISOString();
     chunk.forEach((event) => {
@@ -780,11 +774,15 @@ async function alertNewEvents(events, seen, meta) {
     saveSeen(seen);
     saveMeta(meta);
     totalSent += count;
-    console.log(`✅ Email sent — ${count} new event(s) in one message${batchLabel}`);
+    emails++;
+    console.log(
+      `✅ Email sent — ${count} new event(s) in one message${batchLabel} ` +
+        `[SMTP accepted ${accepted}, rejected ${rejected}: ${info?.response || "no response"}]`
+    );
     chunk.forEach((event) => console.log(`   • ${event.name}`));
   }
 
-  return totalSent;
+  return { sent: totalSent, emails };
 }
 
 // ── Main ──────────────────────────────────────────────────────────────────────
@@ -814,26 +812,47 @@ async function main() {
   console.log(`New events: ${newEvents.length}`);
 
   if (newEvents.length > 0) {
-    const { toAlert, skipped } = dedupeRecurringSeries(newEvents);
+    // Two passes: collapse series inside this batch, then drop series that an
+    // earlier run already emailed. Each Lu.ma date is its own api_id, so a
+    // weekly series otherwise mails you again every time a new date appears.
+    const { toAlert: nearest, skipped } = dedupeRecurringSeries(newEvents);
     if (skipped.length > 0) {
       console.log(
         `Recurring series dedupe: ${skipped.length} later date(s) skipped ` +
-          "(same title + host — keeping nearest upcoming only)."
+          "(same series — keeping nearest upcoming only)."
       );
       skipped.forEach((event) =>
         console.log(`   ↳ skip: ${event.name} — ${event.start_at || "TBC"} (${event.api_id})`)
       );
     }
 
+    const { toAlert, suppressed } = suppressAlertedSeries(nearest, buildSeriesHistory(meta), {
+      windowDays: SERIES_REALERT_DAYS,
+    });
+    if (suppressed.length > 0) {
+      console.log(
+        `Series cooldown: ${suppressed.length} event(s) held back — already alerted ` +
+          `within ${SERIES_REALERT_DAYS} day(s).`
+      );
+      suppressed.forEach(({ event, lastAlertedAt }) =>
+        console.log(`   ↳ hold: ${event.name} (${event.api_id}) — last alerted ${lastAlertedAt}`)
+      );
+    }
+
+    const quiet = [...skipped, ...suppressed.map((s) => s.event)];
     const detectedAt = new Date().toISOString();
-    [...toAlert, ...skipped].forEach((event) => noteFirstSeen(meta, event, detectedAt));
+    [...toAlert, ...quiet].forEach((event) => noteFirstSeen(meta, event, detectedAt));
 
     if (emailConfigured()) {
-      skipped.forEach((event) => seen.add(event.api_id));
+      // Marked seen without an alert, so they don't queue up for the next run.
+      quiet.forEach((event) => seen.add(event.api_id));
 
-      const sorted = [...toAlert].sort((a, b) => registrationPriority(a) - registrationPriority(b));
-      const sent = await alertNewEvents(sorted, seen, meta);
-      console.log(`Sent ${sent} event(s) in one email.`);
+      if (toAlert.length > 0) {
+        const { sent, emails } = await alertNewEvents(toAlert, seen, meta);
+        console.log(`Sent ${sent} event(s) across ${emails} email(s).`);
+      } else {
+        console.log("Nothing to email — every new event belonged to a series already alerted.");
+      }
     } else {
       console.warn(
         "⚠️  Email not configured (set GMAIL_USER / GMAIL_APP_PASSWORD / NOTIFY_EMAIL secrets). " +
