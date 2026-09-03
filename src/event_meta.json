@@ -159,6 +159,11 @@
     "first_seen_at": "2026-07-25T18:32:29.229Z",
     "first_alerted_at": "2026-07-25T18:32:31.310Z"
   },
+  "evt-61TjkAbXSzBahWC": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-09-03T15:12:11.511Z",
+    "first_alerted_at": "2026-09-03T15:12:13.434Z"
+  },
   "evt-62DAme8f7059S3R": {
     "name": "Junior VC Drinks",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1561,6 +1566,10 @@
     "name": "Grok Bot Meetup London",
     "first_seen_at": "2026-09-01T12:06:55.138Z",
     "first_alerted_at": "2026-09-01T12:06:57.248Z"
+  },
+  "evt-XOq1iwhxvl5YFQ6": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-09-03T15:12:11.511Z"
   },
   "evt-XYakDbymezTd8qT": {
     "name": "Hot girls, Go Hiking | Hot Gal Hike Club x AI After 5",
