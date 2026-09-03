@@ -629,6 +629,11 @@
     "first_seen_at": "2026-07-17T01:09:54.619Z",
     "first_alerted_at": "2026-07-17T01:09:56.320Z"
   },
+  "evt-Ge5yKXIGH2AcALr": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-09-03T14:40:35.705Z",
+    "first_alerted_at": "2026-09-03T14:40:37.812Z"
+  },
   "evt-GgGzmQJ7o6cNuBQ": {
     "name": "Pride in FinTech 2026 | Celebratory Event",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -963,6 +968,10 @@
     "name": "Arc Blockrun Workshop",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-mpFjl5NyyznC1tQ": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "first_seen_at": "2026-09-03T14:40:35.705Z"
   },
   "evt-msOvtSEv21VWxgy": {
     "name": "Creative Coding Bookclub- Vectors",
