@@ -1273,6 +1273,11 @@
     "first_seen_at": "2026-07-29T09:49:03.836Z",
     "first_alerted_at": "2026-07-29T09:49:05.869Z"
   },
+  "evt-tdEhLNJoWCJFCV9": {
+    "name": "AI on Draught: The Day Your AI Goes Wrong",
+    "first_seen_at": "2026-09-03T11:41:11.182Z",
+    "first_alerted_at": "2026-09-03T11:41:13.540Z"
+  },
   "evt-tdJBoZxz57aSCAN": {
     "name": "London Tech Leaders Executive Dinner - Still the Default. No Longer the Best",
     "first_seen_at": "2026-07-30T11:24:54.720Z",
@@ -1292,6 +1297,11 @@
     "name": "build fridays london - work on your startup alongside others (bring laptop)",
     "first_seen_at": "2026-07-17T14:26:16.826Z",
     "first_alerted_at": "2026-07-17T14:26:18.804Z"
+  },
+  "evt-tNPqHwtBuavNN1N": {
+    "name": "Side-project September: Get some writing done",
+    "first_seen_at": "2026-09-03T11:41:11.182Z",
+    "first_alerted_at": "2026-09-03T11:41:13.540Z"
   },
   "evt-TrViCCEst0fpCFJ": {
     "name": "Ship & Chips: Open Tech/AI Demos",
