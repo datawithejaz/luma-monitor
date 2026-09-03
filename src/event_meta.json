@@ -844,6 +844,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-kaZlATW6S0DAWR2": {
+    "name": "Sifted Summit Final Pour",
+    "host": "Personal",
+    "first_seen_at": "2026-09-03T23:36:53.954Z",
+    "first_alerted_at": "2026-09-03T23:36:57.130Z"
+  },
   "evt-kdSBgi1SrUdeG2d": {
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-02T01:11:40.525Z",
@@ -858,6 +864,12 @@
     "name": "AI Designer Dinner + Demos",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
+  "evt-KhLv5JDoQCYL6mj": {
+    "name": "Why are more businesses moving into investing?",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-03T23:36:53.954Z",
+    "first_alerted_at": "2026-09-03T23:36:57.130Z"
   },
   "evt-KHzpQaZ4FjN2FWf": {
     "name": "ABRC BOOKCLUB: LOVE IN THE TIME OF CHOLERA",
