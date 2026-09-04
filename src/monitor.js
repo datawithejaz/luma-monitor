@@ -16,6 +16,7 @@ const {
   selectPendingCalendars,
   shouldSendDigest,
 } = require("./calendar-digest");
+const { fetchMyEventIds } = require("./my-events");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
@@ -644,6 +645,8 @@ function normalise(entry) {
     description: event.description_short || event.description_mirror?.text || "",
     url: slug ? `https://lu.ma/${slug}` : "",
     start_at: event.start_at || entry.start_at || "",
+    end_at: event.end_at || entry.end_at || "",
+    timezone: event.timezone || LONDON_TZ,
     location_type: event.location_type || "",
     venue: geo.full_address || geo.city_state || geo.city || "",
     host: calendar.name || hostNames || "",
@@ -655,6 +658,23 @@ function normalise(entry) {
     spots_remaining: ticket.spots_remaining ?? null,
     is_near_capacity: ticket.is_near_capacity === true,
   };
+}
+
+/**
+ * Events you're already going to (registered / hosting). Used to skip "new
+ * event" alerts for things that are already on your calendar. Soft-fails when
+ * the cookie is missing or Lu.ma rejects the call — the monitor still runs.
+ */
+async function loadGoingEventIds() {
+  if (!process.env.LUMA_AUTH_COOKIE) return new Set();
+  try {
+    const ids = await fetchMyEventIds();
+    console.log(`Already registered / hosting: ${ids.size} event(s) — won't alert on these.`);
+    return ids;
+  } catch (err) {
+    console.warn(`⚠️  Could not load your Lu.ma registrations (${err.message}). Continuing without skip.`);
+    return new Set();
+  }
 }
 
 function isInPerson(event) {
@@ -934,7 +954,21 @@ async function main() {
   console.log(`Upcoming (not started): ${upcoming.length}`);
   console.log(`Relevant after category filter: ${relevant.length}`);
 
-  const newEvents = relevant.filter((e) => !seen.has(e.api_id));
+  const goingIds = await loadGoingEventIds();
+  const unseen = relevant.filter((e) => !seen.has(e.api_id));
+  const alreadyGoing = unseen.filter((e) => goingIds.has(e.api_id));
+  if (alreadyGoing.length > 0) {
+    console.log(
+      `Skipping ${alreadyGoing.length} new event(s) you're already registered for / hosting.`
+    );
+    alreadyGoing.forEach((event) => {
+      console.log(`   ↳ going: ${event.name} (${event.api_id})`);
+      // Mark seen so we don't keep rediscovering them as "new".
+      seen.add(event.api_id);
+      noteFirstSeen(meta, event, new Date().toISOString());
+    });
+  }
+  const newEvents = unseen.filter((e) => !goingIds.has(e.api_id));
   console.log(`New events: ${newEvents.length}`);
 
   if (newEvents.length > 0) {

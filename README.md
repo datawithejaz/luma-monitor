@@ -152,6 +152,9 @@ luma-monitor/
 │   ├── calendar-digest.js         # weekly unfollowed-calendar email (unit-tested)
 │   ├── calendar-digest.test.js
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
+│   ├── my-events.js               # fetch events you're registered for / hosting
+│   ├── ics.js                     # build a RFC 5545 .ics from those events
+│   ├── export-calendar.js         # write/email a personal .ics (never committed)
 │   ├── tracked_calendars.json     # config: calendars you follow
 │   ├── known_calendars.json       # state: every calendar ever seen (auto)
 │   ├── calendar_digest.json       # state: last weekly calendar digest (auto)
@@ -160,10 +163,40 @@ luma-monitor/
 │   └── sitemap_crawl.json         # state: sitemap crawl cursor (auto)
 ├── .github/workflows/luma-monitor.yml
 ├── .github/workflows/luma-auth-probe.yml
+├── .github/workflows/export-calendar.yml
 ├── .github/workflows/test.yml
 ├── README.md
 └── .gitignore
 ```
+
+## Your events on a work (Teams / Outlook) calendar
+
+**Best option — live sync (recommended).** Lu.ma already publishes a personal
+iCal feed of every event you're hosting or registered for (approved, waitlisted,
+or pending). Wire it straight into Outlook; Teams uses the same calendar:
+
+1. Open [lu.ma/settings](https://lu.ma/settings) → **Calendar Syncing**
+2. **Add iCal Subscription** → choose **Outlook**
+3. The feed refreshes on Outlook's schedule (~3–12h). New RSVPs appear
+   automatically — no `.ics` email needed.
+
+Docs: [iCal Syncing](https://help.luma.com/p/ical-syncing).
+
+**Fallback — emailed `.ics`.** If work IT blocks external calendar
+subscriptions, this repo can build a one-shot `.ics` of your registrations and
+email it to `NOTIFY_EMAIL`. The file is **never committed** (the repo is public).
+
+```bash
+cd src
+LUMA_AUTH_COOKIE='...' npm run export-calendar -- --email
+```
+
+Or Actions → **Export My Luma Calendar → Run workflow** (also runs weekly on
+Sundays). Then in Outlook / Teams: **Calendar → Add calendar → Upload from
+file**, or open the attachment and tap Add.
+
+When `LUMA_AUTH_COOKIE` is set, the monitor also **skips alerting** on events
+you're already registered for or hosting.
 
 ## Tests
 
