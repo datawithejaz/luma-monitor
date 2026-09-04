@@ -178,6 +178,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-BZcj7LqI9zC3JyN",
+      "slug": "global-ai-community",
+      "name": "Global AI Community",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-7Q5A70Bz5Idxopu",
       "slug": "deepmind",
       "name": "Google DeepMind",
@@ -334,15 +340,39 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-6z5Ol4oDVFIDiWA",
+      "slug": "sifted",
+      "name": "Sifted Summit",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-iRJOAxy06J8zCJd",
       "slug": "spacexai",
       "name": "SpaceXAI",
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-61Cv6COs4g9GKw7",
+      "slug": "spacexai-community",
+      "name": "SpaceXAI Community",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-QQGEIJl1K33N0zb",
       "slug": "spacexai-london",
       "name": "SpaceXAI for London, England",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-CvIpKRM5YbmuITz",
+      "slug": "Syrena_",
+      "name": "Syrena Network",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-tcBV7zXlgqIT8P9",
+      "slug": "techgames",
+      "name": "TechGames",
       "reason": "User subscription"
     },
     {
@@ -373,6 +403,12 @@
       "api_id": "cal-yoMaeA020efY3U1",
       "slug": "mafia",
       "name": "Unicorn Mafia",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-hp9HP2UFTGNaMnY",
+      "slug": "vercel-events",
+      "name": "Vercel Events",
       "reason": "User subscription"
     },
     {

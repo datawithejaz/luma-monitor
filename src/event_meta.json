@@ -244,6 +244,12 @@
     "first_seen_at": "2026-07-29T16:52:29.228Z",
     "first_alerted_at": "2026-07-29T16:52:30.693Z"
   },
+  "evt-93BA9oIKRdCOBoG": {
+    "name": "eve eves | LDN",
+    "host": "Vercel Events",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
   "evt-9dPcH73ouhaF1H9": {
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -318,6 +324,12 @@
     "name": "Battle of the Accelerators: YC vs Speedrun vs EF vs Techstars",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-b38s68EyCLsg7lU": {
+    "name": "Runway by Sifted - Summit",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
   "evt-b8qhCSzYbAfBPQx": {
     "name": "Novabook x Deel Founders Dinner | Expanding to the US",
@@ -409,6 +421,12 @@
     "first_seen_at": "2026-08-14T17:28:51.292Z",
     "first_alerted_at": "2026-08-14T17:28:53.019Z"
   },
+  "evt-BTdEsu3sQQhHe5U": {
+    "name": "Scaleup Europe Fund and EIC Fund Investor Opportunities",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
   "evt-C1mDVDbGXgSbZuD": {
     "name": "The Mirror That Never Pushes Back: Investigating AI Delusions",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -458,6 +476,12 @@
     "name": "If Your AI Were Conscious, How Would You Know? (Megan Peters) + Q&A + Networking",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
     "first_alerted_at": "2026-08-04T16:28:53.113Z"
+  },
+  "evt-cmAhU8r7uAoOF71": {
+    "name": "Networks November: Non-Household Water: Open Data, Industrial Demand and Emerging Risks",
+    "host": "Future Water Association Events",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
   "evt-cNFaO7alNhoMCDR": {
     "name": "KQ Social: Data in the City",
@@ -578,6 +602,12 @@
     "name": "Demo Event LDN:Directing AI Agents with Cursor",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-f485JH5xleQhSFi": {
+    "name": "Sifted x N47 Dinner",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
   "evt-FC3VCOC8EcMLCjC": {
     "name": "The Agent Economy Buildathon | $20k in bounties",
@@ -1119,6 +1149,12 @@
     "first_seen_at": "2026-08-03T18:23:55.212Z",
     "first_alerted_at": "2026-08-03T18:23:57.014Z"
   },
+  "evt-ONB9k5qi3K1JmHI": {
+    "name": "The interpretation gap: Why great companies are misunderstood",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
   "evt-OOCAuwcjCMC4frM": {
     "name": "💻 Female Builders Co-Working Day: Open Work Session",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -1128,6 +1164,12 @@
     "name": "London Startup Operator RunClub & Social",
     "first_seen_at": "2026-08-19T10:46:03.392Z",
     "first_alerted_at": "2026-08-19T10:46:05.299Z"
+  },
+  "evt-oYx98GtUSDnYYXd": {
+    "name": "2026 MassChallenge UK Demo Day",
+    "host": "MassChallenge UK 2026 Early-Stage Accelerator",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:35.167Z"
   },
   "evt-ozjB3T0ACJEEc2j": {
     "name": "Vibe Code a Sport App",
@@ -1363,6 +1405,12 @@
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-TxiSjYbxeRyPG3P": {
+    "name": "2026 MassChallenge UK Halftime - Cohort Social [Optional]",
+    "host": "MassChallenge UK 2026 Early-Stage Accelerator",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:35.167Z"
   },
   "evt-u4Ae4oXJmyc7Vcm": {
     "name": "Made in the UK: Anne Boden",
@@ -1603,6 +1651,12 @@
     "first_seen_at": "2026-08-07T12:54:35.124Z",
     "first_alerted_at": "2026-08-07T12:54:37.482Z"
   },
+  "evt-y8wy1ZPdlWBIJFj": {
+    "name": "How to win globally as a UK deeptech",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
   "evt-YH2wzaFok65vcBx": {
     "name": "freeCodeCamp x Encode | AI - Workshop: Hermes Agent w/ your Local LLM models such as Qwen, Deepseek, etc",
     "first_seen_at": "2026-08-06T11:53:07.249Z",
@@ -1717,5 +1771,11 @@
     "name": "The state of harness engineering",
     "first_seen_at": "2026-08-26T22:55:33.746Z",
     "first_alerted_at": "2026-08-26T22:55:35.274Z"
+  },
+  "evt-ZYYyloiBgHGBn5Y": {
+    "name": "Sifted x Intent HQ Dinner",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-04T01:06:31.479Z",
+    "first_alerted_at": "2026-09-04T01:06:33.691Z"
   }
 }
