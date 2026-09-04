@@ -64,6 +64,12 @@
     "first_seen_at": "2026-07-05T15:23:35.991Z",
     "first_alerted_at": "2026-07-05T15:23:37.745Z"
   },
+  "evt-2jKFdkhBvhFAiqw": {
+    "name": "C-Suite Forum: Investing in AI to Unlock Premium Returns in the Built World - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
+  },
   "evt-2L5znSVDVW2K2h5": {
     "name": "An AI x Design Evening",
     "first_seen_at": "2026-08-07T19:55:05.559Z",
@@ -73,6 +79,12 @@
     "name": "Founders Meetup London (Remixed) - September 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
+  },
+  "evt-3bESVZ83Uqe4w8i": {
+    "name": "Can You Trust the Data Running Your Portfolio? Building the Infrastructure for AI-Ready Compliance - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
   },
   "evt-3BP6aWHAchjrrsm": {
     "name": "build night",
@@ -280,6 +292,18 @@
     "first_seen_at": "2026-08-07T22:47:26.813Z",
     "first_alerted_at": "2026-08-07T22:47:29.502Z"
   },
+  "evt-ADGxfWYCLGFBS6q": {
+    "name": "Reshaping European Real Estate: AI & Data-Driven Decisions for 2030 - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:18.974Z"
+  },
+  "evt-AGbMRDIxlTp30hQ": {
+    "name": "From Data to Deal: How AI is Redefining Real Estate Acquisition - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:18.974Z"
+  },
   "evt-Ah2q78Rw0iKqgio": {
     "name": "London Responsible Tech Summer Social",
     "first_seen_at": "2026-08-27T15:15:24.435Z",
@@ -427,6 +451,12 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-bYHjvQKbcI5iyQz": {
+    "name": "Take Back Your Time, After 5: Skills for Optimizing with AI",
+    "host": "AI After 5",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
+  },
   "evt-C1mDVDbGXgSbZuD": {
     "name": "The Mirror That Never Pushes Back: Investigating AI Delusions",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -548,6 +578,12 @@
     "first_seen_at": "2026-08-21T11:35:18.746Z",
     "first_alerted_at": "2026-08-21T11:35:20.519Z"
   },
+  "evt-DKhTFTNV07rdZm2": {
+    "name": "Leveraging Energy Data to Achieve Net Zero in Real Estate - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
   "evt-dLrJWfM41HcnLRs": {
     "name": "Tech Leaders London - September 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -577,6 +613,12 @@
     "name": "AI Demo Nights #12 ⚡️ AUG 2026",
     "first_seen_at": "2026-08-18T09:38:53.574Z",
     "first_alerted_at": "2026-08-18T09:38:55.071Z"
+  },
+  "evt-eAUI14CNFzUiqTd": {
+    "name": "The Capital Magnet: Why Data Quality is the New Currency of Real Estate - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
   },
   "evt-eLnI19zEa5g30UF": {
     "name": "Public First presents: Tech YoPro Drinks",
@@ -614,6 +656,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-fdd3C52dtAnEEXx": {
+    "name": "Governed by Design: How Institutional Real Estate Teams Are Replacing Manual Reporting with Structured Intelligence - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
   "evt-FGEpcmYzLQ5iLDN": {
     "name": "{Tech: Europe} x VEED Hackathon | The Summer Lock-In",
     "first_seen_at": "2026-07-31T03:55:16.297Z",
@@ -643,6 +691,12 @@
     "name": "Graphics programming with GLSL shaders [c3s meetup #12]",
     "first_seen_at": "2026-07-06T21:57:34.392Z",
     "first_alerted_at": "2026-07-06T21:57:35.770Z"
+  },
+  "evt-FPNumRa4SMscbIO": {
+    "name": "Connecting the Building: Bridging the Gap Between Infrastructure, Operations, and Tenant Experience - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
   },
   "evt-fpQPyH7Fxq5v2dK": {
     "name": "BiteLabs Digital Health & Innovation Demo Day (Summer 2026)",
@@ -691,6 +745,12 @@
     "first_seen_at": "2026-09-03T14:40:35.705Z",
     "first_alerted_at": "2026-09-03T14:40:37.812Z"
   },
+  "evt-gfW6CghIh0BC5Pt": {
+    "name": "Designing the Modern Real Estate Tech Stack: Unifying Building Operations to Drive Portfolio Performance - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
   "evt-GgGzmQJ7o6cNuBQ": {
     "name": "Pride in FinTech 2026 | Celebratory Event",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -716,6 +776,18 @@
     "name": "Live Coding Meetup",
     "first_seen_at": "2026-08-11T20:21:52.901Z",
     "first_alerted_at": "2026-08-11T20:21:54.490Z"
+  },
+  "evt-h78fVdCKW3jxbor": {
+    "name": "Driving Asset Value through Building Infrastructure, How to Meet Current Occupier and Investor Expectations - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-Hc55Vy5IN5CCEFk": {
+    "name": "How Design-Build Leaders are Using AI to Unlock Value in Offices - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
   },
   "evt-heCVuyrkvowPrIg": {
     "name": "Lychee's Startup Games Night",
@@ -756,6 +828,12 @@
     "name": "AlgoRhythms",
     "first_seen_at": "2026-08-11T17:33:51.686Z",
     "first_alerted_at": "2026-08-11T17:33:53.204Z"
+  },
+  "evt-HqPblS8TmVWFWZ8": {
+    "name": "From Data to Decisions - Powering the Modern Real Estate Firm - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
   },
   "evt-hqwfNFDIPkBYqSv": {
     "name": "GenAI London 2026",
@@ -817,6 +895,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-iECz5OdwKEudAL0": {
+    "name": "Reshaping Real Estate Portfolios: The Rise of Energy, Data Centres & New Assets - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
   "evt-IeVrZ6PgzUPHwph": {
     "name": "Build Vision AI 2.0 LDN",
     "first_seen_at": "2026-08-07T22:47:26.813Z",
@@ -826,6 +910,12 @@
     "name": "Corgi x London AI: Paint By Tokens",
     "first_seen_at": "2026-08-04T12:04:14.153Z",
     "first_alerted_at": "2026-08-04T12:04:15.537Z"
+  },
+  "evt-iG7DhDFMaCi4NRw": {
+    "name": "Build vs. Buy: Systematising Efficiency in an AI-Ready Tech Stack - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
   },
   "evt-igH4zc27I1O2X1I": {
     "name": "London | Claude Cyber Meetup",
@@ -1004,6 +1094,18 @@
     "first_seen_at": "2026-08-26T14:56:11.794Z",
     "first_alerted_at": "2026-08-26T14:56:13.427Z"
   },
+  "evt-lTjMDNf4sSJ9aIL": {
+    "name": "Smarter Buildings, Smarter Portfolios: AI Meets Building Management across Residential Real Estate - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
+  },
+  "evt-lVzS1vs0KASt6LX": {
+    "name": "Human X AI: Harnessing Human Expertise and AI to Unlock Exponential Value Across the Real Estate Lifecycle - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
   "evt-LZ9WC4lFeNA21p5": {
     "name": "Demonite - No Decks. Just Night of Live Demos.",
     "first_seen_at": "2026-08-23T15:45:54.315Z",
@@ -1132,6 +1234,12 @@
     "first_seen_at": "2026-08-06T01:01:40.707Z",
     "first_alerted_at": "2026-08-06T01:01:43.224Z"
   },
+  "evt-oe9QIiPdEX8rFFK": {
+    "name": "Bridging the Predictability Gap: Building the Optimal Developer's Plan of Work - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
   "evt-oftjeu9ILMT8ZU6": {
     "name": "Executive Dinner: Rip and Replace, or Wrap and Renew? The Modernisation Dilemma",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1177,6 +1285,12 @@
     "name": "💻 Female Builders Co-Working Day: Open Work Session",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-oSR7EQgqjC1W9bH": {
+    "name": "The High-Performance Office: Turning Data, AI & Smart Tech into Measurable Asset Value - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
   },
   "evt-Oye0S4kSwbdFZkx": {
     "name": "London Startup Operator RunClub & Social",
@@ -1280,6 +1394,12 @@
     "first_seen_at": "2026-08-24T18:27:21.310Z",
     "first_alerted_at": "2026-08-24T18:27:22.695Z"
   },
+  "evt-qOUOBKjEtesVZbn": {
+    "name": "Data-Driven Occupancy: The Foundation of High-Performance Smart Buildings - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
   "evt-QQFsMOdpOybQslx": {
     "name": "Health Hack Your GP: Workshops and Social Mixer",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1310,15 +1430,33 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-RJaE6sweDogCS3o": {
+    "name": "Shaping Tomorrow’s Portfolio: AI, Efficiency, and Sustainable Performance - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
   "evt-rlgege86MEjVOFe": {
     "name": "OpenAI Builder Lounge London",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-rnAWiC82vKnNi3r": {
+    "name": "How to Layer AI On Top of Your Data For Successful Digital Transformation - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
   "evt-RrmQcuoSoMWBXNd": {
     "name": "Does AI Belong In The Creator Economy?",
     "first_seen_at": "2026-07-31T20:09:42.522Z",
     "first_alerted_at": "2026-07-31T20:09:44.056Z"
+  },
+  "evt-RsOjQftYNCs1oa9": {
+    "name": "The New Blueprint for Heads of Development: Benchmarking, Reporting, Financing & AI - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
   },
   "evt-RU9nlt8VC53fFfD": {
     "name": "funded founders coworking + pizza night (ft AI Agents workshop)",
@@ -1329,6 +1467,12 @@
     "name": "Stripe & Notion: AI Agents for Professionals",
     "first_seen_at": "2026-08-11T00:36:53.517Z",
     "first_alerted_at": "2026-08-11T00:36:55.950Z"
+  },
+  "evt-s9VMgQSplRSy4Xo": {
+    "name": "The Workplace Data Divide: Turning Retrofit and New-Build Metrics into Occupant Value - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:14.661Z"
   },
   "evt-SbRJq1b952aWaFH": {
     "name": "Tech & Tonic | Summer Drinks",
@@ -1541,6 +1685,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-VzCPK7rwQowSrwb": {
+    "name": "Data-Driven Strategies for Sustaining and Extending Asset Lifecycles - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
   "evt-w789gIY4pym4pRf": {
     "name": "Founders Coworking: Builders, Makers & Solo-preneurs - Kings Cross London - 25 Spaces ONLY",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1580,6 +1730,12 @@
     "name": "Cultural Strategy - Industry Community Evening",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-wOaW36kGioe9ZEA": {
+    "name": "The Operational Owner: Turning Occupancy Data into Investment Decisions - Roundtable",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-04T21:54:13.212Z",
+    "first_alerted_at": "2026-09-04T21:54:17.475Z"
   },
   "evt-woFQIm1zGC1ye2P": {
     "name": "Urdu Poetry Workshop: Faiz Ahmed Faiz",
