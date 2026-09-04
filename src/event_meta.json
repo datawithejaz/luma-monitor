@@ -1197,6 +1197,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-pBN8PFNbolDb67Q": {
+    "name": "The Infrastructure Decisions That Define Your Trajectory",
+    "host": "London AI Hub",
+    "first_seen_at": "2026-09-04T14:10:50.615Z",
+    "first_alerted_at": "2026-09-04T14:10:52.199Z"
+  },
   "evt-pBZQp2l2uPtPvJp": {
     "name": "Cursor Commerce London Hackathon",
     "first_seen_at": "2026-08-31T11:58:54.114Z",
