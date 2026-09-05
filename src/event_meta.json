@@ -1075,6 +1075,12 @@
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
   },
+  "evt-LFJ5FcaL2Z0I4Ps": {
+    "name": "Claude Cowork Workshop: Automate Your Tasks at Work",
+    "host": "Living Room Labs",
+    "first_seen_at": "2026-09-05T09:35:22.714Z",
+    "first_alerted_at": "2026-09-05T09:35:26.629Z"
+  },
   "evt-lhQrTTfJkcAMpTI": {
     "name": "Pitch Perfect: Investing in You with Monzo",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -1917,6 +1923,12 @@
     "name": "ABRC: YESTERYEAR BOOKCLUB",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
+  "evt-ZmLhANHCfg6wJfZ": {
+    "name": "The Ninth Seat — Poker Night for Tech Founders",
+    "host": "The Ninth Seat",
+    "first_seen_at": "2026-09-05T09:35:22.714Z",
+    "first_alerted_at": "2026-09-05T09:35:26.629Z"
   },
   "evt-zMQrJIftB4BpAe1": {
     "name": "Camp AI: Agents at Work //London//",
