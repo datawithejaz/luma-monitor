@@ -746,6 +746,12 @@
     "first_seen_at": "2026-09-04T19:51:35.555Z",
     "first_alerted_at": "2026-09-04T19:51:37.639Z"
   },
+  "evt-gaGkAg8hrIgBGt7": {
+    "name": "Grok Bot London Cowork",
+    "host": "SpaceXAI for London, England",
+    "first_seen_at": "2026-09-05T15:58:14.423Z",
+    "first_alerted_at": "2026-09-05T15:58:16.068Z"
+  },
   "evt-Ge5yKXIGH2AcALr": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "first_seen_at": "2026-09-03T14:40:35.705Z",

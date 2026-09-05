@@ -274,6 +274,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-pYVlNfFT4qWcFsE",
+      "slug": "multic",
+      "name": "MULTIC",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-hToMGw3ot55mird",
       "slug": "novabook",
       "name": "Novabook",
@@ -379,6 +385,12 @@
       "api_id": "cal-tcBV7zXlgqIT8P9",
       "slug": "techgames",
       "name": "TechGames",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-vOLsCDKYVWKtdlT",
+      "slug": "theninthseat",
+      "name": "The Ninth Seat",
       "reason": "User subscription"
     },
     {
