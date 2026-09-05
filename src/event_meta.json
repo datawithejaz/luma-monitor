@@ -932,6 +932,12 @@
     "first_seen_at": "2026-08-26T11:02:28.068Z",
     "first_alerted_at": "2026-08-26T11:02:30.431Z"
   },
+  "evt-imdmeUduDbBbm03": {
+    "name": "WORLDS | LONDON Hackathon",
+    "host": "MULTIC",
+    "first_seen_at": "2026-09-05T01:21:37.867Z",
+    "first_alerted_at": "2026-09-05T01:21:39.798Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
