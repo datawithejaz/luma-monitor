@@ -131,6 +131,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-4fJQAlNY5ZjUODl": {
+    "name": "The Founders Padel Club",
+    "host": "Gradient Descending",
+    "first_seen_at": "2026-09-05T13:01:56.119Z",
+    "first_alerted_at": "2026-09-05T13:01:58.550Z"
+  },
   "evt-4j5LZqUJ1bQaoGf": {
     "name": "🇧🇪🇬🇧 Embassy Pitch Series: UK x Belgium",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
@@ -1496,6 +1502,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-sgFpsvYdgrOvzSW": {
+    "name": "The US Expansion Dinner 🇺🇸",
+    "host": "Gradient Descending",
+    "first_seen_at": "2026-09-05T13:01:56.119Z",
+    "first_alerted_at": "2026-09-05T13:01:58.550Z"
+  },
   "evt-SlGc0MlKa6Q4r8x": {
     "name": "Founder Nation: Padel Social - London",
     "first_seen_at": "2026-08-12T10:20:08.660Z",
@@ -1837,6 +1849,12 @@
   "evt-XOq1iwhxvl5YFQ6": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "first_seen_at": "2026-09-03T15:12:11.511Z"
+  },
+  "evt-xWS8yCPbhsPDSGc": {
+    "name": "Accelerating Product Discovery with AI - Jim Morris, Pippa Topp & Dave Killeen",
+    "host": "CPO Circles",
+    "first_seen_at": "2026-09-05T13:01:56.119Z",
+    "first_alerted_at": "2026-09-05T13:01:58.550Z"
   },
   "evt-XYakDbymezTd8qT": {
     "name": "Hot girls, Go Hiking | Hot Gal Hike Club x AI After 5",

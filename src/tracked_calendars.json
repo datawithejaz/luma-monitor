@@ -190,6 +190,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-LPMnCK72N8V1Wro",
+      "slug": "gradientdescending",
+      "name": "Gradient Descending",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-ofXMwxW9NLr0RDU",
       "slug": "granola",
       "name": "Granola",
