@@ -908,6 +908,12 @@
     "first_seen_at": "2026-09-01T16:34:38.391Z",
     "first_alerted_at": "2026-09-01T16:34:39.609Z"
   },
+  "evt-IbkbYoffGUxNMee": {
+    "name": "The Agentic Data Stack - Breakfast & Learn",
+    "host": "ClickHouse Events",
+    "first_seen_at": "2026-09-06T01:23:13.698Z",
+    "first_alerted_at": "2026-09-06T01:23:15.233Z"
+  },
   "evt-iC1TboEs4OjWWdP": {
     "name": "She Bytes Back x Funding Circle: Bringing Engineering Standards to Agentic Workflows",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -1933,6 +1939,12 @@
     "name": "Build your AI Outbound Cockpit - a Hands-On London Workshop",
     "first_seen_at": "2026-08-17T08:53:57.782Z",
     "first_alerted_at": "2026-08-17T08:53:59.534Z"
+  },
+  "evt-zbJa0iofiNO2iKq": {
+    "name": "AI Builders and Databases London",
+    "host": "ClickHouse Events",
+    "first_seen_at": "2026-09-06T01:23:13.698Z",
+    "first_alerted_at": "2026-09-06T01:23:15.233Z"
   },
   "evt-zDs4mdQLLhDReFR": {
     "name": "London Systems Club",
