@@ -10,7 +10,7 @@
       "api_id": "cal-qyEpCltsspbMoJR",
       "slug": "tech-europe",
       "name": "{Tech: Europe}",
-      "reason": "Suggested — {Tech: Europe} London events"
+      "reason": "Not in your follows — suggested: {Tech: Europe} London events"
     },
     {
       "api_id": "cal-8keGx2hPWefhJFK",
@@ -25,7 +25,7 @@
       "api_id": "cal-EDisCieHa0mXu0b",
       "slug": "aiafter5",
       "name": "AI After 5",
-      "reason": "Suggested — AI After 5"
+      "reason": "Not in your follows — suggested: AI After 5"
     },
     {
       "api_id": "cal-Uzt4MvgUpfoSstH",
@@ -55,7 +55,7 @@
       "api_id": "cal-wjMwGmksR3Zpa83",
       "slug": "arizeai",
       "name": "Arize AI",
-      "reason": "Suggested — Arize AI events"
+      "reason": "Not in your follows — suggested: Arize AI events"
     },
     {
       "api_id": "cal-oGKPs8y5BbMisbK",
@@ -91,7 +91,7 @@
       "api_id": "cal-ElvU4UVlAD13ewe",
       "slug": "builderandbrews",
       "name": "Builders & Brews",
-      "reason": "Suggested — Builders & Brews"
+      "reason": "Not in your follows — suggested: Builders & Brews"
     },
     {
       "api_id": "cal-2RFjmQ4ZSmQPCkA",
@@ -121,19 +121,19 @@
       "api_id": "cal-gmMOid1Rsqc3Hih",
       "slug": "clickhouse-events",
       "name": "ClickHouse Events",
-      "reason": "Suggested — ClickHouse Events"
+      "reason": "Not in your follows — suggested: ClickHouse Events"
     },
     {
       "api_id": "cal-YNO3LqoXki2vCFE",
       "slug": "codurance",
       "name": "Codurance",
-      "reason": "Suggested — Codurance engineering community"
+      "reason": "Not in your follows — suggested: Codurance engineering community"
     },
     {
       "api_id": "cal-UGHhBfVjoizv11Z",
       "slug": "colorintech-official",
       "name": "Colorintech Events",
-      "reason": "Suggested — Colorintech Events"
+      "reason": "Not in your follows — suggested: Colorintech Events"
     },
     {
       "api_id": "cal-HUj9G3RtLCRmtBx",
@@ -151,7 +151,7 @@
       "api_id": "cal-qQsgmTTcoDwHfhP",
       "slug": "cpocircles",
       "name": "CPO Circles",
-      "reason": "Suggested — CPO Circles (product)"
+      "reason": "Not in your follows — suggested: CPO Circles (product)"
     },
     {
       "api_id": "cal-qHEDltsO0Gr0WtD",
@@ -187,13 +187,13 @@
       "api_id": "cal-6JZ52WMKJ2Ni04d",
       "slug": "pillarvc-encode",
       "name": "Encode: AI for Science Fellowship - Pillar VC x ARIA",
-      "reason": "Suggested — Encode AI for Science (Pillar VC x ARIA)"
+      "reason": "Not in your follows — suggested: Encode AI for Science (Pillar VC x ARIA)"
     },
     {
       "api_id": "cal-6RHFj6tIqVcyN35",
       "slug": "entrepreneurs-first",
       "name": "Entrepreneurs First",
-      "reason": "Suggested — Entrepreneurs First London"
+      "reason": "Not in your follows — suggested: Entrepreneurs First London"
     },
     {
       "api_id": "cal-XqDIe2oUVLcybKK",
@@ -235,13 +235,13 @@
       "api_id": "cal-0VoAbfCQEAG1nRo",
       "slug": "GetFutureReady",
       "name": "GetFutureReady Community",
-      "reason": "Suggested — GetFutureReady Community (sitemap discovery)"
+      "reason": "Not in your follows — suggested: GetFutureReady Community (sitemap discovery)"
     },
     {
       "api_id": "cal-sV0fuGpbX06Jp8w",
       "slug": "girlswhoml-events",
       "name": "GirlsWhoML",
-      "reason": "Suggested — GirlsWhoML"
+      "reason": "Not in your follows — suggested: GirlsWhoML"
     },
     {
       "api_id": "cal-jaeWPGfix6gUTec",
@@ -277,7 +277,7 @@
       "api_id": "cal-eN3KGLR5jYicSEf",
       "slug": "grishin-robotics",
       "name": "Grishin Robotics VC",
-      "reason": "Suggested — Grishin Robotics VC"
+      "reason": "Not in your follows — suggested: Grishin Robotics VC"
     },
     {
       "api_id": "cal-sTpcuYmvvYXvEtd",
@@ -301,13 +301,13 @@
       "api_id": "cal-g2hGHdku1grEA51",
       "slug": "jaiku",
       "name": "JAIKU",
-      "reason": "Suggested — JAIKU"
+      "reason": "Not in your follows — suggested: JAIKU"
     },
     {
       "api_id": "cal-7QGqgiHd7VBRpVv",
       "slug": "jetbrains-uk",
       "name": "JetBrains UK",
-      "reason": "Suggested — JetBrains UK"
+      "reason": "Not in your follows — suggested: JetBrains UK"
     },
     {
       "api_id": "cal-KUVrWECuYa2l5zB",
@@ -319,7 +319,7 @@
       "api_id": "cal-RrzxAKUyNdOjqXi",
       "slug": "lookingforgrowth",
       "name": "LFG",
-      "reason": "Suggested — LFG / Looking for Growth"
+      "reason": "Not in your follows — suggested: LFG / Looking for Growth"
     },
     {
       "api_id": "cal-cL7rmdsYRDYfxQC",
@@ -331,7 +331,7 @@
       "api_id": "cal-IxvyTlAxcCwdUtZ",
       "slug": "livingroomlabs",
       "name": "Living Room Labs",
-      "reason": "Suggested — Living Room Labs"
+      "reason": "Not in your follows — suggested: Living Room Labs"
     },
     {
       "api_id": "cal-W1UumipyMqrUEsF",
@@ -361,7 +361,7 @@
       "api_id": "cal-qaBuxr3sRTGy0Ol",
       "slug": "londonlivecoding",
       "name": "London Live Coding?",
-      "reason": "Suggested — London Live Coding"
+      "reason": "Not in your follows — suggested: London Live Coding"
     },
     {
       "api_id": "cal-uIX65wX4k4RwuS1",
@@ -385,13 +385,13 @@
       "api_id": "cal-BohjOVw24zi3Bsi",
       "slug": "masschallengeuk2026",
       "name": "MassChallenge UK 2026 Early-Stage Accelerator",
-      "reason": "Suggested — MassChallenge UK accelerator"
+      "reason": "Not in your follows — suggested: MassChallenge UK accelerator"
     },
     {
       "api_id": "cal-k7S7WUj7XGgcjsC",
       "slug": "motherduck",
       "name": "MotherDuck",
-      "reason": "Suggested — MotherDuck data/AI events"
+      "reason": "Not in your follows — suggested: MotherDuck data/AI events"
     },
     {
       "api_id": "cal-pYVlNfFT4qWcFsE",
@@ -403,7 +403,7 @@
       "api_id": "cal-WGvTrmNL8OxL5Tw",
       "slug": "newspeak-house",
       "name": "Newspeak House",
-      "reason": "Suggested — Newspeak House (tech/civic community)"
+      "reason": "Not in your follows — suggested: Newspeak House (tech/civic community)"
     },
     {
       "api_id": "cal-hToMGw3ot55mird",
@@ -451,7 +451,7 @@
       "api_id": "cal-Gs1GHAFSsQG4qhQ",
       "slug": "PropTechConnectEU26",
       "name": "PropTech Connect Europe 2026",
-      "reason": "Suggested — PropTech Connect Europe (keyword-filtered; high volume)",
+      "reason": "Not in your follows — suggested: PropTech Connect Europe (keyword-filtered; high volume)",
       "keyword_filter": true
     },
     {
@@ -464,7 +464,7 @@
       "api_id": "cal-ABeCUrnGg1dt37l",
       "slug": "rarefounders",
       "name": "Rare Founders Calendar",
-      "reason": "Suggested — Rare Founders calendar"
+      "reason": "Not in your follows — suggested: Rare Founders calendar"
     },
     {
       "api_id": "cal-KwZeQ0HC9LFQ3Fk",
@@ -518,7 +518,7 @@
       "api_id": "cal-cl57AMcV2gdbbau",
       "slug": "superteam",
       "name": "Superteam",
-      "reason": "Suggested — Superteam (keyword-filtered; crypto volume)",
+      "reason": "Not in your follows — suggested: Superteam (keyword-filtered; crypto volume)",
       "keyword_filter": true
     },
     {
@@ -537,7 +537,7 @@
       "api_id": "cal-XbpmR42wDZE9lri",
       "slug": "techtalkuk",
       "name": "TechTalk",
-      "reason": "Suggested — TechTalk UK"
+      "reason": "Not in your follows — suggested: TechTalk UK"
     },
     {
       "api_id": "cal-vOLsCDKYVWKtdlT",
@@ -573,7 +573,7 @@
       "api_id": "cal-ivbmigJ7M4CxbXx",
       "slug": "techstartupmeetups",
       "name": "UK Startup Events",
-      "reason": "Suggested — dense London startup/tech listings (not in your follows)"
+      "reason": "Not in your follows — suggested: dense London startup/tech listings (not in your follows)"
     },
     {
       "api_id": "cal-yoMaeA020efY3U1",
@@ -597,7 +597,7 @@
       "api_id": "cal-jhER54DdmapscWG",
       "slug": "womeninaiforum",
       "name": "Women in AI Forum",
-      "reason": "Suggested — Women in AI Forum"
+      "reason": "Not in your follows — suggested: Women in AI Forum"
     },
     {
       "api_id": "cal-Y4uwtHKiquV5OVx",
