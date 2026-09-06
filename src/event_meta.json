@@ -247,6 +247,12 @@
     "first_seen_at": "2026-07-27T11:50:58.532Z",
     "first_alerted_at": "2026-07-27T11:51:00.348Z"
   },
+  "evt-6kil7YJqywlsA9G": {
+    "name": "Founder Table: A Gathering of Founders and CMOs at Growth Stage Companies - London",
+    "host": "Personal",
+    "first_seen_at": "2026-09-06T20:47:48.906Z",
+    "first_alerted_at": "2026-09-06T20:47:50.618Z"
+  },
   "evt-6uZhzMQCrMDdfzU": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -769,6 +775,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-f2g8vpgaeajG6PG": {
+    "name": "Gateway to Dubai: Scaling Foreign PropTech in the World’s Fastest‑Growing Real Estate Market",
+    "host": "PropTech Connect Europe 2026",
+    "first_seen_at": "2026-09-06T20:47:48.906Z",
+    "first_alerted_at": "2026-09-06T20:47:50.618Z"
   },
   "evt-f485JH5xleQhSFi": {
     "name": "Sifted x N47 Dinner",
@@ -1374,6 +1386,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-MnFgXFJ37zryNH6": {
+    "name": "VC Table: Platform and Partnerships Dinner - London",
+    "host": "Personal",
+    "first_seen_at": "2026-09-06T20:47:48.906Z",
+    "first_alerted_at": "2026-09-06T20:47:50.618Z"
+  },
   "evt-mpFjl5NyyznC1tQ": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "first_seen_at": "2026-09-03T14:40:35.705Z"
@@ -1723,6 +1741,12 @@
     "name": "funded founders coworking + pizza night (ft AI Agents workshop)",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-Ry1vwUvFjudIlae": {
+    "name": "{Tech: Europe} Agentic AI Hack",
+    "host": "{Tech: Europe}",
+    "first_seen_at": "2026-09-06T20:47:48.906Z",
+    "first_alerted_at": "2026-09-06T20:47:50.618Z"
   },
   "evt-s3nNK1NgBxZF9ch": {
     "name": "Stripe & Notion: AI Agents for Professionals",
