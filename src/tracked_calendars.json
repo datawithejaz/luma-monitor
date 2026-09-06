@@ -600,6 +600,12 @@
       "reason": "Not in your follows — suggested: Women in AI Forum"
     },
     {
+      "api_id": "cal-Z1tslEBMjjCh4fd",
+      "slug": "",
+      "name": "WorkOS Events",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-Y4uwtHKiquV5OVx",
       "slug": "zapierpartnerscalendar",
       "name": "Zapier Partner Events Calendar",
