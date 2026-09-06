@@ -7,6 +7,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-qyEpCltsspbMoJR",
+      "slug": "tech-europe",
+      "name": "{Tech: Europe}",
+      "reason": "Suggested — {Tech: Europe} London events"
+    },
+    {
       "api_id": "cal-8keGx2hPWefhJFK",
       "slug": "",
       "name": "ABRC",
@@ -14,6 +20,12 @@
       "sample_event_url": "https://luma.com/sb6gxi0t",
       "include_all_events": true,
       "reason": "User request — personal calendar (no public slug); all London events"
+    },
+    {
+      "api_id": "cal-EDisCieHa0mXu0b",
+      "slug": "aiafter5",
+      "name": "AI After 5",
+      "reason": "Suggested — AI After 5"
     },
     {
       "api_id": "cal-Uzt4MvgUpfoSstH",
@@ -38,6 +50,12 @@
       "slug": "architect",
       "name": "Architect",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-wjMwGmksR3Zpa83",
+      "slug": "arizeai",
+      "name": "Arize AI",
+      "reason": "Suggested — Arize AI events"
     },
     {
       "api_id": "cal-oGKPs8y5BbMisbK",
@@ -70,6 +88,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-ElvU4UVlAD13ewe",
+      "slug": "builderandbrews",
+      "name": "Builders & Brews",
+      "reason": "Suggested — Builders & Brews"
+    },
+    {
       "api_id": "cal-2RFjmQ4ZSmQPCkA",
       "slug": "cccl",
       "name": "CCCL",
@@ -94,6 +118,24 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-gmMOid1Rsqc3Hih",
+      "slug": "clickhouse-events",
+      "name": "ClickHouse Events",
+      "reason": "Suggested — ClickHouse Events"
+    },
+    {
+      "api_id": "cal-YNO3LqoXki2vCFE",
+      "slug": "codurance",
+      "name": "Codurance",
+      "reason": "Suggested — Codurance engineering community"
+    },
+    {
+      "api_id": "cal-UGHhBfVjoizv11Z",
+      "slug": "colorintech-official",
+      "name": "Colorintech Events",
+      "reason": "Suggested — Colorintech Events"
+    },
+    {
       "api_id": "cal-HUj9G3RtLCRmtBx",
       "slug": "connectedinnovation",
       "name": "Connected Innovation",
@@ -104,6 +146,12 @@
       "slug": "corgilondon",
       "name": "Corgi London",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-qQsgmTTcoDwHfhP",
+      "slug": "cpocircles",
+      "name": "CPO Circles",
+      "reason": "Suggested — CPO Circles (product)"
     },
     {
       "api_id": "cal-qHEDltsO0Gr0WtD",
@@ -134,6 +182,18 @@
       "slug": "encode-club",
       "name": "Encode Club",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-6JZ52WMKJ2Ni04d",
+      "slug": "pillarvc-encode",
+      "name": "Encode: AI for Science Fellowship - Pillar VC x ARIA",
+      "reason": "Suggested — Encode AI for Science (Pillar VC x ARIA)"
+    },
+    {
+      "api_id": "cal-6RHFj6tIqVcyN35",
+      "slug": "entrepreneurs-first",
+      "name": "Entrepreneurs First",
+      "reason": "Suggested — Entrepreneurs First London"
     },
     {
       "api_id": "cal-XqDIe2oUVLcybKK",
@@ -172,6 +232,18 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-0VoAbfCQEAG1nRo",
+      "slug": "GetFutureReady",
+      "name": "GetFutureReady Community",
+      "reason": "Suggested — GetFutureReady Community (sitemap discovery)"
+    },
+    {
+      "api_id": "cal-sV0fuGpbX06Jp8w",
+      "slug": "girlswhoml-events",
+      "name": "GirlsWhoML",
+      "reason": "Suggested — GirlsWhoML"
+    },
+    {
       "api_id": "cal-jaeWPGfix6gUTec",
       "slug": "glassray",
       "name": "Glassray",
@@ -202,6 +274,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-eN3KGLR5jYicSEf",
+      "slug": "grishin-robotics",
+      "name": "Grishin Robotics VC",
+      "reason": "Suggested — Grishin Robotics VC"
+    },
+    {
       "api_id": "cal-sTpcuYmvvYXvEtd",
       "slug": "halkin",
       "name": "Halkin Offices",
@@ -220,16 +298,40 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-g2hGHdku1grEA51",
+      "slug": "jaiku",
+      "name": "JAIKU",
+      "reason": "Suggested — JAIKU"
+    },
+    {
+      "api_id": "cal-7QGqgiHd7VBRpVv",
+      "slug": "jetbrains-uk",
+      "name": "JetBrains UK",
+      "reason": "Suggested — JetBrains UK"
+    },
+    {
       "api_id": "cal-KUVrWECuYa2l5zB",
       "slug": "legora",
       "name": "Legora",
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-RrzxAKUyNdOjqXi",
+      "slug": "lookingforgrowth",
+      "name": "LFG",
+      "reason": "Suggested — LFG / Looking for Growth"
+    },
+    {
       "api_id": "cal-cL7rmdsYRDYfxQC",
       "slug": "",
       "name": "Lightbringer UK",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-IxvyTlAxcCwdUtZ",
+      "slug": "livingroomlabs",
+      "name": "Living Room Labs",
+      "reason": "Suggested — Living Room Labs"
     },
     {
       "api_id": "cal-W1UumipyMqrUEsF",
@@ -256,6 +358,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-qaBuxr3sRTGy0Ol",
+      "slug": "londonlivecoding",
+      "name": "London Live Coding?",
+      "reason": "Suggested — London Live Coding"
+    },
+    {
       "api_id": "cal-uIX65wX4k4RwuS1",
       "slug": "london-systems-club",
       "name": "London Systems Club",
@@ -274,10 +382,28 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-BohjOVw24zi3Bsi",
+      "slug": "masschallengeuk2026",
+      "name": "MassChallenge UK 2026 Early-Stage Accelerator",
+      "reason": "Suggested — MassChallenge UK accelerator"
+    },
+    {
+      "api_id": "cal-k7S7WUj7XGgcjsC",
+      "slug": "motherduck",
+      "name": "MotherDuck",
+      "reason": "Suggested — MotherDuck data/AI events"
+    },
+    {
       "api_id": "cal-pYVlNfFT4qWcFsE",
       "slug": "multic",
       "name": "MULTIC",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-WGvTrmNL8OxL5Tw",
+      "slug": "newspeak-house",
+      "name": "Newspeak House",
+      "reason": "Suggested — Newspeak House (tech/civic community)"
     },
     {
       "api_id": "cal-hToMGw3ot55mird",
@@ -322,10 +448,23 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-Gs1GHAFSsQG4qhQ",
+      "slug": "PropTechConnectEU26",
+      "name": "PropTech Connect Europe 2026",
+      "reason": "Suggested — PropTech Connect Europe (keyword-filtered; high volume)",
+      "keyword_filter": true
+    },
+    {
       "api_id": "cal-ZSyFOE4yAVFecLW",
       "slug": "rampevents",
       "name": "Ramp Events",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-ABeCUrnGg1dt37l",
+      "slug": "rarefounders",
+      "name": "Rare Founders Calendar",
+      "reason": "Suggested — Rare Founders calendar"
     },
     {
       "api_id": "cal-KwZeQ0HC9LFQ3Fk",
@@ -376,6 +515,13 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-cl57AMcV2gdbbau",
+      "slug": "superteam",
+      "name": "Superteam",
+      "reason": "Suggested — Superteam (keyword-filtered; crypto volume)",
+      "keyword_filter": true
+    },
+    {
       "api_id": "cal-CvIpKRM5YbmuITz",
       "slug": "Syrena_",
       "name": "Syrena Network",
@@ -386,6 +532,12 @@
       "slug": "techgames",
       "name": "TechGames",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-XbpmR42wDZE9lri",
+      "slug": "techtalkuk",
+      "name": "TechTalk",
+      "reason": "Suggested — TechTalk UK"
     },
     {
       "api_id": "cal-vOLsCDKYVWKtdlT",
@@ -418,6 +570,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-ivbmigJ7M4CxbXx",
+      "slug": "techstartupmeetups",
+      "name": "UK Startup Events",
+      "reason": "Suggested — dense London startup/tech listings (not in your follows)"
+    },
+    {
       "api_id": "cal-yoMaeA020efY3U1",
       "slug": "mafia",
       "name": "Unicorn Mafia",
@@ -434,6 +592,12 @@
       "slug": "Vibecoders.global",
       "name": "Vibe Coding Collective",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-jhER54DdmapscWG",
+      "slug": "womeninaiforum",
+      "name": "Women in AI Forum",
+      "reason": "Suggested — Women in AI Forum"
     },
     {
       "api_id": "cal-Y4uwtHKiquV5OVx",
