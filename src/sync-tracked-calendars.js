@@ -54,7 +54,11 @@ function saveTracked(calendars) {
 
 function isPinnedManual(cal) {
   if (cal.include_all_events) return true;
-  if ((cal.reason || "").includes("Not in your follows")) return true;
+  const reason = cal.reason || "";
+  // Soft pins: calendars we track that aren't (yet) in your Lu.ma follows —
+  // discovery suggestions and hand-added hosts survive cookie sync.
+  if (reason.includes("Not in your follows")) return true;
+  if (reason.includes("Suggested")) return true;
   return false;
 }
 
