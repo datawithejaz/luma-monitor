@@ -7,6 +7,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-qyEpCltsspbMoJR",
+      "slug": "tech-europe",
+      "name": "{Tech: Europe}",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-8keGx2hPWefhJFK",
       "slug": "",
       "name": "ABRC",
@@ -37,6 +43,12 @@
       "api_id": "cal-ZI6udBAMrWomDCG",
       "slug": "architect",
       "name": "Architect",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-wjMwGmksR3Zpa83",
+      "slug": "arizeai",
+      "name": "Arize AI",
       "reason": "User subscription"
     },
     {
@@ -94,6 +106,18 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-YNO3LqoXki2vCFE",
+      "slug": "codurance",
+      "name": "Codurance",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-UGHhBfVjoizv11Z",
+      "slug": "colorintech-official",
+      "name": "Colorintech Events",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-HUj9G3RtLCRmtBx",
       "slug": "connectedinnovation",
       "name": "Connected Innovation",
@@ -103,6 +127,12 @@
       "api_id": "cal-v8PuFjastlj2pZp",
       "slug": "corgilondon",
       "name": "Corgi London",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-qQsgmTTcoDwHfhP",
+      "slug": "cpocircles",
+      "name": "CPO Circles",
       "reason": "User subscription"
     },
     {
@@ -133,6 +163,18 @@
       "api_id": "cal-8LJYo5N7QObN2DI",
       "slug": "encode-club",
       "name": "Encode Club",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-6JZ52WMKJ2Ni04d",
+      "slug": "pillarvc-encode",
+      "name": "Encode: AI for Science Fellowship - Pillar VC x ARIA",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-6RHFj6tIqVcyN35",
+      "slug": "entrepreneurs-first",
+      "name": "Entrepreneurs First",
       "reason": "User subscription"
     },
     {
@@ -172,6 +214,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-0VoAbfCQEAG1nRo",
+      "slug": "GetFutureReady",
+      "name": "GetFutureReady Community",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-jaeWPGfix6gUTec",
       "slug": "glassray",
       "name": "Glassray",
@@ -202,6 +250,18 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-eN3KGLR5jYicSEf",
+      "slug": "grishin-robotics",
+      "name": "Grishin Robotics VC",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-vdo4PN9OBS9D0BT",
+      "slug": "gtmworldtour",
+      "name": "GTM World Tour",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-sTpcuYmvvYXvEtd",
       "slug": "halkin",
       "name": "Halkin Offices",
@@ -220,6 +280,18 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-g2hGHdku1grEA51",
+      "slug": "jaiku",
+      "name": "JAIKU",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-7QGqgiHd7VBRpVv",
+      "slug": "jetbrains-uk",
+      "name": "JetBrains UK",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-KUVrWECuYa2l5zB",
       "slug": "legora",
       "name": "Legora",
@@ -229,6 +301,12 @@
       "api_id": "cal-cL7rmdsYRDYfxQC",
       "slug": "",
       "name": "Lightbringer UK",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-IxvyTlAxcCwdUtZ",
+      "slug": "livingroomlabs",
+      "name": "Living Room Labs",
       "reason": "User subscription"
     },
     {
@@ -256,6 +334,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-qaBuxr3sRTGy0Ol",
+      "slug": "londonlivecoding",
+      "name": "London Live Coding?",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-uIX65wX4k4RwuS1",
       "slug": "london-systems-club",
       "name": "London Systems Club",
@@ -274,9 +358,33 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-BohjOVw24zi3Bsi",
+      "slug": "masschallengeuk2026",
+      "name": "MassChallenge UK 2026 Early-Stage Accelerator",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-k7S7WUj7XGgcjsC",
+      "slug": "motherduck",
+      "name": "MotherDuck",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-pYVlNfFT4qWcFsE",
       "slug": "multic",
       "name": "MULTIC",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-WGvTrmNL8OxL5Tw",
+      "slug": "newspeak-house",
+      "name": "Newspeak House",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-IymOaUFSj6CJCYF",
+      "slug": "not-another-pizza",
+      "name": "notanother.pizza",
       "reason": "User subscription"
     },
     {
@@ -322,9 +430,21 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-Gs1GHAFSsQG4qhQ",
+      "slug": "PropTechConnectEU26",
+      "name": "PropTech Connect Europe 2026",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-ZSyFOE4yAVFecLW",
       "slug": "rampevents",
       "name": "Ramp Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-ABeCUrnGg1dt37l",
+      "slug": "rarefounders",
+      "name": "Rare Founders Calendar",
       "reason": "User subscription"
     },
     {
@@ -376,6 +496,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-cl57AMcV2gdbbau",
+      "slug": "superteam",
+      "name": "Superteam",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-CvIpKRM5YbmuITz",
       "slug": "Syrena_",
       "name": "Syrena Network",
@@ -385,6 +511,12 @@
       "api_id": "cal-tcBV7zXlgqIT8P9",
       "slug": "techgames",
       "name": "TechGames",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-XbpmR42wDZE9lri",
+      "slug": "techtalkuk",
+      "name": "TechTalk",
       "reason": "User subscription"
     },
     {
@@ -415,6 +547,12 @@
       "api_id": "cal-ObXRLmBUISp8LQh",
       "slug": "",
       "name": "UK AI Agents Lab",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-ivbmigJ7M4CxbXx",
+      "slug": "techstartupmeetups",
+      "name": "UK Startup Events",
       "reason": "User subscription"
     },
     {
