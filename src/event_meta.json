@@ -1446,6 +1446,12 @@
     "first_seen_at": "2026-08-10T18:24:15.467Z",
     "first_alerted_at": "2026-08-10T18:24:17.477Z"
   },
+  "evt-nf9OdIWbZ82sdA5": {
+    "name": "Pitch and Run London",
+    "host": "Pitch and Run",
+    "first_seen_at": "2026-09-07T09:41:45.629Z",
+    "first_alerted_at": "2026-09-07T09:41:46.997Z"
+  },
   "evt-niURzhLiCCZIYt3": {
     "name": "RUN HACK Warm-up x London Startup Operators Runclub🚀👟",
     "first_seen_at": "2026-08-22T14:55:49.931Z",
@@ -1662,6 +1668,12 @@
     "name": "[O]pen House Fireside with Attio | Hosted by R[3]sidency x Construct",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-qLZf4JkEsaaKqwh": {
+    "name": "Voice AI: Shaping the Next Frontier of Customer Interaction",
+    "host": "Deepgram",
+    "first_seen_at": "2026-09-07T09:41:45.629Z",
+    "first_alerted_at": "2026-09-07T09:41:46.997Z"
   },
   "evt-QNSLnKSsoBiMtdL": {
     "name": "Humanising Data for Healthier, Fairer Futures",
@@ -1958,6 +1970,12 @@
     "host": "Newspeak House",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:17.743Z"
+  },
+  "evt-vg8ii0eb3TraaBm": {
+    "name": "The Android Circuit: Eighth Stop, Old Street",
+    "host": "Encode Club",
+    "first_seen_at": "2026-09-07T09:41:45.629Z",
+    "first_alerted_at": "2026-09-07T09:41:46.997Z"
   },
   "evt-VHERFeCxwq9prXc": {
     "name": "Rebuild Private Markets: The Ylookup x Encode AI Hackathon",
