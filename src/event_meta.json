@@ -590,6 +590,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-cETDdF75bn4X9Of": {
+    "name": "ABRC: THE VAMPIRE DIARIES SCREENING",
+    "host": "Personal",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
   "evt-CGQFbJaOFXXsovg": {
     "name": "Launch Event: Fashion Tech, AI & Luxury",
     "first_seen_at": "2026-07-21T17:44:54.707Z",
@@ -630,6 +636,12 @@
     "name": "London Fintech Breakfast",
     "first_seen_at": "2026-08-30T01:17:25.395Z",
     "first_alerted_at": "2026-08-30T01:17:26.774Z"
+  },
+  "evt-CV1VYx3SFifhcFF": {
+    "name": "London Walking Meetup — Hyde Park",
+    "host": "Lifestack",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
   },
   "evt-CZEy8OAE2jwGpx4": {
     "name": "AI Safety Cinema Society #1: The AI Doc + Seat at the Table",
@@ -1175,6 +1187,12 @@
     "name": "AI Leaders Dinner - Encord",
     "first_seen_at": "2026-08-11T11:23:32.755Z",
     "first_alerted_at": "2026-08-11T11:23:34.532Z"
+  },
+  "evt-jqUVVDblbCqKOZy": {
+    "name": "Flight3 x Superteam UK: Media & Founder Branding",
+    "host": "Superteam",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
   },
   "evt-jRrTg3mcvSTUUsD": {
     "name": "Agentic A.I. Private Dinner",
@@ -2232,6 +2250,12 @@
     "first_seen_at": "2026-08-07T12:54:35.124Z",
     "first_alerted_at": "2026-08-07T12:54:37.482Z"
   },
+  "evt-xztEQ9GHaPtv7BV": {
+    "name": "China Nerdfest London - Autumn Drinks",
+    "host": "RealTime Mandarin Calendar",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
   "evt-Y7VHKCo68RWYZIE": {
     "name": "Retrofitting Commercial Portfolios: Translating Capex into Asset Value - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -2315,6 +2339,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-zGWJE7O1KowOumx": {
+    "name": "Fractional Finance Breakfast in Fitzrovia | Software Spend & Tool Stack",
+    "host": "enki events",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
   "evt-zHLkUMSjbZUHpAs": {
     "name": "AI ROI: Why the Agent Isn't the Answer",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -2324,6 +2354,12 @@
     "name": "ABRC: YESTERYEAR BOOKCLUB",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
+  "evt-zjtEvb04wHyQJgV": {
+    "name": "Flight3 x Superteam UK: Go-To-Market",
+    "host": "Superteam",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
   },
   "evt-ZmLhANHCfg6wJfZ": {
     "name": "The Ninth Seat — Poker Night for Tech Founders",
@@ -2350,6 +2386,12 @@
     "name": "Cursor Conversations London | Maximising ROI on Intelligence",
     "first_seen_at": "2026-08-27T04:11:49.452Z",
     "first_alerted_at": "2026-08-27T04:11:50.614Z"
+  },
+  "evt-ZR8E5POMltxuNg5": {
+    "name": "Canva Gen©️ - Student Hackathon London 🚀",
+    "host": "Bright Creative",
+    "first_seen_at": "2026-09-07T19:15:05.699Z",
+    "first_alerted_at": "2026-09-07T19:15:07.801Z"
   },
   "evt-ZSumqyLCLiayDFf": {
     "name": "Staying Ahead of the Curve: Policy & Compliance in Audiovisual AI",
