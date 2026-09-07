@@ -543,6 +543,12 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-BUcYo9ZCtZ3JerA": {
+    "name": "Flight3 x Superteam UK: Design & Presence: Look Like You Belong",
+    "host": "Superteam",
+    "first_seen_at": "2026-09-07T22:04:04.315Z",
+    "first_alerted_at": "2026-09-07T22:04:07.093Z"
+  },
   "evt-bwlqBpIbeMhsSAz": {
     "name": "Asset Intelligence at Scale: Modernising Portfolio Maintenance - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -554,6 +560,12 @@
     "host": "AI After 5",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:17.475Z"
+  },
+  "evt-c0AwhjVHy6nBGo7": {
+    "name": "Side-project September: Discussion and Q&A",
+    "host": "The Founder-writer Collective",
+    "first_seen_at": "2026-09-07T22:04:04.315Z",
+    "first_alerted_at": "2026-09-07T22:04:07.093Z"
   },
   "evt-C1mDVDbGXgSbZuD": {
     "name": "The Mirror That Never Pushes Back: Investigating AI Delusions",
