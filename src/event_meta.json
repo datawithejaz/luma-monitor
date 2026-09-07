@@ -264,6 +264,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-7ERVmkbPf38jiu4": {
+    "name": "Scaling AI Enterprise Revenue",
+    "host": "Reasoning Project",
+    "first_seen_at": "2026-09-07T00:10:35.196Z",
+    "first_alerted_at": "2026-09-07T00:10:37.430Z"
+  },
   "evt-7hgyrV13KH4jDjQ": {
     "name": "Corworking with Zapier and Corgi ⚡️🥐",
     "first_seen_at": "2026-09-02T23:16:07.469Z",
@@ -1763,6 +1769,12 @@
     "name": "Tech & Tonic | Summer Drinks",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
     "first_alerted_at": "2026-08-04T16:28:53.113Z"
+  },
+  "evt-sD5GAtmeK36IjVs": {
+    "name": "London Data & AI Product Management meetup #24 (BigDataLDN special!)",
+    "host": "London Data & AI Product Management meetup",
+    "first_seen_at": "2026-09-07T00:10:35.196Z",
+    "first_alerted_at": "2026-09-07T00:10:37.430Z"
   },
   "evt-SG1UMx3i22rlbx0": {
     "name": "TRD x BEYOND FITNESS Class 2.0 💪🔥🧡",
