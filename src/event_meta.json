@@ -25,6 +25,11 @@
     "first_seen_at": "2026-07-14T16:04:40.852Z",
     "first_alerted_at": "2026-07-14T16:04:42.189Z"
   },
+  "evt-0zvSSvFLAJgVQg7": {
+    "name": "GetFutureReady FinTech 5K Run",
+    "host": "GetFutureReady Community",
+    "first_seen_at": "2026-09-08T13:34:30.167Z"
+  },
   "evt-13Np6yqU9sjGqDD": {
     "name": "The New Approach to Access Liquidity: Unlocking Outsized Returns through Market Transparency - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -211,6 +216,12 @@
     "name": "Hackathon: Empathetic Agents",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
+  "evt-5aWllfrfqmWqW57": {
+    "name": "Flight3 x Superteam UK: Content Engine - Winning the Week",
+    "host": "Superteam",
+    "first_seen_at": "2026-09-08T13:34:30.167Z",
+    "first_alerted_at": "2026-09-08T13:34:31.803Z"
   },
   "evt-5j0qsf9Evkw5FEA": {
     "name": "September AI Workshop",
@@ -915,6 +926,12 @@
     "first_seen_at": "2026-07-14T16:04:40.852Z",
     "first_alerted_at": "2026-07-14T16:04:42.189Z"
   },
+  "evt-fmRgKHFBnKGIaLw": {
+    "name": "LFG OFF THE RECORD",
+    "host": "LFG",
+    "first_seen_at": "2026-09-08T13:34:30.167Z",
+    "first_alerted_at": "2026-09-08T13:34:31.803Z"
+  },
   "evt-FPAQGfy4VtUKOtF": {
     "name": "Graphics programming with GLSL shaders [c3s meetup #12]",
     "first_seen_at": "2026-07-06T21:57:34.392Z",
@@ -1507,6 +1524,12 @@
     "first_seen_at": "2026-08-14T11:29:06.406Z",
     "first_alerted_at": "2026-08-14T11:29:07.894Z"
   },
+  "evt-M37Kv0BY1qxIr13": {
+    "name": "catch me 🌞 x community coffee s3e4",
+    "host": "KVITKA RC Events  | London",
+    "first_seen_at": "2026-09-08T13:34:30.167Z",
+    "first_alerted_at": "2026-09-08T13:34:31.803Z"
+  },
   "evt-M5aSQieY4xfY3Ef": {
     "name": "Engineering Leaders Building AI 001 - Private Dinner",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
@@ -1564,6 +1587,12 @@
   "evt-mpFjl5NyyznC1tQ": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "first_seen_at": "2026-09-03T14:40:35.705Z"
+  },
+  "evt-Mrf9lNqXRa1dsMV": {
+    "name": "The Business Show London",
+    "host": "Fetch.ai Innovation Lab",
+    "first_seen_at": "2026-09-08T13:34:30.167Z",
+    "first_alerted_at": "2026-09-08T13:34:31.803Z"
   },
   "evt-msOvtSEv21VWxgy": {
     "name": "Creative Coding Bookclub- Vectors",
@@ -1669,6 +1698,12 @@
     "first_seen_at": "2026-08-26T16:16:05.960Z",
     "first_alerted_at": "2026-08-26T16:16:07.192Z"
   },
+  "evt-NUrLr6HlGU9Sjhw": {
+    "name": "Techworking Rooftop Sundowner 🌆",
+    "host": "Encode Club",
+    "first_seen_at": "2026-09-08T13:34:30.167Z",
+    "first_alerted_at": "2026-09-08T13:34:31.803Z"
+  },
   "evt-nVfY9tTvVPuDX80": {
     "name": "Voice AI Meetup: London Chapter",
     "first_seen_at": "2026-07-24T21:44:16.952Z",
@@ -1678,6 +1713,11 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-o2wr08EFiwMc2Op": {
+    "name": "GetFutureReady FinTech 5K Run",
+    "host": "GetFutureReady Community",
+    "first_seen_at": "2026-09-08T13:34:30.167Z"
   },
   "evt-oAKj9JXEwX5Wba5": {
     "name": "Founder Cowork Club [UNFACILITATED]",
@@ -2045,6 +2085,11 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-SxMlFjNFiDFqJjC": {
+    "name": "GetFutureReady FinTech 5K Run",
+    "host": "GetFutureReady Community",
+    "first_seen_at": "2026-09-08T13:34:30.167Z"
   },
   "evt-SxRCM3OmsPf2J82": {
     "name": "Healthtech Startup Breakfast: MMC x Jumpstart x NXGN",
