@@ -112,6 +112,12 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-30BIVXL8Q1bOfv9": {
+    "name": "Weave:London - Building the Agentic Enterprise: From Individual Productivity to Organisational Reinvention",
+    "host": "Loomery",
+    "first_seen_at": "2026-09-08T20:05:05.811Z",
+    "first_alerted_at": "2026-09-08T20:05:07.646Z"
+  },
   "evt-3bESVZ83Uqe4w8i": {
     "name": "Can You Trust the Data Running Your Portfolio? Building the Infrastructure for AI-Ready Compliance - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -264,6 +270,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-68DsEJ7GZMyi8b3": {
+    "name": "shipped #1 - London's FDE Meetup",
+    "host": "shipped - London's FDE MeetUp",
+    "first_seen_at": "2026-09-08T20:05:05.811Z",
+    "first_alerted_at": "2026-09-08T20:05:07.646Z"
+  },
   "evt-6bTnOrQNM2FyNGV": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-08-03T08:17:13.430Z",
@@ -332,6 +344,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-7QvNC5T8eY9wkRK": {
+    "name": "London 2027 Venture Capital World Summit",
+    "host": "Venture Capital World Summit",
+    "first_seen_at": "2026-09-08T20:05:05.811Z",
+    "first_alerted_at": "2026-09-08T20:05:07.646Z"
   },
   "evt-7VdLpBK3ksmfSjx": {
     "name": "The Startup Stroll",
@@ -2100,6 +2118,12 @@
     "name": "Founder Cowork Club: Focus and Flow with Special Guest Lindsay Brielle Strouse",
     "first_seen_at": "2026-08-04T23:35:25.257Z",
     "first_alerted_at": "2026-08-04T23:35:27.940Z"
+  },
+  "evt-t5TnXS9wDgAnIZV": {
+    "name": "What can AI automate? | Breakfast AI Club w/ Vonage",
+    "host": "Vibe Coding Collective",
+    "first_seen_at": "2026-09-08T20:05:05.811Z",
+    "first_alerted_at": "2026-09-08T20:05:07.646Z"
   },
   "evt-t90eLlxPaTK1V0F": {
     "name": "Open Code #21",
