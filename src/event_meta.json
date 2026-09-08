@@ -487,6 +487,12 @@
     "first_seen_at": "2026-08-17T10:46:12.833Z",
     "first_alerted_at": "2026-08-17T10:46:14.568Z"
   },
+  "evt-bggUZdKABBZZcLz": {
+    "name": "House of Sol Workshops - Privacy on Solana",
+    "host": "House of Sol",
+    "first_seen_at": "2026-09-08T00:14:33.016Z",
+    "first_alerted_at": "2026-09-08T00:14:35.192Z"
+  },
   "evt-bhUdFAB787EbuiQ": {
     "name": "Adaptive Demo Night",
     "first_seen_at": "2026-08-05T21:37:10.995Z",
@@ -1216,6 +1222,12 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-JSNhiZeb02hL2XO": {
+    "name": "SEC Summit 2026",
+    "host": "Science Entrepreneur Club",
+    "first_seen_at": "2026-09-08T00:14:33.016Z",
+    "first_alerted_at": "2026-09-08T00:14:35.192Z"
+  },
   "evt-JtMFXLB62ZYI4BY": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -1656,6 +1668,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-P9bk9MwVIo7cCcy": {
+    "name": "Introduction to Alma & the Venture World: A workshop exclusive to RBC Brewin Dolphin & Smart Works",
+    "host": "Alma Angels",
+    "first_seen_at": "2026-09-08T00:14:33.016Z",
+    "first_alerted_at": "2026-09-08T00:14:35.192Z"
+  },
   "evt-pBN8PFNbolDb67Q": {
     "name": "The Infrastructure Decisions That Define Your Trajectory",
     "host": "London AI Hub",
@@ -1795,6 +1813,12 @@
     "name": "OpenAI Builder Lounge London",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-RmirpOpp1HEDrPN": {
+    "name": "House of Sol Workshops - Tokenisation 101",
+    "host": "House of Sol",
+    "first_seen_at": "2026-09-08T00:14:33.016Z",
+    "first_alerted_at": "2026-09-08T00:14:35.192Z"
   },
   "evt-rnAWiC82vKnNi3r": {
     "name": "How to Layer AI On Top of Your Data For Successful Digital Transformation - Roundtable",
