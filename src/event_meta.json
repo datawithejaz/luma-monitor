@@ -97,6 +97,12 @@
     "first_seen_at": "2026-08-07T19:55:05.559Z",
     "first_alerted_at": "2026-08-07T19:55:07.603Z"
   },
+  "evt-2PTxLKCyGiF87oC": {
+    "name": "Scientist to Founder: London",
+    "host": "Conception X",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
+  },
   "evt-2qfprAuJk1R0HHB": {
     "name": "LVC December Lunch",
     "host": "London Venture Club",
@@ -139,6 +145,12 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-3lkucwG95mNktqz": {
+    "name": "Official staaake in London for Founders, AI/Tech — Power Walk",
+    "host": "staaake",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
+  },
   "evt-3oQOryODbACfnlg": {
     "name": "Building & Scaling Engineering Teams",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -153,6 +165,12 @@
     "name": "First Commit – Where Founding Engineers & Founders Meet",
     "first_seen_at": "2026-07-29T16:52:29.228Z",
     "first_alerted_at": "2026-07-29T16:52:30.693Z"
+  },
+  "evt-3xq94oPi1UCCKPs": {
+    "name": "AI Pilled [Builder] #03",
+    "host": "AI Pilled",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
   "evt-48oBtd0YxyPkOOq": {
     "name": "Cursor Cybersecurity London Hackathon",
@@ -1294,6 +1312,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-j62KQe4OxnQJLzg": {
+    "name": "Open by Design: The Economics of AI in Production",
+    "host": "Together AI Calendar",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
+  },
   "evt-JboNKgDQrd0olE0": {
     "name": "London AI×Bio Hack",
     "first_seen_at": "2026-08-24T11:14:43.661Z",
@@ -1536,6 +1560,12 @@
     "name": "Demonite - No Decks. Just Night of Live Demos.",
     "first_seen_at": "2026-08-23T15:45:54.315Z",
     "first_alerted_at": "2026-08-23T15:45:56.184Z"
+  },
+  "evt-lzIOqAXk1FeRNGF": {
+    "name": "AI Pilled [Operator] #02",
+    "host": "AI Pilled",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
   "evt-M0ysOkQ0fcbOWeb": {
     "name": "AI Native Dev - London",
@@ -1931,6 +1961,12 @@
     "first_seen_at": "2026-09-07T09:41:45.629Z",
     "first_alerted_at": "2026-09-07T09:41:46.997Z"
   },
+  "evt-qNLdOMM9E0hjrie": {
+    "name": "staaake Lunch - Global Dinner Club for Tech/AI Founders & (One time in London)",
+    "host": "staaake",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
+  },
   "evt-QNSLnKSsoBiMtdL": {
     "name": "Humanising Data for Healthier, Fairer Futures",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -2144,6 +2180,12 @@
     "name": "London Tech Leaders Executive Dinner - Still the Default. No Longer the Best",
     "first_seen_at": "2026-07-30T11:24:54.720Z",
     "first_alerted_at": "2026-07-30T11:24:56.432Z"
+  },
+  "evt-tdN56wlWs2MWbEI": {
+    "name": "QonfX: Invite-only Conference for QA & Tech Leaders | London",
+    "host": "Invite-only Conference for top QA & Tech Leaders",
+    "first_seen_at": "2026-09-08T22:35:42.913Z",
+    "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
   "evt-THq5B7G4nwTTSMj": {
     "name": "Exploring Opportunities in... Sustainability (Nature & Land)",
