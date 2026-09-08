@@ -242,6 +242,12 @@
     "first_seen_at": "2026-08-03T08:17:13.430Z",
     "first_alerted_at": "2026-08-03T08:17:15.470Z"
   },
+  "evt-6cT3nCgEYdDvdo3": {
+    "name": "The leadership journey from Marketing Director to CMO",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-08T04:40:49.937Z",
+    "first_alerted_at": "2026-09-08T04:40:51.880Z"
+  },
   "evt-6i2Ay7FszqRTwkl": {
     "name": "Female Founders Pitch Night with Octopus Ventures and NoBa Capital",
     "first_seen_at": "2026-07-27T11:50:58.532Z",
@@ -737,6 +743,12 @@
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
+  },
+  "evt-dXILDlnp0E7ohoP": {
+    "name": "How to build product organisations that last",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-08T04:40:49.937Z",
+    "first_alerted_at": "2026-09-08T04:40:51.880Z"
   },
   "evt-DYbdREpCzm7MJf9": {
     "name": "Co-Working Fridays : London Chapter",
@@ -1405,6 +1417,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:14.661Z"
+  },
+  "evt-LWEJftjjWGxTJ7e": {
+    "name": "Media & Entertainment Executive Leaders Networking Evening",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-08T04:40:49.937Z",
+    "first_alerted_at": "2026-09-08T04:40:51.880Z"
   },
   "evt-LZ9WC4lFeNA21p5": {
     "name": "Demonite - No Decks. Just Night of Live Demos.",
@@ -2189,6 +2207,12 @@
     "first_seen_at": "2026-07-25T19:48:33.996Z",
     "first_alerted_at": "2026-07-25T19:48:35.843Z"
   },
+  "evt-WrCXowAWeUlF3jJ": {
+    "name": "The AI reality: Practical insight for real estate marketers",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-08T04:40:49.937Z",
+    "first_alerted_at": "2026-09-08T04:40:51.880Z"
+  },
   "evt-WSgaHpa1NFVWwXG": {
     "name": "Newspeak House Faculty Dinner 2026",
     "host": "Newspeak House",
@@ -2318,6 +2342,12 @@
     "name": "Scaling the AI Safety Frontier: LISA Grantmaking Panel",
     "first_seen_at": "2026-08-17T23:16:38.461Z",
     "first_alerted_at": "2026-08-17T23:16:39.830Z"
+  },
+  "evt-YTptc6QOfZYvO77": {
+    "name": "Talent Leaders networking evening",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-08T04:40:49.937Z",
+    "first_alerted_at": "2026-09-08T04:40:51.880Z"
   },
   "evt-YTysWseTeORN9eV": {
     "name": "Cantor8 London Hackathon",
