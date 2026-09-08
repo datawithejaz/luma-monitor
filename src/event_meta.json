@@ -71,6 +71,11 @@
     "first_seen_at": "2026-09-03T18:39:12.018Z",
     "first_alerted_at": "2026-09-03T18:39:13.755Z"
   },
+  "evt-2B8c18ea6qzTSV3": {
+    "name": "November AI Workshop",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z"
+  },
   "evt-2IxZ46V7WhUptDq": {
     "name": "Cursor iOS London Hackathon",
     "first_seen_at": "2026-07-05T15:23:35.991Z",
@@ -86,6 +91,11 @@
     "name": "An AI x Design Evening",
     "first_seen_at": "2026-08-07T19:55:05.559Z",
     "first_alerted_at": "2026-08-07T19:55:07.603Z"
+  },
+  "evt-2qfprAuJk1R0HHB": {
+    "name": "LVC December Lunch",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z"
   },
   "evt-2RMFFPoKZHu2FF8": {
     "name": "Co-Working Fridays : London Chapter",
@@ -201,6 +211,12 @@
     "name": "Hackathon: Empathetic Agents",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
+  "evt-5j0qsf9Evkw5FEA": {
+    "name": "September AI Workshop",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
   "evt-5Q9dAYpobKMxdQE": {
     "name": "Design Engineering Night #9",
@@ -352,6 +368,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-9Rila1jNlyTnX0e": {
+    "name": "LVC September Lunch",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
   "evt-a2KjaxeQ1DnY717": {
     "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
@@ -404,6 +426,11 @@
     "name": "First Commit #2: Where Founding Engineers & Founders Meet",
     "first_seen_at": "2026-08-11T09:35:57.864Z",
     "first_alerted_at": "2026-08-11T09:35:58.989Z"
+  },
+  "evt-al7LhTLnv75nMOF": {
+    "name": "LVC January Lunch",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z"
   },
   "evt-AoVuprgkY6lh71N": {
     "name": "Dev Grind",
@@ -471,6 +498,12 @@
     "name": "XPlace : FinTech Lunch & Learn at Somerset House",
     "first_seen_at": "2026-07-28T09:06:57.531Z",
     "first_alerted_at": "2026-07-28T09:06:59.205Z"
+  },
+  "evt-BCyYYY4MD33ybEt": {
+    "name": "Exploring Opportunities in... Quantum Computing",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
   },
   "evt-BDarR1dEs5Qxe5N": {
     "name": "Build Together: The art of creative collaboration (Discussion, Q&A + mingling)",
@@ -604,6 +637,11 @@
     "first_seen_at": "2026-07-14T19:56:54.657Z",
     "first_alerted_at": "2026-07-14T19:56:57.021Z"
   },
+  "evt-cCBjHn1MN9qkCVp": {
+    "name": "October AI Workshop",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z"
+  },
   "evt-cdb8nIkNXHQnHH7": {
     "name": "EAST2046 Party and Performance (f.t. London Data Week Social Mixer)",
     "first_seen_at": "2026-07-10T13:03:30.212Z",
@@ -733,6 +771,11 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
+  },
+  "evt-DmznhssZNDEyoCX": {
+    "name": "LVC October Lunch",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z"
   },
   "evt-dnANDGTN3oMYeSm": {
     "name": "Why work at a startup?",
@@ -959,6 +1002,12 @@
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
   },
+  "evt-GrBFwYMkf0211cT": {
+    "name": "The Future of... Sustainable Aviation",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
   "evt-Grlp3D2D1TwPa49": {
     "name": "ABRC POTTERY & CERAMICS WORKSHOP",
     "first_seen_at": "2026-07-28T17:04:40.078Z",
@@ -991,6 +1040,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-Gy3SRjlxt3Ea5m4": {
+    "name": "Exploring Opportunities in... Space Innovation",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
   },
   "evt-H3GY868HSZiEVg0": {
     "name": "Live Coding Meetup",
@@ -1056,6 +1111,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-hpHErNDYGnGEzZ9": {
+    "name": "Exploring Opportunities in... Philanthropy",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
   "evt-hPHVXpCyYWni59C": {
     "name": "AlgoRhythms",
     "first_seen_at": "2026-08-11T17:33:51.686Z",
@@ -1076,6 +1137,12 @@
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T11:35:18.746Z",
     "first_alerted_at": "2026-08-21T11:35:20.519Z"
+  },
+  "evt-HRJ7OxC6dKWkPs5": {
+    "name": "The Future of… Brain Health & Gaming",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
   },
   "evt-HsEbNVOIbH11BHA": {
     "name": "A Mini Demo Night",
@@ -1212,6 +1279,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-JH9CJLAGjJ2WsgX": {
+    "name": "Shipping AI agents in the EU: What the new rules mean for dev teams",
+    "host": "Arize AI",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
   "evt-jiyNXuvBbDB4xxD": {
     "name": "AI Leaders Dinner - Encord",
@@ -1455,6 +1528,18 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:22.391Z"
   },
+  "evt-mCdRJp6Itz4pA7R": {
+    "name": "The Real Truth About… Lobbying Government",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:53.596Z"
+  },
+  "evt-md3nq3bZUIIq8FS": {
+    "name": "Optimising Performance… Health, Energy & Resilience",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
   "evt-mIHFwEiefa5wpAv": {
     "name": "AI-Assisted Math Research Paper Club by Nebius Academy",
     "first_seen_at": "2026-08-03T20:08:29.517Z",
@@ -1490,10 +1575,22 @@
     "first_seen_at": "2026-07-24T14:29:18.094Z",
     "first_alerted_at": "2026-07-24T14:29:19.429Z"
   },
+  "evt-MungUKFDA9VV49a": {
+    "name": "Vibe Coding Happy Hour: Base44 x Encode",
+    "host": "Encode Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
   "evt-MxcXOzGaZgbUoWi": {
     "name": "EF x Omnea - Lessons for Future Founders",
     "first_seen_at": "2026-07-30T16:54:48.415Z",
     "first_alerted_at": "2026-07-30T16:54:49.943Z"
+  },
+  "evt-MzNt5CdjBXTqzd1": {
+    "name": "Exploring Opportunities in... Cybersecurity in a Changing Geopolitical Landscape",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
   "evt-N32bYgNssdaiF2H": {
     "name": "Arc Demos & Meetup",
@@ -1555,6 +1652,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
+  },
+  "evt-nPYSkdfB0Cm4sJK": {
+    "name": "The Real Truth About... Collectibles",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
   "evt-NsGCKhfsStygmI9": {
     "name": "founder coworking + pizza night",
@@ -1621,6 +1724,12 @@
     "name": "London | Claude Founder House: Builder Cohort",
     "first_seen_at": "2026-08-06T22:36:38.510Z",
     "first_alerted_at": "2026-08-06T22:36:40.348Z"
+  },
+  "evt-On3iAB0kHl6vNlw": {
+    "name": "Performance Lab: Wine Basics with Brian Pohl",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
   },
   "evt-oN4FBBHk746K4lj": {
     "name": "Scaling Agentic Coding with Claude Code",
@@ -1905,6 +2014,12 @@
     "first_seen_at": "2026-09-05T13:01:56.119Z",
     "first_alerted_at": "2026-09-05T13:01:58.550Z"
   },
+  "evt-SJQXkYsgscudmDW": {
+    "name": "The Real Truth About... Deep Tech Spinouts",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
   "evt-SlGc0MlKa6Q4r8x": {
     "name": "Founder Nation: Padel Social - London",
     "first_seen_at": "2026-08-12T10:20:08.660Z",
@@ -1924,6 +2039,12 @@
     "name": "Rare Grind",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
     "first_alerted_at": "2026-08-14T02:43:26.589Z"
+  },
+  "evt-sw9mrAEqJopzXHc": {
+    "name": "Exploring Opportunities in... Geopolitics and Fintech",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
   },
   "evt-SxRCM3OmsPf2J82": {
     "name": "Healthtech Startup Breakfast: MMC x Jumpstart x NXGN",
@@ -1954,6 +2075,17 @@
     "name": "London Tech Leaders Executive Dinner - Still the Default. No Longer the Best",
     "first_seen_at": "2026-07-30T11:24:54.720Z",
     "first_alerted_at": "2026-07-30T11:24:56.432Z"
+  },
+  "evt-THq5B7G4nwTTSMj": {
+    "name": "Exploring Opportunities in... Sustainability (Nature & Land)",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z",
+    "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-tI9ePMLSoQLq9kg": {
+    "name": "LVC November Lunch",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-08T09:07:47.857Z"
   },
   "evt-tIKp5kksXHkeBmb": {
     "name": "Tools for Live-coding Visuals",
