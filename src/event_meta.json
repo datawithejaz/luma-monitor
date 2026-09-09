@@ -4,6 +4,12 @@
     "first_seen_at": "2026-07-20T18:22:24.568Z",
     "first_alerted_at": "2026-07-20T18:22:25.993Z"
   },
+  "evt-0MHlSkUzPN5pYFV": {
+    "name": "How to manage your cash",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
   "evt-0O6DtBc4C2sQkWC": {
     "name": "Meet Innovify at the 6th Annual Financial Innovation Forum 2026",
     "host": "GetFutureReady Community",
@@ -134,6 +140,12 @@
     "name": "build night",
     "first_seen_at": "2026-07-28T20:05:48.516Z",
     "first_alerted_at": "2026-07-28T20:05:50.186Z"
+  },
+  "evt-3fwvwD3pWX05U3v": {
+    "name": "Design Engineering Night #10",
+    "host": "Granola",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
   "evt-3IvgVLdQNgh4yRe": {
     "name": "Executive Dinner: Retail Rewired: Turning AI & Data into Operational Advantage",
@@ -841,6 +853,12 @@
     "first_seen_at": "2026-08-24T22:01:38.621Z",
     "first_alerted_at": "2026-08-24T22:01:41.124Z"
   },
+  "evt-DNf78UkJeLB77Ym": {
+    "name": "The Founder Mixer",
+    "host": "Novabook",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
   "evt-DVq3b5MtRwjlApx": {
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
@@ -949,6 +967,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:14.661Z"
   },
+  "evt-FEhHk1UV7SRaw8F": {
+    "name": "Novabook x Onstage x Sifted | The Pre Pitch Party",
+    "host": "Novabook",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
   "evt-FGEpcmYzLQ5iLDN": {
     "name": "{Tech: Europe} x VEED Hackathon | The Summer Lock-In",
     "first_seen_at": "2026-07-31T03:55:16.297Z",
@@ -1005,6 +1029,11 @@
     "name": "First Step: Graduate to AI",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-fssEPUaCYYQ1dOH": {
+    "name": "Techworking Rooftop Sundowner 🌆",
+    "host": "Encode Club",
+    "first_seen_at": "2026-09-09T13:56:50.691Z"
   },
   "evt-ftU8mTVuTsTdltF": {
     "name": "Zone 1: Inhabitation Modelmaking and Collage Workshop w Soumia Sadoun",
@@ -1066,6 +1095,12 @@
     "host": "Founder Cowork Club",
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
+  },
+  "evt-GKCYFTm7MSauz9P": {
+    "name": "Scaling financial crime compliance without losing control",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
   "evt-GrBFwYMkf0211cT": {
     "name": "The Future of... Sustainable Aviation",
@@ -1584,6 +1619,12 @@
     "first_seen_at": "2026-08-14T11:29:06.406Z",
     "first_alerted_at": "2026-08-14T11:29:07.894Z"
   },
+  "evt-M10S4Kuak0HYP8s": {
+    "name": "From Signal to Close - The New AI Sales Motion",
+    "host": "Dust",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
   "evt-M37Kv0BY1qxIr13": {
     "name": "catch me 🌞 x community coffee s3e4",
     "host": "KVITKA RC Events  | London",
@@ -1638,6 +1679,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-MMRCEwpdkTHRTOP": {
+    "name": "Offland : Travel Folio Workshop",
+    "host": "Mason & Fifth",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:53.937Z"
+  },
   "evt-MnFgXFJ37zryNH6": {
     "name": "VC Table: Platform and Partnerships Dinner - London",
     "host": "Personal",
@@ -1674,6 +1721,12 @@
     "name": "EF x Omnea - Lessons for Future Founders",
     "first_seen_at": "2026-07-30T16:54:48.415Z",
     "first_alerted_at": "2026-07-30T16:54:49.943Z"
+  },
+  "evt-MYvHZUlVVLrhryh": {
+    "name": "Winning the war on talent in the AI era",
+    "host": "Sifted Summit",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
   "evt-MzNt5CdjBXTqzd1": {
     "name": "Exploring Opportunities in... Cybersecurity in a Changing Geopolitical Landscape",
@@ -1730,6 +1783,12 @@
     "name": "Mental Health in the Age of AI",
     "first_seen_at": "2026-07-05T23:30:31.543Z",
     "first_alerted_at": "2026-07-05T23:30:33.000Z"
+  },
+  "evt-NJSB4N9J8m8Nljo": {
+    "name": "Leading in AI: Digital Transformation for B2B",
+    "host": "Flowgrammer.Club",
+    "first_seen_at": "2026-09-09T13:56:50.691Z",
+    "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
   "evt-NLHPGrGuQCDiy8t": {
     "name": "London Loras: Seedance ⌁ The Future of Advertising",
