@@ -94,6 +94,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-aXdtH9ebHo9YaLg",
+      "slug": "cerebras",
+      "name": "Cerebras",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-TOpA5LAFfuDeFpu",
       "slug": "claudecommunity",
       "name": "Claude Community Events",
