@@ -62,6 +62,12 @@
     "first_seen_at": "2026-07-18T23:01:44.141Z",
     "first_alerted_at": "2026-07-18T23:01:46.186Z"
   },
+  "evt-1FQVUkEtXN1ZRVp": {
+    "name": "London AI x Science Hackathon",
+    "host": "Iterate",
+    "first_seen_at": "2026-09-09T17:31:25.763Z",
+    "first_alerted_at": "2026-09-09T17:31:26.844Z"
+  },
   "evt-1ibYIBRYmqQiFSR": {
     "name": "Founders Meetup London - October 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -284,6 +290,12 @@
     "name": "Neurotech x Wearables Co-Founder Matching",
     "first_seen_at": "2026-07-25T18:32:29.229Z",
     "first_alerted_at": "2026-07-25T18:32:31.310Z"
+  },
+  "evt-5ZwcRdwQ3FX64hd": {
+    "name": "AgentEng London: The Agent Engineering Conference",
+    "host": "London Agentic AI",
+    "first_seen_at": "2026-09-09T17:31:25.763Z",
+    "first_alerted_at": "2026-09-09T17:31:26.844Z"
   },
   "evt-61TjkAbXSzBahWC": {
     "name": "TRD: London Startups Operator RunClub & Social",
@@ -2000,6 +2012,12 @@
     "name": "Building AI Products with Hyperstack",
     "first_seen_at": "2026-08-24T09:11:26.754Z",
     "first_alerted_at": "2026-08-24T09:11:28.408Z"
+  },
+  "evt-PpPGLikiabC4Dd1": {
+    "name": "Hacker News London Meetup #10 Demo Night",
+    "host": "Hacker News London",
+    "first_seen_at": "2026-09-09T17:31:25.763Z",
+    "first_alerted_at": "2026-09-09T17:31:26.844Z"
   },
   "evt-q0Xg9fuxIGFxCBx": {
     "name": "Alternative Intelligence: How AI Powers Private Markets - A fireside chat with Dust and Vega",
