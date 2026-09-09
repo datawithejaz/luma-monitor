@@ -479,6 +479,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z"
   },
+  "evt-aos6dv5Th9JtQJV": {
+    "name": "Dine with Angel Academe: Raising your round as a female founder",
+    "host": "TableCrowd - dinners for entrepreneurs and startups",
+    "first_seen_at": "2026-09-09T09:41:04.126Z",
+    "first_alerted_at": "2026-09-09T09:41:05.951Z"
+  },
   "evt-AoVuprgkY6lh71N": {
     "name": "Dev Grind",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
@@ -2172,6 +2178,12 @@
     "first_seen_at": "2026-09-03T18:39:12.018Z",
     "first_alerted_at": "2026-09-03T18:39:13.755Z"
   },
+  "evt-TabZXfdda6c1XUT": {
+    "name": "Models That Matter: Third Edition",
+    "host": "Outpost Bio",
+    "first_seen_at": "2026-09-09T09:41:04.126Z",
+    "first_alerted_at": "2026-09-09T09:41:05.951Z"
+  },
   "evt-tADHGhKElP7Za4u": {
     "name": "AI After 5 x C-réer: What happens after 5?",
     "first_seen_at": "2026-07-29T09:49:03.836Z",
@@ -2223,6 +2235,12 @@
     "name": "Side-project September: Get some writing done",
     "first_seen_at": "2026-09-03T11:41:11.182Z",
     "first_alerted_at": "2026-09-03T11:41:13.540Z"
+  },
+  "evt-TopGLS7yAPuwCsv": {
+    "name": "App After Dark: Mobile App Hackathon",
+    "host": "AI Builders",
+    "first_seen_at": "2026-09-09T09:41:04.126Z",
+    "first_alerted_at": "2026-09-09T09:41:05.951Z"
   },
   "evt-TrViCCEst0fpCFJ": {
     "name": "Ship & Chips: Open Tech/AI Demos",
@@ -2346,6 +2364,12 @@
     "name": "TypeScript AI: The only conference for TypeScript AI developers | In-person + Online",
     "first_seen_at": "2026-07-09T01:14:25.533Z",
     "first_alerted_at": "2026-07-09T01:14:26.589Z"
+  },
+  "evt-vmdhfw1vPy7PDEw": {
+    "name": "Dine with Octopus Ventures: portfolio insights + securing an institutional cheque",
+    "host": "TableCrowd - dinners for entrepreneurs and startups",
+    "first_seen_at": "2026-09-09T09:41:04.126Z",
+    "first_alerted_at": "2026-09-09T09:41:05.951Z"
   },
   "evt-vMO53ln65CLmZPu": {
     "name": "Ship & Chips: Open Tech/AI Demos",
