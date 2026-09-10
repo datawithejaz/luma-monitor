@@ -22,6 +22,12 @@
       "reason": "User request — personal calendar (no public slug); all London events"
     },
     {
+      "api_id": "cal-EDisCieHa0mXu0b",
+      "slug": "aiafter5",
+      "name": "AI After 5",
+      "reason": "Not in your follows — suggested: AI After 5"
+    },
+    {
       "api_id": "cal-Uzt4MvgUpfoSstH",
       "slug": "ai-demo-days",
       "name": "AI Demo Days",
@@ -82,6 +88,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-ElvU4UVlAD13ewe",
+      "slug": "builderandbrews",
+      "name": "Builders & Brews",
+      "reason": "Not in your follows — suggested: Builders & Brews"
+    },
+    {
       "api_id": "cal-2RFjmQ4ZSmQPCkA",
       "slug": "cccl",
       "name": "CCCL",
@@ -110,6 +122,12 @@
       "slug": "claude-startups",
       "name": "Claude Startups",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-gmMOid1Rsqc3Hih",
+      "slug": "clickhouse-events",
+      "name": "ClickHouse Events",
+      "reason": "Not in your follows — suggested: ClickHouse Events"
     },
     {
       "api_id": "cal-63UOFcweB97l2gc",
@@ -232,6 +250,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-sV0fuGpbX06Jp8w",
+      "slug": "girlswhoml-events",
+      "name": "GirlsWhoML",
+      "reason": "Not in your follows — suggested: GirlsWhoML"
+    },
+    {
       "api_id": "cal-jaeWPGfix6gUTec",
       "slug": "glassray",
       "name": "Glassray",
@@ -314,6 +338,12 @@
       "slug": "legora",
       "name": "Legora",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-RrzxAKUyNdOjqXi",
+      "slug": "lookingforgrowth",
+      "name": "LFG",
+      "reason": "Not in your follows — suggested: LFG"
     },
     {
       "api_id": "cal-cL7rmdsYRDYfxQC",
@@ -596,6 +626,12 @@
       "slug": "Vibecoders.global",
       "name": "Vibe Coding Collective",
       "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-jhER54DdmapscWG",
+      "slug": "womeninaiforum",
+      "name": "Women in AI Forum",
+      "reason": "Not in your follows — suggested: Women in AI Forum"
     },
     {
       "api_id": "cal-Z1tslEBMjjCh4fd",
