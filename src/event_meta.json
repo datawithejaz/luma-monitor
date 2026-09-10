@@ -2505,6 +2505,12 @@
     "first_seen_at": "2026-09-01T19:32:38.846Z",
     "first_alerted_at": "2026-09-01T19:32:39.866Z"
   },
+  "evt-UXDFdpzz5XTvoQf": {
+    "name": "Learning by Doing (design) by Made by Day",
+    "host": "Personal",
+    "first_seen_at": "2026-09-10T19:48:35.863Z",
+    "first_alerted_at": "2026-09-10T19:48:37.851Z"
+  },
   "evt-Uyvg6H6qZ48FU0Y": {
     "name": "Build for Breakpoint Opening Mixer at Somerset House - Featuring Colosseum Winners",
     "host": "Superteam",
