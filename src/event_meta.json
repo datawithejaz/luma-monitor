@@ -759,6 +759,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-cDumt40DMw3WdSs": {
+    "name": "Deep Tech London: The KO with Singular + Seedcamp",
+    "host": "Deep Tech London",
+    "first_seen_at": "2026-09-10T17:18:12.772Z",
+    "first_alerted_at": "2026-09-10T17:18:14.710Z"
+  },
   "evt-cETDdF75bn4X9Of": {
     "name": "ABRC: THE VAMPIRE DIARIES SCREENING",
     "host": "Personal",
@@ -862,6 +868,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-dLMc7t9qT8mquv3": {
+    "name": "DINNER03: DEEP TECH WEEK LONDON 26",
+    "host": "AFOCAL INERTIA",
+    "first_seen_at": "2026-09-10T17:18:12.772Z",
+    "first_alerted_at": "2026-09-10T17:18:14.710Z"
   },
   "evt-dLrJWfM41HcnLRs": {
     "name": "Tech Leaders London - September 2026",
@@ -2754,6 +2766,12 @@
     "host": "RealTime Mandarin Calendar",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-y31jzu5Z8Zje4fb": {
+    "name": "How FinTech's best marketing leaders earn their seat",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-10T17:18:12.772Z",
+    "first_alerted_at": "2026-09-10T17:18:14.710Z"
   },
   "evt-Y7VHKCo68RWYZIE": {
     "name": "Retrofitting Commercial Portfolios: Translating Capex into Asset Value - Roundtable",
