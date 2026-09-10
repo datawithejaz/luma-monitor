@@ -2539,6 +2539,12 @@
     "first_seen_at": "2026-08-17T08:53:57.782Z",
     "first_alerted_at": "2026-08-17T08:53:59.534Z"
   },
+  "evt-VHMM4bwQwm1EnUL": {
+    "name": "Creative AI Meetup: September",
+    "host": "Creative AI Meetup",
+    "first_seen_at": "2026-09-10T21:59:51.366Z",
+    "first_alerted_at": "2026-09-10T21:59:52.347Z"
+  },
   "evt-VHyuGNwjYm9CrCz": {
     "name": "Tools for Live-coding Music",
     "first_seen_at": "2026-07-17T18:16:18.213Z",
