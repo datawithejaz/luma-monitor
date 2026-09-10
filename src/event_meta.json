@@ -420,6 +420,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-8NZOp42w426wU3B": {
+    "name": "The Road Ahead: AI Web3, & Staking",
+    "host": "XDC Network",
+    "first_seen_at": "2026-09-10T04:59:11.790Z",
+    "first_alerted_at": "2026-09-10T04:59:13.280Z"
+  },
   "evt-8SHTt4biBolsK5f": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-09-01T16:34:38.391Z",
@@ -1627,6 +1633,12 @@
     "first_seen_at": "2026-09-08T04:40:49.937Z",
     "first_alerted_at": "2026-09-08T04:40:51.880Z"
   },
+  "evt-lwsIbXybg1LsBVp": {
+    "name": "Builders Club Brunch",
+    "host": "Light",
+    "first_seen_at": "2026-09-10T04:59:11.790Z",
+    "first_alerted_at": "2026-09-10T04:59:13.280Z"
+  },
   "evt-LZ9WC4lFeNA21p5": {
     "name": "Demonite - No Decks. Just Night of Live Demos.",
     "first_seen_at": "2026-08-23T15:45:54.315Z",
@@ -2015,6 +2027,12 @@
     "first_seen_at": "2026-08-18T17:46:19.403Z",
     "first_alerted_at": "2026-08-18T17:46:24.012Z"
   },
+  "evt-phbfIWJUF3u4ZLh": {
+    "name": "build fridays london - work on your startup alongside others (bring laptop)",
+    "host": "AI BEAVERS",
+    "first_seen_at": "2026-09-10T04:59:11.790Z",
+    "first_alerted_at": "2026-09-10T04:59:13.280Z"
+  },
   "evt-Phq8JB9Fuhk6Y1D": {
     "name": "Arts + Tech Mixer",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
@@ -2126,6 +2144,12 @@
     "name": "Founder Cowork Club [UNFACILITATED]",
     "host": "Founder Cowork Club",
     "first_seen_at": "2026-09-07T15:17:12.035Z"
+  },
+  "evt-RajtQSbuwuhcUCn": {
+    "name": "AI Leaders Dinner - London, November 2026",
+    "host": "Personal",
+    "first_seen_at": "2026-09-10T04:59:11.790Z",
+    "first_alerted_at": "2026-09-10T04:59:13.280Z"
   },
   "evt-rbtPhxAckEjswBw": {
     "name": "Pilates in the Park: CoS, Ops & Founders' Associates 🧘‍♀️🌳",
