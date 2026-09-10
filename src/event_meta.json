@@ -180,6 +180,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-3OUIF4205lDIynj": {
+    "name": "The AI Learning Lab: Build AI-Powered Training with Gamma",
+    "host": "Gamma",
+    "first_seen_at": "2026-09-10T13:46:50.606Z",
+    "first_alerted_at": "2026-09-10T13:46:51.977Z"
+  },
   "evt-3slMeroslLVQwzg": {
     "name": "TCK Table: Latin American",
     "host": "London TCK Home Meetups",
@@ -1132,6 +1138,12 @@
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
+  "evt-GOCpoDECq7nVhkb": {
+    "name": "Rebuilding marketing for the AI era",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-10T13:46:50.606Z",
+    "first_alerted_at": "2026-09-10T13:46:51.977Z"
+  },
   "evt-GrBFwYMkf0211cT": {
     "name": "The Future of... Sustainable Aviation",
     "host": "London Venture Club",
@@ -1731,6 +1743,12 @@
     "name": "TRD: London Startups Operator RunClub & Social",
     "first_seen_at": "2026-09-03T14:40:35.705Z"
   },
+  "evt-MQxRDQGylCQh4LR": {
+    "name": "Dine with Tramlines: secure £250k for your B2B business",
+    "host": "TableCrowd - dinners for entrepreneurs and startups",
+    "first_seen_at": "2026-09-10T13:46:50.606Z",
+    "first_alerted_at": "2026-09-10T13:46:51.977Z"
+  },
   "evt-Mrf9lNqXRa1dsMV": {
     "name": "The Business Show London",
     "host": "Fetch.ai Innovation Lab",
@@ -2272,6 +2290,12 @@
     "first_seen_at": "2026-08-12T18:31:19.453Z",
     "first_alerted_at": "2026-08-12T18:31:20.897Z"
   },
+  "evt-Som3hML2sfbwc5R": {
+    "name": "EAT_HACK - the world's first AI & eating hackathon",
+    "host": "Really Good Culture",
+    "first_seen_at": "2026-09-10T13:46:50.606Z",
+    "first_alerted_at": "2026-09-10T13:46:51.977Z"
+  },
   "evt-sr4SCF7z0PChTbe": {
     "name": "Rare Grind",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
@@ -2468,6 +2492,12 @@
     "name": "The AI Fluency Map: How Good Are You At AI?",
     "first_seen_at": "2026-09-01T19:32:38.846Z",
     "first_alerted_at": "2026-09-01T19:32:39.866Z"
+  },
+  "evt-Uyvg6H6qZ48FU0Y": {
+    "name": "Build for Breakpoint Opening Mixer at Somerset House - Featuring Colosseum Winners",
+    "host": "Superteam",
+    "first_seen_at": "2026-09-10T13:46:50.606Z",
+    "first_alerted_at": "2026-09-10T13:46:51.977Z"
   },
   "evt-VaxGbawnuO23yJv": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
