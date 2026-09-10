@@ -112,6 +112,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-63UOFcweB97l2gc",
+      "slug": "codex-community",
+      "name": "Codex Community Events",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-YNO3LqoXki2vCFE",
       "slug": "codurance",
       "name": "Codurance",
