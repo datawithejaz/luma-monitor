@@ -13,6 +13,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-nvYEsWpIajQcttH",
+      "slug": "3search",
+      "name": "3Search London",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-8keGx2hPWefhJFK",
       "slug": "",
       "name": "ABRC",
@@ -20,6 +26,12 @@
       "sample_event_url": "https://luma.com/sb6gxi0t",
       "include_all_events": true,
       "reason": "User request — personal calendar (no public slug); all London events"
+    },
+    {
+      "api_id": "cal-EDisCieHa0mXu0b",
+      "slug": "aiafter5",
+      "name": "AI After 5",
+      "reason": "User subscription"
     },
     {
       "api_id": "cal-Uzt4MvgUpfoSstH",
@@ -79,6 +91,12 @@
       "api_id": "cal-OCSfN320OzjhUpH",
       "slug": "",
       "name": "Brighteye Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-ElvU4UVlAD13ewe",
+      "slug": "builderandbrews",
+      "name": "Builders & Brews",
       "reason": "User subscription"
     },
     {
@@ -478,6 +496,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-cchx9NeUR3GCVKz",
+      "slug": "reallygoodculture",
+      "name": "Really Good Culture",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-TIm7UJmG29YvMBs",
       "slug": "rtm",
       "name": "RealTime Mandarin Calendar",
@@ -529,6 +553,12 @@
       "api_id": "cal-CvIpKRM5YbmuITz",
       "slug": "Syrena_",
       "name": "Syrena Network",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-R60T0PAi3t6r8aF",
+      "slug": "tablecrowd",
+      "name": "TableCrowd - dinners for entrepreneurs and startups",
       "reason": "User subscription"
     },
     {
