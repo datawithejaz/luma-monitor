@@ -2159,6 +2159,12 @@
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
   },
+  "evt-qhiX2v1fENeJYIP": {
+    "name": "ABRC: SILENT READING ROOM @ CREMER",
+    "host": "Personal",
+    "first_seen_at": "2026-09-11T18:39:51.119Z",
+    "first_alerted_at": "2026-09-11T18:39:52.441Z"
+  },
   "evt-Ql9fAnMSUIuMRYY": {
     "name": "[O]pen House Fireside with Attio | Hosted by R[3]sidency x Construct",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
