@@ -7,6 +7,7 @@
     "start": "node monitor.js",
     "sync-calendars": "node sync-tracked-calendars.js",
     "probe-auth": "node probe_auth.js",
+    "export-calendar": "node export-calendar.js",
     "test": "node --test"
   },
   "dependencies": {

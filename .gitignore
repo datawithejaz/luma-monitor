@@ -5,6 +5,9 @@ npm-debug.log*
 # Local env / secrets
 .env
 
+# Personal calendar exports (contain your RSVPs — never commit to a public repo)
+*.ics
+
 # Archived prototype (kept locally, not published)
 _archive/
 
