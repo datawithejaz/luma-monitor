@@ -1438,6 +1438,12 @@
     "first_seen_at": "2026-09-05T01:21:37.867Z",
     "first_alerted_at": "2026-09-05T01:21:39.798Z"
   },
+  "evt-ioKhlcjEf0toPc3": {
+    "name": "London | Claude by Hyde Park, a FinTech Night",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-09-11T21:18:48.727Z",
+    "first_alerted_at": "2026-09-11T21:18:49.839Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -2153,6 +2159,12 @@
     "name": "AI Breakfast Club",
     "first_seen_at": "2026-08-20T17:22:15.492Z",
     "first_alerted_at": "2026-08-20T17:22:16.949Z"
+  },
+  "evt-QBD293Q6Kj6xwlB": {
+    "name": "Future States: Hackathon at No 10",
+    "host": "No 10 Innovation Fellows",
+    "first_seen_at": "2026-09-11T21:18:48.727Z",
+    "first_alerted_at": "2026-09-11T21:18:49.839Z"
   },
   "evt-QHgMlQLJYpDA5PD": {
     "name": "Building AI - Founders 002 - Founder Dinner",
