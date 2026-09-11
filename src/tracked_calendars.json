@@ -52,6 +52,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-UVqp4TtefuCg69F",
+      "slug": "ai-pilled",
+      "name": "AI Pilled",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-ZI6udBAMrWomDCG",
       "slug": "architect",
       "name": "Architect",
@@ -148,6 +154,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-2TypVSAgXXmEYXZ",
+      "slug": "commercecircle",
+      "name": "CommerceCircle",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-HUj9G3RtLCRmtBx",
       "slug": "connectedinnovation",
       "name": "Connected Innovation",
@@ -163,6 +175,24 @@
       "api_id": "cal-qQsgmTTcoDwHfhP",
       "slug": "cpocircles",
       "name": "CPO Circles",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-bDC6E5p1xVynAEf",
+      "slug": "creative.ai",
+      "name": "Creative AI Meetup",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-17AUCmfDoCXYfit",
+      "slug": "daytona",
+      "name": "Daytona",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-zDVR851q25N1HwR",
+      "slug": "deeptechldn",
+      "name": "Deep Tech London",
       "reason": "User subscription"
     },
     {
@@ -334,6 +364,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-TmBaRv8WWHOPjqg",
+      "slug": "Light.inc",
+      "name": "Light",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-cL7rmdsYRDYfxQC",
       "slug": "",
       "name": "Lightbringer UK",
@@ -496,6 +532,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-pEO2Bkv6R3tYFav",
+      "slug": "reachai",
+      "name": "Reach AI Calendar",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-cchx9NeUR3GCVKz",
       "slug": "reallygoodculture",
       "name": "Really Good Culture",
@@ -541,6 +583,12 @@
       "api_id": "cal-QQGEIJl1K33N0zb",
       "slug": "spacexai-london",
       "name": "SpaceXAI for London, England",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-WcfO1GwmWdu3pWn",
+      "slug": "staaake",
+      "name": "staaake",
       "reason": "User subscription"
     },
     {
@@ -628,9 +676,21 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-lmw7BmkkUszdcd6",
+      "slug": "witsend",
+      "name": "Witsend Event Calendar",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-Z1tslEBMjjCh4fd",
       "slug": "",
       "name": "WorkOS Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-JMmGZEp6OYN1nAJ",
+      "slug": "yourtribesouthwark",
+      "name": "YourTRIBE Southwark",
       "reason": "User subscription"
     },
     {

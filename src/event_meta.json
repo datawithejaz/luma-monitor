@@ -10,6 +10,12 @@
     "first_seen_at": "2026-09-10T00:24:26.296Z",
     "first_alerted_at": "2026-09-10T00:24:28.886Z"
   },
+  "evt-0ligYEXxHpX3NXl": {
+    "name": "Tate Modern Lates",
+    "host": "YourTRIBE Southwark",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
   "evt-0MHlSkUzPN5pYFV": {
     "name": "How to manage your cash",
     "host": "Sifted Summit",
@@ -83,6 +89,12 @@
     "name": "Founder Cowork Club [UNFACILITATED]",
     "first_seen_at": "2026-08-18T17:14:50.403Z",
     "first_alerted_at": "2026-08-18T17:14:52.004Z"
+  },
+  "evt-1uW0mgiwYCimDsS": {
+    "name": "E-Commerce over Breakfast #11 London",
+    "host": "CommerceCircle",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
   },
   "evt-1WE8fLDfKUFF6AH": {
     "name": "Creative Machines #2 | Hosted by Dessn",
@@ -251,6 +263,12 @@
     "first_seen_at": "2026-08-05T11:37:08.390Z",
     "first_alerted_at": "2026-08-05T11:37:13.505Z"
   },
+  "evt-4R6AAI8dof3XIpf": {
+    "name": "Welcome Breakfast + Walk",
+    "host": "YourTRIBE Southwark",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
   "evt-4rooC91FZOnlb7i": {
     "name": "Risks of Large-Scale Harms To Digital Minds (Brad Saad) + Q&A + Networking",
     "first_seen_at": "2026-08-18T10:39:26.484Z",
@@ -265,6 +283,12 @@
     "name": "Building Voice AI with Dex & OpenAI",
     "first_seen_at": "2026-07-29T15:30:49.001Z",
     "first_alerted_at": "2026-07-29T15:30:51.153Z"
+  },
+  "evt-51VH3BLritPzF5N": {
+    "name": "Witsend Panel: the Rise of the CPTO",
+    "host": "Witsend Event Calendar",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
   },
   "evt-524xXFrW3YqBODD": {
     "name": "Compliance as a Value Protection Strategy: Safeguarding Liquidity, Financing, and Exit Pricing",
@@ -1392,6 +1416,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-ihrQ2V75Nxk8FP1": {
+    "name": "Light: The Next Chapter",
+    "host": "Light",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
   "evt-ILvGNzahJaMEerY": {
     "name": "Building with Managed Agents & the Gemini Interactions API",
     "first_seen_at": "2026-09-01T12:06:55.138Z",
@@ -2425,6 +2455,11 @@
     "first_seen_at": "2026-07-17T18:16:18.213Z",
     "first_alerted_at": "2026-07-17T18:16:19.761Z"
   },
+  "evt-twczl7YSEwas34L": {
+    "name": "E-Commerce over Breakfast #13 London",
+    "host": "CommerceCircle",
+    "first_seen_at": "2026-09-11T01:33:23.260Z"
+  },
   "evt-twH0ChzCAk0m5Mg": {
     "name": "EF x Canva Female Only Demo Night",
     "first_seen_at": "2026-08-20T10:47:32.898Z",
@@ -2834,6 +2869,12 @@
     "first_seen_at": "2026-08-21T10:39:19.237Z",
     "first_alerted_at": "2026-08-21T10:39:20.588Z"
   },
+  "evt-z1e53yih2KSomqu": {
+    "name": "WITSEND 10 YEAR AGM",
+    "host": "Witsend Event Calendar",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
   "evt-Z5s65x3pNjweEja": {
     "name": "The Big Startup 5k hosted by Jumpstart **HOLD**",
     "first_seen_at": "2026-07-20T16:15:19.429Z",
@@ -2895,6 +2936,12 @@
     "name": "ABRC: YESTERYEAR BOOKCLUB",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
+  "evt-zJBcMAsplbdam2T": {
+    "name": "Find Your People - Pancakes, People & New Beginnings",
+    "host": "YourTRIBE Southwark",
+    "first_seen_at": "2026-09-11T01:33:23.260Z",
+    "first_alerted_at": "2026-09-11T01:33:25.876Z"
   },
   "evt-zjtEvb04wHyQJgV": {
     "name": "Flight3 x Superteam UK: Go-To-Market",
