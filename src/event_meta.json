@@ -1449,6 +1449,12 @@
     "first_seen_at": "2026-09-08T22:35:42.913Z",
     "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
+  "evt-j9xSSniGYeFpKSz": {
+    "name": "Hardware Meetup @ RAEng",
+    "host": "London Hardware Meetup",
+    "first_seen_at": "2026-09-11T15:17:30.450Z",
+    "first_alerted_at": "2026-09-11T15:17:31.690Z"
+  },
   "evt-JboNKgDQrd0olE0": {
     "name": "London AI×Bio Hack",
     "first_seen_at": "2026-08-24T11:14:43.661Z",
@@ -2774,6 +2780,12 @@
     "name": "Trivia Night with Sonder x ABRC",
     "first_seen_at": "2026-08-06T11:53:07.249Z",
     "first_alerted_at": "2026-08-06T11:53:08.981Z"
+  },
+  "evt-XbiT28qHdsNJWey": {
+    "name": "Get Found on AI Search (and a Live Site Roast)",
+    "host": "Minty Events",
+    "first_seen_at": "2026-09-11T15:17:30.450Z",
+    "first_alerted_at": "2026-09-11T15:17:31.690Z"
   },
   "evt-XbmQ0Sdm01mhvly": {
     "name": "Tech After-Hours LDN: Summer Social 2026",
