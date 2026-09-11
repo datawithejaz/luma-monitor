@@ -676,12 +676,6 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-lmw7BmkkUszdcd6",
-      "slug": "witsend",
-      "name": "Witsend Event Calendar",
-      "reason": "User subscription"
-    },
-    {
       "api_id": "cal-Z1tslEBMjjCh4fd",
       "slug": "",
       "name": "WorkOS Events",
