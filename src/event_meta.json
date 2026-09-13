@@ -1134,6 +1134,12 @@
     "first_seen_at": "2026-09-04T19:51:35.555Z",
     "first_alerted_at": "2026-09-04T19:51:37.639Z"
   },
+  "evt-G4GEQLl03JkFaWN": {
+    "name": "Digital Assets in the UK - Closed Door Forum",
+    "host": "Personal",
+    "first_seen_at": "2026-09-13T00:23:17.073Z",
+    "first_alerted_at": "2026-09-13T00:23:18.451Z"
+  },
   "evt-g5igURbaFvCkBVj": {
     "name": "Agent Night London",
     "host": "WorkOS Events",
@@ -1504,6 +1510,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-jqy8BQX1qdxtzDy": {
+    "name": "Junior VC",
+    "host": "Personal",
+    "first_seen_at": "2026-09-13T00:23:17.073Z",
+    "first_alerted_at": "2026-09-13T00:23:18.451Z"
   },
   "evt-jRrTg3mcvSTUUsD": {
     "name": "Agentic A.I. Private Dinner",
@@ -2243,6 +2255,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
   },
+  "evt-qX1WvCw0TztnlC9": {
+    "name": "Adeline Sprint Sessions: Health x AI After Hours",
+    "host": "Adeline Events",
+    "first_seen_at": "2026-09-13T00:23:17.073Z",
+    "first_alerted_at": "2026-09-13T00:23:18.451Z"
+  },
   "evt-Qxh9FL4d4sHhZQd": {
     "name": "Demo Event LDN: Fin's Claude Code Playbook for AI Native Teams",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -2455,6 +2473,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-ti6HCVLthweuq7S": {
+    "name": "Community Linkup: Frida Kahlo",
+    "host": "Personal",
+    "first_seen_at": "2026-09-13T00:23:17.073Z",
+    "first_alerted_at": "2026-09-13T00:23:18.451Z"
   },
   "evt-tI9ePMLSoQLq9kg": {
     "name": "LVC November Lunch",
