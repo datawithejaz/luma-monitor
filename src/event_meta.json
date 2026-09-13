@@ -74,6 +74,12 @@
     "first_seen_at": "2026-07-18T23:01:44.141Z",
     "first_alerted_at": "2026-07-18T23:01:46.186Z"
   },
+  "evt-1BiFxJ1WjFXDu3Y": {
+    "name": "(Revolut x Rox Queens) Smile Run Club",
+    "host": "Revolut Business",
+    "first_seen_at": "2026-09-13T14:21:24.776Z",
+    "first_alerted_at": "2026-09-13T14:21:26.245Z"
+  },
   "evt-1FQVUkEtXN1ZRVp": {
     "name": "London AI x Science Hackathon",
     "host": "Iterate",
@@ -1559,6 +1565,12 @@
     "name": "Clueless outfitpicker | Vibecode with AI After 5",
     "first_seen_at": "2026-08-28T21:30:59.762Z",
     "first_alerted_at": "2026-08-28T21:31:01.521Z"
+  },
+  "evt-K2sgX6H9xR2pxEA": {
+    "name": "Revolut Business x Great British Chefs executive dinner",
+    "host": "Revolut Business",
+    "first_seen_at": "2026-09-13T14:21:24.776Z",
+    "first_alerted_at": "2026-09-13T14:21:26.245Z"
   },
   "evt-K5nydzBtNzw3CF7": {
     "name": "founder coworking + pizza night",
