@@ -107,6 +107,12 @@
     "first_seen_at": "2026-08-12T15:37:54.176Z",
     "first_alerted_at": "2026-08-12T15:37:55.856Z"
   },
+  "evt-26MBSA966gVsaBB": {
+    "name": "Tano x Corgi Creator Heist Hack",
+    "host": "Tano",
+    "first_seen_at": "2026-09-13T17:29:29.828Z",
+    "first_alerted_at": "2026-09-13T17:29:30.896Z"
+  },
   "evt-298UICmngbSOVHg": {
     "name": "Open Code #22",
     "first_seen_at": "2026-09-03T18:39:12.018Z",
@@ -1808,6 +1814,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-Mg8cTA73zDAZnzT": {
+    "name": "Tano Presents: Y2K internet cafe",
+    "host": "Tano",
+    "first_seen_at": "2026-09-13T17:29:29.828Z",
+    "first_alerted_at": "2026-09-13T17:29:30.896Z"
+  },
   "evt-mIHFwEiefa5wpAv": {
     "name": "AI-Assisted Math Research Paper Club by Nebius Academy",
     "first_seen_at": "2026-08-03T20:08:29.517Z",
@@ -2420,6 +2432,12 @@
     "name": "Rare Grind",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
     "first_alerted_at": "2026-08-14T02:43:26.589Z"
+  },
+  "evt-SvTI9hdCuqHVeTd": {
+    "name": "Live Marketing Ideation for Brands with Soul",
+    "host": "JAIKU",
+    "first_seen_at": "2026-09-13T17:29:29.828Z",
+    "first_alerted_at": "2026-09-13T17:29:30.896Z"
   },
   "evt-sw9mrAEqJopzXHc": {
     "name": "Exploring Opportunities in... Geopolitics and Fintech",
