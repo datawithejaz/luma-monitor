@@ -2530,6 +2530,12 @@
     "first_seen_at": "2026-07-17T14:26:16.826Z",
     "first_alerted_at": "2026-07-17T14:26:18.804Z"
   },
+  "evt-tMyw4WjK3JxcR3V": {
+    "name": "AI and Graphs for Biotechnology",
+    "host": "Personal",
+    "first_seen_at": "2026-09-13T19:41:58.103Z",
+    "first_alerted_at": "2026-09-13T19:41:59.969Z"
+  },
   "evt-tNPqHwtBuavNN1N": {
     "name": "Side-project September: Get some writing done",
     "first_seen_at": "2026-09-03T11:41:11.182Z",
