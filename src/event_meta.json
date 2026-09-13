@@ -2961,6 +2961,12 @@
     "first_seen_at": "2026-08-17T23:16:38.461Z",
     "first_alerted_at": "2026-08-17T23:16:39.830Z"
   },
+  "evt-YlfE6VKqpe2QlRq": {
+    "name": "RSI: Self-Improving AI Hack",
+    "host": "Aptura AI",
+    "first_seen_at": "2026-09-13T21:43:58.944Z",
+    "first_alerted_at": "2026-09-13T21:44:00.177Z"
+  },
   "evt-YTptc6QOfZYvO77": {
     "name": "Talent Leaders networking evening",
     "host": "3Search London",
