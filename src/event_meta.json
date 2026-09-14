@@ -606,6 +606,12 @@
     "first_seen_at": "2026-09-09T05:08:33.577Z",
     "first_alerted_at": "2026-09-09T05:08:34.766Z"
   },
+  "evt-AynC3D5C5k1sXcr": {
+    "name": "Startup founders breakfast w/ Merge & Corgi",
+    "host": "Merge Events",
+    "first_seen_at": "2026-09-14T13:55:19.662Z",
+    "first_alerted_at": "2026-09-14T13:55:21.482Z"
+  },
   "evt-AzYwYtMKyVfuM39": {
     "name": "Battle of the Accelerators: YC vs Speedrun vs EF vs Techstars",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -1115,6 +1121,12 @@
     "first_seen_at": "2026-08-09T13:57:09.815Z",
     "first_alerted_at": "2026-08-09T13:57:11.428Z"
   },
+  "evt-FRITvYUtu2BRBmw": {
+    "name": "Dev Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-09-14T13:55:19.662Z",
+    "first_alerted_at": "2026-09-14T13:55:21.482Z"
+  },
   "evt-fSmKjifvZiAeZXw": {
     "name": "First Step: Graduate to AI",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -1505,6 +1517,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-jFvQe50i8ZB8LDh": {
+    "name": "TouchDesigner Meetup - Talks, Open Visuals & Live Electronic Sets",
+    "host": "New Media London",
+    "first_seen_at": "2026-09-14T13:55:19.662Z",
+    "first_alerted_at": "2026-09-14T13:55:21.482Z"
   },
   "evt-JH9CJLAGjJ2WsgX": {
     "name": "Shipping AI agents in the EU: What the new rules mean for dev teams",
