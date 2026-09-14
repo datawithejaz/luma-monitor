@@ -1991,6 +1991,12 @@
     "first_seen_at": "2026-09-14T18:59:29.929Z",
     "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
+  "evt-nHnKA8AUHXc8dvU": {
+    "name": "Three Bets on the Same Future",
+    "host": "Wilbe",
+    "first_seen_at": "2026-09-14T22:21:37.793Z",
+    "first_alerted_at": "2026-09-14T22:21:39.147Z"
+  },
   "evt-niURzhLiCCZIYt3": {
     "name": "RUN HACK Warm-up x London Startup Operators Runclub🚀👟",
     "first_seen_at": "2026-08-22T14:55:49.931Z",
@@ -2472,6 +2478,12 @@
     "host": "Gradient Descending",
     "first_seen_at": "2026-09-05T13:01:56.119Z",
     "first_alerted_at": "2026-09-05T13:01:58.550Z"
+  },
+  "evt-SIDB65YWRiPF0ZH": {
+    "name": "Claude x Softr: AI Build Day Hackathon",
+    "host": "Softr",
+    "first_seen_at": "2026-09-14T22:21:37.793Z",
+    "first_alerted_at": "2026-09-14T22:21:39.147Z"
   },
   "evt-SJQXkYsgscudmDW": {
     "name": "The Real Truth About... Deep Tech Spinouts",

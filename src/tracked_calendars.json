@@ -580,6 +580,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-jvRrCBfKE0G06XV",
+      "slug": "softr-events",
+      "name": "Softr",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-iRJOAxy06J8zCJd",
       "slug": "spacexai",
       "name": "SpaceXAI",
@@ -691,6 +697,12 @@
       "api_id": "cal-2ARnYOB5PIHpxbh",
       "slug": "Vibecoders.global",
       "name": "Vibe Coding Collective",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-DLkKXePQ5aA3GHL",
+      "slug": "wilbe",
+      "name": "Wilbe",
       "reason": "User subscription"
     },
     {
