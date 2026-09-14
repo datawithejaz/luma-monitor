@@ -28,6 +28,12 @@
     "first_seen_at": "2026-09-06T16:30:37.606Z",
     "first_alerted_at": "2026-09-06T16:30:38.997Z"
   },
+  "evt-0OmwxM8t2nLFLn2": {
+    "name": "Tech for Good Meetup",
+    "host": "Tech for Good Community",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
+  },
   "evt-0PAIjLLPbIFb2fK": {
     "name": "A Passport to Personalisation: Earning Customer Trust in AI",
     "first_seen_at": "2026-08-09T21:54:12.845Z",
@@ -122,6 +128,12 @@
     "name": "November AI Workshop",
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z"
+  },
+  "evt-2IoixRb0prKrF08": {
+    "name": "The Afterparty",
+    "host": "Deep Tech London",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
   "evt-2IxZ46V7WhUptDq": {
     "name": "Cursor iOS London Hackathon",
@@ -394,6 +406,12 @@
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
   },
+  "evt-6qiw1qcWPhKPBsb": {
+    "name": "Funnel Vision: Founders Open House with BuildHer Labs",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
+  },
   "evt-6tJF3sNLeIzoKIZ": {
     "name": "HeyGen London Meetup - Starring You",
     "host": "HeyGen Community Events",
@@ -494,6 +512,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-9bfnAST5DY2R0Ky": {
+    "name": "ABRC: PHILOSOPHY SALON & JOURNALLING",
+    "host": "Personal",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
   "evt-9dPcH73ouhaF1H9": {
     "name": "Ship & Chips: Open Tech/AI Demos",
@@ -754,6 +778,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-BxHPQiwREqJzmtQ": {
+    "name": "Build Night: Vibe Code, Ship Happens with Softr",
+    "host": "Softr",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
   "evt-bYHjvQKbcI5iyQz": {
     "name": "Take Back Your Time, After 5: Skills for Optimizing with AI",
@@ -1480,6 +1510,12 @@
     "first_seen_at": "2026-09-11T21:18:48.727Z",
     "first_alerted_at": "2026-09-11T21:18:49.839Z"
   },
+  "evt-ionH8DaRFLplWcB": {
+    "name": "HARDWARE DEMO NIGHT @ WilbeLABS",
+    "host": "Wilbe",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -1949,6 +1985,12 @@
     "first_seen_at": "2026-09-07T09:41:45.629Z",
     "first_alerted_at": "2026-09-07T09:41:46.997Z"
   },
+  "evt-NfJpmo9qyfnxODx": {
+    "name": "Communications Leaders networking drinks",
+    "host": "3Search London",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
+  },
   "evt-niURzhLiCCZIYt3": {
     "name": "RUN HACK Warm-up x London Startup Operators Runclub🚀👟",
     "first_seen_at": "2026-08-22T14:55:49.931Z",
@@ -2113,6 +2155,12 @@
     "host": "MassChallenge UK 2026 Early-Stage Accelerator",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:35.167Z"
+  },
+  "evt-ozdq9pFpTG82W3Y": {
+    "name": "Galician Founder BBQ at Encode Hub",
+    "host": "Encode Club",
+    "first_seen_at": "2026-09-14T18:59:29.929Z",
+    "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
   "evt-ozjB3T0ACJEEc2j": {
     "name": "Vibe Code a Sport App",
