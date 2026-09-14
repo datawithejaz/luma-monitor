@@ -2230,6 +2230,12 @@
     "first_seen_at": "2026-09-07T09:41:45.629Z",
     "first_alerted_at": "2026-09-07T09:41:46.997Z"
   },
+  "evt-qNafjyLhgy4CN6q": {
+    "name": "AI Builders Monthly London",
+    "host": "AI Builders",
+    "first_seen_at": "2026-09-14T01:36:49.759Z",
+    "first_alerted_at": "2026-09-14T01:36:53.091Z"
+  },
   "evt-qNLdOMM9E0hjrie": {
     "name": "staaake Lunch - Global Dinner Club for Tech/AI Founders & (One time in London)",
     "host": "staaake",
@@ -2577,6 +2583,12 @@
     "host": "MassChallenge UK 2026 Early-Stage Accelerator",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:35.167Z"
+  },
+  "evt-Ty4a8sRKr7Vpph5": {
+    "name": "AI Builders London - Nov 10",
+    "host": "AI Builders",
+    "first_seen_at": "2026-09-14T01:36:49.759Z",
+    "first_alerted_at": "2026-09-14T01:36:53.091Z"
   },
   "evt-u4Ae4oXJmyc7Vcm": {
     "name": "Made in the UK: Anne Boden",
