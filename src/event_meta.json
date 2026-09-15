@@ -583,6 +583,12 @@
     "first_seen_at": "2026-09-05T22:04:04.892Z",
     "first_alerted_at": "2026-09-05T22:04:08.257Z"
   },
+  "evt-Ahso3uzQXnRDvAJ": {
+    "name": "Twilio Assemble London: The Future of Comms + AI",
+    "host": "Twilio UK",
+    "first_seen_at": "2026-09-15T10:17:21.013Z",
+    "first_alerted_at": "2026-09-15T10:17:27.727Z"
+  },
   "evt-AHYchnULuPc7yU2": {
     "name": "First Commit #2: Where Founding Engineers & Founders Meet",
     "first_seen_at": "2026-08-11T09:35:57.864Z",
@@ -2378,6 +2384,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-10T04:59:11.790Z",
     "first_alerted_at": "2026-09-10T04:59:13.280Z"
+  },
+  "evt-RAQ6UM0nSZKKKXh": {
+    "name": "Friction As Freedom: Why We Build Cyberdecks",
+    "host": "Encode Club",
+    "first_seen_at": "2026-09-15T10:17:21.013Z",
+    "first_alerted_at": "2026-09-15T10:17:27.727Z"
   },
   "evt-rbtPhxAckEjswBw": {
     "name": "Pilates in the Park: CoS, Ops & Founders' Associates 🧘‍♀️🌳",
