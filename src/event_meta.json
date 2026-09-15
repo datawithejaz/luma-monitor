@@ -482,6 +482,12 @@
     "first_seen_at": "2026-09-08T20:05:05.811Z",
     "first_alerted_at": "2026-09-08T20:05:07.646Z"
   },
+  "evt-7uBAC4uA83Pc9ha": {
+    "name": "Build & Boulder",
+    "host": "Tano",
+    "first_seen_at": "2026-09-15T18:56:18.694Z",
+    "first_alerted_at": "2026-09-15T18:56:20.345Z"
+  },
   "evt-7VdLpBK3ksmfSjx": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-08-15T11:56:55.856Z",
@@ -3212,6 +3218,12 @@
     "host": "ClickHouse Events",
     "first_seen_at": "2026-09-06T01:23:13.698Z",
     "first_alerted_at": "2026-09-06T01:23:15.233Z"
+  },
+  "evt-ZBO2tZi0q8XpytK": {
+    "name": "AI for Customer Success Teams Workshop",
+    "host": "Dust",
+    "first_seen_at": "2026-09-15T18:56:18.694Z",
+    "first_alerted_at": "2026-09-15T18:56:20.345Z"
   },
   "evt-zDs4mdQLLhDReFR": {
     "name": "London Systems Club",

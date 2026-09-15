@@ -568,6 +568,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-sx2p8SLoDPbnHQB",
+      "slug": "seapoint.co",
+      "name": "Seapoint",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-8R5h2fthl7npVqi",
       "slug": "sentientpro",
       "name": "SentientPro",
@@ -643,6 +649,12 @@
       "api_id": "cal-XbpmR42wDZE9lri",
       "slug": "techtalkuk",
       "name": "TechTalk",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-daclmhDgynRuKSD",
+      "slug": "tenexlabs",
+      "name": "Tenex",
       "reason": "User subscription"
     },
     {
