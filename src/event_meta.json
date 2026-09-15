@@ -92,6 +92,11 @@
     "first_seen_at": "2026-09-09T17:31:25.763Z",
     "first_alerted_at": "2026-09-09T17:31:26.844Z"
   },
+  "evt-1GsLbvFAxxQDltt": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
   "evt-1ibYIBRYmqQiFSR": {
     "name": "Founders Meetup London - October 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -275,6 +280,12 @@
     "name": "🇧🇪🇬🇧 Embassy Pitch Series: UK x Belgium",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
     "first_alerted_at": "2026-08-14T02:43:26.589Z"
+  },
+  "evt-4m2abC0FgHNipDH": {
+    "name": "Builders Club #05",
+    "host": "Light",
+    "first_seen_at": "2026-09-15T15:05:45.764Z",
+    "first_alerted_at": "2026-09-15T15:05:47.834Z"
   },
   "evt-4Mb83AcXCL2Zfci": {
     "name": "GTM World Tour · London",
@@ -912,6 +923,11 @@
     "first_seen_at": "2026-07-11T19:45:30.564Z",
     "first_alerted_at": "2026-07-11T19:45:32.695Z"
   },
+  "evt-DChfzcho6HREyMh": {
+    "name": "Builders Club #06",
+    "host": "Light",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
   "evt-DcQvtpqEpOanPq8": {
     "name": "The AI Workforce Summit @ Google",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -1218,6 +1234,12 @@
     "first_seen_at": "2026-09-05T15:58:14.423Z",
     "first_alerted_at": "2026-09-05T15:58:16.068Z"
   },
+  "evt-GbnQSfMVia90oPx": {
+    "name": "Codex Community Meetup - London",
+    "host": "London AI",
+    "first_seen_at": "2026-09-15T15:05:45.764Z",
+    "first_alerted_at": "2026-09-15T15:05:47.834Z"
+  },
   "evt-Ge5yKXIGH2AcALr": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "first_seen_at": "2026-09-03T14:40:35.705Z",
@@ -1296,6 +1318,11 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-h0He8Q2BPMJpjZO": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
   },
   "evt-H3GY868HSZiEVg0": {
     "name": "Live Coding Meetup",
@@ -1439,6 +1466,11 @@
     "name": "London Voice AI Exchange",
     "first_seen_at": "2026-08-17T11:10:25.845Z",
     "first_alerted_at": "2026-08-17T11:10:27.822Z"
+  },
+  "evt-iaefqmNm1GCstUB": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
   },
   "evt-IajS0FZ7DrQu1Pp": {
     "name": "London Tech Leaders Executive Dinner - The CTO Confidence Gap",
@@ -1593,6 +1625,11 @@
     "name": "Agentic A.I. Private Dinner",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-jRWS6zt7uvIUbI1": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
   },
   "evt-JRXNS9SfOsMfk7j": {
     "name": "Demo Event LDN: From Idea to Prototype with Lovable",
@@ -1956,6 +1993,11 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-mzVqXjsV701vNZa": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
   "evt-N32bYgNssdaiF2H": {
     "name": "Arc Demos & Meetup",
     "first_seen_at": "2026-09-02T23:10:06.267Z"
@@ -2040,6 +2082,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
+  "evt-NRv353nMnwxpmYj": {
+    "name": "VC Pitch Night | DeepTech Founders",
+    "host": "Novabook",
+    "first_seen_at": "2026-09-15T15:05:45.764Z",
+    "first_alerted_at": "2026-09-15T15:05:47.834Z"
   },
   "evt-NsGCKhfsStygmI9": {
     "name": "founder coworking + pizza night",
@@ -2258,6 +2306,11 @@
     "host": "Colorintech Events",
     "first_seen_at": "2026-09-10T23:52:26.898Z",
     "first_alerted_at": "2026-09-10T23:52:30.151Z"
+  },
+  "evt-pZ37TFbb7VBvrSj": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
   },
   "evt-q0Xg9fuxIGFxCBx": {
     "name": "Alternative Intelligence: How AI Powers Private Markets - A fireside chat with Dust and Vega",
@@ -2490,6 +2543,11 @@
     "host": "Gradient Descending",
     "first_seen_at": "2026-09-05T13:01:56.119Z",
     "first_alerted_at": "2026-09-05T13:01:58.550Z"
+  },
+  "evt-SHXTtjqGKKwCtIl": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
   },
   "evt-SIDB65YWRiPF0ZH": {
     "name": "Claude x Softr: AI Build Day Hackathon",
@@ -2890,6 +2948,11 @@
     "first_seen_at": "2026-07-28T13:09:31.857Z",
     "first_alerted_at": "2026-07-28T13:09:34.688Z"
   },
+  "evt-wIBlQ8bQElZoKv1": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
   "evt-WKEjzcBes13pXd9": {
     "name": "AI Showcase: Public Sector Edition",
     "first_seen_at": "2026-08-19T10:46:03.392Z",
@@ -3030,6 +3093,11 @@
     "first_seen_at": "2026-08-07T12:54:35.124Z",
     "first_alerted_at": "2026-08-07T12:54:37.482Z"
   },
+  "evt-XZbBBPYJkxlVsJi": {
+    "name": "Weekly football 7-aside by Granola!",
+    "host": "Granola",
+    "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
   "evt-xztEQ9GHaPtv7BV": {
     "name": "China Nerdfest London - Autumn Drinks",
     "host": "RealTime Mandarin Calendar",
@@ -3053,6 +3121,18 @@
     "host": "Sifted Summit",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-YE1l2OZdFTBp7GF": {
+    "name": "LFG Goes To Full Council",
+    "host": "LFG",
+    "first_seen_at": "2026-09-15T15:05:45.764Z",
+    "first_alerted_at": "2026-09-15T15:05:47.834Z"
+  },
+  "evt-ye9vR1eTL2sLsJq": {
+    "name": "FinOps Hackathon",
+    "host": "Seapoint",
+    "first_seen_at": "2026-09-15T15:05:45.764Z",
+    "first_alerted_at": "2026-09-15T15:05:47.834Z"
   },
   "evt-YH2wzaFok65vcBx": {
     "name": "freeCodeCamp x Encode | AI - Workshop: Hermes Agent w/ your Local LLM models such as Qwen, Deepseek, etc",
