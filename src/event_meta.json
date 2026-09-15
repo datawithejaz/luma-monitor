@@ -578,6 +578,11 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:18.974Z"
   },
+  "evt-AF405pllTYHGFdK": {
+    "name": "AI Pilled [Builder] #04",
+    "host": "AI Pilled",
+    "first_seen_at": "2026-09-15T21:54:55.080Z"
+  },
   "evt-AGbMRDIxlTp30hQ": {
     "name": "From Data to Deal: How AI is Redefining Real Estate Acquisition - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -918,6 +923,12 @@
     "host": "Lifestack",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-CyEdAOwOZhxMN3O": {
+    "name": "Pr1me [London Series] - Exclusive Dinner for Web3 Finance",
+    "host": "Personal",
+    "first_seen_at": "2026-09-15T21:54:55.080Z",
+    "first_alerted_at": "2026-09-15T21:54:57.746Z"
   },
   "evt-CZEy8OAE2jwGpx4": {
     "name": "AI Safety Cinema Society #1: The AI Doc + Seat at the Table",
