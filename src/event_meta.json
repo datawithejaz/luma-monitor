@@ -2566,6 +2566,12 @@
     "first_seen_at": "2026-07-29T09:49:03.836Z",
     "first_alerted_at": "2026-07-29T09:49:05.869Z"
   },
+  "evt-tCgNsXo1AFfZZXA": {
+    "name": "ODSC AI Skills Accelerator | London",
+    "host": "ODSC AI (Open Data Science Conference)",
+    "first_seen_at": "2026-09-15T00:44:22.332Z",
+    "first_alerted_at": "2026-09-15T00:44:23.818Z"
+  },
   "evt-tdEhLNJoWCJFCV9": {
     "name": "AI on Draught: The Day Your AI Goes Wrong",
     "first_seen_at": "2026-09-03T11:41:11.182Z",
