@@ -686,6 +686,12 @@
     "first_seen_at": "2026-08-18T08:58:48.726Z",
     "first_alerted_at": "2026-08-18T08:58:51.225Z"
   },
+  "evt-b92ZaVm0tHU9XuE": {
+    "name": "CTA Demo Day & Conference",
+    "host": "Cancer Tech Accelerator",
+    "first_seen_at": "2026-09-16T12:16:14.143Z",
+    "first_alerted_at": "2026-09-16T12:16:16.084Z"
+  },
   "evt-B9EFu8ANbCEg2Ac": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -2234,6 +2240,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
   },
+  "evt-OuWUrDKc9wmdb4x": {
+    "name": "AlgoRhythms",
+    "host": "London Live Coding?",
+    "first_seen_at": "2026-09-16T12:16:14.143Z",
+    "first_alerted_at": "2026-09-16T12:16:16.084Z"
+  },
   "evt-Oye0S4kSwbdFZkx": {
     "name": "London Startup Operator RunClub & Social",
     "first_seen_at": "2026-08-19T10:46:03.392Z",
@@ -3183,6 +3195,18 @@
     "host": "Aptura AI",
     "first_seen_at": "2026-09-13T21:43:58.944Z",
     "first_alerted_at": "2026-09-13T21:44:00.177Z"
+  },
+  "evt-Yp2hI7B58RACUM5": {
+    "name": "Entrepreneurs Who Shaped London",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-09-16T12:16:14.143Z",
+    "first_alerted_at": "2026-09-16T12:16:16.084Z"
+  },
+  "evt-ytft3HdEr20vngN": {
+    "name": "Stop Building the Wrong Thing with AI",
+    "host": "Vibe Coding Collective",
+    "first_seen_at": "2026-09-16T12:16:14.143Z",
+    "first_alerted_at": "2026-09-16T12:16:16.084Z"
   },
   "evt-YTptc6QOfZYvO77": {
     "name": "Talent Leaders networking evening",
