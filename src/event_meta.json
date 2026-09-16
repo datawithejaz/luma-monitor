@@ -49,6 +49,12 @@
     "first_seen_at": "2026-07-14T16:04:40.852Z",
     "first_alerted_at": "2026-07-14T16:04:42.189Z"
   },
+  "evt-0vKqofRk2DxoO2b": {
+    "name": "Consumer Startup Breakfast 🥐🫖",
+    "host": "Jumpstart",
+    "first_seen_at": "2026-09-16T17:04:28.437Z",
+    "first_alerted_at": "2026-09-16T17:04:30.178Z"
+  },
   "evt-0zvSSvFLAJgVQg7": {
     "name": "GetFutureReady FinTech 5K Run",
     "host": "GetFutureReady Community",
@@ -2101,6 +2107,12 @@
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
+  "evt-nkEISQgcib1yT6G": {
+    "name": "Dust UK Office Opening Party",
+    "host": "Dust",
+    "first_seen_at": "2026-09-16T17:04:28.437Z",
+    "first_alerted_at": "2026-09-16T17:04:30.178Z"
+  },
   "evt-NLHPGrGuQCDiy8t": {
     "name": "London Loras: Seedance ⌁ The Future of Advertising",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
@@ -2335,6 +2347,12 @@
     "name": "Building AI Products with Hyperstack",
     "first_seen_at": "2026-08-24T09:11:26.754Z",
     "first_alerted_at": "2026-08-24T09:11:28.408Z"
+  },
+  "evt-PoIpsYF5ovXMVcx": {
+    "name": "Build Night: Create Your Own Dictation App",
+    "host": "AssemblyAI",
+    "first_seen_at": "2026-09-16T17:04:28.437Z",
+    "first_alerted_at": "2026-09-16T17:04:30.178Z"
   },
   "evt-PpPGLikiabC4Dd1": {
     "name": "Hacker News London Meetup #10 Demo Night",
@@ -2676,6 +2694,12 @@
     "name": "AI After 5 x C-réer: What happens after 5?",
     "first_seen_at": "2026-07-29T09:49:03.836Z",
     "first_alerted_at": "2026-07-29T09:49:05.869Z"
+  },
+  "evt-TaxHmsaX3PfLysJ": {
+    "name": "Builders Foundry #4 - Intelligent Agents & FDE",
+    "host": "Personal",
+    "first_seen_at": "2026-09-16T17:04:28.437Z",
+    "first_alerted_at": "2026-09-16T17:04:30.178Z"
   },
   "evt-tCgNsXo1AFfZZXA": {
     "name": "ODSC AI Skills Accelerator | London",
@@ -3201,6 +3225,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-16T12:16:14.143Z",
     "first_alerted_at": "2026-09-16T12:16:16.084Z"
+  },
+  "evt-ypWdfk9n1yqUxek": {
+    "name": "The real-time database for AI Conference - ClickHouse",
+    "host": "ClickHouse Events",
+    "first_seen_at": "2026-09-16T17:04:28.437Z",
+    "first_alerted_at": "2026-09-16T17:04:30.178Z"
   },
   "evt-ytft3HdEr20vngN": {
     "name": "Stop Building the Wrong Thing with AI",
