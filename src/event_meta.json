@@ -76,6 +76,12 @@
     "first_seen_at": "2026-08-18T16:50:21.772Z",
     "first_alerted_at": "2026-08-18T16:50:23.029Z"
   },
+  "evt-18IHasUqq0Ihyrl": {
+    "name": "Bio x Engineering (Biotech Meet Up)",
+    "host": "Personal",
+    "first_seen_at": "2026-09-16T22:53:38.268Z",
+    "first_alerted_at": "2026-09-16T22:53:39.995Z"
+  },
   "evt-19DeIU6CEew5vuC": {
     "name": "Economic Possibilities for our Grandchildren",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -1110,6 +1116,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
   },
+  "evt-eYsdWRsovYsHFQP": {
+    "name": "#2 Physical I/O: Robotics",
+    "host": "Physical I/O Community",
+    "first_seen_at": "2026-09-16T22:53:38.268Z",
+    "first_alerted_at": "2026-09-16T22:53:39.995Z"
+  },
   "evt-eZ9LaPpltRdZeNW": {
     "name": "GetFutureReady | September 2026 Edition",
     "host": "GetFutureReady Community",
@@ -1296,6 +1308,12 @@
     "name": "Pride in FinTech 2026 | Celebratory Event",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-gGjehGq40VgHc9b": {
+    "name": "Stripe x Briefcase: AI FinTech London Hackathon",
+    "host": "Briefcase",
+    "first_seen_at": "2026-09-16T22:53:38.268Z",
+    "first_alerted_at": "2026-09-16T22:53:39.995Z"
   },
   "evt-GgRRSVFb13DUdED": {
     "name": "Founder Cowork Club: Focus and Flow with Special Guest TBA",
