@@ -567,6 +567,12 @@
     "first_seen_at": "2026-09-01T16:34:38.391Z",
     "first_alerted_at": "2026-09-01T16:34:39.609Z"
   },
+  "evt-accOxkedoTSQXDD": {
+    "name": "Post-Training, Evals & Self-Improving Agents - AAIF London x Prolific",
+    "host": "AAIF Community London",
+    "first_seen_at": "2026-09-16T01:48:31.704Z",
+    "first_alerted_at": "2026-09-16T01:48:33.304Z"
+  },
   "evt-aCXxDSroyizikXq": {
     "name": "Tech for Good Meetup",
     "first_seen_at": "2026-08-07T22:47:26.813Z",
@@ -1195,6 +1201,12 @@
     "host": "Rare Founders Calendar",
     "first_seen_at": "2026-09-14T13:55:19.662Z",
     "first_alerted_at": "2026-09-14T13:55:21.482Z"
+  },
+  "evt-fRkk67UNiklXIIp": {
+    "name": "House London #2 | Data Hackathon",
+    "host": "House London!",
+    "first_seen_at": "2026-09-16T01:48:31.704Z",
+    "first_alerted_at": "2026-09-16T01:48:33.304Z"
   },
   "evt-fSmKjifvZiAeZXw": {
     "name": "First Step: Graduate to AI",
