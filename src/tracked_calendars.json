@@ -250,6 +250,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-xvZHN4RFtr0UwR6",
+      "slug": "joinfivedegrees",
+      "name": "five degrees",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-4fRKeqLQiRTsrql",
       "slug": "joinfleek",
       "name": "Fleek Events",
@@ -515,7 +521,7 @@
     },
     {
       "api_id": "cal-WuC7fwXvvdeFd3N",
-      "slug": "",
+      "slug": "openai-emea",
       "name": "OpenAI EMEA",
       "reason": "User subscription"
     },
