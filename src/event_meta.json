@@ -1080,6 +1080,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-eaguC1H63G6NUKg": {
+    "name": "Sunset Sessions @ the Sauna: Product Engineers",
+    "host": "Dex Live",
+    "first_seen_at": "2026-09-17T10:29:55.944Z",
+    "first_alerted_at": "2026-09-17T10:29:57.245Z"
+  },
   "evt-eAtVHqstF7IMGfA": {
     "name": "AI Demo Nights #12 ⚡️ AUG 2026",
     "first_seen_at": "2026-08-18T09:38:53.574Z",
@@ -1618,6 +1624,12 @@
     "host": "MULTIC",
     "first_seen_at": "2026-09-05T01:21:37.867Z",
     "first_alerted_at": "2026-09-05T01:21:39.798Z"
+  },
+  "evt-In3DrjsHKOATDyw": {
+    "name": "PlatformCon Live Day - London",
+    "host": "Platform Engineering",
+    "first_seen_at": "2026-09-17T10:29:55.944Z",
+    "first_alerted_at": "2026-09-17T10:29:57.245Z"
   },
   "evt-ioKhlcjEf0toPc3": {
     "name": "London | Claude by Hyde Park, a FinTech Night",
