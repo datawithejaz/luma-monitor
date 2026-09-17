@@ -730,6 +730,12 @@
     "first_seen_at": "2026-07-28T09:06:57.531Z",
     "first_alerted_at": "2026-07-28T09:06:59.205Z"
   },
+  "evt-BBThcDvell8NhyN": {
+    "name": "Omarchy London Meetup 001",
+    "host": "Personal",
+    "first_seen_at": "2026-09-17T00:57:49.909Z",
+    "first_alerted_at": "2026-09-17T00:57:50.887Z"
+  },
   "evt-BCyYYY4MD33ybEt": {
     "name": "Exploring Opportunities in... Quantum Computing",
     "host": "London Venture Club",
@@ -1084,6 +1090,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:17.475Z"
+  },
+  "evt-eib5jSCKnpQpPAJ": {
+    "name": "Education & AI Connect: AI Videos for Marketing and Beyond (Breakfast Club)",
+    "host": "Education & AI Connect (by EduSolv AI)",
+    "first_seen_at": "2026-09-17T00:57:49.909Z",
+    "first_alerted_at": "2026-09-17T00:57:50.887Z"
   },
   "evt-eLnI19zEa5g30UF": {
     "name": "Public First presents: Tech YoPro Drinks",
@@ -1506,6 +1518,12 @@
     "first_seen_at": "2026-09-06T06:06:20.438Z",
     "first_alerted_at": "2026-09-06T06:06:25.596Z"
   },
+  "evt-HVUtVdjkD8P898m": {
+    "name": "Education & AI Connect: Emerging Technologies and How AI Is Reshaping Int’l Student Recruitment",
+    "host": "Education & AI Connect (by EduSolv AI)",
+    "first_seen_at": "2026-09-17T00:57:49.909Z",
+    "first_alerted_at": "2026-09-17T00:57:50.887Z"
+  },
   "evt-HyojY4tjUas6jTh": {
     "name": "AI Research Night — Case Studies in Pretraining",
     "first_seen_at": "2026-07-26T20:34:23.937Z",
@@ -1754,6 +1772,12 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-kgtH67xSR1IPKlc": {
+    "name": "Education & AI Workshop London (Full Day)",
+    "host": "Education & AI Connect (by EduSolv AI)",
+    "first_seen_at": "2026-09-17T00:57:49.909Z",
+    "first_alerted_at": "2026-09-17T00:57:50.887Z"
   },
   "evt-khFJKHACcu0Gh9A": {
     "name": "AI Designer Dinner + Demos",
