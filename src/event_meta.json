@@ -1351,6 +1351,12 @@
     "first_seen_at": "2026-09-10T13:46:50.606Z",
     "first_alerted_at": "2026-09-10T13:46:51.977Z"
   },
+  "evt-GQjTVbxVMVKFwFn": {
+    "name": "ghouls just wanna have funds: founders coworking & halloween social",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-09-17T15:14:17.477Z",
+    "first_alerted_at": "2026-09-17T15:14:18.586Z"
+  },
   "evt-GrBFwYMkf0211cT": {
     "name": "The Future of... Sustainable Aviation",
     "host": "London Venture Club",
@@ -2311,6 +2317,12 @@
     "host": "London Live Coding?",
     "first_seen_at": "2026-09-16T12:16:14.143Z",
     "first_alerted_at": "2026-09-16T12:16:16.084Z"
+  },
+  "evt-ovUxVAmMdpHobJo": {
+    "name": "AI Vision Challenge | Breakfast Edition",
+    "host": "Personal",
+    "first_seen_at": "2026-09-17T15:14:17.477Z",
+    "first_alerted_at": "2026-09-17T15:14:18.586Z"
   },
   "evt-Oye0S4kSwbdFZkx": {
     "name": "London Startup Operator RunClub & Social",
