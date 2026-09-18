@@ -464,6 +464,12 @@
     "first_seen_at": "2026-09-07T00:10:35.196Z",
     "first_alerted_at": "2026-09-07T00:10:37.430Z"
   },
+  "evt-7FzrA5Hs56A4Cvj": {
+    "name": "CuppaPug Puppy Social",
+    "host": "YourTRIBE Southwark",
+    "first_seen_at": "2026-09-18T17:13:46.194Z",
+    "first_alerted_at": "2026-09-18T17:13:47.530Z"
+  },
   "evt-7hgyrV13KH4jDjQ": {
     "name": "Corworking with Zapier and Corgi ⚡️🥐",
     "first_seen_at": "2026-09-02T23:16:07.469Z",
@@ -2329,6 +2335,12 @@
     "host": "The Startup Stroll",
     "first_seen_at": "2026-09-06T10:51:41.367Z",
     "first_alerted_at": "2026-09-06T10:51:43.455Z"
+  },
+  "evt-ORvr4mmFTPvF450": {
+    "name": "Neon Naked Life Drawing",
+    "host": "YourTRIBE Southwark",
+    "first_seen_at": "2026-09-18T17:13:46.194Z",
+    "first_alerted_at": "2026-09-18T17:13:47.530Z"
   },
   "evt-oSR7EQgqjC1W9bH": {
     "name": "The High-Performance Office: Turning Data, AI & Smart Tech into Measurable Asset Value - Roundtable",
