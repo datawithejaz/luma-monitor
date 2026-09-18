@@ -1,0 +1,61 @@
+name: Export My Luma Calendar
+
+# Builds a .ics of events you're registered for / hosting and emails it as an
+# attachment. Never commits the file — the repo is public.
+#
+# Prefer Lu.ma's live Outlook iCal subscription when your work calendar allows
+# external feeds: https://lu.ma/settings → Calendar Syncing → Outlook
+# (docs: https://help.luma.com/p/ical-syncing). Use this workflow when IT blocks
+# subscriptions and you need a one-shot .ics for Teams / Outlook import.
+
+on:
+  workflow_dispatch:
+    inputs:
+      include_past:
+        description: "Include past events (default: upcoming only)"
+        required: false
+        default: "false"
+        type: boolean
+  schedule:
+    # Weekly Sunday 18:00 UTC — a fresh .ics in your inbox for the week ahead.
+    - cron: "0 18 * * 0"
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: src/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./src
+
+      - name: Export .ics and email it
+        env:
+          LUMA_AUTH_COOKIE: ${{ secrets.LUMA_AUTH_COOKIE }}
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+        run: |
+          if [ -z "$LUMA_AUTH_COOKIE" ]; then
+            echo "::error title=LUMA_AUTH_COOKIE missing::Add the LUMA_AUTH_COOKIE repository secret (Cookie header from a signed-in api.lu.ma request)."
+            exit 1
+          fi
+          ARGS="--email"
+          if [ "${{ github.event.inputs.include_past }}" = "true" ]; then
+            ARGS="$ARGS --include-past"
+          fi
+          node src/export-calendar.js $ARGS
