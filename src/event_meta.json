@@ -146,6 +146,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z"
   },
+  "evt-2i9koIwuUBT0jTW": {
+    "name": "Anthropic London VC platform breakfast",
+    "host": "Claude Startups",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
+  },
   "evt-2IoixRb0prKrF08": {
     "name": "The Afterparty",
     "host": "Deep Tech London",
@@ -331,6 +337,12 @@
     "first_seen_at": "2026-07-29T15:30:49.001Z",
     "first_alerted_at": "2026-07-29T15:30:51.153Z"
   },
+  "evt-4ZK2cKkBfAGZdeT": {
+    "name": "Finance, Banking, Investments & Fintech for Startups & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
+  },
   "evt-51VH3BLritPzF5N": {
     "name": "Witsend Panel: the Rise of the CPTO",
     "host": "Witsend Event Calendar",
@@ -385,6 +397,12 @@
     "host": "London Agentic AI",
     "first_seen_at": "2026-09-09T17:31:25.763Z",
     "first_alerted_at": "2026-09-09T17:31:26.844Z"
+  },
+  "evt-60yqb4r1wJtjy8G": {
+    "name": "Legal & Business Networking | Lawyers, Founders & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
   "evt-61TjkAbXSzBahWC": {
     "name": "TRD: London Startups Operator RunClub & Social",
@@ -451,6 +469,12 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-6VGmnM9PBHvvqLq": {
+    "name": "Consumer Brands & E-commerce Networking for Startups & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
   },
   "evt-71uq6G7o6OSolWr": {
     "name": "Systematising the Best Office Experience to Uphold Commercial Portfolio Value - Roundtable",
@@ -581,6 +605,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
+  "evt-9wIgw4wVbxvt4Io": {
+    "name": "Agentic AI & Technology: Beyond Automation",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
   "evt-a2KjaxeQ1DnY717": {
     "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
@@ -873,6 +903,12 @@
     "first_seen_at": "2026-09-07T22:04:04.315Z",
     "first_alerted_at": "2026-09-07T22:04:07.093Z"
   },
+  "evt-c1GeUYdcquSqiVM": {
+    "name": "Biotech, Pharma & Life Sciences Networking London | Founders & Investors",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
+  },
   "evt-C1mDVDbGXgSbZuD": {
     "name": "The Mirror That Never Pushes Back: Investigating AI Delusions",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -1013,6 +1049,12 @@
     "first_seen_at": "2026-08-16T17:43:01.951Z",
     "first_alerted_at": "2026-08-16T17:43:03.395Z"
   },
+  "evt-DEjKzplyeNmFhAj": {
+    "name": "Sales & Business Development Networking | Deals, Growth & Partnerships",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
+  },
   "evt-DEvbmJ8Sc2eiTsP": {
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T11:35:18.746Z",
@@ -1145,6 +1187,12 @@
     "name": "Community Tooling Hack Day #2",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-Ev6e9D4oZDY2OcJ": {
+    "name": "Media, Entertainment & Digital Technology Networking",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
   },
   "evt-EVc3bCQHXBu9vGK": {
     "name": "Protecting Residential Margins through Technology-Led Process Automation - Roundtable",
@@ -1810,6 +1858,12 @@
     "first_seen_at": "2026-08-02T01:11:40.525Z",
     "first_alerted_at": "2026-08-02T01:11:42.308Z"
   },
+  "evt-kekmt0NJWFrwxKe": {
+    "name": "AI for ABM & LinkedIn Ads",
+    "host": "ZenABM",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
+  },
   "evt-KG0n620r02dMifq": {
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -1836,6 +1890,12 @@
     "name": "ABRC BOOKCLUB: LOVE IN THE TIME OF CHOLERA",
     "first_seen_at": "2026-07-25T11:38:35.321Z",
     "first_alerted_at": "2026-07-25T11:38:36.935Z"
+  },
+  "evt-KIKIOSTmhlyDhtc": {
+    "name": "Sports, Fitness & Wellness: Founders, Investment & Innovation | London",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
   },
   "evt-KkFv8BmVTpjLSHF": {
     "name": "Architect x Corgi Cafe - Sunday Designathon",
@@ -2220,6 +2280,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-nrolBr5gQohsts8": {
+    "name": "Real Estate & Property Investment Networking for Startups & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
+  },
   "evt-NRv353nMnwxpmYj": {
     "name": "VC Pitch Night | DeepTech Founders",
     "host": "Novabook",
@@ -2429,6 +2495,11 @@
     "first_seen_at": "2026-07-23T20:43:08.160Z",
     "first_alerted_at": "2026-07-23T20:43:10.193Z"
   },
+  "evt-peYd71IDbvzf6YO": {
+    "name": "London Systems Club",
+    "host": "London Systems Club",
+    "first_seen_at": "2026-09-18T19:39:03.823Z"
+  },
   "evt-pFcQwUTOA8oLMMD": {
     "name": "AI x Crypto: Innovation, Efficiency and Staying Safe in a New Digital Economy",
     "first_seen_at": "2026-08-18T17:46:19.403Z",
@@ -2499,6 +2570,12 @@
     "host": "No 10 Innovation Fellows",
     "first_seen_at": "2026-09-11T21:18:48.727Z",
     "first_alerted_at": "2026-09-11T21:18:49.839Z"
+  },
+  "evt-qe19TdTAFlgiLWi": {
+    "name": "Startups, Entrepreneurship & Innovation Networking for Founders & Pro",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
   "evt-QHgMlQLJYpDA5PD": {
     "name": "Building AI - Founders 002 - Founder Dinner",
@@ -2721,6 +2798,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-sKDM0IWM4FMiDRo": {
+    "name": "Startup Funding & Networking: VCs, Angels & Founders",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
   },
   "evt-SlGc0MlKa6Q4r8x": {
     "name": "Founder Nation: Padel Social - London",
@@ -3053,6 +3136,12 @@
     "first_seen_at": "2026-07-21T14:52:45.629Z",
     "first_alerted_at": "2026-07-21T14:52:47.584Z"
   },
+  "evt-VOWaFle2fjIz4Vs": {
+    "name": "LTAA Ambassadors of Design 2026",
+    "host": "LTAA",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:04.844Z"
+  },
   "evt-VpLgyXcrvGVUXPE": {
     "name": "Vibe Coding for 100% beginners",
     "first_seen_at": "2026-08-03T16:37:07.892Z",
@@ -3300,6 +3389,12 @@
     "host": "Sifted Summit",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-yDHNdoFpq7ZGeHG": {
+    "name": "Founders & Co-Founders Networking | Startups & Entrepreneurship",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-18T19:39:03.823Z",
+    "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
   "evt-YE1l2OZdFTBp7GF": {
     "name": "LFG Goes To Full Council",
