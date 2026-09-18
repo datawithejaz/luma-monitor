@@ -152,6 +152,8 @@ luma-monitor/
 │   ├── calendar-digest.js         # weekly unfollowed-calendar email (unit-tested)
 │   ├── calendar-digest.test.js
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
+│   ├── credits.js                 # checked-in / unclaimed Cursor credit claims
+│   ├── credits.test.js
 │   ├── tracked_calendars.json     # config: calendars you follow
 │   ├── known_calendars.json       # state: every calendar ever seen (auto)
 │   ├── calendar_digest.json       # state: last weekly calendar digest (auto)
@@ -165,6 +167,27 @@ luma-monitor/
 └── .gitignore
 ```
 
+## Cursor credit claims (checked-in, not claimed)
+
+The Grok Bot / SpaceXAI cowork claim page is a separate app from this monitor:
+
+https://grok-bot-coloop-cowork-09-26.teamdeel.workers.dev/cloudflare
+
+It lists Luma guests with **checked-in** vs **going**, and **hasRedeemed**. It does **not** return emails. To get a code you still submit the name + email from Luma (`POST /api/redeem`).
+
+```bash
+cd src
+npm run credits                 # who is checked in and has not claimed
+npm run credits -- --all        # include claimed / not-checked-in names
+npm run credits -- --json
+# Host-only: export Guests CSV from Lu.ma and join emails locally
+npm run credits -- --guests ../guests.csv --emails-only
+# Request or retrieve one person's code (same as the webpage)
+npm run credits -- --claim --name "Ada Lovelace" --email ada@example.com
+```
+
+`guests.csv` stays on your machine — this repo is public, so do not commit it or print emails in Actions logs.
+
 ## Tests
 
 ```bash
@@ -172,8 +195,9 @@ cd src
 npm test        # node --test — no network, no secrets
 ```
 
-Covers series dedupe, email batching, the calendar-sync guards, and the weekly
-calendar digest. CI runs it on every pull request and on pushes to `main`. The
+Covers series dedupe, email batching, the calendar-sync guards, the weekly
+calendar digest, and Cursor credit claim status. CI runs it on every pull
+request and on pushes to `main`. The
 fetch/filter path is not covered — it needs the live Lu.ma API — so exercise it
 with a real run:
 
