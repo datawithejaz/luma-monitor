@@ -19,6 +19,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-yCnujAnSUJXmLFQ",
+      "slug": "aaif-london",
+      "name": "AAIF Community London",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-8keGx2hPWefhJFK",
       "slug": "",
       "name": "ABRC",
@@ -28,9 +34,27 @@
       "reason": "User request — personal calendar (no public slug); all London events"
     },
     {
+      "api_id": "cal-7ECRgxfDrwvMihw",
+      "slug": "adelineartsandscience",
+      "name": "Adeline Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-SXGLdns9g6dOhOU",
+      "slug": "inertia",
+      "name": "AFOCAL INERTIA",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-EDisCieHa0mXu0b",
       "slug": "aiafter5",
       "name": "AI After 5",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-cIL2FvDfGyDzLLI",
+      "slug": "ai-builders",
+      "name": "AI Builders",
       "reason": "User subscription"
     },
     {
@@ -58,6 +82,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-s4ThQqnZ1EsxK2v",
+      "slug": "Aptura",
+      "name": "Aptura AI",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-ZI6udBAMrWomDCG",
       "slug": "architect",
       "name": "Architect",
@@ -73,6 +103,12 @@
       "api_id": "cal-oGKPs8y5BbMisbK",
       "slug": "artificially-intelligent",
       "name": "Artificially Intelligent",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-0kBRoElM4CvTC3v",
+      "slug": "Artsect",
+      "name": "Artsect",
       "reason": "User subscription"
     },
     {
@@ -226,6 +262,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-sQm9z9kQ8Tj6QWh",
+      "slug": "edusolvai",
+      "name": "Education & AI Connect (by EduSolv AI)",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-8LJYo5N7QObN2DI",
       "slug": "encode-club",
       "name": "Encode Club",
@@ -352,6 +394,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-T7EDRIJfOdmE0mq",
+      "slug": "house-london",
+      "name": "House London!",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-0jikzPhENNNJBGU",
       "slug": "incident",
       "name": "incident.io",
@@ -424,6 +472,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-EoGe99CeR1R8F6J",
+      "slug": "ldn-hardware-meetup",
+      "name": "London Hardware Meetup",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-qaBuxr3sRTGy0Ol",
       "slug": "londonlivecoding",
       "name": "London Live Coding?",
@@ -454,6 +508,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-jlk3J9rW008HHOx",
+      "slug": "lukka",
+      "name": "Lukka",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-BohjOVw24zi3Bsi",
       "slug": "masschallengeuk2026",
       "name": "MassChallenge UK 2026 Early-Stage Accelerator",
@@ -469,6 +529,12 @@
       "api_id": "cal-pYVlNfFT4qWcFsE",
       "slug": "multic",
       "name": "MULTIC",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-c5aACNuybyiq0BH",
+      "slug": "nebius_events_",
+      "name": "Nebius Events",
       "reason": "User subscription"
     },
     {
@@ -496,9 +562,21 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-dJITEHKdiSK8PhE",
+      "slug": "odscai",
+      "name": "ODSC AI (Open Data Science Conference)",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-r686DD59qDFs9ZD",
       "slug": "odyssey.ml",
       "name": "Odyssey",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-SDGGMsEps9ExsrT",
+      "slug": "omarchy",
+      "name": "Omarchy Meetups",
       "reason": "User subscription"
     },
     {
@@ -577,6 +655,12 @@
       "api_id": "cal-lfZsS1HrTbRIiTk",
       "slug": "reasoningproject",
       "name": "Reasoning Project",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-5Fn2C58SzHu8WOO",
+      "slug": "revolut-business",
+      "name": "Revolut Business",
       "reason": "User subscription"
     },
     {

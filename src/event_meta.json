@@ -396,6 +396,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-66BKJN38gkA5Td8": {
+    "name": "SPEED BUILD 2026 | SCREENING",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-09-18T13:39:56.744Z",
+    "first_alerted_at": "2026-09-18T13:39:58.882Z"
+  },
   "evt-66u3RU1wQj1e9IU": {
     "name": "Frontier Dinners: Interest Form",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -472,6 +478,12 @@
     "name": "Grishin Robotics Accelerator: Pitch Practice (Founders Only)",
     "first_seen_at": "2026-08-25T17:40:37.508Z",
     "first_alerted_at": "2026-08-25T17:40:39.746Z"
+  },
+  "evt-7mSeClEZO37vZEj": {
+    "name": "LAST RESORT 001",
+    "host": "Artsect",
+    "first_seen_at": "2026-09-18T13:39:56.744Z",
+    "first_alerted_at": "2026-09-18T13:39:58.882Z"
   },
   "evt-7oHA3DO6jFtD1hn": {
     "name": "Building Breakout Companies: Index Ventures X Scope",
@@ -2850,6 +2862,12 @@
     "first_seen_at": "2026-09-09T09:41:04.126Z",
     "first_alerted_at": "2026-09-09T09:41:05.951Z"
   },
+  "evt-TPuISPzM4oPHJIs": {
+    "name": "From training to production: building and scaling real-world LLMs",
+    "host": "Nebius Events",
+    "first_seen_at": "2026-09-18T13:39:56.744Z",
+    "first_alerted_at": "2026-09-18T13:39:58.882Z"
+  },
   "evt-TrViCCEst0fpCFJ": {
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -3158,6 +3176,12 @@
     "name": "React Native London Meetup - September 2026",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-x09K5Wqe0duRyqf": {
+    "name": "House of Lords Meet Up",
+    "host": "UK AI Agents Lab",
+    "first_seen_at": "2026-09-18T13:39:56.744Z",
+    "first_alerted_at": "2026-09-18T13:39:58.882Z"
   },
   "evt-X0sVKbpE6fzESCu": {
     "name": "Fooled by beautiful data – bias and data visualization",
