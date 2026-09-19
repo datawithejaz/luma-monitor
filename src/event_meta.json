@@ -671,6 +671,12 @@
     "first_seen_at": "2026-09-05T22:04:04.892Z",
     "first_alerted_at": "2026-09-05T22:04:08.257Z"
   },
+  "evt-ahK80iJw8VNxfVz": {
+    "name": "Harnessing the Power of Agents",
+    "host": "AI After 5",
+    "first_seen_at": "2026-09-19T17:29:40.886Z",
+    "first_alerted_at": "2026-09-19T17:29:42.886Z"
+  },
   "evt-Ahso3uzQXnRDvAJ": {
     "name": "Twilio Assemble London: The Future of Comms + AI",
     "host": "Twilio UK",
