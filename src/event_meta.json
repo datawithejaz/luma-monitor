@@ -3608,6 +3608,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-zYdTZ7ra4TJH0yK": {
+    "name": "The Startup Stroll",
+    "host": "The Startup Stroll",
+    "first_seen_at": "2026-09-19T14:43:59.582Z",
+    "first_alerted_at": "2026-09-19T14:44:00.793Z"
+  },
   "evt-zYrvR0hdFt8t75l": {
     "name": "The state of harness engineering",
     "first_seen_at": "2026-08-26T22:55:33.746Z",
