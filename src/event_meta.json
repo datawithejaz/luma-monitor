@@ -1229,6 +1229,11 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-EzkSY4xQEmIDjVw": {
+    "name": "YAAD Clubhouse: Beat-Making Workshop Vol.2",
+    "host": "YAAD's Black History Month Clubhouse",
+    "first_seen_at": "2026-09-19T21:43:07.862Z"
+  },
   "evt-f2g8vpgaeajG6PG": {
     "name": "Gateway to Dubai: Scaling Foreign PropTech in the World’s Fastest‑Growing Real Estate Market",
     "host": "PropTech Connect Europe 2026",
@@ -1257,6 +1262,12 @@
     "host": "Novabook",
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
+  "evt-fF9bmvrKf8hLaj2": {
+    "name": "YAAD Clubhouse: Work, Create, Lounge + Waistbeads Workshop (Black History Month)",
+    "host": "YAAD's Black History Month Clubhouse",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
   },
   "evt-FGEpcmYzLQ5iLDN": {
     "name": "{Tech: Europe} x VEED Hackathon | The Summer Lock-In",
@@ -1524,6 +1535,12 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-hiGdgloKFSDifBW": {
+    "name": "London Founders & Entrepreneurs Networking | Startups & Business Owners",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
   "evt-hJA5juddp6mJOul": {
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T11:35:18.746Z",
@@ -1759,6 +1776,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-jEtGWrFiR4EK4Yb": {
+    "name": "YAAD Clubhouse: Beat-Making Workshop Vol.1",
+    "host": "YAAD's Black History Month Clubhouse",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
   "evt-JEtvWIMxF5UIQsg": {
     "name": "From Strength to Strength: What’s Next for Dubai, and How You Can Take Part",
     "host": "PropTech Connect Europe 2026",
@@ -1979,6 +2002,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-lduhfQOUklca3Lv": {
+    "name": "Marketing, Sales & Business Growth Networking | Founders & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
   },
   "evt-LFJ5FcaL2Z0I4Ps": {
     "name": "Claude Cowork Workshop: Automate Your Tasks at Work",
@@ -2501,6 +2530,12 @@
     "first_seen_at": "2026-07-23T20:43:08.160Z",
     "first_alerted_at": "2026-07-23T20:43:10.193Z"
   },
+  "evt-peFsGDko2eQrxE2": {
+    "name": "London Finance, Investment & Fintech Networking | Founders & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
   "evt-peYd71IDbvzf6YO": {
     "name": "London Systems Club",
     "host": "London Systems Club",
@@ -2554,6 +2589,12 @@
     "name": "Alternative Intelligence: How AI Powers Private Markets - A fireside chat with Dust and Vega",
     "first_seen_at": "2026-08-31T11:58:54.114Z",
     "first_alerted_at": "2026-08-31T11:58:55.682Z"
+  },
+  "evt-Q3g7tAFVG8VlcRF": {
+    "name": "Deep Tech Founder & Investor Breakfast",
+    "host": "Frontier Deep Tech x Silicon Roundabout Ventures",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
   },
   "evt-q4ZoqAXNrcl3bDT": {
     "name": "Physical AI Hack",
@@ -3099,6 +3140,12 @@
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
   },
+  "evt-vf8POtuaHETWMmi": {
+    "name": "Creatives and Media Pitch Night | YAAD x Afribond",
+    "host": "YAAD's Black History Month Clubhouse",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
   "evt-vFLYAMIOycYG8um": {
     "name": "Newspeak House Welcome Dinner 2026",
     "host": "Newspeak House",
@@ -3168,6 +3215,12 @@
     "name": "Hiring during the Hypergrowth",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-vWJpmBnoA0rlSdc": {
+    "name": "Source Code #3 — London meetup for journalists and technologists",
+    "host": "Source Code",
+    "first_seen_at": "2026-09-19T21:43:07.862Z",
+    "first_alerted_at": "2026-09-19T21:43:09.734Z"
   },
   "evt-VyCg0wgUi2ypAhL": {
     "name": "The Connected Estate: Turning Asset Intelligence into Portfolio Performance - Roundtable",
