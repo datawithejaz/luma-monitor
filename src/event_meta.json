@@ -228,6 +228,12 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-3lhJ3CdX5sLQdly": {
+    "name": "STUK Member Evening: Arcade After Hours",
+    "host": "Superteam",
+    "first_seen_at": "2026-09-20T18:32:37.041Z",
+    "first_alerted_at": "2026-09-20T18:32:38.700Z"
+  },
   "evt-3lkucwG95mNktqz": {
     "name": "Official staaake in London for Founders, AI/Tech — Power Walk",
     "host": "staaake",
@@ -1960,6 +1966,12 @@
     "name": "London Fintech Breakfast",
     "first_seen_at": "2026-07-17T01:09:54.619Z",
     "first_alerted_at": "2026-07-17T01:09:56.320Z"
+  },
+  "evt-kTENvcnnpQQtMZO": {
+    "name": "ABRC FILM CLUB & DISCUSSION: PARASITE",
+    "host": "Personal",
+    "first_seen_at": "2026-09-20T18:32:37.041Z",
+    "first_alerted_at": "2026-09-20T18:32:38.700Z"
   },
   "evt-Kv2qvIlXHp3FpGY": {
     "name": "Co-Working Fridays : London Chapter",
