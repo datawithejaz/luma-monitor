@@ -20,7 +20,7 @@ appear. Runs free on a public GitHub repo.
    - Calendars you follow are **trusted** — every London event alerts.
    - Everything else must match `CATEGORY_KEYWORDS` on name / host / description.
 4. Diffs against `src/seen_events.json` to find genuinely new events.
-5. New events → an email with name, date, venue, price and a direct link.
+5. New events → a compact plain-text email (name, date/time · place · price, link).
 6. Commits updated state back to the repo (only when it changes), so the same
    event never alerts twice.
 
@@ -149,6 +149,7 @@ luma-monitor/
 │   ├── monitor.js                 # the monitor (fetch → filter → diff → email → save)
 │   ├── alerting.js                # series dedupe + email batching (unit-tested)
 │   ├── alerting.test.js           # node --test suite
+│   ├── email-format.js            # compact alert email body/subject (unit-tested)
 │   ├── calendar-digest.js         # weekly unfollowed-calendar email (unit-tested)
 │   ├── calendar-digest.test.js
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
@@ -172,8 +173,8 @@ cd src
 npm test        # node --test — no network, no secrets
 ```
 
-Covers series dedupe, email batching, the calendar-sync guards, and the weekly
-calendar digest. CI runs it on every pull request and on pushes to `main`. The
+Covers series dedupe, email batching, compact alert formatting, the calendar-sync
+guards, and the weekly calendar digest. CI runs it on every pull request and on pushes to `main`. The
 fetch/filter path is not covered — it needs the live Lu.ma API — so exercise it
 with a real run:
 
