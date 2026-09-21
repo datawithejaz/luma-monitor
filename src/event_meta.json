@@ -914,6 +914,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-bxBX8xW7MwLLvMR": {
+    "name": "Founder x Investor: Fundraising for Physical Startups",
+    "host": "Grishin Robotics VC",
+    "first_seen_at": "2026-09-21T18:22:04.997Z",
+    "first_alerted_at": "2026-09-21T18:22:06.368Z"
+  },
   "evt-BxHPQiwREqJzmtQ": {
     "name": "Build Night: Vibe Code, Ship Happens with Softr",
     "host": "Softr",
@@ -2462,6 +2468,12 @@
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
   },
+  "evt-oKnDdUjo4Nw7PRi": {
+    "name": "Open Org's Quarterly People Meetup",
+    "host": "Open Org",
+    "first_seen_at": "2026-09-21T18:22:04.997Z",
+    "first_alerted_at": "2026-09-21T18:22:06.368Z"
+  },
   "evt-OLaK0ZUdO5KTUe0": {
     "name": "London | Claude Founder House: Builder Cohort",
     "first_seen_at": "2026-08-06T22:36:38.510Z",
@@ -2819,6 +2831,12 @@
     "host": "Moonfire Events",
     "first_seen_at": "2026-09-20T23:11:46.630Z",
     "first_alerted_at": "2026-09-20T23:11:49.293Z"
+  },
+  "evt-RgMNCcCRje5UaFz": {
+    "name": "ABRC X VINTAGE CLASSICS BOOKCLUB: IS IT THE END OF THE WORLD?",
+    "host": "Personal",
+    "first_seen_at": "2026-09-21T18:22:04.997Z",
+    "first_alerted_at": "2026-09-21T18:22:06.368Z"
   },
   "evt-RJaE6sweDogCS3o": {
     "name": "Shaping Tomorrow’s Portfolio: AI, Efficiency, and Sustainable Performance - Roundtable",
