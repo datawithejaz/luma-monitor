@@ -16,6 +16,10 @@ const {
   selectPendingCalendars,
   shouldSendDigest,
 } = require("./calendar-digest");
+const {
+  batchEmailSubject,
+  formatAlertEmailBody,
+} = require("./email-format");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
@@ -195,14 +199,6 @@ function formatLondonTime(iso) {
 
 function formatLondonDateTime(iso) {
   return `${formatLondonDay(iso)} at ${formatLondonTime(iso)}`;
-}
-
-function formatEventSchedule(event) {
-  if (!event.start_at) return { day: "TBC", time: "TBC" };
-  return {
-    day: formatLondonDay(event.start_at),
-    time: formatLondonTime(event.start_at),
-  };
 }
 
 function formatListedOn(meta, apiId) {
@@ -727,50 +723,6 @@ function emailConfigured() {
   );
 }
 
-function formatEventBlock(event, meta) {
-  const { day, time } = formatEventSchedule(event);
-  const venue = event.venue || "London";
-  const price = event.price_label || "Check page";
-  return [
-    "🔴 NEW EVENT DETECTED",
-    "━━━━━━━━━━━━━━━━━━━━",
-    "",
-    `📌 Event: ${event.name}`,
-    `🏷 Host: ${event.host || "—"}`,
-    "",
-    "🗓 DATE & TIME",
-    `• Day: ${day}`,
-    `• Time: ${time}`,
-    "",
-    "📡 LISTED",
-    `• Seen on Lu.ma London: ${formatListedOn(meta, event.api_id)}`,
-    "",
-    "📍 LOCATION",
-    `• ${venue}`,
-    "",
-    "🎟 REGISTRATION",
-    `• Status: ${formatRegistrationStatus(event)}`,
-    `• Price: ${price}`,
-    "",
-    "🔗 LINK",
-    event.url,
-  ].join("\n");
-}
-
-/** Subject: single-event mails use the event name; batches keep a count summary. */
-function batchEmailSubject(events) {
-  if (events.length === 1) {
-    return `🚨 ${events[0].name}`;
-  }
-
-  const openCount = events.filter((e) => registrationPriority(e) === 0).length;
-  const count = events.length;
-  let subject = `🚨 ${count} New Luma London Event${count > 1 ? "s" : ""}`;
-  if (openCount > 0) subject += ` — ${openCount} Open for Registration`;
-  else subject += " — Waitlist / Sold Out";
-  return subject;
-}
-
 function createMailer() {
   return nodemailer.createTransport({
     service: "gmail",
@@ -797,9 +749,7 @@ async function alertNewEvents(events, seen, meta) {
     const count = chunk.length;
     const batchLabel = chunks.length > 1 ? ` (part ${index + 1}/${chunks.length})` : "";
 
-    const text =
-      `${chunk.map((event) => formatEventBlock(event, meta)).join("\n\n")}\n\n` +
-      `---\nLuma London: https://lu.ma/london`;
+    const text = formatAlertEmailBody(chunk);
 
     const info = await transporter.sendMail({
       from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
