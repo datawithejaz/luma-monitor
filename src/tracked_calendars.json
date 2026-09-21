@@ -166,6 +166,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-ecn6mL2sknkVKqO",
+      "slug": "cityventures",
+      "name": "CityVentures",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-TOpA5LAFfuDeFpu",
       "slug": "claudecommunity",
       "name": "Claude Community Events",
@@ -517,6 +523,12 @@
       "api_id": "cal-BohjOVw24zi3Bsi",
       "slug": "masschallengeuk2026",
       "name": "MassChallenge UK 2026 Early-Stage Accelerator",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-itHSqxwXjGOzVSn",
+      "slug": "",
+      "name": "Moonfire Events",
       "reason": "User subscription"
     },
     {
