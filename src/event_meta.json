@@ -1009,6 +1009,11 @@
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
   },
+  "evt-cSLAhIKRTafqHqV": {
+    "name": "November Demo Night",
+    "host": "CityVentures",
+    "first_seen_at": "2026-09-21T06:14:30.460Z"
+  },
   "evt-cUaD8QYgaJNqRGA": {
     "name": "London Fintech Breakfast",
     "first_seen_at": "2026-08-30T01:17:25.395Z",
@@ -1755,6 +1760,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-j3pBXMWm96Lc3XK": {
+    "name": "Open House at VentureSpace",
+    "host": "CityVentures",
+    "first_seen_at": "2026-09-21T06:14:30.460Z",
+    "first_alerted_at": "2026-09-21T06:14:32.807Z"
+  },
   "evt-j62KQe4OxnQJLzg": {
     "name": "Open by Design: The Economics of AI in Production",
     "host": "Together AI Calendar",
@@ -2009,6 +2020,12 @@
     "name": "AI for the rest of us | Summer Social",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
+  },
+  "evt-L8rLibM9thbvynV": {
+    "name": "October Demo Night",
+    "host": "CityVentures",
+    "first_seen_at": "2026-09-21T06:14:30.460Z",
+    "first_alerted_at": "2026-09-21T06:14:32.807Z"
   },
   "evt-l9mP3MX4Ven4vv6": {
     "name": "Co-Working Fridays : London Chapter",
@@ -2448,6 +2465,12 @@
     "host": "The Startup Stroll",
     "first_seen_at": "2026-09-06T10:51:41.367Z",
     "first_alerted_at": "2026-09-06T10:51:43.455Z"
+  },
+  "evt-oPY69HhKfshTGgK": {
+    "name": "Startup Coffee Corner | Bae HQ | Joelson",
+    "host": "Bae HQ",
+    "first_seen_at": "2026-09-21T06:14:30.460Z",
+    "first_alerted_at": "2026-09-21T06:14:32.807Z"
   },
   "evt-ORvr4mmFTPvF450": {
     "name": "Neon Naked Life Drawing",
