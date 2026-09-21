@@ -610,6 +610,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-PdJpeGmtnHMeTYH",
+      "slug": "openorg.fyi",
+      "name": "Open Org",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-FhWvOxHV0AGL38z",
       "slug": "",
       "name": "OpenAI Build Week",

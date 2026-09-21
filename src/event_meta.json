@@ -2699,6 +2699,12 @@
     "first_seen_at": "2026-08-20T17:22:15.492Z",
     "first_alerted_at": "2026-08-20T17:22:16.949Z"
   },
+  "evt-QbcIgnVXbvFxRYv": {
+    "name": "Breakfast with OpenAI - AI in Financial Services",
+    "host": "AI in FS",
+    "first_seen_at": "2026-09-21T22:05:48.651Z",
+    "first_alerted_at": "2026-09-21T22:05:50.457Z"
+  },
   "evt-QBD293Q6Kj6xwlB": {
     "name": "Future States: Hackathon at No 10",
     "host": "No 10 Innovation Fellows",
@@ -3310,6 +3316,12 @@
     "name": "Vibe Coding for 100% beginners",
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
+  },
+  "evt-vsGtD3qnQYilxBB": {
+    "name": "Breakfast with Anthropic - AI in Financial Services",
+    "host": "AI in FS",
+    "first_seen_at": "2026-09-21T22:05:48.651Z",
+    "first_alerted_at": "2026-09-21T22:05:50.457Z"
   },
   "evt-vVhhLkUmKbOSPpm": {
     "name": "founder coworking + pizza night",
