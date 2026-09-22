@@ -1713,6 +1713,12 @@
     "first_seen_at": "2026-09-01T16:34:38.391Z",
     "first_alerted_at": "2026-09-01T16:34:39.609Z"
   },
+  "evt-IbEJtZTwhozeczq": {
+    "name": "An Evening with Lukka - DAS London Edition",
+    "host": "Lukka",
+    "first_seen_at": "2026-09-22T23:49:07.938Z",
+    "first_alerted_at": "2026-09-22T23:49:09.154Z"
+  },
   "evt-IbkbYoffGUxNMee": {
     "name": "The Agentic Data Stack - Breakfast & Learn",
     "host": "ClickHouse Events",
