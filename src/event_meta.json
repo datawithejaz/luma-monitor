@@ -765,6 +765,12 @@
     "first_seen_at": "2026-09-14T13:55:19.662Z",
     "first_alerted_at": "2026-09-14T13:55:21.482Z"
   },
+  "evt-AzNjR2EVjQ0rr44": {
+    "name": "Laravel London Ontario - October 2026 Meetup",
+    "host": "Personal",
+    "first_seen_at": "2026-09-22T14:57:36.662Z",
+    "first_alerted_at": "2026-09-22T14:57:37.639Z"
+  },
   "evt-AzYwYtMKyVfuM39": {
     "name": "Battle of the Accelerators: YC vs Speedrun vs EF vs Techstars",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -2201,6 +2207,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-MDVV0aoHwZpjlQs": {
+    "name": "AI-First Software Modernisation: Building Platforms Ready for AI Agents",
+    "host": "Codurance",
+    "first_seen_at": "2026-09-22T14:57:36.662Z",
+    "first_alerted_at": "2026-09-22T14:57:37.639Z"
+  },
   "evt-Mg8cTA73zDAZnzT": {
     "name": "Tano Presents: Y2K internet cafe",
     "host": "Tano",
@@ -2989,6 +3001,12 @@
     "host": "Really Good Culture",
     "first_seen_at": "2026-09-10T13:46:50.606Z",
     "first_alerted_at": "2026-09-10T13:46:51.977Z"
+  },
+  "evt-Sp7n4rWNGxFDoNL": {
+    "name": "London Tech Leaders Executive Dinner - Scaling without Silos: Open Source Leadership",
+    "host": "London Tech Leaders",
+    "first_seen_at": "2026-09-22T14:57:36.662Z",
+    "first_alerted_at": "2026-09-22T14:57:37.639Z"
   },
   "evt-sr4SCF7z0PChTbe": {
     "name": "Rare Grind",
