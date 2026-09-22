@@ -383,6 +383,12 @@
     "first_seen_at": "2026-09-08T13:34:30.167Z",
     "first_alerted_at": "2026-09-08T13:34:31.803Z"
   },
+  "evt-5gEP7IXInRyTGMY": {
+    "name": "UCL AI Society x NVIDIA - GTC Berlin Watch Party",
+    "host": "Personal",
+    "first_seen_at": "2026-09-22T18:31:33.884Z",
+    "first_alerted_at": "2026-09-22T18:31:35.354Z"
+  },
   "evt-5j0qsf9Evkw5FEA": {
     "name": "September AI Workshop",
     "host": "London Venture Club",
@@ -2491,6 +2497,12 @@
     "name": "Hot Girls, Cool Tech | AI After 5 drinks",
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
+  },
+  "evt-okaVjDp0ucRz0Jz": {
+    "name": "Building Blocks: Using AI for Business",
+    "host": "Colorintech Events",
+    "first_seen_at": "2026-09-22T18:31:33.884Z",
+    "first_alerted_at": "2026-09-22T18:31:35.354Z"
   },
   "evt-oKnDdUjo4Nw7PRi": {
     "name": "Open Org's Quarterly People Meetup",
