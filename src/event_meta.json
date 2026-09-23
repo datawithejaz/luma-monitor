@@ -61,6 +61,12 @@
     "first_seen_at": "2026-09-16T17:04:28.437Z",
     "first_alerted_at": "2026-09-16T17:04:30.178Z"
   },
+  "evt-0ywLkJjLsjAkLOz": {
+    "name": "Fundraising in a world of artificial intelligence",
+    "host": "Scribe",
+    "first_seen_at": "2026-09-23T06:49:57.780Z",
+    "first_alerted_at": "2026-09-23T06:49:59.705Z"
+  },
   "evt-0zvSSvFLAJgVQg7": {
     "name": "GetFutureReady FinTech 5K Run",
     "host": "GetFutureReady Community",
@@ -1808,6 +1814,12 @@
     "first_seen_at": "2026-09-14T18:59:29.929Z",
     "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
+  "evt-isLdUlifxGywJAe": {
+    "name": "Stripe padel club",
+    "host": "Stripe Startups",
+    "first_seen_at": "2026-09-23T06:49:57.780Z",
+    "first_alerted_at": "2026-09-23T06:49:59.705Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -3185,6 +3197,11 @@
     "first_seen_at": "2026-09-20T15:58:37.973Z",
     "first_alerted_at": "2026-09-20T15:58:39.838Z"
   },
+  "evt-Tw2BxzurNKoxkoU": {
+    "name": "Stripe padel club",
+    "host": "Stripe Startups",
+    "first_seen_at": "2026-09-23T06:49:57.780Z"
+  },
   "evt-twczl7YSEwas34L": {
     "name": "E-Commerce over Breakfast #13 London",
     "host": "CommerceCircle",
@@ -3610,6 +3627,11 @@
     "first_seen_at": "2026-09-21T12:53:11.915Z",
     "first_alerted_at": "2026-09-21T12:53:14.605Z"
   },
+  "evt-XvopUTFZ94XzAtR": {
+    "name": "Stripe padel club",
+    "host": "Stripe Startups",
+    "first_seen_at": "2026-09-23T06:49:57.780Z"
+  },
   "evt-xWS8yCPbhsPDSGc": {
     "name": "Accelerating Product Discovery with AI - Jim Morris, Pippa Topp & Dave Killeen",
     "host": "CPO Circles",
@@ -3644,6 +3666,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-Y8TomDR0g0k7Xf0": {
+    "name": "Pitch Night for Seed to Series A",
+    "host": "Personal",
+    "first_seen_at": "2026-09-23T06:49:57.780Z",
+    "first_alerted_at": "2026-09-23T06:49:59.705Z"
+  },
   "evt-y8wy1ZPdlWBIJFj": {
     "name": "How to win globally as a UK deeptech",
     "host": "Sifted Summit",
@@ -3667,6 +3695,11 @@
     "host": "Seapoint",
     "first_seen_at": "2026-09-15T15:05:45.764Z",
     "first_alerted_at": "2026-09-15T15:05:47.834Z"
+  },
+  "evt-YgesUCxJL2Rr7hl": {
+    "name": "Stripe padel club",
+    "host": "Stripe Startups",
+    "first_seen_at": "2026-09-23T06:49:57.780Z"
   },
   "evt-YH2wzaFok65vcBx": {
     "name": "freeCodeCamp x Encode | AI - Workshop: Hermes Agent w/ your Local LLM models such as Qwen, Deepseek, etc",
