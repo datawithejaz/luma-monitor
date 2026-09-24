@@ -755,6 +755,12 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-Aq9kYf16TZut8gt": {
+    "name": "Tech Meetup London: Women's Entrepreneurship Day",
+    "host": "TechAlliance",
+    "first_seen_at": "2026-09-24T11:54:45.720Z",
+    "first_alerted_at": "2026-09-24T11:54:46.665Z"
+  },
   "evt-ASFW4QplbDlOnQI": {
     "name": "Invention Institutions After AI",
     "first_seen_at": "2026-07-25T22:31:07.403Z",
@@ -1264,6 +1270,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
   },
+  "evt-Evd5c7VDwbhHxs1": {
+    "name": "Conversations in the AI era | Builder Community Meetup | London 💂",
+    "host": "Twilio UK",
+    "first_seen_at": "2026-09-24T11:54:45.720Z",
+    "first_alerted_at": "2026-09-24T11:54:46.665Z"
+  },
   "evt-eYsdWRsovYsHFQP": {
     "name": "#2 Physical I/O: Robotics",
     "host": "Physical I/O Community",
@@ -1516,6 +1528,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
   },
+  "evt-GrcljbKngVokwHG": {
+    "name": "Thrive + Prosper: Driving Business Value with AI",
+    "host": "TechAlliance",
+    "first_seen_at": "2026-09-24T11:54:45.720Z",
+    "first_alerted_at": "2026-09-24T11:54:46.665Z"
+  },
   "evt-Grlp3D2D1TwPa49": {
     "name": "ABRC POTTERY & CERAMICS WORKSHOP",
     "first_seen_at": "2026-07-28T17:04:40.078Z",
@@ -1694,6 +1712,12 @@
     "host": "Education & AI Connect (by EduSolv AI)",
     "first_seen_at": "2026-09-17T00:57:49.909Z",
     "first_alerted_at": "2026-09-17T00:57:50.887Z"
+  },
+  "evt-hYNNgeDpEjhEidn": {
+    "name": "London Software Guild #3",
+    "host": "London Software Guild",
+    "first_seen_at": "2026-09-24T11:54:45.720Z",
+    "first_alerted_at": "2026-09-24T11:54:46.665Z"
   },
   "evt-HyojY4tjUas6jTh": {
     "name": "AI Research Night — Case Studies in Pretraining",
@@ -2943,6 +2967,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-rxY2YagM1F6fbbA": {
+    "name": "Dealroom API Hackathon",
+    "host": "Dealroom.co",
+    "first_seen_at": "2026-09-24T11:54:45.720Z",
+    "first_alerted_at": "2026-09-24T11:54:46.665Z"
+  },
   "evt-rXZmsku2RJaYAbz": {
     "name": "Karaoke Night",
     "host": "London TCK Home Meetups",
@@ -2954,6 +2984,12 @@
     "host": "{Tech: Europe}",
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
+  },
+  "evt-s36539VBHbt7hYB": {
+    "name": "Tech Meetup: The Official Leap AI After Party",
+    "host": "TechAlliance",
+    "first_seen_at": "2026-09-24T11:54:45.720Z",
+    "first_alerted_at": "2026-09-24T11:54:46.665Z"
   },
   "evt-s3nNK1NgBxZF9ch": {
     "name": "Stripe & Notion: AI Agents for Professionals",
