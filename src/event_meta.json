@@ -604,6 +604,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-8EjvyclA4B0rlof": {
+    "name": "CATALYST x MBA Grads Meetup",
+    "host": "BEYOND CONNECTIONS",
+    "first_seen_at": "2026-09-24T19:59:42.900Z",
+    "first_alerted_at": "2026-09-24T19:59:43.966Z"
+  },
   "evt-8NZOp42w426wU3B": {
     "name": "The Road Ahead: AI Web3, & Staking",
     "host": "XDC Network",
@@ -3714,6 +3720,12 @@
     "name": "Hot girls, Go Hiking | Hot Gal Hike Club x AI After 5",
     "first_seen_at": "2026-08-07T12:54:35.124Z",
     "first_alerted_at": "2026-08-07T12:54:37.482Z"
+  },
+  "evt-xYmKTCswhyOVi1Z": {
+    "name": "Europe's Industrial Renaissance: with Proxima Fusion & Isembard",
+    "host": "Wilbe",
+    "first_seen_at": "2026-09-24T19:59:42.900Z",
+    "first_alerted_at": "2026-09-24T19:59:43.966Z"
   },
   "evt-XZbBBPYJkxlVsJi": {
     "name": "Weekly football 7-aside by Granola!",
