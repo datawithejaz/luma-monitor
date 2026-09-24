@@ -477,6 +477,12 @@
     "first_seen_at": "2026-09-08T04:40:49.937Z",
     "first_alerted_at": "2026-09-08T04:40:51.880Z"
   },
+  "evt-6hP48WJCPCkE0bv": {
+    "name": "Lunch & Learn - Designing Your Portfolio Career with Charlie Rogers",
+    "host": "CityVentures",
+    "first_seen_at": "2026-09-24T16:06:23.593Z",
+    "first_alerted_at": "2026-09-24T16:06:25.227Z"
+  },
   "evt-6i2Ay7FszqRTwkl": {
     "name": "Female Founders Pitch Night with Octopus Ventures and NoBa Capital",
     "first_seen_at": "2026-07-27T11:50:58.532Z",
@@ -684,6 +690,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:18.974Z"
+  },
+  "evt-aDqW5QoVkrF0fhd": {
+    "name": "Women's AI Breakfast: Agentic Security",
+    "host": "London AI Hub",
+    "first_seen_at": "2026-09-24T16:06:23.593Z",
+    "first_alerted_at": "2026-09-24T16:06:25.227Z"
   },
   "evt-AF405pllTYHGFdK": {
     "name": "AI Pilled [Builder] #04",
@@ -1831,6 +1843,12 @@
     "host": "Platform Engineering",
     "first_seen_at": "2026-09-17T10:29:55.944Z",
     "first_alerted_at": "2026-09-17T10:29:57.245Z"
+  },
+  "evt-io2VytKqOKDDbw1": {
+    "name": "Scaling AI-Native Revenue",
+    "host": "Syrena Network",
+    "first_seen_at": "2026-09-24T16:06:23.593Z",
+    "first_alerted_at": "2026-09-24T16:06:25.227Z"
   },
   "evt-ioKhlcjEf0toPc3": {
     "name": "London | Claude by Hyde Park, a FinTech Night",
