@@ -46,6 +46,9 @@ function normalizeProfile(profile) {
     why_attend: String(profile.why_attend || profile.why || "").trim(),
     phone: normalizePhone(profile.phone),
     country: String(profile.country || DEFAULT_COUNTRY).trim(),
+    website: String(profile.website || "").trim(),
+    verticals: Array.isArray(profile.verticals) ? profile.verticals : undefined,
+    specialities: Array.isArray(profile.specialities) ? profile.specialities : undefined,
     agree_terms: profile.agree_terms !== false,
     marketing_opt_in: profile.marketing_opt_in === true,
     dropdown_defaults: profile.dropdown_defaults || {},
@@ -157,6 +160,24 @@ function labelKey(label) {
     .trim();
 }
 
+function waitlistAvailable(detail) {
+  const event = detail.event || {};
+  if (detail.waitlist_active === true) return true;
+  if (detail.waitlistActive === true) return true;
+  if (event.waitlist_enabled === true) return true;
+  const status = detail.waitlist_status || event.waitlist_status || "";
+  return status === "enabled" || status === "active";
+}
+
+function pickMatchingOption(options, predictors) {
+  const list = options || [];
+  for (const predict of predictors) {
+    const hit = list.find((opt) => predict(String(opt)));
+    if (hit) return hit;
+  }
+  return null;
+}
+
 function lookupDropdownDefault(profile, question) {
   const defaults = profile.dropdown_defaults || {};
   const key = labelKey(question.label);
@@ -168,6 +189,35 @@ function lookupDropdownDefault(profile, question) {
   if (/number of employees|company size|employees at your company/.test(key)) {
     return defaults.company_size || null;
   }
+  if (/intro(ductory)? call|free call/.test(key)) {
+    return (
+      pickMatchingOption(question.options, [
+        (o) => /^no\b/i.test(o),
+        (o) => /no thanks/i.test(o),
+      ]) || null
+    );
+  }
+  if (/company stage|funding stage|what stage/.test(key)) {
+    return (
+      defaults.company_stage ||
+      pickMatchingOption(question.options, [(o) => /^other$/i.test(o)]) ||
+      null
+    );
+  }
+  if (/fundraising|currently raising/.test(key)) {
+    return (
+      pickMatchingOption(question.options, [
+        (o) => /not currently raising/i.test(o),
+        (o) => /^n\/?a$/i.test(o),
+      ]) || null
+    );
+  }
+  if (/open to job|job opportunities/.test(key)) {
+    return pickMatchingOption(question.options, [(o) => /^yes$/i.test(o)]) || null;
+  }
+  if (/solo or with a team|applying solo/.test(key)) {
+    return pickMatchingOption(question.options, [(o) => /solo/i.test(o)]) || null;
+  }
   return null;
 }
 
@@ -178,7 +228,14 @@ function lookupTextDefault(profile, question) {
     if (key.includes(labelKey(pattern))) return value;
   }
   if (/linkedin/.test(key)) return profile.linkedin || profile.linkedin_handle;
-  if (/company|where do you work|work or study|organisation|organization/.test(key)) {
+  if (/company website|website|company url|company link/.test(key)) {
+    if (profile.website) return profile.website;
+    const slug = (profile.company || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+    if (slug) return `https://www.${slug}.com`;
+    return null;
+  }
+  if (/pitch deck/.test(key)) return defaults.pitch_deck || "N/A";
+  if (/company name|what company|where do you work|work or study|organisation|organization/.test(key)) {
     return profile.company;
   }
   if (/\brole\b|job title|what do you do/.test(key)) return profile.role;
@@ -189,10 +246,41 @@ function lookupTextDefault(profile, question) {
   ) {
     return profile.why_attend;
   }
-  if (/how did you find/.test(key)) return "Lu.ma";
+  if (/how did you (hear|find)/.test(key)) return "Lu.ma";
   if (/accessible|allergen|accessib/.test(key)) return "N/A";
   if (/org id|organization settings/.test(key)) return "";
   return defaults[question.id] || null;
+}
+
+function lookupMultiSelectDefault(profile, question) {
+  const key = labelKey(question.label);
+  const defaults = profile.dropdown_defaults || {};
+  for (const [pattern, value] of Object.entries(defaults)) {
+    if (!key.includes(labelKey(pattern))) continue;
+    return Array.isArray(value) ? value : [value];
+  }
+  if (/intro(ductory)? call|free call/.test(key)) {
+    const no = pickMatchingOption(question.options, [
+      (o) => /^no\b/i.test(o),
+      (o) => /no thanks/i.test(o),
+    ]);
+    return no ? [no] : null;
+  }
+  if (/vertical|industry|sector/.test(key)) {
+    const preferred = profile.verticals || ["Life Sciences", "AI", "AI & SaaS", "SaaS"];
+    const hits = (question.options || []).filter((opt) =>
+      preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
+    );
+    return hits.length ? hits.slice(0, 2) : null;
+  }
+  if (/technical speciality|best describes your profile/.test(key)) {
+    const preferred = profile.specialities || ["other", "product designer", "full-time engineer"];
+    const hits = (question.options || []).filter((opt) =>
+      preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
+    );
+    return hits.length ? [hits[0]] : null;
+  }
+  return null;
 }
 
 /**
@@ -251,8 +339,14 @@ function buildRegistrationAnswers(questions, profile) {
         break;
       }
       case "multi-select": {
-        const picked = lookupDropdownDefault(profile, question);
-        value = picked ? [picked] : [];
+        const picked = lookupMultiSelectDefault(profile, question);
+        if (picked && picked.length) {
+          const allowed = new Set((question.options || []).map(String));
+          value = picked.filter((v) => allowed.has(String(v)));
+          if (value.length === 0) value = null;
+        } else {
+          value = null;
+        }
         break;
       }
       case "text":
@@ -339,12 +433,7 @@ async function applyToEventDetail({ detail, profile, user, cookie, dryRun }) {
   }
 
   const soldOut = detail.sold_out === true || detail.ticket_info?.is_sold_out === true;
-  const waitlistActive = detail.waitlist_status === "enabled" || detail.waitlistActive === true;
-  // event page uses waitlist from ticket_info / waitlist_status
-  const waitlist =
-    detail.event?.waitlist_status === "enabled" ||
-    detail.waitlist_status === "enabled" ||
-    waitlistActive;
+  const waitlist = waitlistAvailable(detail);
 
   let forWaitlist = false;
   if (soldOut) {
@@ -523,4 +612,5 @@ module.exports = {
   normalizePhone,
   normalizeProfile,
   pickFreeTicket,
+  waitlistAvailable,
 };

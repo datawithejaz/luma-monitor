@@ -178,6 +178,67 @@ test("country dropdown uses profile.country", () => {
   assert.equal(answers[0].value, "United Kingdom");
 });
 
+test("novabook-style questions get safe defaults", () => {
+  const { answers, missing } = buildRegistrationAnswers(
+    [
+      {
+        id: "deck",
+        label: "Please link to your pitch deck here (put N/A if not interested in pitching)",
+        required: true,
+        question_type: "text",
+      },
+      {
+        id: "web",
+        label: "Company website",
+        required: true,
+        question_type: "url",
+      },
+      {
+        id: "stage",
+        label: "Company stage",
+        required: true,
+        question_type: "dropdown",
+        options: ["Ideation", "Other"],
+      },
+      {
+        id: "vert",
+        label: "Vertical",
+        required: true,
+        question_type: "multi-select",
+        options: ["AI", "Life Sciences", "FinTech"],
+      },
+      {
+        id: "call",
+        label: "Would you like a free introductory call with Novabook?",
+        required: true,
+        question_type: "dropdown",
+        options: ["Yes please", "No thanks", "I'm already a client"],
+      },
+    ],
+    profile
+  );
+  assert.deepEqual(missing, []);
+  const byId = Object.fromEntries(answers.map((a) => [a.question_id, a]));
+  assert.equal(byId.deck.value, "N/A");
+  assert.equal(byId.web.value, "https://www.cytiva.com");
+  assert.equal(byId.stage.value, "Other");
+  assert.deepEqual(byId.vert.value, ["AI", "Life Sciences"]);
+  assert.equal(byId.call.value, "No thanks");
+});
+
+test("waitlistAvailable recognises active waitlist fields", () => {
+  const { waitlistAvailable } = require("./auto-apply");
+  assert.equal(
+    waitlistAvailable({
+      sold_out: true,
+      waitlist_active: true,
+      event: { waitlist_status: "active", waitlist_enabled: true },
+    }),
+    true
+  );
+  assert.equal(waitlistAvailable({ sold_out: true, event: {} }), false);
+});
+
 test("formatAutoApplyEmail summarises dry-run results", () => {
   const mail = formatAutoApplyEmail(
     [
