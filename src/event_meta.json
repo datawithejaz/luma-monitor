@@ -708,6 +708,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:18.974Z"
   },
+  "evt-aDjVk1XASL57rnS": {
+    "name": "Negotiation Workshop with UCD Smurfit School",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
+  },
   "evt-aDqW5QoVkrF0fhd": {
     "name": "Women's AI Breakfast: Agentic Security",
     "host": "London AI Hub",
@@ -1262,6 +1268,12 @@
     "first_seen_at": "2026-09-17T00:57:49.909Z",
     "first_alerted_at": "2026-09-17T00:57:50.887Z"
   },
+  "evt-EItAAQJ5IxgvFHR": {
+    "name": "Product is... Ready for our AI Overlords",
+    "host": "Tech is... Creating Conversations",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
   "evt-eLnI19zEa5g30UF": {
     "name": "Public First presents: Tech YoPro Drinks",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -1384,6 +1396,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-fKAzme6EG6DOh5w": {
+    "name": "After Hours at Techspace",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
   "evt-FKEarHPWlv1JyBX": {
     "name": "AI Agents for CS Teams Workshop",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
@@ -1448,6 +1466,12 @@
     "host": "Encode Club",
     "first_seen_at": "2026-09-09T13:56:50.691Z"
   },
+  "evt-FT3LHg8CbDBVIn0": {
+    "name": "Halloween Cocktail Club",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
+  },
   "evt-ftU8mTVuTsTdltF": {
     "name": "Zone 1: Inhabitation Modelmaking and Collage Workshop w Soumia Sadoun",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
@@ -1492,6 +1516,12 @@
     "host": "ShallWe Tech Community",
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
+  },
+  "evt-G6G5LJubHmyWAq1": {
+    "name": "Engineering the Edge",
+    "host": "European Defense Tech Hub",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:24.703Z"
   },
   "evt-gaGkAg8hrIgBGt7": {
     "name": "Grok Bot London Cowork",
@@ -2015,6 +2045,12 @@
     "first_seen_at": "2026-09-08T00:14:33.016Z",
     "first_alerted_at": "2026-09-08T00:14:35.192Z"
   },
+  "evt-jtLTwPggUp3puS4": {
+    "name": "European Defense Tech Hackathon - London",
+    "host": "European Defense Tech Hub",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
   "evt-JtMFXLB62ZYI4BY": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -2436,6 +2472,11 @@
     "name": "Weekly football 7-aside by Granola!",
     "host": "Granola",
     "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
+  "evt-N0w2fLTed6Gdani": {
+    "name": "Dev Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-09-25T20:26:19.441Z"
   },
   "evt-N32bYgNssdaiF2H": {
     "name": "Arc Demos & Meetup",
@@ -3033,6 +3074,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-rLrCBeNaMnUDYvG": {
+    "name": "Fem Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
+  },
   "evt-RmirpOpp1HEDrPN": {
     "name": "House of Sol Workshops - Tokenisation 101",
     "host": "House of Sol",
@@ -3044,6 +3091,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-RpWNRVPU5sbfos5": {
+    "name": "Takeover by NipNip Bike Doctors",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
   },
   "evt-RrmQcuoSoMWBXNd": {
     "name": "Does AI Belong In The Creator Economy?",
@@ -3262,6 +3315,12 @@
     "first_seen_at": "2026-09-19T01:38:38.800Z",
     "first_alerted_at": "2026-09-19T01:38:40.819Z"
   },
+  "evt-teDrY72GUc08wdZ": {
+    "name": "'ConTech is…' A Tripod",
+    "host": "Tech is... Creating Conversations",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
   "evt-THq5B7G4nwTTSMj": {
     "name": "Exploring Opportunities in... Sustainability (Nature & Land)",
     "host": "London Venture Club",
@@ -3442,10 +3501,22 @@
     "first_seen_at": "2026-07-31T11:39:46.758Z",
     "first_alerted_at": "2026-07-31T11:39:50.366Z"
   },
+  "evt-Uv7Te4pSYm4Xrca": {
+    "name": "Women in Applied AI Breakfast, London",
+    "host": "Encode: AI for Science Fellowship - Pillar VC x ARIA",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
+  },
   "evt-UVRRRHHEDbCRWBG": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-09-01T16:34:38.391Z",
     "first_alerted_at": "2026-09-01T16:34:39.609Z"
+  },
+  "evt-UW4pK6ls1U5gX3H": {
+    "name": "Sip and Paint",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
   },
   "evt-UWLzBEtkstgJg1K": {
     "name": "The AI Fluency Map: How Good Are You At AI?",
@@ -3547,6 +3618,12 @@
     "first_seen_at": "2026-09-21T22:05:48.651Z",
     "first_alerted_at": "2026-09-21T22:05:50.457Z"
   },
+  "evt-vTIUAQ77JfeGkWE": {
+    "name": "ICPC Training Session #5 w/ KCL Tech",
+    "host": "JetBrains UK",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
+  },
   "evt-vuuEqX78luNSx5a": {
     "name": "Roundtable on what AI actually costs to run",
     "host": "Techspace",
@@ -3568,6 +3645,12 @@
     "host": "Source Code",
     "first_seen_at": "2026-09-19T21:43:07.862Z",
     "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
+  "evt-VWWQDwGh4HzJJKA": {
+    "name": "Rare Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-09-25T20:26:19.441Z",
+    "first_alerted_at": "2026-09-25T20:26:21.512Z"
   },
   "evt-VyCg0wgUi2ypAhL": {
     "name": "The Connected Estate: Turning Asset Intelligence into Portfolio Performance - Roundtable",
