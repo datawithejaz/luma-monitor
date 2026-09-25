@@ -1026,6 +1026,23 @@ async function main() {
     console.log("No new events.");
   }
 
+  // One-shot smoke: dry-run auto-apply against a few upcoming flagged-calendar
+  // events even when nothing is new. Set AUTO_APPLY_SMOKE_TEST=1 to enable.
+  if (process.env.AUTO_APPLY_SMOKE_TEST === "1") {
+    const autoIds = loadAutoApplyCalendarIds(loadTrackedCalendars());
+    const samples = relevant
+      .filter((event) => event.calendar_api_id && autoIds.has(event.calendar_api_id))
+      .slice(0, 5);
+    console.log(
+      `Auto-apply smoke test: dry-running against ${samples.length} upcoming flagged event(s).`
+    );
+    const previousDryRun = process.env.AUTO_APPLY_DRY_RUN;
+    process.env.AUTO_APPLY_DRY_RUN = "1";
+    await maybeAutoApply(samples);
+    if (previousDryRun === undefined) delete process.env.AUTO_APPLY_DRY_RUN;
+    else process.env.AUTO_APPLY_DRY_RUN = previousDryRun;
+  }
+
   saveSeen(seen);
   saveMeta(meta);
   await maybeSendCalendarDigest(knownRegistry);
