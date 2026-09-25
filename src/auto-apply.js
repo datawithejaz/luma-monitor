@@ -19,8 +19,11 @@ function isDryRun() {
 }
 
 function loadProfile() {
-  const raw = process.env.AUTO_APPLY_PROFILE_JSON;
-  if (!raw || !raw.trim()) return null;
+  const raw =
+    process.env.AUTO_APPLY_PROFILE_JSON ||
+    process.env.AUTO_APPLY_PROFILE ||
+    "";
+  if (!raw || !String(raw).trim()) return null;
   try {
     const profile = JSON.parse(raw);
     if (!profile || typeof profile !== "object") return null;

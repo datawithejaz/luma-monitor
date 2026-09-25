@@ -833,6 +833,15 @@ async function maybeAutoApply(events) {
   }
 
   console.log(`Auto-apply: ${calendarIds.size} calendar(s) flagged.`);
+  const profileRaw =
+    process.env.AUTO_APPLY_PROFILE_JSON || process.env.AUTO_APPLY_PROFILE || "";
+  console.log(
+    `Auto-apply profile secret: ${
+      profileRaw.trim()
+        ? `present (${Buffer.byteLength(profileRaw, "utf8")} bytes)`
+        : "MISSING — add repository secret AUTO_APPLY_PROFILE_JSON"
+    }`
+  );
   const { results, dryRun, skippedReason } = await autoApplyToEvents(events, {
     calendarIds,
     cookie,
