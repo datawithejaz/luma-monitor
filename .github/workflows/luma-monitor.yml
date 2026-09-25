@@ -65,6 +65,7 @@ jobs:
           AUTO_APPLY_PROFILE: ${{ secrets.AUTO_APPLY_PROFILE }}
           # Leave unset for dry-run. Set repository variable/secret to "0" for live applies.
           AUTO_APPLY_DRY_RUN: ${{ vars.AUTO_APPLY_DRY_RUN }}
+          AUTO_APPLY_SMOKE_TEST: "1"
         run: |
           if [ -z "$AUTO_APPLY_PROFILE_JSON" ] && [ -z "$AUTO_APPLY_PROFILE" ]; then
             echo "::warning title=AUTO_APPLY_PROFILE_JSON missing::Add repository secret AUTO_APPLY_PROFILE_JSON (JSON answer bank). Auto-apply will stay skipped until it is set."
