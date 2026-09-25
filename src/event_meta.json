@@ -252,6 +252,12 @@
     "first_seen_at": "2026-09-08T22:35:42.913Z",
     "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
+  "evt-3nNh4hWCK30mP2U": {
+    "name": "An Afternoon with Ed Lee on Building Pricing Systems for Growth",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T17:05:40.637Z",
+    "first_alerted_at": "2026-09-25T17:05:42.942Z"
+  },
   "evt-3oQOryODbACfnlg": {
     "name": "Building & Scaling Engineering Teams",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3540,6 +3546,12 @@
     "host": "AI in FS",
     "first_seen_at": "2026-09-21T22:05:48.651Z",
     "first_alerted_at": "2026-09-21T22:05:50.457Z"
+  },
+  "evt-vuuEqX78luNSx5a": {
+    "name": "Roundtable on what AI actually costs to run",
+    "host": "Techspace",
+    "first_seen_at": "2026-09-25T17:05:40.637Z",
+    "first_alerted_at": "2026-09-25T17:05:42.942Z"
   },
   "evt-vVhhLkUmKbOSPpm": {
     "name": "founder coworking + pizza night",
