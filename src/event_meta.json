@@ -2064,6 +2064,12 @@
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
+  "evt-KFMoWLwQIBjVCet": {
+    "name": "Build with AI: A Hands-on Lab for Product, Design & Innovation Teams",
+    "host": "Momentum Product Co.",
+    "first_seen_at": "2026-09-25T16:20:50.211Z",
+    "first_alerted_at": "2026-09-25T16:20:53.676Z"
+  },
   "evt-KG0n620r02dMifq": {
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
