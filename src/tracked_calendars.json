@@ -10,7 +10,8 @@
       "api_id": "cal-qyEpCltsspbMoJR",
       "slug": "tech-europe",
       "name": "{Tech: Europe}",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-nvYEsWpIajQcttH",
@@ -31,7 +32,7 @@
       "user_api_id": "usr-xKBHGQBW3FEjAJr",
       "sample_event_url": "https://luma.com/sb6gxi0t",
       "include_all_events": true,
-      "reason": "User request — personal calendar (no public slug); all London events"
+      "reason": "User request \u2014 personal calendar (no public slug); all London events"
     },
     {
       "api_id": "cal-7ECRgxfDrwvMihw",
@@ -175,19 +176,22 @@
       "api_id": "cal-TOpA5LAFfuDeFpu",
       "slug": "claudecommunity",
       "name": "Claude Community Events",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-lRtuNbDBacd0u5K",
       "slug": "claude-startups",
       "name": "Claude Startups",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-63UOFcweB97l2gc",
       "slug": "codex-community",
       "name": "Codex Community Events",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-YNO3LqoXki2vCFE",
@@ -361,7 +365,8 @@
       "api_id": "cal-7Q5A70Bz5Idxopu",
       "slug": "deepmind",
       "name": "Google DeepMind",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-LPMnCK72N8V1Wro",
@@ -402,7 +407,7 @@
     {
       "api_id": "cal-Dtw3YlwfnmQl2Ri",
       "slug": "_HeySalad",
-      "name": "HeySalad ® AI",
+      "name": "HeySalad \u00ae AI",
       "reason": "User subscription"
     },
     {
@@ -583,7 +588,8 @@
       "api_id": "cal-hToMGw3ot55mird",
       "slug": "novabook",
       "name": "Novabook",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-dJITEHKdiSK8PhE",
@@ -631,7 +637,8 @@
       "api_id": "cal-WuC7fwXvvdeFd3N",
       "slug": "openai-emea",
       "name": "OpenAI EMEA",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-tCpFUIvEWStz3eC",
@@ -841,7 +848,8 @@
       "api_id": "cal-hp9HP2UFTGNaMnY",
       "slug": "vercel-events",
       "name": "Vercel Events",
-      "reason": "User subscription"
+      "reason": "User subscription",
+      "auto_apply": true
     },
     {
       "api_id": "cal-2ARnYOB5PIHpxbh",
