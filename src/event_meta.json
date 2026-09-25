@@ -3694,6 +3694,12 @@
     "first_seen_at": "2026-09-21T12:53:11.915Z",
     "first_alerted_at": "2026-09-21T12:53:14.605Z"
   },
+  "evt-x6rjWYtIZULtTOr": {
+    "name": "The Distribution Edge: What Actually Works",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-09-25T15:44:00.372Z",
+    "first_alerted_at": "2026-09-25T15:44:02.961Z"
+  },
   "evt-X6STMkQ7sBlwuZS": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
@@ -3988,6 +3994,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-ZkaX2F4IM31yyFE": {
+    "name": "Deep Tech London: Speakers' Dinner",
+    "host": "Deep Tech London",
+    "first_seen_at": "2026-09-25T15:44:00.372Z",
+    "first_alerted_at": "2026-09-25T15:44:02.961Z"
   },
   "evt-ZmLhANHCfg6wJfZ": {
     "name": "The Ninth Seat — Poker Night for Tech Founders",
