@@ -390,15 +390,24 @@ function buildRegistrationAnswers(questions, profile) {
         break;
       case "dropdown":
       case "select": {
+        // Lu.ma encodes some multi-answer fields as select+multiple (not multi-select).
+        if (type === "select" && question.multiple) {
+          const picked = lookupMultiSelectDefault(profile, question);
+          if (picked && picked.length) {
+            const allowed = new Set((question.options || []).map(String));
+            value = picked.filter((v) => allowed.has(String(v)));
+            if (value.length === 0) value = null;
+          } else {
+            value = null;
+          }
+          break;
+        }
         const picked = lookupDropdownDefault(profile, question);
         if (picked && Array.isArray(question.options) && question.options.includes(picked)) {
-          value = question.multiple ? [picked] : picked;
+          value = picked;
         } else if (picked && Array.isArray(question.options)) {
-          // Case-insensitive match
-          const hit = question.options.find(
-            (opt) => String(opt).toLowerCase() === String(picked).toLowerCase()
-          );
-          value = hit ? (question.multiple ? [hit] : hit) : null;
+          const hit = question.options.find((opt) => optionMatchesPreferred(opt, picked));
+          value = hit || null;
         } else {
           value = null;
         }
@@ -443,7 +452,9 @@ function buildRegistrationAnswers(questions, profile) {
       question_type: type,
       value,
     };
-    if (type === "select" && question.multiple) answer.multiple = true;
+    if ((type === "select" || type === "multi-select") && question.multiple) {
+      answer.multiple = true;
+    }
     if (type === "text" && question.multiline) answer.multiline = true;
     answers.push(answer);
   }

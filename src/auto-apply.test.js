@@ -237,14 +237,16 @@ test("AI and SaaS vertical aliases match event options", () => {
         id: "v1",
         label: "Vertical",
         required: true,
-        question_type: "multi-select",
+        question_type: "select",
+        multiple: true,
         options: ["AI", "SaaS", "DeepTech"],
       },
       {
         id: "v2",
         label: "Vertical",
         required: true,
-        question_type: "multi-select",
+        question_type: "select",
+        multiple: true,
         options: ["DeepTech", "AI & SaaS", "Other"],
       },
     ],
@@ -253,6 +255,7 @@ test("AI and SaaS vertical aliases match event options", () => {
   assert.deepEqual(missing, []);
   const byId = Object.fromEntries(answers.map((a) => [a.question_id, a]));
   assert.deepEqual(byId.v1.value.sort(), ["AI", "SaaS"]);
+  assert.equal(byId.v1.multiple, true);
   assert.deepEqual(byId.v2.value, ["AI & SaaS"]);
 });
 
