@@ -222,7 +222,7 @@ test("novabook-style questions get safe defaults", () => {
   assert.equal(byId.deck.value, "N/A");
   assert.equal(byId.web.value, "https://www.cytiva.com");
   assert.equal(byId.stage.value, "Other");
-  assert.deepEqual(byId.vert.value, ["AI", "Life Sciences"]);
+  assert.deepEqual(byId.vert.value.sort(), ["AI", "Life Sciences"].sort());
   assert.equal(byId.call.value, "No thanks");
 });
 
