@@ -226,6 +226,36 @@ test("novabook-style questions get safe defaults", () => {
   assert.equal(byId.call.value, "No thanks");
 });
 
+test("AI and SaaS vertical aliases match event options", () => {
+  const withAlias = normalizeProfile({
+    ...profile,
+    verticals: ["AI and SaaS"],
+  });
+  const { answers, missing } = buildRegistrationAnswers(
+    [
+      {
+        id: "v1",
+        label: "Vertical",
+        required: true,
+        question_type: "multi-select",
+        options: ["AI", "SaaS", "DeepTech"],
+      },
+      {
+        id: "v2",
+        label: "Vertical",
+        required: true,
+        question_type: "multi-select",
+        options: ["DeepTech", "AI & SaaS", "Other"],
+      },
+    ],
+    withAlias
+  );
+  assert.deepEqual(missing, []);
+  const byId = Object.fromEntries(answers.map((a) => [a.question_id, a]));
+  assert.deepEqual(byId.v1.value.sort(), ["AI", "SaaS"]);
+  assert.deepEqual(byId.v2.value, ["AI & SaaS"]);
+});
+
 test("waitlistAvailable recognises active waitlist fields", () => {
   const { waitlistAvailable } = require("./auto-apply");
   assert.equal(

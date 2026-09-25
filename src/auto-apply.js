@@ -47,11 +47,11 @@ function normalizeProfile(profile) {
     phone: normalizePhone(profile.phone),
     country: String(profile.country || DEFAULT_COUNTRY).trim(),
     website: String(profile.website || "").trim(),
-    verticals: Array.isArray(profile.verticals) ? profile.verticals : undefined,
-    specialities: Array.isArray(profile.specialities) ? profile.specialities : undefined,
-    profile_labels: Array.isArray(profile.profile_labels)
-      ? profile.profile_labels
-      : ["founder"],
+    verticals: normalizeStringList(profile.verticals, {
+      expandAiSaas: true,
+    }),
+    specialities: normalizeStringList(profile.specialities),
+    profile_labels: normalizeStringList(profile.profile_labels) || ["founder"],
     agree_terms: profile.agree_terms !== false,
     marketing_opt_in: profile.marketing_opt_in === true,
     dropdown_defaults: profile.dropdown_defaults || {},
@@ -67,6 +67,22 @@ function normalizePhone(raw) {
   if (digits.startsWith("44")) return `+${digits}`;
   if (digits.startsWith("0") && digits.length === 11) return `+44${digits.slice(1)}`;
   return digits;
+}
+
+/** Coerce a string/array field into a clean string list; expand AI/SaaS aliases. */
+function normalizeStringList(raw, { expandAiSaas = false } = {}) {
+  if (raw == null || raw === "") return undefined;
+  const list = Array.isArray(raw) ? raw : [raw];
+  const out = [];
+  for (const item of list) {
+    const s = String(item || "").trim();
+    if (!s) continue;
+    out.push(s);
+    if (expandAiSaas && /ai\s*(and|&)\s*saas/i.test(s)) {
+      out.push("AI", "SaaS", "AI & SaaS", "AI and SaaS");
+    }
+  }
+  return out.length ? [...new Set(out)] : undefined;
 }
 
 function loadAutoApplyCalendarIds(trackedCalendars) {
@@ -275,38 +291,58 @@ function lookupTextDefault(profile, question) {
   return defaults[question.id] || null;
 }
 
+function optionMatchesPreferred(option, preferred) {
+  const opt = String(option).toLowerCase().trim();
+  const pref = String(preferred).toLowerCase().trim();
+  if (!opt || !pref) return false;
+  if (opt === pref) return true;
+  // "AI and SaaS" ↔ "AI & SaaS" ↔ separate "AI"/"SaaS" options
+  const norm = (s) => s.replace(/\s*&\s*/g, " and ").replace(/\s+/g, " ");
+  if (norm(opt) === norm(pref)) return true;
+  if (opt.includes(pref) || pref.includes(opt)) return true;
+  return false;
+}
+
 function lookupMultiSelectDefault(profile, question) {
   const key = labelKey(question.label);
   const defaults = profile.dropdown_defaults || {};
+  const options = question.options || [];
+
   for (const [pattern, value] of Object.entries(defaults)) {
     if (!key.includes(labelKey(pattern))) continue;
-    return Array.isArray(value) ? value : [value];
+    const wanted = Array.isArray(value) ? value : [value];
+    const hits = options.filter((opt) =>
+      wanted.some((w) => optionMatchesPreferred(opt, w))
+    );
+    // Only honour the override when at least one option actually matches;
+    // otherwise fall through to built-in heuristics.
+    if (hits.length) return hits;
   }
   if (/intro(ductory)? call|free call/.test(key)) {
-    const no = pickMatchingOption(question.options, [
+    const no = pickMatchingOption(options, [
       (o) => /^no\b/i.test(o),
       (o) => /no thanks/i.test(o),
     ]);
     return no ? [no] : null;
   }
   if (/vertical|industry|sector/.test(key)) {
-    const preferred = profile.verticals || ["AI", "SaaS", "AI & SaaS", "Life Sciences"];
-    const hits = (question.options || []).filter((opt) =>
-      preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
+    const preferred = profile.verticals || ["AI", "SaaS", "AI & SaaS", "AI and SaaS", "Life Sciences"];
+    const hits = options.filter((opt) =>
+      preferred.some((p) => optionMatchesPreferred(opt, p))
     );
     return hits.length ? hits.slice(0, 2) : null;
   }
   if (/technical speciality|best describes your profile/.test(key)) {
     if (/technical specialit/.test(key)) {
       const preferred = profile.specialities || ["Data", "AI"];
-      const hits = (question.options || []).filter((opt) =>
-        preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
+      const hits = options.filter((opt) =>
+        preferred.some((p) => optionMatchesPreferred(opt, p))
       );
       return hits.length ? [hits[0]] : null;
     }
     const preferred = profile.profile_labels || ["founder", "full-time engineer", "other"];
-    const hits = (question.options || []).filter((opt) =>
-      preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
+    const hits = options.filter((opt) =>
+      preferred.some((p) => optionMatchesPreferred(opt, p))
     );
     return hits.length ? [hits[0]] : null;
   }
