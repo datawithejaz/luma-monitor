@@ -61,6 +61,9 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           LUMA_AUTH_COOKIE: ${{ secrets.LUMA_AUTH_COOKIE }}
+          AUTO_APPLY_PROFILE_JSON: ${{ secrets.AUTO_APPLY_PROFILE_JSON }}
+          # Leave unset for dry-run. Set repository variable/secret to "0" for live applies.
+          AUTO_APPLY_DRY_RUN: ${{ vars.AUTO_APPLY_DRY_RUN }}
         run: node src/monitor.js
 
       - name: Commit updated state (only if changed)

@@ -105,6 +105,8 @@ function mergeTracked(existing, subscriptions) {
       name: cal.name || prior?.name || "",
       reason: "User subscription",
       ...(prior?.include_all_events ? { include_all_events: true } : {}),
+      ...(prior?.keyword_filter ? { keyword_filter: true } : {}),
+      ...(prior?.auto_apply ? { auto_apply: true } : {}),
       ...(prior?.user_api_id ? { user_api_id: prior.user_api_id } : {}),
       ...(prior?.sample_event_url ? { sample_event_url: prior.sample_event_url } : {}),
     });

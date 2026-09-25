@@ -20,6 +20,12 @@ const {
   batchEmailSubject,
   formatAlertEmailBody,
 } = require("./email-format");
+const {
+  autoApplyToEvents,
+  formatAutoApplyEmail,
+  loadAutoApplyCalendarIds,
+  loadProfile,
+} = require("./auto-apply");
 
 // ── Config ────────────────────────────────────────────────────────────────────
 const SEEN_PATH = path.join(__dirname, "seen_events.json");
@@ -217,6 +223,7 @@ function loadTrackedCalendars() {
       source: "manual",
       reason: cal.reason || "",
       include_all_events: cal.include_all_events === true,
+      auto_apply: cal.auto_apply === true,
     }));
   } catch {
     return [];
@@ -789,11 +796,71 @@ async function alertNewEvents(events, seen, meta) {
   return { sent: totalSent, emails };
 }
 
+/** Send auto-apply / dry-run summary when there is something to report. */
+async function maybeEmailAutoApplyResults(results, dryRun) {
+  const mail = formatAutoApplyEmail(results, { dryRun });
+  if (!mail || !emailConfigured()) return;
+  const info = await createMailer().sendMail({
+    from: `"Luma Monitor" <${process.env.GMAIL_USER}>`,
+    to: process.env.NOTIFY_EMAIL,
+    subject: mail.subject,
+    text: mail.text,
+  });
+  const { accepted, rejected, response } = describeSmtp(info);
+  console.log(
+    `✅ Auto-apply email sent [${accepted} accepted, ${rejected} rejected: ${response}]`
+  );
+}
+
 /**
- * Once a week, email newly discovered calendars that aren't in your follows.
- * Follow them on Lu.ma; the cookie sync writes them into tracked_calendars.json
- * on the next run. Nothing is added to the tracked list from here.
+ * Try to RSVP to new free events on calendars flagged auto_apply.
+ * Dry-run by default (AUTO_APPLY_DRY_RUN unset or not "0").
  */
+async function maybeAutoApply(events) {
+  const cookie = process.env.LUMA_AUTH_COOKIE;
+  let profile = null;
+  try {
+    profile = loadProfile();
+  } catch (err) {
+    console.warn(`⚠️  Auto-apply profile error: ${err.message}`);
+    return;
+  }
+
+  const calendarIds = loadAutoApplyCalendarIds(loadTrackedCalendars());
+  if (calendarIds.size === 0) {
+    console.log("Auto-apply: no calendars flagged.");
+    return;
+  }
+
+  console.log(`Auto-apply: ${calendarIds.size} calendar(s) flagged.`);
+  const { results, dryRun, skippedReason } = await autoApplyToEvents(events, {
+    calendarIds,
+    cookie,
+    profile,
+  });
+
+  if (skippedReason === "no_cookie") {
+    console.warn("Auto-apply skipped — LUMA_AUTH_COOKIE not set.");
+    return;
+  }
+  if (skippedReason === "no_profile") {
+    console.warn(
+      "Auto-apply skipped — set AUTO_APPLY_PROFILE_JSON secret with your answer bank."
+    );
+    return;
+  }
+  if (skippedReason === "no_matching_events") {
+    console.log("Auto-apply: no new events on flagged calendars.");
+    return;
+  }
+
+  console.log(
+    `Auto-apply ${dryRun ? "dry-run" : "live"}: ${results.length} event(s) considered.`
+  );
+  await maybeEmailAutoApplyResults(results, dryRun);
+}
+
+/** Once a week, email newly discovered calendars that aren't in your follows. */
 async function maybeSendCalendarDigest(knownRegistry) {
   const digest = loadCalendarDigest();
   const trackedIds = new Set(loadTrackedCalendars().map((cal) => cal.api_id));
@@ -918,6 +985,11 @@ async function main() {
     const quiet = [...skipped, ...suppressed.map((s) => s.event)];
     const detectedAt = new Date().toISOString();
     [...toAlert, ...quiet].forEach((event) => noteFirstSeen(meta, event, detectedAt));
+
+    // RSVP before / alongside alerts — uses the full new-event set on flagged
+    // calendars (not only the email subset), so series-deduped quieter dates
+    // still get an apply attempt when appropriate.
+    await maybeAutoApply(newEvents);
 
     if (emailConfigured()) {
       // Marked seen without an alert, so they don't queue up for the next run.

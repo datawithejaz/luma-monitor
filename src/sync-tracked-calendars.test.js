@@ -59,3 +59,18 @@ test("include_all_events entries survive a sync that drops them", () => {
   const { merged } = mergeTracked(existing, [sub(1)]);
   assert.ok(merged.some((c) => c.api_id === "cal-abrc"));
 });
+
+test("auto_apply and keyword_filter flags survive a normal sync", () => {
+  const flagged = {
+    api_id: "cal-1",
+    name: "Cal 1",
+    slug: "cal-1",
+    reason: "User subscription",
+    auto_apply: true,
+    keyword_filter: true,
+  };
+  const { merged } = mergeTracked([flagged], [sub(1)]);
+  const kept = merged.find((c) => c.api_id === "cal-1");
+  assert.equal(kept.auto_apply, true);
+  assert.equal(kept.keyword_filter, true);
+});

@@ -150,10 +150,11 @@ luma-monitor/
 │   ├── alerting.js                # series dedupe + email batching (unit-tested)
 │   ├── alerting.test.js           # node --test suite
 │   ├── email-format.js            # compact alert email body/subject (unit-tested)
+│   ├── auto-apply.js              # free-event RSVP on flagged calendars (unit-tested)
 │   ├── calendar-digest.js         # weekly unfollowed-calendar email (unit-tested)
 │   ├── calendar-digest.test.js
 │   ├── sync-tracked-calendars.js  # rewrite tracked list from your Lu.ma follows
-│   ├── tracked_calendars.json     # config: calendars you follow
+│   ├── tracked_calendars.json     # config: calendars you follow (`auto_apply` flag)
 │   ├── known_calendars.json       # state: every calendar ever seen (auto)
 │   ├── calendar_digest.json       # state: last weekly calendar digest (auto)
 │   ├── seen_events.json           # state: ids already alerted on (auto)
@@ -173,8 +174,8 @@ cd src
 npm test        # node --test — no network, no secrets
 ```
 
-Covers series dedupe, email batching, compact alert formatting, the calendar-sync
-guards, and the weekly calendar digest. CI runs it on every pull request and on pushes to `main`. The
+Covers series dedupe, email batching, compact alert formatting, auto-apply answer
+mapping, the calendar-sync guards, and the weekly calendar digest. CI runs it on every pull request and on pushes to `main`. The
 fetch/filter path is not covered — it needs the live Lu.ma API — so exercise it
 with a real run:
 
@@ -209,7 +210,41 @@ Without this secret, newly followed Lu.ma calendars never enter
 `tracked_calendars.json`. Copy the full `Cookie` header from any signed-in
 `api.lu.ma` request and store it as `LUMA_AUTH_COOKIE`.
 
-### 4. Test it
+### 4. Auto-apply (optional)
+For a small set of calendars, the monitor can RSVP you to **new free London
+events** using your session cookie and a stored answer bank.
+
+1. Set `"auto_apply": true` on those calendars in `tracked_calendars.json`
+   (already set for Codex / DeepMind / Novabook / OpenAI EMEA / Tech Europe /
+   Vercel / Claude Community / Claude Startups).
+2. Add repository secret `AUTO_APPLY_PROFILE_JSON` — a JSON object, for example:
+
+```json
+{
+  "linkedin": "https://www.linkedin.com/in/you/",
+  "company": "Acme",
+  "role": "Engineer",
+  "why_attend": "Meet people and learn about AI/tech in London.",
+  "phone": "+447700900123",
+  "country": "United Kingdom",
+  "agree_terms": true,
+  "marketing_opt_in": false,
+  "dropdown_defaults": {
+    "experience level with Claude": "New but highly interested",
+    "number of employees": "5000+"
+  }
+}
+```
+
+3. **Dry-run is on by default.** Each attempt emails a summary without calling
+   Lu.ma's register endpoint. To go live, add Actions variable
+   `AUTO_APPLY_DRY_RUN` = `0`.
+
+Paid tickets are skipped. Required questions without an answer (or matching
+`dropdown_defaults` option) are skipped and listed in the email so you can apply
+by hand.
+
+### 5. Test it
 Actions → **Luma London Monitor → Run workflow**. Each run writes a summary to the
 Actions log; new events are committed to `src/seen_events.json`.
 
