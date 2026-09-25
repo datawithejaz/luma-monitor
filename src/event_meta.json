@@ -604,6 +604,11 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-8CWTH6f3bFQK54a": {
+    "name": "Softr + Corgi: Coworking for AI Builders & Operators",
+    "host": "Softr",
+    "first_seen_at": "2026-09-25T12:03:40.920Z"
+  },
   "evt-8EjvyclA4B0rlof": {
     "name": "CATALYST x MBA Grads Meetup",
     "host": "BEYOND CONNECTIONS",
@@ -1362,6 +1367,12 @@
     "first_seen_at": "2026-07-31T03:55:16.297Z",
     "first_alerted_at": "2026-07-31T03:55:18.099Z"
   },
+  "evt-fIfw0qrE6gAXMci": {
+    "name": "Workshops for the Planet @ ReLondon Circular Economy Week",
+    "host": "Workshops for the Planet",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
+  },
   "evt-FjJx3v08mSDGfuK": {
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1708,6 +1719,12 @@
     "name": "ABRC BOOKCLUB: THE MASTER AND MARGARITA",
     "first_seen_at": "2026-07-25T11:38:35.321Z",
     "first_alerted_at": "2026-07-25T11:38:36.935Z"
+  },
+  "evt-HsTAE13yXePWI0q": {
+    "name": "Founders Running Club :: London",
+    "host": "Founders Running Club",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
   "evt-hUTYv1SdNsdpWLS": {
     "name": "Halkin for Startups - Roof Terrace Party",
@@ -2147,6 +2164,12 @@
     "first_seen_at": "2026-08-29T10:13:32.129Z",
     "first_alerted_at": "2026-08-29T10:13:35.482Z"
   },
+  "evt-l7i6258E7xvqAXS": {
+    "name": "Founder Nation: Breakie @ The Savoy",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
+  },
   "evt-l7XVdpspIbHwkJ4": {
     "name": "AI for the rest of us | Summer Social",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
@@ -2329,6 +2352,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
+  },
+  "evt-moiNt78PYnCKane": {
+    "name": "Notion Startup Meetup London",
+    "host": "HYPE: IRL tech events",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
   "evt-mpFjl5NyyznC1tQ": {
     "name": "TRD: London Startups Operator RunClub & Social",
@@ -2614,6 +2643,12 @@
     "host": "Sifted Summit",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-OnvCqNm8xaWX1IH": {
+    "name": "Stripe Startups Build Day London",
+    "host": "Stripe Startups",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
   "evt-OOCAuwcjCMC4frM": {
     "name": "💻 Female Builders Co-Working Day: Open Work Session",
@@ -2964,6 +2999,11 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
   },
+  "evt-RKmv8wiZtnyoYRf": {
+    "name": "Founder Nation: Breakie @ The Savoy",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-25T12:03:40.920Z"
+  },
   "evt-rlgege86MEjVOFe": {
     "name": "OpenAI Builder Lounge London",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3230,6 +3270,11 @@
     "first_seen_at": "2026-07-17T14:26:16.826Z",
     "first_alerted_at": "2026-07-17T14:26:18.804Z"
   },
+  "evt-tlzSLEjgOZCORr6": {
+    "name": "Founder Nation: Breakie @ The Savoy (For Tech Founders)",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-25T12:03:40.920Z"
+  },
   "evt-tMyw4WjK3JxcR3V": {
     "name": "AI and Graphs for Biotechnology",
     "host": "Personal",
@@ -3466,6 +3511,12 @@
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
   },
+  "evt-VQdzko5hbkGDdB1": {
+    "name": "Buildathon w/ MongoDB & Vercel & Tavily",
+    "host": "HYPE: IRL tech events",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
+  },
   "evt-vsGtD3qnQYilxBB": {
     "name": "Breakfast with Anthropic - AI in Financial Services",
     "host": "AI in FS",
@@ -3690,6 +3741,12 @@
     "name": "Election bias and ballot mapping",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-XJpn0Yd99Gjm5fA": {
+    "name": "Founder Nation: Breakie @ The Savoy (For Tech Founders)",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-25T12:03:40.920Z",
+    "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
   "evt-xl85nAVNsu2sa4C": {
     "name": "STUK Member Evening: Inside Product at Solana",
