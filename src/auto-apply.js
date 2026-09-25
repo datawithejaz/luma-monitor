@@ -49,6 +49,9 @@ function normalizeProfile(profile) {
     website: String(profile.website || "").trim(),
     verticals: Array.isArray(profile.verticals) ? profile.verticals : undefined,
     specialities: Array.isArray(profile.specialities) ? profile.specialities : undefined,
+    profile_labels: Array.isArray(profile.profile_labels)
+      ? profile.profile_labels
+      : ["founder"],
     agree_terms: profile.agree_terms !== false,
     marketing_opt_in: profile.marketing_opt_in === true,
     dropdown_defaults: profile.dropdown_defaults || {},
@@ -200,7 +203,10 @@ function lookupDropdownDefault(profile, question) {
   if (/company stage|funding stage|what stage/.test(key)) {
     return (
       defaults.company_stage ||
-      pickMatchingOption(question.options, [(o) => /^other$/i.test(o)]) ||
+      pickMatchingOption(question.options, [
+        (o) => /^bootstrapping$/i.test(o),
+        (o) => /^other$/i.test(o),
+      ]) ||
       null
     );
   }
@@ -217,6 +223,23 @@ function lookupDropdownDefault(profile, question) {
   }
   if (/solo or with a team|applying solo/.test(key)) {
     return pickMatchingOption(question.options, [(o) => /solo/i.test(o)]) || null;
+  }
+  if (/best describes your profile|what best describes/.test(key)) {
+    return (
+      pickMatchingOption(question.options, [
+        (o) => /^founder$/i.test(o),
+        (o) => /full-time engineer/i.test(o),
+        (o) => /^other$/i.test(o),
+      ]) || null
+    );
+  }
+  if (/technical specialit/.test(key)) {
+    return (
+      pickMatchingOption(question.options, [
+        (o) => /^data$/i.test(o),
+        (o) => /^ai$/i.test(o),
+      ]) || null
+    );
   }
   return null;
 }
@@ -267,14 +290,21 @@ function lookupMultiSelectDefault(profile, question) {
     return no ? [no] : null;
   }
   if (/vertical|industry|sector/.test(key)) {
-    const preferred = profile.verticals || ["Life Sciences", "AI", "AI & SaaS", "SaaS"];
+    const preferred = profile.verticals || ["AI", "SaaS", "AI & SaaS", "Life Sciences"];
     const hits = (question.options || []).filter((opt) =>
       preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
     );
     return hits.length ? hits.slice(0, 2) : null;
   }
   if (/technical speciality|best describes your profile/.test(key)) {
-    const preferred = profile.specialities || ["other", "product designer", "full-time engineer"];
+    if (/technical specialit/.test(key)) {
+      const preferred = profile.specialities || ["Data", "AI"];
+      const hits = (question.options || []).filter((opt) =>
+        preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
+      );
+      return hits.length ? [hits[0]] : null;
+    }
+    const preferred = profile.profile_labels || ["founder", "full-time engineer", "other"];
     const hits = (question.options || []).filter((opt) =>
       preferred.some((p) => String(opt).toLowerCase() === String(p).toLowerCase())
     );
