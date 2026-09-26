@@ -1262,6 +1262,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:17.475Z"
   },
+  "evt-EcFWau0SnXEovrR": {
+    "name": "MOXIE Community Dinner: London",
+    "host": "MOXIE",
+    "first_seen_at": "2026-09-26T06:41:57.977Z",
+    "first_alerted_at": "2026-09-26T06:41:59.392Z"
+  },
   "evt-eib5jSCKnpQpPAJ": {
     "name": "Education & AI Connect: AI Videos for Marketing and Beyond (Breakfast Club)",
     "host": "Education & AI Connect (by EduSolv AI)",
@@ -1273,6 +1279,12 @@
     "host": "Tech is... Creating Conversations",
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
+  "evt-eJyaCxWUly1ffNk": {
+    "name": "AI for Biotech Roundtables",
+    "host": "London Longevity",
+    "first_seen_at": "2026-09-26T06:41:57.977Z",
+    "first_alerted_at": "2026-09-26T06:41:59.392Z"
   },
   "evt-eLnI19zEa5g30UF": {
     "name": "Public First presents: Tech YoPro Drinks",
@@ -2374,6 +2386,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-mDfVsHA0FprNjmR": {
+    "name": "The W3B Club : AI x Blockchain: Proof-of-Compute, Decentralised AI & On-Chain Verification",
+    "host": "The W3B Club",
+    "first_seen_at": "2026-09-26T06:41:57.977Z",
+    "first_alerted_at": "2026-09-26T06:41:59.392Z"
+  },
   "evt-MDVV0aoHwZpjlQs": {
     "name": "AI-First Software Modernisation: Building Platforms Ready for AI Agents",
     "host": "Codurance",
@@ -3013,6 +3031,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
+  },
+  "evt-qWMt57575KCv6Hc": {
+    "name": "The W3B Club : The 2027 Outlook for Web3: Funding, Infra Trends & Regulatory Roadmaps",
+    "host": "The W3B Club",
+    "first_seen_at": "2026-09-26T06:41:57.977Z",
+    "first_alerted_at": "2026-09-26T06:41:59.392Z"
   },
   "evt-qX1WvCw0TztnlC9": {
     "name": "Adeline Sprint Sessions: Health x AI After Hours",
