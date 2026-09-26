@@ -973,6 +973,11 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-bTfzO4oa6iQmOKd": {
+    "name": "Startup Funding & Networking: VCs, Angels & Founders",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-26T18:36:46.744Z"
+  },
   "evt-BUcYo9ZCtZ3JerA": {
     "name": "Flight3 x Superteam UK: Design & Presence: Look Like You Belong",
     "host": "Superteam",
@@ -2007,6 +2012,12 @@
     "first_seen_at": "2026-08-30T22:00:37.967Z",
     "first_alerted_at": "2026-08-30T22:00:41.720Z"
   },
+  "evt-jdIQpZ1k3IFIqGH": {
+    "name": "Property Investors & Real Estate Leaders Networking Night",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-26T18:36:46.744Z",
+    "first_alerted_at": "2026-09-26T18:36:48.021Z"
+  },
   "evt-JEjCdfA6GowO9kV": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -2052,6 +2063,11 @@
     "host": "Personal",
     "first_seen_at": "2026-09-13T00:23:17.073Z",
     "first_alerted_at": "2026-09-13T00:23:18.451Z"
+  },
+  "evt-JR3l0X9x7wVodT7": {
+    "name": "AI for Biotech Roundtables",
+    "host": "London Longevity",
+    "first_seen_at": "2026-09-26T18:36:46.744Z"
   },
   "evt-jRrTg3mcvSTUUsD": {
     "name": "Agentic A.I. Private Dinner",
@@ -2179,6 +2195,11 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:04.844Z"
+  },
+  "evt-KIv1V2DQBUh9JNj": {
+    "name": "House London #3 | Data Hackathon",
+    "host": "House London!",
+    "first_seen_at": "2026-09-26T18:36:46.744Z"
   },
   "evt-KkFv8BmVTpjLSHF": {
     "name": "Architect x Corgi Cafe - Sunday Designathon",
@@ -2766,6 +2787,12 @@
     "host": "Bae HQ",
     "first_seen_at": "2026-09-21T06:14:30.460Z",
     "first_alerted_at": "2026-09-21T06:14:32.807Z"
+  },
+  "evt-oRFAACmhWgRxgpL": {
+    "name": "London SME Networking Event | Business Owners, Founders & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-09-26T18:36:46.744Z",
+    "first_alerted_at": "2026-09-26T18:36:48.021Z"
   },
   "evt-ORvr4mmFTPvF450": {
     "name": "Neon Naked Life Drawing",
@@ -3355,6 +3382,11 @@
     "host": "Invite-only Conference for top QA & Tech Leaders",
     "first_seen_at": "2026-09-08T22:35:42.913Z",
     "first_alerted_at": "2026-09-08T22:35:44.445Z"
+  },
+  "evt-TDuTwbfOieHD0SN": {
+    "name": "AI for Biotech Roundtables",
+    "host": "London Longevity",
+    "first_seen_at": "2026-09-26T18:36:46.744Z"
   },
   "evt-tDvVgvJtocWQHvc": {
     "name": "Female Founders Rise LIVE Show",
