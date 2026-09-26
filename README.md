@@ -236,9 +236,11 @@ events** using your session cookie and a stored answer bank.
 }
 ```
 
-3. **Dry-run is on by default.** Each attempt emails a summary without calling
-   Lu.ma's register endpoint. To go live, add Actions variable
-   `AUTO_APPLY_DRY_RUN` = `0`.
+3. **Live RSVPs are on.** Each new free London event on a flagged calendar is
+   registered with your Lu.ma session. Set the Actions variable
+   `AUTO_APPLY_DRY_RUN` to `1` to go back to dry-run (email a summary, do not
+   call the register endpoint). Local `node monitor.js` stays dry-run unless
+   you export `AUTO_APPLY_DRY_RUN=0`.
 
 Paid tickets are skipped. Required questions without an answer (or matching
 `dropdown_defaults` option) are skipped and listed in the email so you can apply

@@ -23,6 +23,7 @@ const {
 const {
   autoApplyToEvents,
   formatAutoApplyEmail,
+  isDryRun,
   loadAutoApplyCalendarIds,
   loadProfile,
 } = require("./auto-apply");
@@ -814,7 +815,7 @@ async function maybeEmailAutoApplyResults(results, dryRun) {
 
 /**
  * Try to RSVP to new free events on calendars flagged auto_apply.
- * Dry-run by default (AUTO_APPLY_DRY_RUN unset or not "0").
+ * Live when AUTO_APPLY_DRY_RUN=0 (what Actions sets). Otherwise dry-run.
  */
 async function maybeAutoApply(events) {
   const cookie = process.env.LUMA_AUTH_COOKIE;
@@ -832,7 +833,9 @@ async function maybeAutoApply(events) {
     return;
   }
 
-  console.log(`Auto-apply: ${calendarIds.size} calendar(s) flagged.`);
+  console.log(
+    `Auto-apply: ${calendarIds.size} calendar(s) flagged (${isDryRun() ? "dry-run" : "live"}).`
+  );
   const profileRaw =
     process.env.AUTO_APPLY_PROFILE_JSON || process.env.AUTO_APPLY_PROFILE || "";
   console.log(

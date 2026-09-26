@@ -63,13 +63,19 @@ jobs:
           LUMA_AUTH_COOKIE: ${{ secrets.LUMA_AUTH_COOKIE }}
           AUTO_APPLY_PROFILE_JSON: ${{ secrets.AUTO_APPLY_PROFILE_JSON }}
           AUTO_APPLY_PROFILE: ${{ secrets.AUTO_APPLY_PROFILE }}
-          # Leave unset for dry-run. Set repository variable/secret to "0" for live applies.
-          AUTO_APPLY_DRY_RUN: ${{ vars.AUTO_APPLY_DRY_RUN }}
+          # Live RSVPs. Set repository variable AUTO_APPLY_DRY_RUN to "1" to dry-run again.
+          # The calendar sync step above has already refreshed tracked_calendars.json.
+          AUTO_APPLY_DRY_RUN: ${{ vars.AUTO_APPLY_DRY_RUN == '1' && '1' || '0' }}
         run: |
           if [ -z "$AUTO_APPLY_PROFILE_JSON" ] && [ -z "$AUTO_APPLY_PROFILE" ]; then
             echo "::warning title=AUTO_APPLY_PROFILE_JSON missing::Add repository secret AUTO_APPLY_PROFILE_JSON (JSON answer bank). Auto-apply will stay skipped until it is set."
           else
             echo "AUTO_APPLY profile secret is present."
+          fi
+          if [ "$AUTO_APPLY_DRY_RUN" = "0" ]; then
+            echo "Auto-apply mode: LIVE (will POST /event/register for new free events)."
+          else
+            echo "Auto-apply mode: dry-run (AUTO_APPLY_DRY_RUN=$AUTO_APPLY_DRY_RUN)."
           fi
           node src/monitor.js
 
