@@ -4,8 +4,9 @@
  * Auto-apply to free events on calendars flagged `auto_apply: true`.
  *
  * Profile answers come from the AUTO_APPLY_PROFILE_JSON secret (never committed).
- * Dry-run is ON unless AUTO_APPLY_DRY_RUN=0 — logs / emails what would happen
- * without POSTing to Lu.ma.
+ * Dry-run is ON unless AUTO_APPLY_DRY_RUN=0. GitHub Actions sets that to 0
+ * (live). Set the AUTO_APPLY_DRY_RUN repository variable to 1 to dry-run there
+ * again. A local run stays dry-run unless you export 0.
  */
 
 const https = require("https");
@@ -14,7 +15,8 @@ const API_HOST = "api.luma.com";
 const DEFAULT_COUNTRY = "United Kingdom";
 
 function isDryRun() {
-  // Default ON — live applies require an explicit AUTO_APPLY_DRY_RUN=0.
+  // Unset stays dry-run so a local monitor.js cannot register by accident.
+  // Actions passes 0, which is the live path.
   return process.env.AUTO_APPLY_DRY_RUN !== "0";
 }
 
