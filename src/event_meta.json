@@ -1380,6 +1380,12 @@
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
   },
+  "evt-F31Y7XIZZbXgHVG": {
+    "name": "Founder Nation: Breakie @ The Savoy (For Fintech Founders, Series B+ / £2m+ ARR)",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-28T07:43:50.727Z",
+    "first_alerted_at": "2026-09-28T07:43:52.370Z"
+  },
   "evt-f485JH5xleQhSFi": {
     "name": "Sifted x N47 Dinner",
     "host": "Sifted Summit",
@@ -1562,6 +1568,12 @@
     "host": "SpaceXAI for London, England",
     "first_seen_at": "2026-09-05T15:58:14.423Z",
     "first_alerted_at": "2026-09-05T15:58:16.068Z"
+  },
+  "evt-GaI4mbz90A0XvcG": {
+    "name": "Founder Nation: Co-working & Advisory Board Day - London - Come Build Together",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-28T07:43:50.727Z",
+    "first_alerted_at": "2026-09-28T07:43:52.370Z"
   },
   "evt-GbnQSfMVia90oPx": {
     "name": "Codex Community Meetup - London",
@@ -4004,6 +4016,12 @@
     "host": "3Search London",
     "first_seen_at": "2026-09-10T17:18:12.772Z",
     "first_alerted_at": "2026-09-10T17:18:14.710Z"
+  },
+  "evt-y7V2uCAQQoEJRpb": {
+    "name": "Founder Nation: Christmas Party",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-09-28T07:43:50.727Z",
+    "first_alerted_at": "2026-09-28T07:43:52.370Z"
   },
   "evt-Y7VHKCo68RWYZIE": {
     "name": "Retrofitting Commercial Portfolios: Translating Capex into Asset Value - Roundtable",
