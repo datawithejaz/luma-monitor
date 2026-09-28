@@ -692,6 +692,12 @@
     "first_seen_at": "2026-08-03T16:37:07.892Z",
     "first_alerted_at": "2026-08-03T16:37:08.935Z"
   },
+  "evt-AaAI1313ud7Q64J": {
+    "name": "Real Futures: Pitch Day",
+    "host": "UCL CSRI",
+    "first_seen_at": "2026-09-28T21:49:55.876Z",
+    "first_alerted_at": "2026-09-28T21:49:57.957Z"
+  },
   "evt-ACa0wbLjOGTprbs": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-09-01T16:34:38.391Z",
@@ -1701,6 +1707,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-gzWVOdMeEqs5nz6": {
+    "name": "AI 101: A Beginner’s Guide to Understanding",
+    "host": "Vibe Coding Collective",
+    "first_seen_at": "2026-09-28T21:49:55.876Z",
+    "first_alerted_at": "2026-09-28T21:49:57.957Z"
   },
   "evt-h0He8Q2BPMJpjZO": {
     "name": "Weekly football 7-aside by Granola!",
@@ -2714,6 +2726,12 @@
     "host": "Founder Cowork Club",
     "first_seen_at": "2026-09-07T15:17:12.035Z"
   },
+  "evt-oAkud1depwqeQKq": {
+    "name": "Live Coding Meetup",
+    "host": "London Live Coding?",
+    "first_seen_at": "2026-09-28T21:49:55.876Z",
+    "first_alerted_at": "2026-09-28T21:49:57.957Z"
+  },
   "evt-OaxPTQzrE6VTl6A": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -2766,6 +2784,12 @@
     "name": "London | Claude Founder House: Builder Cohort",
     "first_seen_at": "2026-08-06T22:36:38.510Z",
     "first_alerted_at": "2026-08-06T22:36:40.348Z"
+  },
+  "evt-oMxxUEJSbAgE0sB": {
+    "name": "Protecting Your Workplace: From Physical Security to Digital Resilience",
+    "host": "Networklife Group",
+    "first_seen_at": "2026-09-28T21:49:55.876Z",
+    "first_alerted_at": "2026-09-28T21:49:57.957Z"
   },
   "evt-On3iAB0kHl6vNlw": {
     "name": "Performance Lab: Wine Basics with Brian Pohl",
@@ -3408,6 +3432,12 @@
     "host": "ODSC AI (Open Data Science Conference)",
     "first_seen_at": "2026-09-15T00:44:22.332Z",
     "first_alerted_at": "2026-09-15T00:44:23.818Z"
+  },
+  "evt-TcsHoZCC42zdATQ": {
+    "name": "Quantum Computing: The race to build the winning machine @ IDEALondon",
+    "host": "deeptech futures",
+    "first_seen_at": "2026-09-28T21:49:55.876Z",
+    "first_alerted_at": "2026-09-28T21:49:57.957Z"
   },
   "evt-tdEhLNJoWCJFCV9": {
     "name": "AI on Draught: The Day Your AI Goes Wrong",
