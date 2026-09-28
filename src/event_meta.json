@@ -759,6 +759,12 @@
     "first_seen_at": "2026-09-19T17:29:40.886Z",
     "first_alerted_at": "2026-09-19T17:29:42.886Z"
   },
+  "evt-ahoiFHJaHbtCJXr": {
+    "name": "Women, work and AI",
+    "host": "Vega",
+    "first_seen_at": "2026-09-28T16:02:05.474Z",
+    "first_alerted_at": "2026-09-28T16:02:09.137Z"
+  },
   "evt-Ahso3uzQXnRDvAJ": {
     "name": "Twilio Assemble London: The Future of Comms + AI",
     "host": "Twilio UK",
@@ -2014,6 +2020,12 @@
     "first_seen_at": "2026-09-11T15:17:30.450Z",
     "first_alerted_at": "2026-09-11T15:17:31.690Z"
   },
+  "evt-jbmX5uZzOHeRiKU": {
+    "name": "Coffee n Content",
+    "host": "Tano",
+    "first_seen_at": "2026-09-28T16:02:05.474Z",
+    "first_alerted_at": "2026-09-28T16:02:09.137Z"
+  },
   "evt-JboNKgDQrd0olE0": {
     "name": "London AI×Bio Hack",
     "first_seen_at": "2026-08-24T11:14:43.661Z",
@@ -2824,6 +2836,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
   },
+  "evt-oszsvJckqnjsIRk": {
+    "name": "Durable AI Meet up - London",
+    "host": "Temporal Community",
+    "first_seen_at": "2026-09-28T16:02:05.474Z",
+    "first_alerted_at": "2026-09-28T16:02:09.137Z"
+  },
   "evt-OuWUrDKc9wmdb4x": {
     "name": "AlgoRhythms",
     "host": "London Live Coding?",
@@ -3235,6 +3253,12 @@
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
   },
+  "evt-s88hUhrTG1scBnb": {
+    "name": "Internet Icons: Eben Upton, Raspberry Pi",
+    "host": "Granola",
+    "first_seen_at": "2026-09-28T16:02:05.474Z",
+    "first_alerted_at": "2026-09-28T16:02:09.137Z"
+  },
   "evt-s9VMgQSplRSy4Xo": {
     "name": "The Workplace Data Divide: Turning Retrofit and New-Build Metrics into Occupant Value - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -3355,6 +3379,12 @@
     "name": "Open Code #21",
     "first_seen_at": "2026-09-03T18:39:12.018Z",
     "first_alerted_at": "2026-09-03T18:39:13.755Z"
+  },
+  "evt-t9rPkpnDMhGiGTH": {
+    "name": "Foundermatcha x Corgi breakfast",
+    "host": "Personal",
+    "first_seen_at": "2026-09-28T16:02:05.474Z",
+    "first_alerted_at": "2026-09-28T16:02:09.137Z"
   },
   "evt-TabZXfdda6c1XUT": {
     "name": "Models That Matter: Third Edition",
@@ -3754,6 +3784,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-vZnT8MX5NKHr7xj": {
+    "name": "Internet Icons: Julia Whitney, BBC",
+    "host": "Granola",
+    "first_seen_at": "2026-09-28T16:02:05.474Z",
+    "first_alerted_at": "2026-09-28T16:02:09.137Z"
   },
   "evt-w2iKmnKfC5WFa7v": {
     "name": "Add Intelligence to your Colour London",
