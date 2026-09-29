@@ -1153,6 +1153,12 @@
     "first_seen_at": "2026-07-30T19:52:36.248Z",
     "first_alerted_at": "2026-07-30T19:52:37.518Z"
   },
+  "evt-CZgpfroA4Hny1a7": {
+    "name": "GTM Hackathon by Granola x Gemini",
+    "host": "Granola",
+    "first_seen_at": "2026-09-29T14:00:20.022Z",
+    "first_alerted_at": "2026-09-29T14:00:22.629Z"
+  },
   "evt-d2Px9611wLen7wH": {
     "name": "Founders Rooftop Party",
     "first_seen_at": "2026-07-11T19:45:30.564Z",
@@ -2137,6 +2143,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-jx0BJH9nvmIMBjD": {
+    "name": "Games Night Social 🎲",
+    "host": "Personal",
+    "first_seen_at": "2026-09-29T14:00:20.022Z",
+    "first_alerted_at": "2026-09-29T14:00:22.629Z"
+  },
   "evt-jX9hSPrF96rBIPf": {
     "name": "ABRC BOOKCLUB: THE STRANGER",
     "first_seen_at": "2026-08-29T10:13:32.129Z",
@@ -2237,6 +2249,12 @@
     "host": "House London!",
     "first_seen_at": "2026-09-26T18:36:46.744Z"
   },
+  "evt-kjAmBC1o2D1dwOD": {
+    "name": "Apache Iceberg™ Europe Community Meetup - London Hub",
+    "host": "Vakamo (Lakekeeper)",
+    "first_seen_at": "2026-09-29T14:00:20.022Z",
+    "first_alerted_at": "2026-09-29T14:00:22.629Z"
+  },
   "evt-KkFv8BmVTpjLSHF": {
     "name": "Architect x Corgi Cafe - Sunday Designathon",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -2282,6 +2300,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-kw3NfZopXcfY9yA": {
+    "name": "Frontier Founders After Work by Lightbringer",
+    "host": "Lightbringer UK",
+    "first_seen_at": "2026-09-29T14:00:20.022Z",
+    "first_alerted_at": "2026-09-29T14:00:22.629Z"
   },
   "evt-kWLA0Ubq0ZVLN7i": {
     "name": "Founder Poker with a Pro",
@@ -3300,6 +3324,11 @@
     "first_seen_at": "2026-09-07T00:10:35.196Z",
     "first_alerted_at": "2026-09-07T00:10:37.430Z"
   },
+  "evt-SEjYdEL5b3NSWko": {
+    "name": "The AI Fluency Map: How Good Are You At AI?",
+    "host": "The AI Floor",
+    "first_seen_at": "2026-09-29T14:00:20.022Z"
+  },
   "evt-SG1UMx3i22rlbx0": {
     "name": "TRD x BEYOND FITNESS Class 2.0 💪🔥🧡",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3542,6 +3571,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-23T17:16:45.519Z",
     "first_alerted_at": "2026-09-23T17:16:46.568Z"
+  },
+  "evt-tSzTDiQMVBI87rC": {
+    "name": "Building Your Financial Stack",
+    "host": "Personal",
+    "first_seen_at": "2026-09-29T14:00:20.022Z",
+    "first_alerted_at": "2026-09-29T14:00:22.629Z"
   },
   "evt-TtqPED0UgBXoFoq": {
     "name": "AlgoLush",
