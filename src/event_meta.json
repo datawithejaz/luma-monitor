@@ -859,6 +859,12 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-B7xVBh6mhbMlRoS": {
+    "name": "Deep Tech, Unfiltered: Women Building What’s Next",
+    "host": "Personal",
+    "first_seen_at": "2026-09-29T23:00:44.940Z",
+    "first_alerted_at": "2026-09-29T23:00:46.204Z"
+  },
   "evt-b8qhCSzYbAfBPQx": {
     "name": "Novabook x Deel Founders Dinner | Expanding to the US",
     "first_seen_at": "2026-08-18T08:58:48.726Z",
@@ -3435,6 +3441,12 @@
     "first_seen_at": "2026-08-20T15:07:45.827Z",
     "first_alerted_at": "2026-08-20T15:07:47.331Z"
   },
+  "evt-sxUQee2f5q3mBdK": {
+    "name": "Anti-Networking Event (Monday, October 26)",
+    "host": "Personal",
+    "first_seen_at": "2026-09-29T23:00:44.940Z",
+    "first_alerted_at": "2026-09-29T23:00:46.204Z"
+  },
   "evt-SyGRddO5qHtXeRh": {
     "name": "Founder Cowork Club: Focus and Flow with Special Guest Lindsay Brielle Strouse",
     "first_seen_at": "2026-08-04T23:35:25.257Z",
@@ -3679,6 +3691,12 @@
     "name": "React Native London Meetup - October 2026",
     "host": "React Native London",
     "first_seen_at": "2026-09-09T20:00:32.009Z"
+  },
+  "evt-uggetDuBDitbr8i": {
+    "name": "Frontier Nights: From Software Engineer to Forward Deployed Engineer",
+    "host": "SolveAI",
+    "first_seen_at": "2026-09-29T23:00:44.940Z",
+    "first_alerted_at": "2026-09-29T23:00:46.204Z"
   },
   "evt-UKJRN1uz3HDeMdH": {
     "name": "dev_night London",
