@@ -698,6 +698,12 @@
     "first_seen_at": "2026-09-28T21:49:55.876Z",
     "first_alerted_at": "2026-09-28T21:49:57.957Z"
   },
+  "evt-AbPDoiXIqUIJjEP": {
+    "name": "London Healthtech Roundtable 2026",
+    "host": "London Venture Capital Network Events",
+    "first_seen_at": "2026-09-29T19:14:49.607Z",
+    "first_alerted_at": "2026-09-29T19:14:50.736Z"
+  },
   "evt-ACa0wbLjOGTprbs": {
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-09-01T16:34:38.391Z",
@@ -1115,6 +1121,12 @@
     "name": "KQ Social: Data in the City",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-CnnzGUH9ZZQJViU": {
+    "name": "Flipped Eye Publishing Poetry Editing Workshop",
+    "host": "Mason & Fifth",
+    "first_seen_at": "2026-09-29T19:14:49.607Z",
+    "first_alerted_at": "2026-09-29T19:14:50.736Z"
   },
   "evt-cqB2EmcF1o3HaRu": {
     "name": "Grishin Robotics Accelerator Cohort 4 Demo Day",
@@ -3313,6 +3325,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:14.661Z"
   },
+  "evt-saEMqb1D6OMbRs9": {
+    "name": "CARNIVAL COSTUME DESIGN & CREATIVE WORKSHOP",
+    "host": "Mason & Fifth",
+    "first_seen_at": "2026-09-29T19:14:49.607Z",
+    "first_alerted_at": "2026-09-29T19:14:50.736Z"
+  },
   "evt-SbRJq1b952aWaFH": {
     "name": "Tech & Tonic | Summer Drinks",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
@@ -3871,6 +3889,12 @@
     "name": "SEV0 - The reliability conference (LDN)",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-Wa4MMKMWYqdcK42": {
+    "name": "CARNIVAL COSTUME DESIGNING WORKSHOP",
+    "host": "Mason & Fifth",
+    "first_seen_at": "2026-09-29T19:14:49.607Z",
+    "first_alerted_at": "2026-09-29T19:14:50.736Z"
   },
   "evt-WbC0fBHRtALF7To": {
     "name": "Indispensable Room: Founders Meet Up",
