@@ -959,6 +959,12 @@
     "first_seen_at": "2026-09-08T00:14:33.016Z",
     "first_alerted_at": "2026-09-08T00:14:35.192Z"
   },
+  "evt-bH1Cuat6pjBY2is": {
+    "name": "Economics of Intelligence",
+    "host": "London AI Practitioners",
+    "first_seen_at": "2026-09-30T23:10:36.516Z",
+    "first_alerted_at": "2026-09-30T23:10:37.961Z"
+  },
   "evt-bhUdFAB787EbuiQ": {
     "name": "Adaptive Demo Night",
     "first_seen_at": "2026-08-05T21:37:10.995Z",
@@ -4500,5 +4506,11 @@
     "host": "Sifted Summit",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-zzdEnX0zLnBFuYt": {
+    "name": "Physical Tech Series: Build Your Own NFC Keychain",
+    "host": "AI After 5",
+    "first_seen_at": "2026-09-30T23:10:36.516Z",
+    "first_alerted_at": "2026-09-30T23:10:37.961Z"
   }
 }
