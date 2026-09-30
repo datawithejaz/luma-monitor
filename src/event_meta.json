@@ -1241,6 +1241,12 @@
     "first_seen_at": "2026-08-05T18:46:05.562Z",
     "first_alerted_at": "2026-08-05T18:46:06.987Z"
   },
+  "evt-DIZRfzI1etnnd9D": {
+    "name": "AI for the rest of us",
+    "host": "AI for the rest of us",
+    "first_seen_at": "2026-09-30T19:29:04.062Z",
+    "first_alerted_at": "2026-09-30T19:29:05.715Z"
+  },
   "evt-dkabqlAiJXtcblt": {
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T11:35:18.746Z",
@@ -2219,6 +2225,12 @@
     "first_seen_at": "2026-08-28T21:30:59.762Z",
     "first_alerted_at": "2026-08-28T21:31:01.521Z"
   },
+  "evt-K2EEdhNqNBHbbIM": {
+    "name": "Fin|Tech|Bio - Sandbox to Scale",
+    "host": "Personal",
+    "first_seen_at": "2026-09-30T19:29:04.062Z",
+    "first_alerted_at": "2026-09-30T19:29:05.715Z"
+  },
   "evt-K2sgX6H9xR2pxEA": {
     "name": "Revolut Business x Great British Chefs executive dinner",
     "host": "Revolut Business",
@@ -2274,6 +2286,12 @@
     "name": "AI Designer Dinner + Demos",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
+  "evt-kHI7ulEyv4PJK7m": {
+    "name": "AI & Hiring: What's Really Working",
+    "host": "Dex Live",
+    "first_seen_at": "2026-09-30T19:29:04.062Z",
+    "first_alerted_at": "2026-09-30T19:29:05.715Z"
   },
   "evt-KhLv5JDoQCYL6mj": {
     "name": "Why are more businesses moving into investing?",
