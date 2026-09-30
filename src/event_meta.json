@@ -269,6 +269,12 @@
     "first_seen_at": "2026-09-10T13:46:50.606Z",
     "first_alerted_at": "2026-09-10T13:46:51.977Z"
   },
+  "evt-3QOP6a9waKCe4Xs": {
+    "name": "Building Your Team’s AI Tool Stack: What to Use, When and Why",
+    "host": "IDEALondon",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
+  },
   "evt-3slMeroslLVQwzg": {
     "name": "TCK Table: Latin American",
     "host": "London TCK Home Meetups",
@@ -649,6 +655,12 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-93NRuL39StgmTJF": {
+    "name": "Founders Meetup London - December 2026 (Festive Party) 🎉",
+    "host": "UK Startup Events",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
+  },
   "evt-97Lmf48H8oTrMDC": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -829,6 +841,12 @@
     "name": "Fin x Fyxer: Building AI Products that Scale",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-AULHfQaTiGytzUw": {
+    "name": "MVP Bootcamp - Build 10x Faster with AI",
+    "host": "CityVentures",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
   },
   "evt-aVCD9LlxMMHYHrX": {
     "name": "Positioning: How to Build Yours [The Personal Branding Series]",
@@ -1297,6 +1315,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-EAFXWDd6paEb0jk": {
+    "name": "Co-working with founders",
+    "host": "Personal",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
   },
   "evt-eaguC1H63G6NUKg": {
     "name": "Sunset Sessions @ the Sauna: Product Engineers",
@@ -1776,6 +1800,12 @@
     "host": "GetFutureReady Community",
     "first_seen_at": "2026-09-06T16:30:37.606Z",
     "first_alerted_at": "2026-09-06T16:30:38.997Z"
+  },
+  "evt-hgAkszeGEWCnjov": {
+    "name": "Generative UI Night",
+    "host": "CopilotKit",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
   },
   "evt-HhbZHUFoyJFRgG0": {
     "name": "Demo Event LDN:Designing with Granola and Claude Code",
@@ -2411,6 +2441,12 @@
     "name": "AI in Practice - How we are actually using it.",
     "first_seen_at": "2026-07-23T13:06:59.491Z",
     "first_alerted_at": "2026-07-23T13:07:01.838Z"
+  },
+  "evt-lS2LcJ2jBSgFEmk": {
+    "name": "Demos are easy. Production isn't.",
+    "host": "Nebius Events",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
   },
   "evt-LSAC0OfeuFy2DBC": {
     "name": "Tech Community Rooftop Pilates with Sasha x Encode",
@@ -3363,6 +3399,12 @@
     "host": "Gradient Descending",
     "first_seen_at": "2026-09-05T13:01:56.119Z",
     "first_alerted_at": "2026-09-05T13:01:58.550Z"
+  },
+  "evt-sHwFf41ak7VtJFh": {
+    "name": "Startup Contracts, Reimagined: How AI Can Make Legal Faster, Simpler and More Affordable",
+    "host": "IDEALondon",
+    "first_seen_at": "2026-09-30T14:18:04.337Z",
+    "first_alerted_at": "2026-09-30T14:18:05.379Z"
   },
   "evt-SHXTtjqGKKwCtIl": {
     "name": "Weekly football 7-aside by Granola!",
