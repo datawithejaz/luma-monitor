@@ -148,6 +148,12 @@
     "first_seen_at": "2026-08-12T15:37:54.176Z",
     "first_alerted_at": "2026-08-12T15:37:55.856Z"
   },
+  "evt-1xok1FGmCd6sHoF": {
+    "name": "Ideation Hackathon",
+    "host": "CityVentures",
+    "first_seen_at": "2026-10-01T15:46:34.341Z",
+    "first_alerted_at": "2026-10-01T15:46:35.352Z"
+  },
   "evt-26MBSA966gVsaBB": {
     "name": "Tano x Corgi Creator Heist Hack",
     "host": "Tano",
@@ -218,6 +224,12 @@
     "host": "Loomery",
     "first_seen_at": "2026-09-08T20:05:05.811Z",
     "first_alerted_at": "2026-09-08T20:05:07.646Z"
+  },
+  "evt-314UR30SdlGn5Et": {
+    "name": "🚀 Vilnius Founders in London: Meet Lithuania’s Next Startup Wave",
+    "host": "Vilnius Founders",
+    "first_seen_at": "2026-10-01T15:46:34.341Z",
+    "first_alerted_at": "2026-10-01T15:46:35.352Z"
   },
   "evt-3bESVZ83Uqe4w8i": {
     "name": "Can You Trust the Data Running Your Portfolio? Building the Infrastructure for AI-Ready Compliance - Roundtable",
@@ -688,6 +700,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-9PsRXKvj1Hqf55o": {
+    "name": "AI Native Autonomous Lending - Panel Discussion",
+    "host": "GetFutureReady Community",
+    "first_seen_at": "2026-10-01T15:46:34.341Z",
+    "first_alerted_at": "2026-10-01T15:46:35.352Z"
+  },
   "evt-9Rila1jNlyTnX0e": {
     "name": "LVC September Lunch",
     "host": "London Venture Club",
@@ -1089,6 +1107,12 @@
     "name": "Inside the AI-Native Marketing Team: An Evening with Gamma",
     "first_seen_at": "2026-07-10T18:59:51.299Z",
     "first_alerted_at": "2026-07-10T18:59:52.809Z"
+  },
+  "evt-C8GdjNo5LG4JaVs": {
+    "name": "Founder Halloween: Rave to the Grave",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-01T15:46:34.341Z",
+    "first_alerted_at": "2026-10-01T15:46:35.352Z"
   },
   "evt-c9AztJls3Jc4rnB": {
     "name": "Run & Raise: Female Founders & VCs",
@@ -3464,6 +3488,12 @@
     "first_seen_at": "2026-08-12T10:20:08.660Z",
     "first_alerted_at": "2026-08-12T10:20:10.734Z"
   },
+  "evt-sLIP8gBfHENkMNz": {
+    "name": "Founder's Matchmaking",
+    "host": "CityVentures",
+    "first_seen_at": "2026-10-01T15:46:34.341Z",
+    "first_alerted_at": "2026-10-01T15:46:35.352Z"
+  },
   "evt-slMHV4kfSyFQt7c": {
     "name": "Back to School LLM London Social Meetup: The Flying Horse Pub near Liverpool Street",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3834,6 +3864,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-10T13:46:50.606Z",
     "first_alerted_at": "2026-09-10T13:46:51.977Z"
+  },
+  "evt-uzs3C3hlf3Y0UO0": {
+    "name": "Make Your AI Earn for You - Breakfast & Cowork",
+    "host": "SHIPYARD",
+    "first_seen_at": "2026-10-01T15:46:34.341Z",
+    "first_alerted_at": "2026-10-01T15:46:35.352Z"
   },
   "evt-VaxGbawnuO23yJv": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
