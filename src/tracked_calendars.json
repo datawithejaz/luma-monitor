@@ -200,6 +200,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-TKuFFDyXuiYPPNa",
+      "slug": "Cognition-london",
+      "name": "Cognition Events - London, UK",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-UGHhBfVjoizv11Z",
       "slug": "colorintech-official",
       "name": "Colorintech Events",
@@ -305,6 +311,12 @@
       "api_id": "cal-6RHFj6tIqVcyN35",
       "slug": "entrepreneurs-first",
       "name": "Entrepreneurs First",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-QCQbg4FodJDriFO",
+      "slug": "eurodefensetech",
+      "name": "European Defense Tech Hub",
       "reason": "User subscription"
     },
     {
@@ -429,6 +441,18 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-ERMF7WUm4YMa57L",
+      "slug": "hy.pe",
+      "name": "HYPE: IRL tech events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-oI7qgU2AqzRUqCE",
+      "slug": "IDEALondon",
+      "name": "IDEALondon",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-0jikzPhENNNJBGU",
       "slug": "incident",
       "name": "incident.io",
@@ -450,6 +474,12 @@
       "api_id": "cal-7QGqgiHd7VBRpVv",
       "slug": "jetbrains-uk",
       "name": "JetBrains UK",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-OADyLCQJTXS3jhL",
+      "slug": "KingsRising",
+      "name": "Kings Rising",
       "reason": "User subscription"
     },
     {
@@ -513,6 +543,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-7i35IvhPZXM6xlX",
+      "slug": "Londonlongevity",
+      "name": "London Longevity",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-uIX65wX4k4RwuS1",
       "slug": "london-systems-club",
       "name": "London Systems Club",
@@ -570,6 +606,12 @@
       "api_id": "cal-c5aACNuybyiq0BH",
       "slug": "nebius_events_",
       "name": "Nebius Events",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-URMirodEj9zxhoq",
+      "slug": "networklife",
+      "name": "Networklife Group",
       "reason": "User subscription"
     },
     {
@@ -845,6 +887,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-3vytj1DeqX8k7mk",
+      "slug": "UCLAISociety",
+      "name": "UCL AI Society Events Calendar",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-ObXRLmBUISp8LQh",
       "slug": "aiagentslab",
       "name": "UK AI Agents Lab",
@@ -873,6 +921,12 @@
       "api_id": "cal-2ARnYOB5PIHpxbh",
       "slug": "Vibecoders.global",
       "name": "Vibe Coding Collective",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-iVB97cIEYEuArQ4",
+      "slug": "vilnius_founders",
+      "name": "Vilnius Founders",
       "reason": "User subscription"
     },
     {
