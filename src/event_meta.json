@@ -110,6 +110,12 @@
     "first_seen_at": "2026-09-13T14:21:24.776Z",
     "first_alerted_at": "2026-09-13T14:21:26.245Z"
   },
+  "evt-1DneHw4hhZdYSRg": {
+    "name": "Win Search Results in an AI-First World | A Masterclass",
+    "host": "TechAlliance",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
+  },
   "evt-1FQVUkEtXN1ZRVp": {
     "name": "London AI x Science Hackathon",
     "host": "Iterate",
@@ -1399,6 +1405,12 @@
     "first_seen_at": "2026-09-17T00:57:49.909Z",
     "first_alerted_at": "2026-09-17T00:57:50.887Z"
   },
+  "evt-eiEHhbuvocXwVJC": {
+    "name": "Encode AI Demo Night 3.0",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
+  },
   "evt-EItAAQJ5IxgvFHR": {
     "name": "Product is... Ready for our AI Overlords",
     "host": "Tech is... Creating Conversations",
@@ -1522,6 +1534,12 @@
     "host": "YAAD's Black History Month Clubhouse",
     "first_seen_at": "2026-09-19T21:43:07.862Z",
     "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
+  "evt-ffC1jkK6RtVAVZq": {
+    "name": "2026 MassChallenge UK Awards Evening",
+    "host": "MassChallenge UK 2026 Early-Stage Accelerator",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
   },
   "evt-FGEpcmYzLQ5iLDN": {
     "name": "{Tech: Europe} x VEED Hackathon | The Summer Lock-In",
@@ -2362,6 +2380,12 @@
     "host": "Vakamo (Lakekeeper)",
     "first_seen_at": "2026-09-29T14:00:20.022Z",
     "first_alerted_at": "2026-09-29T14:00:22.629Z"
+  },
+  "evt-KjNatDvP5vYLjur": {
+    "name": "AI, growth and value creation: The new playbook for Fractional & Interim Marketing Leaders",
+    "host": "3Search London",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
   },
   "evt-KkFv8BmVTpjLSHF": {
     "name": "Architect x Corgi Cafe - Sunday Designathon",
@@ -4062,6 +4086,12 @@
     "host": "Newspeak House",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-WE06nxHxuBUDNNC": {
+    "name": "Create, ship and sell your first digital product",
+    "host": "AI After 5",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
+  },
   "evt-wfusUyMhVWZhN9Q": {
     "name": "Fundraising for Physical AI: How VCs evaluate startups",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
@@ -4172,6 +4202,12 @@
     "name": "Monad Metropolis Hacker House: London",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-x2MumvClawdxFuY": {
+    "name": "Britain’s Energy Insecurity with Oliver McPherson-Smith",
+    "host": "Adam Smith Institute",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
   },
   "evt-x4NyMvQPG9vheCC": {
     "name": "From Trust to Practice: AI and the Clinician Experience",
@@ -4322,6 +4358,12 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-yBoZFDq2o7K2a2G": {
+    "name": "Halloween Potluck",
+    "host": "London TCK Home Meetups",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
+  },
   "evt-yDHNdoFpq7ZGeHG": {
     "name": "Founders & Co-Founders Networking | Startups & Entrepreneurship",
     "host": "Networx London - Connect & Grow",
@@ -4405,6 +4447,12 @@
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T10:39:19.237Z",
     "first_alerted_at": "2026-08-21T10:39:20.588Z"
+  },
+  "evt-YWaBG2EbFz7GNSi": {
+    "name": "TCK Run Club x TCK HOME London: Oktoberfest Edition",
+    "host": "London TCK Home Meetups",
+    "first_seen_at": "2026-10-02T16:43:18.365Z",
+    "first_alerted_at": "2026-10-02T16:43:19.714Z"
   },
   "evt-z1e53yih2KSomqu": {
     "name": "WITSEND 10 YEAR AGM",
