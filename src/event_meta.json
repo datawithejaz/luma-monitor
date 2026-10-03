@@ -535,6 +535,12 @@
     "first_seen_at": "2026-07-27T11:50:58.532Z",
     "first_alerted_at": "2026-07-27T11:51:00.348Z"
   },
+  "evt-6jrDMH5UHlJG4gv": {
+    "name": "London Effective Giving Community: Monthly Social",
+    "host": "London Effective Giving Community",
+    "first_seen_at": "2026-10-03T18:22:53.877Z",
+    "first_alerted_at": "2026-10-03T18:22:55.109Z"
+  },
   "evt-6kil7YJqywlsA9G": {
     "name": "Founder Table: A Gathering of Founders and CMOs at Growth Stage Companies - London",
     "host": "Personal",
@@ -738,6 +744,11 @@
     "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
+  "evt-a8Bo5simZ7YFAvH": {
+    "name": "London Effective Giving Community: Monthly Social",
+    "host": "London Effective Giving Community",
+    "first_seen_at": "2026-10-03T18:22:53.877Z"
   },
   "evt-A9S31Oc2YBps7Gn": {
     "name": "Building on Arc: A Technical Workshop with Blockradar",
@@ -2043,6 +2054,12 @@
     "first_seen_at": "2026-09-06T01:23:13.698Z",
     "first_alerted_at": "2026-09-06T01:23:15.233Z"
   },
+  "evt-ibQzX6NfCasy9hH": {
+    "name": "ABRC: AFTER HOURS AT THE CRICK!",
+    "host": "Personal",
+    "first_seen_at": "2026-10-03T18:22:53.877Z",
+    "first_alerted_at": "2026-10-03T18:22:55.109Z"
+  },
   "evt-iC1TboEs4OjWWdP": {
     "name": "She Bytes Back x Funding Circle: Bringing Engineering Standards to Agentic Workflows",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3012,6 +3029,12 @@
     "host": "Bae HQ",
     "first_seen_at": "2026-09-21T06:14:30.460Z",
     "first_alerted_at": "2026-09-21T06:14:32.807Z"
+  },
+  "evt-oQ5ztv2BImWGu3Y": {
+    "name": "Quarterly Strategy Sprint (Q4'26) + Social",
+    "host": "London Effective Giving Community",
+    "first_seen_at": "2026-10-03T18:22:53.877Z",
+    "first_alerted_at": "2026-10-03T18:22:55.109Z"
   },
   "evt-oRFAACmhWgRxgpL": {
     "name": "London SME Networking Event | Business Owners, Founders & Professionals",
