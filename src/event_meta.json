@@ -1469,6 +1469,12 @@
     "first_seen_at": "2026-08-20T13:06:01.049Z",
     "first_alerted_at": "2026-08-20T13:06:02.634Z"
   },
+  "evt-eolmn8sr8c3cbEx": {
+    "name": "London L&D Shakers Meetup #45",
+    "host": "L&D Shakers London",
+    "first_seen_at": "2026-10-03T21:31:20.107Z",
+    "first_alerted_at": "2026-10-03T21:31:21.889Z"
+  },
   "evt-eqhLLmBg2QmIzEF": {
     "name": "Community Tooling Hack Day #2",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -1841,6 +1847,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-GvaOe5cDxdAZdNY": {
+    "name": "Real World Skills... Reading the Room and Negotiation",
+    "host": "London Venture Club",
+    "first_seen_at": "2026-10-03T21:31:20.107Z",
+    "first_alerted_at": "2026-10-03T21:31:21.889Z"
   },
   "evt-Gy3SRjlxt3Ea5m4": {
     "name": "Exploring Opportunities in... Space Innovation",
