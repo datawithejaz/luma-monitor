@@ -138,6 +138,11 @@
     "first_seen_at": "2026-10-01T02:08:56.213Z",
     "first_alerted_at": "2026-10-01T02:08:57.280Z"
   },
+  "evt-1OBcPHFt8LZFVHE": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "host": "The Run Down: Operators Runclub",
+    "first_seen_at": "2026-10-03T14:52:48.266Z"
+  },
   "evt-1omysQFmoLhyKhn": {
     "name": "Founder Cowork Club [UNFACILITATED]",
     "first_seen_at": "2026-08-18T17:14:50.403Z",
@@ -724,6 +729,11 @@
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
+  "evt-A06KYRK0lvTlNG2": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "host": "The Run Down: Operators Runclub",
+    "first_seen_at": "2026-10-03T14:52:48.266Z"
+  },
   "evt-a2KjaxeQ1DnY717": {
     "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
@@ -1000,6 +1010,11 @@
     "host": "London AI Practitioners",
     "first_seen_at": "2026-09-30T23:10:36.516Z",
     "first_alerted_at": "2026-09-30T23:10:37.961Z"
+  },
+  "evt-bHbVeJj1d70HBS3": {
+    "name": "TRD: London Startups Operator RunClub & Social",
+    "host": "The Run Down: Operators Runclub",
+    "first_seen_at": "2026-10-03T14:52:48.266Z"
   },
   "evt-bhUdFAB787EbuiQ": {
     "name": "Adaptive Demo Night",
