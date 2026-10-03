@@ -4102,6 +4102,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-WGPhZd71ewmYUiZ": {
+    "name": "Pitch in Whitehall: Startup Coalition & Government Digital Service",
+    "host": "Personal",
+    "first_seen_at": "2026-10-03T05:31:14.471Z",
+    "first_alerted_at": "2026-10-03T05:31:17.624Z"
+  },
   "evt-WhDwlDYCyeFx6g0": {
     "name": "Duck In, Duck Out: London Edition",
     "host": "MotherDuck",
