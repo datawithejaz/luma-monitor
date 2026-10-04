@@ -1958,6 +1958,12 @@
     "first_seen_at": "2026-08-11T17:33:51.686Z",
     "first_alerted_at": "2026-08-11T17:33:53.204Z"
   },
+  "evt-HpNX76SGPkgVECM": {
+    "name": "AI, Machine Learning & Cybersecurity for Founders & Tech Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-04T11:18:36.708Z",
+    "first_alerted_at": "2026-10-04T11:18:38.566Z"
+  },
   "evt-HqPblS8TmVWFWZ8": {
     "name": "From Data to Decisions - Powering the Modern Real Estate Firm - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -4413,6 +4419,12 @@
     "host": "Sifted Summit",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-yA3AVUHLqosN2K3": {
+    "name": "London Tech Night | Startups, Funding, Investors & Innovation",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-04T11:18:36.708Z",
+    "first_alerted_at": "2026-10-04T11:18:38.566Z"
   },
   "evt-yBoZFDq2o7K2a2G": {
     "name": "Halloween Potluck",
