@@ -1220,6 +1220,11 @@
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
   },
+  "evt-cmH0G2f4dRnds5q": {
+    "name": "Capital & Castling: Chess Night for the Startup Community (November edition)",
+    "host": "enki events",
+    "first_seen_at": "2026-10-04T18:51:38.286Z"
+  },
   "evt-cNFaO7alNhoMCDR": {
     "name": "KQ Social: Data in the City",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -2131,6 +2136,12 @@
     "host": "Light",
     "first_seen_at": "2026-09-11T01:33:23.260Z",
     "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
+  "evt-ijFEM7faBVCrJEp": {
+    "name": "Capital & Castling: Chess Night for the Startup Community (October edition)",
+    "host": "enki events",
+    "first_seen_at": "2026-10-04T18:51:38.286Z",
+    "first_alerted_at": "2026-10-04T18:51:39.407Z"
   },
   "evt-ILvGNzahJaMEerY": {
     "name": "Building with Managed Agents & the Gemini Interactions API",
