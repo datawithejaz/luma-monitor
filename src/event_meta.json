@@ -2845,6 +2845,11 @@
     "first_seen_at": "2026-09-14T18:59:29.929Z",
     "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
+  "evt-nGwbfFoFE0gAraV": {
+    "name": "GATHERING01: DEEP TECH WEEK LONDON 26",
+    "host": "AFOCAL INERTIA",
+    "first_seen_at": "2026-10-05T00:45:19.261Z"
+  },
   "evt-nHnKA8AUHXc8dvU": {
     "name": "Three Bets on the Same Future",
     "host": "Wilbe",
