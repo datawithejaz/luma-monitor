@@ -2576,6 +2576,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-lN7hh5bk7fiSQvF": {
+    "name": "Grok Bot Community Engineering London Hackathon",
+    "host": "SpaceXAI for London, England",
+    "first_seen_at": "2026-10-05T14:55:53.526Z",
+    "first_alerted_at": "2026-10-05T14:55:54.725Z"
+  },
   "evt-LNQtBv91h7ovmeh": {
     "name": "UNKNW x Metaview Design Leaders Ship on Saturday.",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
@@ -2922,6 +2928,12 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-nsm3FubquF4QdAS": {
+    "name": "Founder x Investor: Fundraising for Consumer Hardware",
+    "host": "Grishin Robotics VC",
+    "first_seen_at": "2026-10-05T14:55:53.526Z",
+    "first_alerted_at": "2026-10-05T14:55:54.725Z"
   },
   "evt-NTvGJ8ZfyWMOwR2": {
     "name": "Chess x ML Hackathon: Build, train, win.",
@@ -4309,6 +4321,12 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-x80d2WfrJsnDUTE": {
+    "name": "FinTech as a Force for Good",
+    "host": "Innovate Finance",
+    "first_seen_at": "2026-10-05T14:55:53.526Z",
+    "first_alerted_at": "2026-10-05T14:55:54.725Z"
+  },
   "evt-xAuGVHZUB1QXXUJ": {
     "name": "Trivia Night with Sonder x ABRC",
     "first_seen_at": "2026-08-06T11:53:07.249Z",
@@ -4362,6 +4380,12 @@
     "name": "STUK Member Evening: Inside Product at Solana",
     "first_seen_at": "2026-08-25T11:49:32.516Z",
     "first_alerted_at": "2026-08-25T11:49:34.059Z"
+  },
+  "evt-xNyz8C4YRMozJrU": {
+    "name": "The Fair Fight Coalition: Funding Female Founders",
+    "host": "enki events",
+    "first_seen_at": "2026-10-05T14:55:53.526Z",
+    "first_alerted_at": "2026-10-05T14:55:54.725Z"
   },
   "evt-xO2jhIdVYxel8yn": {
     "name": "Grok Bot Meetup London",
@@ -4446,6 +4470,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-10-04T11:18:36.708Z",
     "first_alerted_at": "2026-10-04T11:18:38.566Z"
+  },
+  "evt-yaQez5H3d1JwpzS": {
+    "name": "SOLAR WORKSHOP: Negative prices, CfDs and batteries: the GB solar revenue case",
+    "host": "Modo Energy",
+    "first_seen_at": "2026-10-05T14:55:53.526Z",
+    "first_alerted_at": "2026-10-05T14:55:54.725Z"
   },
   "evt-yBoZFDq2o7K2a2G": {
     "name": "Halloween Potluck",
