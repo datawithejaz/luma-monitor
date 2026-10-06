@@ -745,6 +745,23 @@
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
   },
+  "evt-A408HD1bgKP62Rg": {
+    "name": "Deep Tech Founder & Investor Breakfast vol.2",
+    "host": "Frontier Deep Tech x Silicon Roundabout Ventures",
+    "first_seen_at": "2026-10-06T15:27:41.847Z"
+  },
+  "evt-a43T4miICAxsCUa": {
+    "name": "Pitch Decks 101 with Former Partner @ Interface",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-10-06T15:27:41.847Z",
+    "first_alerted_at": "2026-10-06T15:27:43.001Z"
+  },
+  "evt-A4jGJcDp29pNig5": {
+    "name": "Hack for Humanity : London (w/ The AI Collective)",
+    "host": "The AI Collective",
+    "first_seen_at": "2026-10-06T15:27:41.847Z",
+    "first_alerted_at": "2026-10-06T15:27:43.001Z"
+  },
   "evt-a8Bo5simZ7YFAvH": {
     "name": "London Effective Giving Community: Monthly Social",
     "host": "London Effective Giving Community",
@@ -1702,6 +1719,11 @@
     "first_seen_at": "2026-07-18T15:05:59.864Z",
     "first_alerted_at": "2026-07-18T15:06:01.802Z"
   },
+  "evt-fYNAXfCBLj6ymvS": {
+    "name": "LIaiSE Community social",
+    "host": "London Interface for AI Safety",
+    "first_seen_at": "2026-10-06T15:27:41.847Z"
+  },
   "evt-fYZ8F6mIshXOTCU": {
     "name": "Manus & Matcha",
     "first_seen_at": "2026-07-17T01:09:54.619Z",
@@ -2612,6 +2634,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-LmrFjSfiAztAZje": {
+    "name": "Content Engineering 101",
+    "host": "Voholabs",
+    "first_seen_at": "2026-10-06T15:27:41.847Z",
+    "first_alerted_at": "2026-10-06T15:27:43.001Z"
+  },
   "evt-lN7hh5bk7fiSQvF": {
     "name": "Grok Bot Community Engineering London Hackathon",
     "host": "SpaceXAI for London, England",
@@ -3008,6 +3036,12 @@
     "name": "GetFutureReady FinTech 5K Run",
     "host": "GetFutureReady Community",
     "first_seen_at": "2026-09-08T13:34:30.167Z"
+  },
+  "evt-O3ypE2dv4uIgaiJ": {
+    "name": "Catan Night for AI founders and operators",
+    "host": "H2AI",
+    "first_seen_at": "2026-10-06T15:27:41.847Z",
+    "first_alerted_at": "2026-10-06T15:27:43.001Z"
   },
   "evt-oa56F3eiC54iuwO": {
     "name": "Elyos Dinner Club: Lifting the lid on AI Agents for field services",
@@ -3949,6 +3983,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-u75fxSEJZOILXCr": {
+    "name": "Education in the Age of AI: What Happens to University Learning?",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-06T15:27:41.847Z",
+    "first_alerted_at": "2026-10-06T15:27:43.001Z"
+  },
   "evt-UAe1KjIWVcXJB7L": {
     "name": "Monad Blitz London Hackathon",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -4190,6 +4230,12 @@
     "host": "Granola",
     "first_seen_at": "2026-09-28T16:02:05.474Z",
     "first_alerted_at": "2026-09-28T16:02:09.137Z"
+  },
+  "evt-vzPqPsPHH9FV3Zq": {
+    "name": "UK Internship Presentation Day",
+    "host": "JetBrains UK",
+    "first_seen_at": "2026-10-06T15:27:41.847Z",
+    "first_alerted_at": "2026-10-06T15:27:43.001Z"
   },
   "evt-w2iKmnKfC5WFa7v": {
     "name": "Add Intelligence to your Colour London",
