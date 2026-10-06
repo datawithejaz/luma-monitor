@@ -4701,6 +4701,12 @@
     "first_seen_at": "2026-09-11T01:33:23.260Z",
     "first_alerted_at": "2026-09-11T01:33:25.876Z"
   },
+  "evt-ZjoVllQ0QbaQHJr": {
+    "name": "BSmAI hosts Ganna Pogrebna",
+    "host": "BehSci Meets AI",
+    "first_seen_at": "2026-10-06T08:36:42.942Z",
+    "first_alerted_at": "2026-10-06T08:36:45.875Z"
+  },
   "evt-zjtEvb04wHyQJgV": {
     "name": "Flight3 x Superteam UK: Go-To-Market",
     "host": "Superteam",
