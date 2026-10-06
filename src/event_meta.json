@@ -4259,6 +4259,12 @@
     "first_seen_at": "2026-09-29T19:14:49.607Z",
     "first_alerted_at": "2026-09-29T19:14:50.736Z"
   },
+  "evt-waH3iDGBB5lGlUq": {
+    "name": "Accelerating Inference",
+    "host": "Reasoning Project",
+    "first_seen_at": "2026-10-06T20:29:54.191Z",
+    "first_alerted_at": "2026-10-06T20:29:55.562Z"
+  },
   "evt-WbC0fBHRtALF7To": {
     "name": "Indispensable Room: Founders Meet Up",
     "first_seen_at": "2026-07-25T19:48:33.996Z",
