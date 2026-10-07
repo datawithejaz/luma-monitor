@@ -684,6 +684,12 @@
     "first_seen_at": "2026-07-29T16:52:29.228Z",
     "first_alerted_at": "2026-07-29T16:52:30.693Z"
   },
+  "evt-8wYz48AO1lrQXNB": {
+    "name": "LFG Westminster: Social",
+    "host": "LFG",
+    "first_seen_at": "2026-10-07T18:45:31.263Z",
+    "first_alerted_at": "2026-10-07T18:45:33.973Z"
+  },
   "evt-93BA9oIKRdCOBoG": {
     "name": "eve eves | LDN",
     "host": "Vercel Events",
@@ -2112,6 +2118,12 @@
     "first_seen_at": "2026-08-27T15:15:24.435Z",
     "first_alerted_at": "2026-08-27T15:15:27.179Z"
   },
+  "evt-iaaEH1PvoS1vEEz": {
+    "name": "The Road to Growth | Lessons from Giant Ventures, Atomico & OMERS",
+    "host": "Novabook",
+    "first_seen_at": "2026-10-07T18:45:31.263Z",
+    "first_alerted_at": "2026-10-07T18:45:33.973Z"
+  },
   "evt-iAE7iRRiuSxCufk": {
     "name": "London Voice AI Exchange",
     "first_seen_at": "2026-08-17T11:10:25.845Z",
@@ -2252,6 +2264,12 @@
     "first_seen_at": "2026-09-23T06:49:57.780Z",
     "first_alerted_at": "2026-09-23T06:49:59.705Z"
   },
+  "evt-IvaJLmv0XylCPfA": {
+    "name": "London Demo Dinner : Hosted by Superteam UK",
+    "host": "Superteam",
+    "first_seen_at": "2026-10-07T18:45:31.263Z",
+    "first_alerted_at": "2026-10-07T18:45:33.973Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -2336,6 +2354,12 @@
     "name": "AI Leaders Dinner - Encord",
     "first_seen_at": "2026-08-11T11:23:32.755Z",
     "first_alerted_at": "2026-08-11T11:23:34.532Z"
+  },
+  "evt-JLEQtJSUeH0LSio": {
+    "name": "Vercel Ship London Watch Party",
+    "host": "Vercel Events",
+    "first_seen_at": "2026-10-07T18:45:31.263Z",
+    "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
   "evt-jqUVVDblbCqKOZy": {
     "name": "Flight3 x Superteam UK: Media & Founder Branding",
@@ -2640,6 +2664,12 @@
     "host": "Living Room Labs",
     "first_seen_at": "2026-09-05T09:35:22.714Z",
     "first_alerted_at": "2026-09-05T09:35:26.629Z"
+  },
+  "evt-Lh7cXS5S1HAuHCQ": {
+    "name": "Black in Time: Exploring Black British Life Through Our Memories Workshop",
+    "host": "YAAD Black History Month Clubhouse",
+    "first_seen_at": "2026-10-07T18:45:31.263Z",
+    "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
   "evt-lhQrTTfJkcAMpTI": {
     "name": "Pitch Perfect: Investing in You with Monzo",
@@ -3059,6 +3089,12 @@
     "host": "H2AI",
     "first_seen_at": "2026-10-06T15:27:41.847Z",
     "first_alerted_at": "2026-10-06T15:27:43.001Z"
+  },
+  "evt-O5YGFVb288yBtk2": {
+    "name": "Microsoft x LSEG - London Hackathon",
+    "host": "Personal",
+    "first_seen_at": "2026-10-07T18:45:31.263Z",
+    "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
   "evt-oa56F3eiC54iuwO": {
     "name": "Elyos Dinner Club: Lifting the lid on AI Agents for field services",
