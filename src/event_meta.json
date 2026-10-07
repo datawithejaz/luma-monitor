@@ -1069,6 +1069,11 @@
     "first_seen_at": "2026-07-16T11:06:55.885Z",
     "first_alerted_at": "2026-07-16T11:06:57.938Z"
   },
+  "evt-bJxh0uKxWjA4yIC": {
+    "name": "WORKSHOP: Negative prices, CfDs and batteries: the GB solar revenue case",
+    "host": "Modo Energy",
+    "first_seen_at": "2026-10-07T12:00:56.239Z"
+  },
   "evt-BJYXsYLZKXl6e2A": {
     "name": "T-0: Cohort 2 Launch",
     "first_seen_at": "2026-08-21T10:39:19.237Z",
@@ -2063,6 +2068,12 @@
     "first_seen_at": "2026-08-31T19:00:26.283Z",
     "first_alerted_at": "2026-08-31T19:00:27.718Z"
   },
+  "evt-hUwAZ1rTT1BmcUX": {
+    "name": "House of Sol Workshops - SRI x Alchemy",
+    "host": "House of Sol",
+    "first_seen_at": "2026-10-07T12:00:56.239Z",
+    "first_alerted_at": "2026-10-07T12:01:00.964Z"
+  },
   "evt-HV5fJHd1kBiUPPB": {
     "name": "TechTalk Connect 2026: Get Hired, Promoted and Paid in the AI Era",
     "first_seen_at": "2026-08-13T21:59:32.360Z",
@@ -2414,6 +2425,12 @@
     "host": "Revolut Business",
     "first_seen_at": "2026-09-13T14:21:24.776Z",
     "first_alerted_at": "2026-09-13T14:21:26.245Z"
+  },
+  "evt-k5MGG2aJ5iuIy1t": {
+    "name": "House of Sol Workshop: Why Tokenized RWAs Are Superior: SRI x ioBuilders",
+    "host": "House of Sol",
+    "first_seen_at": "2026-10-07T12:00:56.239Z",
+    "first_alerted_at": "2026-10-07T12:01:00.964Z"
   },
   "evt-K5nydzBtNzw3CF7": {
     "name": "founder coworking + pizza night",
@@ -3497,6 +3514,12 @@
     "first_seen_at": "2026-09-15T10:17:21.013Z",
     "first_alerted_at": "2026-09-15T10:17:27.727Z"
   },
+  "evt-RAxJZqNUBnZGYQf": {
+    "name": "Claude Cowork Intermediate: Teach Claude Your Weekly Work",
+    "host": "Living Room Labs",
+    "first_seen_at": "2026-10-07T12:00:56.239Z",
+    "first_alerted_at": "2026-10-07T12:01:00.964Z"
+  },
   "evt-rbtPhxAckEjswBw": {
     "name": "Pilates in the Park: CoS, Ops & Founders' Associates 🧘‍♀️🌳",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -3598,6 +3621,12 @@
     "host": "{Tech: Europe}",
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
+  },
+  "evt-s2suRhWNibAOBi1": {
+    "name": "Exclusive Winter Drinks",
+    "host": "Codurance",
+    "first_seen_at": "2026-10-07T12:00:56.239Z",
+    "first_alerted_at": "2026-10-07T12:01:00.964Z"
   },
   "evt-s36539VBHbt7hYB": {
     "name": "Tech Meetup: The Official Leap AI After Party",
@@ -4803,6 +4832,12 @@
     "name": "ABRC X BRIEF ENCOUNTERS: READING ROOM",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
+  },
+  "evt-ZNkIvhhGzhHu96c": {
+    "name": "House of Sol Workshops: Not All Yield Is Equal: How Your Stake Shapes Solana: SRI x Solana Compass",
+    "host": "House of Sol",
+    "first_seen_at": "2026-10-07T12:00:56.239Z",
+    "first_alerted_at": "2026-10-07T12:01:00.964Z"
   },
   "evt-ZoXjbNuMYGPSVI1": {
     "name": "Building a $1bn Revenue Engine",
