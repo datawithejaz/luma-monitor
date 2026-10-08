@@ -16,6 +16,12 @@
     "first_seen_at": "2026-09-10T00:24:26.296Z",
     "first_alerted_at": "2026-09-10T00:24:28.886Z"
   },
+  "evt-0E73h1PKrbGsSwK": {
+    "name": "The Glassbox Roadshow | London",
+    "host": "🌍 Make AI Global Calendar",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
+  },
   "evt-0ligYEXxHpX3NXl": {
     "name": "Tate Modern Lates",
     "host": "YourTRIBE Southwark",
@@ -131,6 +137,12 @@
     "name": "Founders Meetup London - October 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
+  },
+  "evt-1Iy2Plr0XWPCuI2": {
+    "name": "🚀 Vilnius Founders x Walless x Piton Capital in London: From Pitches to Pints 🍻",
+    "host": "Vilnius Founders",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
   "evt-1kdipKhakh5l98O": {
     "name": "AI Agents in Finance, Fintech & Production - AAIF London x Gradient Labs",
@@ -529,6 +541,12 @@
     "host": "3Search London",
     "first_seen_at": "2026-09-08T04:40:49.937Z",
     "first_alerted_at": "2026-09-08T04:40:51.880Z"
+  },
+  "evt-6DBrfDcs1mzgtNy": {
+    "name": "CTOs Pitch Engineers",
+    "host": "Granola",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
   "evt-6hP48WJCPCkE0bv": {
     "name": "Lunch & Learn - Designing Your Portfolio Career with Charlie Rogers",
@@ -1133,6 +1151,12 @@
     "first_seen_at": "2026-09-07T22:04:04.315Z",
     "first_alerted_at": "2026-09-07T22:04:07.093Z"
   },
+  "evt-BUz6a7CLYDbHMc4": {
+    "name": "Fuckup Nights London #12 x Acquisition Entrepeneurs",
+    "host": "Fuckup Nights London",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
+  },
   "evt-bwlqBpIbeMhsSAz": {
     "name": "Asset Intelligence at Scale: Modernising Portfolio Maintenance - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -1492,6 +1516,12 @@
     "host": "London Longevity",
     "first_seen_at": "2026-09-26T06:41:57.977Z",
     "first_alerted_at": "2026-09-26T06:41:59.392Z"
+  },
+  "evt-EKJ7Wr0LPbO7E9D": {
+    "name": "Founders & AI: What to Buy, What to Build, What to Ignore",
+    "host": "Personal",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
   "evt-eLnI19zEa5g30UF": {
     "name": "Public First presents: Tech YoPro Drinks",
@@ -2783,6 +2813,12 @@
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
   },
+  "evt-m6rqizvk51JaaDP": {
+    "name": "AI Local Meetup",
+    "host": "AI Local",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
+  },
   "evt-m6uaG7F6rYHYp3j": {
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -3455,6 +3491,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-11T18:39:51.119Z",
     "first_alerted_at": "2026-09-11T18:39:52.441Z"
+  },
+  "evt-QkDDeq0tjx0lxJs": {
+    "name": "YC Pitch Roast Show",
+    "host": "Personal",
+    "first_seen_at": "2026-10-08T16:53:37.104Z",
+    "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
   "evt-Ql9fAnMSUIuMRYY": {
     "name": "[O]pen House Fireside with Attio | Hosted by R[3]sidency x Construct",
