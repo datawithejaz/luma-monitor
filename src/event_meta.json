@@ -230,6 +230,12 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-2tZIYA3LGKOAT4W": {
+    "name": "Meet Manus 2.0: Roadshow | London",
+    "host": "Personal",
+    "first_seen_at": "2026-10-08T09:33:15.923Z",
+    "first_alerted_at": "2026-10-08T09:33:19.064Z"
+  },
   "evt-30BIVXL8Q1bOfv9": {
     "name": "Weave:London - Building the Agentic Enterprise: From Individual Productivity to Organisational Reinvention",
     "host": "Loomery",
