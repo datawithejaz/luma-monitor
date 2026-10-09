@@ -1130,6 +1130,11 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-bqwM0BsMgNETulf": {
+    "name": "Conversations in the AI era | Builder Community Meetup | London 💂",
+    "host": "Twilio UK",
+    "first_seen_at": "2026-10-09T01:26:22.383Z"
+  },
   "evt-BR1o0OqybLWc6Bz": {
     "name": "Fold, Encode, Reflect: A Hands-on Data Portrait Zine for Londoners",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -1996,6 +2001,12 @@
     "host": "Personal",
     "first_seen_at": "2026-10-05T21:50:28.936Z",
     "first_alerted_at": "2026-10-05T21:50:30.876Z"
+  },
+  "evt-hbGaHUEqWV485Bi": {
+    "name": "Lovable Buildathon with YFL & Imperial Entrepreneurs",
+    "host": "Personal",
+    "first_seen_at": "2026-10-09T01:26:22.383Z",
+    "first_alerted_at": "2026-10-09T01:26:24.556Z"
   },
   "evt-Hc55Vy5IN5CCEFk": {
     "name": "How Design-Build Leaders are Using AI to Unlock Value in Offices - Roundtable",
@@ -4863,6 +4874,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-ZDVdgqIyXbwKhW4": {
+    "name": "Built By Few: The Summit by Connect",
+    "host": "Personal",
+    "first_seen_at": "2026-10-09T01:26:22.383Z",
+    "first_alerted_at": "2026-10-09T01:26:24.556Z"
+  },
   "evt-zgnQtwzqGyv4sH6": {
     "name": "Ground Game 101: Cutting Through the Noise with IRL Events | Hearts, Minds & Market Share",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -4957,6 +4974,12 @@
     "host": "Bright Creative",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-ZrF3EagJiESv4uC": {
+    "name": "Fintech Hackathon",
+    "host": "Singapore Global Network",
+    "first_seen_at": "2026-10-09T01:26:22.383Z",
+    "first_alerted_at": "2026-10-09T01:26:24.556Z"
   },
   "evt-ZSumqyLCLiayDFf": {
     "name": "Staying Ahead of the Curve: Policy & Compliance in Audiovisual AI",
