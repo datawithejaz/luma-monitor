@@ -1539,6 +1539,12 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-EM2ZcP4UXv0sAwF": {
+    "name": "State of Community Organising 2026",
+    "host": "notanother.pizza",
+    "first_seen_at": "2026-10-09T14:41:45.997Z",
+    "first_alerted_at": "2026-10-09T14:41:47.796Z"
+  },
   "evt-embVsKmBYonmGnW": {
     "name": "Behind the Game: The People and Business of Global Sport",
     "first_seen_at": "2026-08-20T13:06:01.049Z",
@@ -2047,6 +2053,12 @@
     "first_seen_at": "2026-08-21T11:35:18.746Z",
     "first_alerted_at": "2026-08-21T11:35:20.519Z"
   },
+  "evt-hKaCQnZRBZ7hOq1": {
+    "name": "Pitch your project: Ship & Chips",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-09T14:41:45.997Z",
+    "first_alerted_at": "2026-10-09T14:41:47.796Z"
+  },
   "evt-hMOWRCllLackr12": {
     "name": "DeepTech London SUMMER LAUNCH PARTY",
     "first_seen_at": "2026-07-23T11:30:32.587Z",
@@ -2170,6 +2182,12 @@
     "name": "Build Night by Bilt.me - Vibe Coding for Mobile Apps",
     "first_seen_at": "2026-08-27T15:15:24.435Z",
     "first_alerted_at": "2026-08-27T15:15:27.179Z"
+  },
+  "evt-I57dlIwGT4C1EjJ": {
+    "name": "Ideas Exchange: Session 2 | Why We Build",
+    "host": "Nourishment Events Calendar",
+    "first_seen_at": "2026-10-09T14:41:45.997Z",
+    "first_alerted_at": "2026-10-09T14:41:47.796Z"
   },
   "evt-iaaEH1PvoS1vEEz": {
     "name": "The Road to Growth | Lessons from Giant Ventures, Atomico & OMERS",
@@ -2345,6 +2363,12 @@
     "host": "Together AI Calendar",
     "first_seen_at": "2026-09-08T22:35:42.913Z",
     "first_alerted_at": "2026-09-08T22:35:44.445Z"
+  },
+  "evt-j6pnjmr4n3o7wgE": {
+    "name": "AI in practice: Ops Leader's Breakfast",
+    "host": "Jumpstart",
+    "first_seen_at": "2026-10-09T14:41:45.997Z",
+    "first_alerted_at": "2026-10-09T14:41:47.796Z"
   },
   "evt-j9xSSniGYeFpKSz": {
     "name": "Hardware Meetup @ RAEng",
@@ -3682,6 +3706,11 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-RORkob66R4VNVDO": {
+    "name": "Source Code #4 — London meetup for journalists and technologists",
+    "host": "Source Code",
+    "first_seen_at": "2026-10-09T14:41:45.997Z"
   },
   "evt-RpWNRVPU5sbfos5": {
     "name": "Takeover by NipNip Bike Doctors",
