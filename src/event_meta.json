@@ -2609,6 +2609,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-kmeSyAvrc1TSEmk": {
+    "name": "BSmAI x Ganna Pogrebna: Behavioural AI workshop",
+    "host": "BehSci Meets AI",
+    "first_seen_at": "2026-10-09T07:40:51.676Z",
+    "first_alerted_at": "2026-10-09T07:40:54.585Z"
+  },
   "evt-KOCVwinZciUq0S4": {
     "name": "Build the Future of Healthcare with Juno & Anthropic",
     "first_seen_at": "2026-07-13T19:06:44.719Z",
