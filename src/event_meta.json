@@ -344,6 +344,12 @@
     "first_seen_at": "2026-09-08T22:35:42.913Z",
     "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
+  "evt-45M0t6qDtxPBX8L": {
+    "name": "House of Sol Workshops: The Operator Question: How Validator Choice Shapes Staking Outcomes: SRI x Figment",
+    "host": "House of Sol",
+    "first_seen_at": "2026-10-09T19:47:53.595Z",
+    "first_alerted_at": "2026-10-09T19:47:56.547Z"
+  },
   "evt-48oBtd0YxyPkOOq": {
     "name": "Cursor Cybersecurity London Hackathon",
     "first_seen_at": "2026-07-19T23:11:30.580Z",
@@ -1640,6 +1646,12 @@
     "host": "Sifted Summit",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-F4JunYJ5cwMOj7q": {
+    "name": "ABRC X BITC: BOARD GAME & TRIVIA NIGHT",
+    "host": "Personal",
+    "first_seen_at": "2026-10-09T19:47:53.595Z",
+    "first_alerted_at": "2026-10-09T19:47:56.547Z"
   },
   "evt-FC3VCOC8EcMLCjC": {
     "name": "The Agent Economy Buildathon | $20k in bounties",
@@ -3232,6 +3244,12 @@
     "first_seen_at": "2026-08-19T11:36:29.079Z",
     "first_alerted_at": "2026-08-19T11:36:30.572Z"
   },
+  "evt-oJ9YktHRuxWRlRn": {
+    "name": "House of Sol Workshops: Cryptoeconomics and Governance: SRI x Jito",
+    "host": "House of Sol",
+    "first_seen_at": "2026-10-09T19:47:53.595Z",
+    "first_alerted_at": "2026-10-09T19:47:56.547Z"
+  },
   "evt-ojOw05lql2PSISt": {
     "name": "Hot Girls, Cool Tech | AI After 5 drinks",
     "first_seen_at": "2026-07-23T13:06:59.491Z",
@@ -3740,6 +3758,12 @@
     "first_seen_at": "2026-10-01T20:34:57.340Z",
     "first_alerted_at": "2026-10-01T20:34:58.509Z"
   },
+  "evt-rwPZdTpHlnISAec": {
+    "name": "House of Sol Workshops: The Yield Ceiling: Why Onchain Vaults Need Real World Assets: SRI x R3",
+    "host": "House of Sol",
+    "first_seen_at": "2026-10-09T19:47:53.595Z",
+    "first_alerted_at": "2026-10-09T19:47:56.547Z"
+  },
   "evt-rxY2YagM1F6fbbA": {
     "name": "Dealroom API Hackathon",
     "host": "Dealroom.co",
@@ -4104,6 +4128,12 @@
     "name": "AlgoLush",
     "first_seen_at": "2026-07-17T18:16:18.213Z",
     "first_alerted_at": "2026-07-17T18:16:19.761Z"
+  },
+  "evt-TunPo94b3oLalDi": {
+    "name": "London | Claude Meetup for non coder SMEs",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-10-09T19:47:53.595Z",
+    "first_alerted_at": "2026-10-09T19:47:56.547Z"
   },
   "evt-TvVukFlc8ZXL9Zk": {
     "name": "Can AI Be Truly Creative?: An Oxford-style debate",
