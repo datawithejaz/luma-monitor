@@ -4709,6 +4709,12 @@
     "first_seen_at": "2026-10-07T05:37:55.238Z",
     "first_alerted_at": "2026-10-07T05:37:58.505Z"
   },
+  "evt-xUZrUSJW7DxAnMA": {
+    "name": "Scaling Real Time AI: London",
+    "host": "Aerospike",
+    "first_seen_at": "2026-10-09T23:36:33.814Z",
+    "first_alerted_at": "2026-10-09T23:36:35.175Z"
+  },
   "evt-XvopUTFZ94XzAtR": {
     "name": "Stripe padel club",
     "host": "Stripe Startups",
