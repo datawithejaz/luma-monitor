@@ -472,6 +472,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-5LIo3QDMA2wfU5D": {
+    "name": "AlgoRest",
+    "host": "London Live Coding?",
+    "first_seen_at": "2026-10-10T09:04:24.325Z",
+    "first_alerted_at": "2026-10-10T09:04:25.930Z"
+  },
   "evt-5Q9dAYpobKMxdQE": {
     "name": "Design Engineering Night #9",
     "first_seen_at": "2026-07-13T10:39:04.580Z",
