@@ -160,6 +160,12 @@
     "first_seen_at": "2026-08-18T17:14:50.403Z",
     "first_alerted_at": "2026-08-18T17:14:52.004Z"
   },
+  "evt-1sfm4C7VojC7caz": {
+    "name": "Buy, Build & Grow a Business | Acquisition & Franchising Rooftop Networking",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-10T19:21:27.021Z",
+    "first_alerted_at": "2026-10-10T19:21:30.094Z"
+  },
   "evt-1uW0mgiwYCimDsS": {
     "name": "E-Commerce over Breakfast #11 London",
     "host": "CommerceCircle",
@@ -600,6 +606,12 @@
     "host": "HeyGen Community Events",
     "first_seen_at": "2026-09-11T23:21:26.373Z",
     "first_alerted_at": "2026-09-11T23:21:27.869Z"
+  },
+  "evt-6UXr2nHrhLGgYso": {
+    "name": "Rooftop Startup Funding & Networking | Founders, VCs & Angel Investors",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-10T19:21:27.021Z",
+    "first_alerted_at": "2026-10-10T19:21:30.094Z"
   },
   "evt-6uZhzMQCrMDdfzU": {
     "name": "founder coworking + pizza night",
@@ -1577,6 +1589,12 @@
     "host": "L&D Shakers London",
     "first_seen_at": "2026-10-03T21:31:20.107Z",
     "first_alerted_at": "2026-10-03T21:31:21.889Z"
+  },
+  "evt-eqeoMPOoPozfr05": {
+    "name": "Asia Fusion: Tech, AI & Culture | Networx London x AspirASIAN (Dataiku)",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-10T19:21:27.021Z",
+    "first_alerted_at": "2026-10-10T19:21:30.094Z"
   },
   "evt-eqhLLmBg2QmIzEF": {
     "name": "Community Tooling Hack Day #2",
@@ -3102,6 +3120,12 @@
     "name": "RUN HACK Warm-up x London Startup Operators Runclub🚀👟",
     "first_seen_at": "2026-08-22T14:55:49.931Z",
     "first_alerted_at": "2026-08-22T14:55:51.333Z"
+  },
+  "evt-nIxCjiDA2teSEeN": {
+    "name": "Rooftop Night for Founders, Finance, Tech & Business Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-10T19:21:27.021Z",
+    "first_alerted_at": "2026-10-10T19:21:30.094Z"
   },
   "evt-NJF4X2gjVKXB9x6": {
     "name": "London Summer Party",
@@ -5045,6 +5069,12 @@
     "name": "Cursor Conversations London | Maximising ROI on Intelligence",
     "first_seen_at": "2026-08-27T04:11:49.452Z",
     "first_alerted_at": "2026-08-27T04:11:50.614Z"
+  },
+  "evt-zqAHmwcW2yZfoPz": {
+    "name": "The Agentic Web Explained",
+    "host": "AI for the rest of us",
+    "first_seen_at": "2026-10-10T19:21:27.021Z",
+    "first_alerted_at": "2026-10-10T19:21:30.094Z"
   },
   "evt-zqZB94vtMkBNoFJ": {
     "name": "Did AI Break Recruitment?",
