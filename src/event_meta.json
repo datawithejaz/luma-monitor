@@ -1430,6 +1430,12 @@
     "first_seen_at": "2026-09-30T19:29:04.062Z",
     "first_alerted_at": "2026-09-30T19:29:05.715Z"
   },
+  "evt-djtd2V6vPmE4Vxd": {
+    "name": "Innovation and the Future of Fashion Design",
+    "host": "Maison/0",
+    "first_seen_at": "2026-10-11T22:34:29.979Z",
+    "first_alerted_at": "2026-10-11T22:34:33.214Z"
+  },
   "evt-dkabqlAiJXtcblt": {
     "name": "Lychee's Startup Games Night",
     "first_seen_at": "2026-08-21T11:35:18.746Z",
@@ -1551,6 +1557,12 @@
     "host": "Tech is... Creating Conversations",
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
+  "evt-EJtCJAdujcChXXp": {
+    "name": "Creativity, AI and Digital Craftsmanship",
+    "host": "Maison/0",
+    "first_seen_at": "2026-10-11T22:34:29.979Z",
+    "first_alerted_at": "2026-10-11T22:34:33.214Z"
   },
   "evt-eJyaCxWUly1ffNk": {
     "name": "AI for Biotech Roundtables",
