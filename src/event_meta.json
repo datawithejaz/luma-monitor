@@ -4866,6 +4866,12 @@
     "first_seen_at": "2026-08-06T11:53:07.249Z",
     "first_alerted_at": "2026-08-06T11:53:08.981Z"
   },
+  "evt-yHOxGjFn2XTvokn": {
+    "name": "ICPC Training Session #6",
+    "host": "JetBrains UK",
+    "first_seen_at": "2026-10-11T14:10:41.325Z",
+    "first_alerted_at": "2026-10-11T14:10:42.726Z"
+  },
   "evt-yKirdEMQumV8Ba1": {
     "name": "AI & Willing Servitude - Andreas Mogensen (Oxford University) + Q&A + Networking",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
