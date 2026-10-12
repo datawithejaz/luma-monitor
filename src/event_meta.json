@@ -322,6 +322,12 @@
     "first_seen_at": "2026-09-10T13:46:50.606Z",
     "first_alerted_at": "2026-09-10T13:46:51.977Z"
   },
+  "evt-3Q3C5hmM7G3MWCA": {
+    "name": "Encode Coffee Club: Grand Opening",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
   "evt-3QOP6a9waKCe4Xs": {
     "name": "Building Your Team’s AI Tool Stack: What to Use, When and Why",
     "host": "IDEALondon",
@@ -1729,6 +1735,12 @@
     "first_seen_at": "2026-07-31T03:55:16.297Z",
     "first_alerted_at": "2026-07-31T03:55:18.099Z"
   },
+  "evt-Fia5HPhS9WfnNrK": {
+    "name": "Is Your Dream VC Into You? (Metal x Corgi)",
+    "host": "Metal",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
   "evt-fIfw0qrE6gAXMci": {
     "name": "Workshops for the Planet @ ReLondon Circular Economy Week",
     "host": "Workshops for the Planet",
@@ -1836,6 +1848,12 @@
     "name": "London Startups Operator RunClub & Social",
     "first_seen_at": "2026-07-18T15:05:59.864Z",
     "first_alerted_at": "2026-07-18T15:06:01.802Z"
+  },
+  "evt-FVz1QmxB15CoWRj": {
+    "name": "Touch Grass with JetBrains",
+    "host": "JetBrains UK",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
   },
   "evt-fYNAXfCBLj6ymvS": {
     "name": "LIaiSE Community social",
@@ -4189,6 +4207,12 @@
     "first_seen_at": "2026-10-09T19:47:53.595Z",
     "first_alerted_at": "2026-10-09T19:47:56.547Z"
   },
+  "evt-TUxxE7ly6L6PFI9": {
+    "name": "Effective Giving in UK Politics",
+    "host": "London Effective Giving Community",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
   "evt-TvVukFlc8ZXL9Zk": {
     "name": "Can AI Be Truly Creative?: An Oxford-style debate",
     "host": "The Founder-writer Collective",
@@ -4305,6 +4329,18 @@
     "first_seen_at": "2026-07-31T11:39:46.758Z",
     "first_alerted_at": "2026-07-31T11:39:50.366Z"
   },
+  "evt-UQRzyP8rXyBWQGw": {
+    "name": "WTM pre-opening dinner by Revolut Business",
+    "host": "Revolut Business",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
+  "evt-ur8jzGFKzmFCdAs": {
+    "name": "Foundertown Presents: The New Economy | Angels Dinner",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
   "evt-Uv7Te4pSYm4Xrca": {
     "name": "Women in Applied AI Breakfast, London",
     "host": "Encode: AI for Science Fellowship - Pillar VC x ARIA",
@@ -4332,6 +4368,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-10T19:48:35.863Z",
     "first_alerted_at": "2026-09-10T19:48:37.851Z"
+  },
+  "evt-UXjprxcuTOUHq9o": {
+    "name": "Cut-Through: Getting Things in Front of Busy People",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
   },
   "evt-Uyvg6H6qZ48FU0Y": {
     "name": "Build for Breakpoint Opening Mixer at Somerset House - Featuring Colosseum Winners",
@@ -4524,6 +4566,12 @@
     "name": "Indispensable Room: Founders Meet Up",
     "first_seen_at": "2026-07-25T19:48:33.996Z",
     "first_alerted_at": "2026-07-25T19:48:35.843Z"
+  },
+  "evt-WbeXAW3juWpV0si": {
+    "name": "From Founder-Led to Founder-Scaled",
+    "host": "Attio",
+    "first_seen_at": "2026-10-12T17:45:00.626Z",
+    "first_alerted_at": "2026-10-12T17:45:01.704Z"
   },
   "evt-WdoJtojy1nfzSSm": {
     "name": "Newspeak House Constitutional Convention (Day 2 of 2)",
