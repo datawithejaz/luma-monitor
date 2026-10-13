@@ -1012,6 +1012,12 @@
     "first_seen_at": "2026-09-09T05:08:33.577Z",
     "first_alerted_at": "2026-09-09T05:08:34.766Z"
   },
+  "evt-AY4iBZRUwX57CRn": {
+    "name": "PaperJam Game Jam: Don't Look Up",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-10-13T23:02:19.707Z",
+    "first_alerted_at": "2026-10-13T23:02:20.928Z"
+  },
   "evt-AynC3D5C5k1sXcr": {
     "name": "Startup founders breakfast w/ Merge & Corgi",
     "host": "Merge Events",
@@ -4160,6 +4166,12 @@
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:24.703Z"
   },
+  "evt-TgHPexIRELx5Uxp": {
+    "name": "Beyond Borders: London to Tokyo - SusHi Tech London",
+    "host": "Access to Tokyo - London Desk",
+    "first_seen_at": "2026-10-13T23:02:19.707Z",
+    "first_alerted_at": "2026-10-13T23:02:20.928Z"
+  },
   "evt-THq5B7G4nwTTSMj": {
     "name": "Exploring Opportunities in... Sustainability (Nature & Land)",
     "host": "London Venture Club",
@@ -5046,6 +5058,12 @@
     "host": "London TCK Home Meetups",
     "first_seen_at": "2026-10-02T16:43:18.365Z",
     "first_alerted_at": "2026-10-02T16:43:19.714Z"
+  },
+  "evt-Yz7RR89Zlv56tya": {
+    "name": "Agentic AI in Financial Services and Insurance: Pilot to Production",
+    "host": "Future Forward",
+    "first_seen_at": "2026-10-13T23:02:19.707Z",
+    "first_alerted_at": "2026-10-13T23:02:20.928Z"
   },
   "evt-z1e53yih2KSomqu": {
     "name": "WITSEND 10 YEAR AGM",
