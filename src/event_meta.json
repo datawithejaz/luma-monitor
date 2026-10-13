@@ -654,6 +654,12 @@
     "first_seen_at": "2026-09-18T17:13:46.194Z",
     "first_alerted_at": "2026-09-18T17:13:47.530Z"
   },
+  "evt-7gpck7tG3DMXaOR": {
+    "name": "SoTA Scientific Parallelism Hackathon | With Callosum, Inherent, ARIA + Fractile",
+    "host": "Personal",
+    "first_seen_at": "2026-10-13T11:28:22.210Z",
+    "first_alerted_at": "2026-10-13T11:28:23.334Z"
+  },
   "evt-7hgyrV13KH4jDjQ": {
     "name": "Corworking with Zapier and Corgi ⚡️🥐",
     "first_seen_at": "2026-09-02T23:16:07.469Z",
@@ -1399,6 +1405,12 @@
     "name": "Builders Club #06",
     "host": "Light",
     "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
+  "evt-DCOtsGeaGd1rLkH": {
+    "name": "Unregulated, Partnered or Direct? Fintech Founder Roundtable with Antler, HSBC Innovation Bank & Cooley",
+    "host": "Personal",
+    "first_seen_at": "2026-10-13T11:28:22.210Z",
+    "first_alerted_at": "2026-10-13T11:28:23.334Z"
   },
   "evt-DcQvtpqEpOanPq8": {
     "name": "The AI Workforce Summit @ Google",
