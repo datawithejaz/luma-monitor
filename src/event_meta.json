@@ -150,6 +150,12 @@
     "first_seen_at": "2026-10-01T02:08:56.213Z",
     "first_alerted_at": "2026-10-01T02:08:57.280Z"
   },
+  "evt-1LG5wMObbb4rll5": {
+    "name": "Search Party - Build Night",
+    "host": "The No Agenda Club",
+    "first_seen_at": "2026-10-13T18:28:43.922Z",
+    "first_alerted_at": "2026-10-13T18:28:46.174Z"
+  },
   "evt-1OBcPHFt8LZFVHE": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "host": "The Run Down: Operators Runclub",
@@ -1396,6 +1402,12 @@
     "first_seen_at": "2026-09-29T14:00:20.022Z",
     "first_alerted_at": "2026-09-29T14:00:22.629Z"
   },
+  "evt-D1cfKWeFROrQ3xq": {
+    "name": "Decode & Detect: The XRPL AI Hack",
+    "host": "Personal",
+    "first_seen_at": "2026-10-13T18:28:43.922Z",
+    "first_alerted_at": "2026-10-13T18:28:46.174Z"
+  },
   "evt-d2Px9611wLen7wH": {
     "name": "Founders Rooftop Party",
     "first_seen_at": "2026-07-11T19:45:30.564Z",
@@ -2373,6 +2385,12 @@
     "first_seen_at": "2026-10-04T18:51:38.286Z",
     "first_alerted_at": "2026-10-04T18:51:39.407Z"
   },
+  "evt-ikTqcdFJnaAMoFq": {
+    "name": "Newspeak House: State of the House Address & Christmas Party",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-10-13T18:28:43.922Z",
+    "first_alerted_at": "2026-10-13T18:28:46.174Z"
+  },
   "evt-ILvGNzahJaMEerY": {
     "name": "Building with Managed Agents & the Gemini Interactions API",
     "first_seen_at": "2026-09-01T12:06:55.138Z",
@@ -2504,6 +2522,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-JFEfpR5A39XK3AW": {
+    "name": "Build-A-Claw: London",
+    "host": "NVIDIA",
+    "first_seen_at": "2026-10-13T18:28:43.922Z",
+    "first_alerted_at": "2026-10-13T18:28:46.174Z"
   },
   "evt-jFvQe50i8ZB8LDh": {
     "name": "TouchDesigner Meetup - Talks, Open Visuals & Live Electronic Sets",
@@ -3333,6 +3357,11 @@
     "name": "How to create 2D characters with voice in ElevenLabs",
     "first_seen_at": "2026-08-19T11:36:29.079Z",
     "first_alerted_at": "2026-08-19T11:36:30.572Z"
+  },
+  "evt-OIu2aJQY4MslyVu": {
+    "name": "Pitch Room: Women's Entrepreneurship Day",
+    "host": "TechAlliance",
+    "first_seen_at": "2026-10-13T18:28:43.922Z"
   },
   "evt-oJ9YktHRuxWRlRn": {
     "name": "House of Sol Workshops: Cryptoeconomics and Governance: SRI x Jito",
@@ -5209,6 +5238,12 @@
     "host": "The Startup Stroll",
     "first_seen_at": "2026-09-19T14:43:59.582Z",
     "first_alerted_at": "2026-09-19T14:44:00.793Z"
+  },
+  "evt-zyPDNLKMFdvZciM": {
+    "name": "Every Batman Needs an AI Agent | w/ Notion",
+    "host": "Vibe Coding Collective",
+    "first_seen_at": "2026-10-13T18:28:43.922Z",
+    "first_alerted_at": "2026-10-13T18:28:46.174Z"
   },
   "evt-zYrvR0hdFt8t75l": {
     "name": "The state of harness engineering",
