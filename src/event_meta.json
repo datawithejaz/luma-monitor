@@ -1397,6 +1397,11 @@
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
   },
+  "evt-CvJ2xlXhoRfd4x0": {
+    "name": "Fem Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-10-14T20:55:37.609Z"
+  },
   "evt-CyEdAOwOZhxMN3O": {
     "name": "Pr1me [London Series] - Exclusive Dinner for Web3 Finance",
     "host": "Personal",
@@ -1494,6 +1499,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-DkSfmPhxBwt3aqU": {
+    "name": "Ripple x Lovable: Build for a Stranger",
+    "host": "Ripple Social Club",
+    "first_seen_at": "2026-10-14T20:55:37.609Z",
+    "first_alerted_at": "2026-10-14T20:55:41.126Z"
   },
   "evt-dLMc7t9qT8mquv3": {
     "name": "DINNER03: DEEP TECH WEEK LONDON 26",
@@ -2659,6 +2670,12 @@
     "first_seen_at": "2026-09-13T14:21:24.776Z",
     "first_alerted_at": "2026-09-13T14:21:26.245Z"
   },
+  "evt-K2SxYOTU9yH7cOo": {
+    "name": "Transition Talks: Making the move into AI Safety, with Rebecca Martin",
+    "host": "London Interface for AI Safety",
+    "first_seen_at": "2026-10-14T20:55:37.609Z",
+    "first_alerted_at": "2026-10-14T20:55:41.126Z"
+  },
   "evt-k5MGG2aJ5iuIy1t": {
     "name": "House of Sol Workshop: Why Tokenized RWAs Are Superior: SRI x ioBuilders",
     "host": "House of Sol",
@@ -2891,6 +2908,11 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-LKtvnIHiV6SXgYU": {
+    "name": "Rare Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-10-14T20:55:37.609Z"
+  },
   "evt-lkuxrz8CMaJdksF": {
     "name": "Arc Community Co-working",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3008,6 +3030,12 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-M8VuD1ompC66Iqy": {
+    "name": "Move & Mend - Yoga & Sound Bath with Jason DaPonte and Cheryl Ndione",
+    "host": "Entrepreneurs Wellbeing Club (EWC)",
+    "first_seen_at": "2026-10-14T20:55:37.609Z",
+    "first_alerted_at": "2026-10-14T20:55:41.126Z"
   },
   "evt-maadASzTw2SlGKG": {
     "name": "From Lab to Lasting: Building Life Science and Biotech Companies That Endure",
@@ -3694,6 +3722,12 @@
     "first_seen_at": "2026-09-11T18:39:51.119Z",
     "first_alerted_at": "2026-09-11T18:39:52.441Z"
   },
+  "evt-qK6iXK0Mf0BMjsA": {
+    "name": "The Tech Spill @CORGI",
+    "host": "Personal",
+    "first_seen_at": "2026-10-14T20:55:37.609Z",
+    "first_alerted_at": "2026-10-14T20:55:41.126Z"
+  },
   "evt-QkDDeq0tjx0lxJs": {
     "name": "YC Pitch Roast Show",
     "host": "Personal",
@@ -3889,6 +3923,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-rte80HI231J85hH": {
+    "name": "AI in Action | powered by Microsoft and Bytes",
+    "host": "Backbone",
+    "first_seen_at": "2026-10-14T20:55:37.609Z",
+    "first_alerted_at": "2026-10-14T20:55:41.126Z"
   },
   "evt-RU9nlt8VC53fFfD": {
     "name": "funded founders coworking + pizza night (ft AI Agents workshop)",
@@ -4565,6 +4605,11 @@
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:21.512Z"
   },
+  "evt-Vun9D6qhjFoPWH3": {
+    "name": "Move & Mend - Yoga & Sound Bath with Jason DaPonte and Cheryl Ndione",
+    "host": "Entrepreneurs Wellbeing Club (EWC)",
+    "first_seen_at": "2026-10-14T20:55:37.609Z"
+  },
   "evt-vuuEqX78luNSx5a": {
     "name": "Roundtable on what AI actually costs to run",
     "host": "Techspace",
@@ -4763,6 +4808,12 @@
     "name": "Quantum In Pubs - QUIPs",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-WWc3JAVNxIjx64Y": {
+    "name": "Founder and Engineer Matching",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-10-14T20:55:37.609Z",
+    "first_alerted_at": "2026-10-14T20:55:41.126Z"
   },
   "evt-WxC3Blwl7QLAaeH": {
     "name": "BrainFest",
