@@ -1199,6 +1199,12 @@
     "first_seen_at": "2026-08-14T17:28:51.292Z",
     "first_alerted_at": "2026-08-14T17:28:53.019Z"
   },
+  "evt-bScaY0gEiPsl49n": {
+    "name": "EF saturday_club",
+    "host": "Entrepreneurs First",
+    "first_seen_at": "2026-10-14T17:30:10.986Z",
+    "first_alerted_at": "2026-10-14T17:30:14.204Z"
+  },
   "evt-BTdEsu3sQQhHe5U": {
     "name": "Scaleup Europe Fund and EIC Fund Investor Opportunities",
     "host": "Sifted Summit",
