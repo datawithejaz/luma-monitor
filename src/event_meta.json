@@ -2270,6 +2270,12 @@
     "first_seen_at": "2026-09-17T00:57:49.909Z",
     "first_alerted_at": "2026-09-17T00:57:50.887Z"
   },
+  "evt-HyJbkZge25gU484": {
+    "name": "London Data & AI Product Management meetup #25",
+    "host": "London Data & AI Product Management meetup",
+    "first_seen_at": "2026-10-14T12:29:04.439Z",
+    "first_alerted_at": "2026-10-14T12:29:05.739Z"
+  },
   "evt-hYNNgeDpEjhEidn": {
     "name": "London Software Guild #3",
     "host": "London Software Guild",
@@ -3771,6 +3777,12 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-R1T3FoigSaT4BA6": {
+    "name": "Omarchy London Meetup 002",
+    "host": "Personal",
+    "first_seen_at": "2026-10-14T12:29:04.439Z",
+    "first_alerted_at": "2026-10-14T12:29:05.739Z"
+  },
   "evt-RaGAmUhYOxTCqGZ": {
     "name": "Founder Cowork Club [UNFACILITATED]",
     "host": "Founder Cowork Club",
@@ -4059,6 +4071,12 @@
     "host": "JAIKU",
     "first_seen_at": "2026-09-13T17:29:29.828Z",
     "first_alerted_at": "2026-09-13T17:29:30.896Z"
+  },
+  "evt-sVtmmAiopPEL6ft": {
+    "name": "Institute for Humane Robotics: How robots earn trust before they reach the public",
+    "host": "Personal",
+    "first_seen_at": "2026-10-14T12:29:04.439Z",
+    "first_alerted_at": "2026-10-14T12:29:05.739Z"
   },
   "evt-sw9mrAEqJopzXHc": {
     "name": "Exploring Opportunities in... Geopolitics and Fintech",
@@ -4399,6 +4417,12 @@
     "host": "PLUGGED",
     "first_seen_at": "2026-10-12T17:45:00.626Z",
     "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
+  "evt-urk1GlIgWMgWyrc": {
+    "name": "AI Pilled [Beginner] #01",
+    "host": "AI Pilled",
+    "first_seen_at": "2026-10-14T12:29:04.439Z",
+    "first_alerted_at": "2026-10-14T12:29:05.739Z"
   },
   "evt-Uv7Te4pSYm4Xrca": {
     "name": "Women in Applied AI Breakfast, London",
@@ -5195,6 +5219,11 @@
     "host": "House of Sol",
     "first_seen_at": "2026-10-07T12:00:56.239Z",
     "first_alerted_at": "2026-10-07T12:01:00.964Z"
+  },
+  "evt-zoVXICARIvIDTL2": {
+    "name": "Builders Club #07",
+    "host": "Light",
+    "first_seen_at": "2026-10-14T12:29:04.439Z"
   },
   "evt-ZoXjbNuMYGPSVI1": {
     "name": "Building a $1bn Revenue Engine",
