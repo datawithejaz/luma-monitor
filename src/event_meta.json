@@ -1,4 +1,10 @@
 {
+  "evt-002h4RDHfEYLEvM": {
+    "name": "Company Brain Buildathon",
+    "host": "Personal",
+    "first_seen_at": "2026-10-15T12:01:51.914Z",
+    "first_alerted_at": "2026-10-15T12:01:54.380Z"
+  },
   "evt-05nIw4pUa7qR5Ho": {
     "name": "Build for Breakpoint: Legal Prep for Founders with Gunnercooke",
     "host": "Superteam",
@@ -9,6 +15,12 @@
     "name": "Making smarter angel investments. From Silicon Valley to UK.",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
     "first_alerted_at": "2026-07-20T18:22:25.993Z"
+  },
+  "evt-07s155D0ddvuCGp": {
+    "name": "London Systems (November meetup)",
+    "host": "London Systems",
+    "first_seen_at": "2026-10-15T12:01:51.914Z",
+    "first_alerted_at": "2026-10-15T12:01:54.380Z"
   },
   "evt-0aDyEbFVGPnQ9JN": {
     "name": "Women of Customer Success London x Synthesia: Build Your Own Path: learning agility, career curiosity, and what comes next",
@@ -861,6 +873,11 @@
     "host": "UCL CSRI",
     "first_seen_at": "2026-09-28T21:49:55.876Z",
     "first_alerted_at": "2026-09-28T21:49:57.957Z"
+  },
+  "evt-aARz7whVUTvDzNS": {
+    "name": "WORKSHOP: GB Battery Market Outlook",
+    "host": "Modo Energy",
+    "first_seen_at": "2026-10-15T12:01:51.914Z"
   },
   "evt-AbPDoiXIqUIJjEP": {
     "name": "London Healthtech Roundtable 2026",
@@ -1754,6 +1771,12 @@
     "first_seen_at": "2026-10-09T19:47:53.595Z",
     "first_alerted_at": "2026-10-09T19:47:56.547Z"
   },
+  "evt-FBlJYXlYsga9AlB": {
+    "name": "Education & AI Connect: Build Your Own Voice AI Multilingual Student Recruitment Advisor",
+    "host": "Education & AI Connect (by EduSolv AI)",
+    "first_seen_at": "2026-10-15T12:01:51.914Z",
+    "first_alerted_at": "2026-10-15T12:01:54.380Z"
+  },
   "evt-FC3VCOC8EcMLCjC": {
     "name": "The Agent Economy Buildathon | $20k in bounties",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -2369,6 +2392,12 @@
     "host": "Sentio",
     "first_seen_at": "2026-09-22T05:28:38.449Z",
     "first_alerted_at": "2026-09-22T05:28:41.709Z"
+  },
+  "evt-iCWZTsgSUNFAzUD": {
+    "name": "WORKSHOP: GB Battery Market Outlook",
+    "host": "Modo Energy",
+    "first_seen_at": "2026-10-15T12:01:51.914Z",
+    "first_alerted_at": "2026-10-15T12:01:54.380Z"
   },
   "evt-iECz5OdwKEudAL0": {
     "name": "Reshaping Real Estate Portfolios: The Rise of Energy, Data Centres & New Assets - Roundtable",
@@ -3688,6 +3717,11 @@
     "first_seen_at": "2026-08-21T10:01:32.985Z",
     "first_alerted_at": "2026-08-21T10:01:35.893Z"
   },
+  "evt-Q5cPEKGh0R2ZXjp": {
+    "name": "WORKSHOP: GB Battery Market Outlook",
+    "host": "Modo Energy",
+    "first_seen_at": "2026-10-15T12:01:51.914Z"
+  },
   "evt-q9S0aZS815bq5y1": {
     "name": "Cafe Compute Meetup: London",
     "host": "Cerebras",
@@ -3873,6 +3907,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-21T18:22:04.997Z",
     "first_alerted_at": "2026-09-21T18:22:06.368Z"
+  },
+  "evt-rGSrSLJBalCKKi5": {
+    "name": "Scaling Startups with Gemini 4 Argon",
+    "host": "London AI Hub",
+    "first_seen_at": "2026-10-15T12:01:51.914Z",
+    "first_alerted_at": "2026-10-15T12:01:54.380Z"
   },
   "evt-RJaE6sweDogCS3o": {
     "name": "Shaping Tomorrow’s Portfolio: AI, Efficiency, and Sustainable Performance - Roundtable",
