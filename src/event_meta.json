@@ -207,6 +207,12 @@
     "first_seen_at": "2026-09-13T17:29:29.828Z",
     "first_alerted_at": "2026-09-13T17:29:30.896Z"
   },
+  "evt-296vMaEwHi6Ghxg": {
+    "name": "Tech Summit 2026",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-10-15T16:50:58.743Z",
+    "first_alerted_at": "2026-10-15T16:51:00.798Z"
+  },
   "evt-298UICmngbSOVHg": {
     "name": "Open Code #22",
     "first_seen_at": "2026-09-03T18:39:12.018Z",
@@ -489,6 +495,11 @@
     "name": "Hackathon: Empathetic Agents",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
+  },
+  "evt-58xcQe2Em0yNYrH": {
+    "name": "Startups, Entrepreneurship & Innovation Networking for Founders & Pro",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-15T16:50:58.743Z"
   },
   "evt-5aWllfrfqmWqW57": {
     "name": "Flight3 x Superteam UK: Content Engine - Winning the Week",
@@ -1123,6 +1134,12 @@
     "first_seen_at": "2026-07-23T09:37:50.100Z",
     "first_alerted_at": "2026-07-23T09:37:52.060Z"
   },
+  "evt-BDCYFgK46agFxI1": {
+    "name": "The Legendary Startup Christmas Party!",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-10-15T16:50:58.743Z",
+    "first_alerted_at": "2026-10-15T16:51:00.798Z"
+  },
   "evt-BDO4jzop2NG3YXg": {
     "name": "Newspeak House Fellows' Dinner 2026",
     "host": "Newspeak House",
@@ -1250,6 +1267,11 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-BwSHsPPPw0vddaN": {
+    "name": "Biotech, Pharma & Life Sciences Networking London | Founders & Investors",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-15T16:50:58.743Z"
   },
   "evt-bxBX8xW7MwLLvMR": {
     "name": "Founder x Investor: Fundraising for Physical Startups",
@@ -3313,6 +3335,18 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:20.913Z"
   },
+  "evt-NmzCTgKLOwVw9DU": {
+    "name": "Breaking In",
+    "host": "Personal",
+    "first_seen_at": "2026-10-15T16:50:58.743Z",
+    "first_alerted_at": "2026-10-15T16:51:00.798Z"
+  },
+  "evt-NNQQ31fsUlNJdKR": {
+    "name": "KICK OFF: Growth Games 2 | Q4 Revenue Sprint [Members Only]",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-10-15T16:50:58.743Z",
+    "first_alerted_at": "2026-10-15T16:51:00.798Z"
+  },
   "evt-NnXrCJZX5qbyzjT": {
     "name": "five degrees: Founder Showcase | London",
     "host": "five degrees",
@@ -3575,6 +3609,11 @@
     "name": "London Startup Operator RunClub & Social",
     "first_seen_at": "2026-08-19T10:46:03.392Z",
     "first_alerted_at": "2026-08-19T10:46:05.299Z"
+  },
+  "evt-oyVlrJnYgHt47EC": {
+    "name": "Sports, Fitness & Wellness: Founders, Investment & Innovation | London",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-15T16:50:58.743Z"
   },
   "evt-oYx98GtUSDnYYXd": {
     "name": "2026 MassChallenge UK Demo Day",
@@ -4175,6 +4214,12 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:52.159Z"
+  },
+  "evt-sXAHR6cps5SztEA": {
+    "name": "Frontier Tech Across Borders: Closed-Door London Final Pitch",
+    "host": "Sclr labs",
+    "first_seen_at": "2026-10-15T16:50:58.743Z",
+    "first_alerted_at": "2026-10-15T16:51:00.798Z"
   },
   "evt-SxMlFjNFiDFqJjC": {
     "name": "GetFutureReady FinTech 5K Run",
