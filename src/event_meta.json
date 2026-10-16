@@ -79,6 +79,12 @@
     "first_seen_at": "2026-09-16T17:04:28.437Z",
     "first_alerted_at": "2026-09-16T17:04:30.178Z"
   },
+  "evt-0W3gbyu6sTg9g4W": {
+    "name": "TS26 x Whimsi x Lovable: Haunted Hack",
+    "host": "Lovable London Community",
+    "first_seen_at": "2026-10-16T21:36:23.907Z",
+    "first_alerted_at": "2026-10-16T21:36:25.202Z"
+  },
   "evt-0ywLkJjLsjAkLOz": {
     "name": "Fundraising in a world of artificial intelligence",
     "host": "Scribe",
@@ -4078,6 +4084,12 @@
     "host": "Encode Club",
     "first_seen_at": "2026-10-01T20:34:57.340Z",
     "first_alerted_at": "2026-10-01T20:34:58.509Z"
+  },
+  "evt-rWKcLr25iPUrAAf": {
+    "name": "AI Movie Club x The Terminator (1984)",
+    "host": "II Calendar",
+    "first_seen_at": "2026-10-16T21:36:23.907Z",
+    "first_alerted_at": "2026-10-16T21:36:25.202Z"
   },
   "evt-rwPZdTpHlnISAec": {
     "name": "House of Sol Workshops: The Yield Ceiling: Why Onchain Vaults Need Real World Assets: SRI x R3",
