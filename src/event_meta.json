@@ -380,6 +380,12 @@
     "first_seen_at": "2026-09-08T22:35:42.913Z",
     "first_alerted_at": "2026-09-08T22:35:44.445Z"
   },
+  "evt-402Om3YzDjVSjDm": {
+    "name": "WORKSHOP: German Battery Market Outlook (London)",
+    "host": "Modo Energy",
+    "first_seen_at": "2026-10-16T18:29:29.560Z",
+    "first_alerted_at": "2026-10-16T18:29:31.116Z"
+  },
   "evt-45M0t6qDtxPBX8L": {
     "name": "House of Sol Workshops: The Operator Question: How Validator Choice Shapes Staking Outcomes: SRI x Figment",
     "host": "House of Sol",
@@ -1958,6 +1964,12 @@
     "first_seen_at": "2026-10-12T17:45:00.626Z",
     "first_alerted_at": "2026-10-12T17:45:01.704Z"
   },
+  "evt-FX5EYRYtB7O18Cr": {
+    "name": "Python 0-1, Week 5: Data Analysis & Visualisation",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-10-16T18:29:29.560Z",
+    "first_alerted_at": "2026-10-16T18:29:31.116Z"
+  },
   "evt-fYNAXfCBLj6ymvS": {
     "name": "LIaiSE Community social",
     "host": "London Interface for AI Safety",
@@ -2061,6 +2073,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-23T12:20:42.005Z",
     "first_alerted_at": "2026-09-23T12:20:43.914Z"
+  },
+  "evt-gM4JTfPDodQuom3": {
+    "name": "Python 0-1, Week 4: File Handling & Intro to Data Wrangling",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-10-16T18:29:29.560Z",
+    "first_alerted_at": "2026-10-16T18:29:31.116Z"
   },
   "evt-GNdKD4j2OBu5apL": {
     "name": "the tech bros x tramlines: co-working morning",
@@ -3675,6 +3693,12 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-p6TmzT9HhWLNeAJ": {
+    "name": "HACKCEPTION: A hack within a hack 🌀",
+    "host": "Lovable London Community",
+    "first_seen_at": "2026-10-16T18:29:29.560Z",
+    "first_alerted_at": "2026-10-16T18:29:31.116Z"
   },
   "evt-P9bk9MwVIo7cCcy": {
     "name": "Introduction to Alma & the Venture World: A workshop exclusive to RBC Brewin Dolphin & Smart Works",
