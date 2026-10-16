@@ -4588,6 +4588,12 @@
     "first_seen_at": "2026-08-18T15:49:41.686Z",
     "first_alerted_at": "2026-08-18T15:49:42.963Z"
   },
+  "evt-uLBzOkmNEIxxrID": {
+    "name": "SG London - AI Demo Night 2026",
+    "host": "Startup Grind London",
+    "first_seen_at": "2026-10-16T23:52:30.486Z",
+    "first_alerted_at": "2026-10-16T23:52:35.089Z"
+  },
   "evt-UM4hkiapUIxiPGG": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
