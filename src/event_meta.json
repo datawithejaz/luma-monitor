@@ -2569,6 +2569,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-IZ4poWDojeop5KA": {
+    "name": "Startup Grind London Founder Dinner",
+    "host": "Startup Grind London",
+    "first_seen_at": "2026-10-17T01:40:58.395Z",
+    "first_alerted_at": "2026-10-17T01:41:01.533Z"
+  },
   "evt-j3pBXMWm96Lc3XK": {
     "name": "Open House at VentureSpace",
     "host": "CityVentures",
