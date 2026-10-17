@@ -3344,6 +3344,12 @@
     "host": "AFOCAL INERTIA",
     "first_seen_at": "2026-10-05T00:45:19.261Z"
   },
+  "evt-NHlHfxTCnNjAwJN": {
+    "name": "The Chelsea Longevity and Wellness Showcase",
+    "host": "Chelsea Collective",
+    "first_seen_at": "2026-10-17T13:59:10.912Z",
+    "first_alerted_at": "2026-10-17T13:59:12.273Z"
+  },
   "evt-nHnKA8AUHXc8dvU": {
     "name": "Three Bets on the Same Future",
     "host": "Wilbe",
@@ -4005,6 +4011,12 @@
     "name": "Google DeepMind x Corgi: London Builder Evening",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-REcCfMyZH21PQov": {
+    "name": "Mayfair Business and Funding - Mayfair Mercato",
+    "host": "Chelsea Collective",
+    "first_seen_at": "2026-10-17T13:59:10.912Z",
+    "first_alerted_at": "2026-10-17T13:59:12.273Z"
   },
   "evt-rgLRwvc9vdRfmrW": {
     "name": "Moonfire • Build Night Hackathon",
