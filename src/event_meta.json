@@ -683,6 +683,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-7Ei3mxMg4ybu72D": {
+    "name": "No Agenda Breakfast: ThatRound",
+    "host": "The Entrepreneurs Network",
+    "first_seen_at": "2026-10-18T05:47:57.094Z",
+    "first_alerted_at": "2026-10-18T05:47:58.916Z"
+  },
   "evt-7ERVmkbPf38jiu4": {
     "name": "Scaling AI Enterprise Revenue",
     "host": "Reasoning Project",
@@ -1815,6 +1821,12 @@
     "host": "Personal",
     "first_seen_at": "2026-10-09T19:47:53.595Z",
     "first_alerted_at": "2026-10-09T19:47:56.547Z"
+  },
+  "evt-F5OPsNM3PUdC2xY": {
+    "name": "The Rise of Solopreneurship: AI, Work and the Future of Self-Employment",
+    "host": "The Entrepreneurs Network",
+    "first_seen_at": "2026-10-18T05:47:57.094Z",
+    "first_alerted_at": "2026-10-18T05:47:58.916Z"
   },
   "evt-FBlJYXlYsga9AlB": {
     "name": "Education & AI Connect: Build Your Own Voice AI Multilingual Student Recruitment Advisor",
