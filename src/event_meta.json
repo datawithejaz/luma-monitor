@@ -2535,6 +2535,12 @@
     "first_seen_at": "2026-09-01T12:06:55.138Z",
     "first_alerted_at": "2026-09-01T12:06:57.248Z"
   },
+  "evt-iLWvjPX0qNGtzXH": {
+    "name": "AI Pilled [Builder] #05 & Festive Mixer",
+    "host": "AI Pilled",
+    "first_seen_at": "2026-10-18T17:00:05.055Z",
+    "first_alerted_at": "2026-10-18T17:00:06.965Z"
+  },
   "evt-IMabqLxo7E5nCgn": {
     "name": "Build. Pitch. Fund. - Startup Funding Event - London",
     "first_seen_at": "2026-08-26T11:02:28.068Z",
