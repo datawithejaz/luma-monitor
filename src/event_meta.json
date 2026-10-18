@@ -63,6 +63,12 @@
     "first_seen_at": "2026-08-09T21:54:12.845Z",
     "first_alerted_at": "2026-08-09T21:54:15.177Z"
   },
+  "evt-0pjZCb6fITa6cF9": {
+    "name": "Noetic X Nebius One Day Hackathon",
+    "host": "Noetic",
+    "first_seen_at": "2026-10-18T21:37:33.437Z",
+    "first_alerted_at": "2026-10-18T21:37:37.102Z"
+  },
   "evt-0S449Vcf4WeTegv": {
     "name": "Consumer Health, Longevity & the New Care Economy",
     "first_seen_at": "2026-08-06T11:53:07.249Z",
@@ -72,6 +78,12 @@
     "name": "Frideside Chat w/ Siadhal Magos - Metaview Founder & Summer Drinks by Glassray",
     "first_seen_at": "2026-07-14T16:04:40.852Z",
     "first_alerted_at": "2026-07-14T16:04:42.189Z"
+  },
+  "evt-0VEC7sAVmoUSCgH": {
+    "name": "MUG London October 2026: Building a Cloud-Native Data Stack with MongoDB",
+    "host": "MUG London - MongoDB User Group",
+    "first_seen_at": "2026-10-18T21:37:33.437Z",
+    "first_alerted_at": "2026-10-18T21:37:37.102Z"
   },
   "evt-0vKqofRk2DxoO2b": {
     "name": "Consumer Startup Breakfast 🥐🫖",
