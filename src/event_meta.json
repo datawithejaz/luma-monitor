@@ -420,6 +420,12 @@
     "first_seen_at": "2026-09-03T18:39:12.018Z",
     "first_alerted_at": "2026-09-03T18:39:13.755Z"
   },
+  "evt-4aiOw6Z3mhRyKaQ": {
+    "name": "LLM London Social Meetup October: The Flying Horse Pub near Liverpool Street",
+    "host": "LLM London",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
+  },
   "evt-4bNrnZHcsokiIz5": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -1418,6 +1424,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-cKrLsCOy4HDL2dX": {
+    "name": "Halloween At Imperial: Gemini Edition",
+    "host": "UK AI Agents Lab",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
+  },
   "evt-clyhSgSo7RIMvBe": {
     "name": "If Your AI Were Conscious, How Would You Know? (Megan Peters) + Q&A + Networking",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
@@ -1764,6 +1776,12 @@
     "first_seen_at": "2026-10-05T21:50:28.936Z",
     "first_alerted_at": "2026-10-05T21:50:30.876Z"
   },
+  "evt-euUItKVI5WHemaf": {
+    "name": "Morning Masterclass | Before You Sign - What every founder should know about investment terms and negotiation",
+    "host": "The Dura Society 2026",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
+  },
   "evt-Ev6e9D4oZDY2OcJ": {
     "name": "Media, Entertainment & Digital Technology Networking",
     "host": "Networx London - Connect & Grow",
@@ -1821,6 +1839,12 @@
     "host": "Founder Nation",
     "first_seen_at": "2026-09-28T07:43:50.727Z",
     "first_alerted_at": "2026-09-28T07:43:52.370Z"
+  },
+  "evt-f3AM4rKFUFI4cYi": {
+    "name": "Light x GoGlobal Brunch: from next entity to group close",
+    "host": "Light",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
   },
   "evt-f485JH5xleQhSFi": {
     "name": "Sifted x N47 Dinner",
@@ -3551,6 +3575,12 @@
     "first_seen_at": "2026-10-07T18:45:31.263Z",
     "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
+  "evt-O64FefYsTpDq0Ra": {
+    "name": "Mastering the move from Sales Leader to CRO",
+    "host": "3Search London",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
+  },
   "evt-oa56F3eiC54iuwO": {
     "name": "Elyos Dinner Club: Lifting the lid on AI Agents for field services",
     "host": "Elyos AI: Events",
@@ -4323,6 +4353,12 @@
     "name": "Back to School LLM London Social Meetup: The Flying Horse Pub near Liverpool Street",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-SlW4fdsOlzNfeMR": {
+    "name": "Lessons in Fundraising, Scaling and Mental Toughness w/ Quinten Selhorst (Partner @EWOR, Co-Founder @Felyx ($80M raised + exited))",
+    "host": "EWOR",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
   },
   "evt-Smlm1GwHOeLnLyI": {
     "name": "UK AI Agent lab: Gemini Edition",
@@ -5099,6 +5135,12 @@
     "first_seen_at": "2026-10-02T16:43:18.365Z",
     "first_alerted_at": "2026-10-02T16:43:19.714Z"
   },
+  "evt-x4ACIdAEdwp4in2": {
+    "name": "Internet Icons: Jeffrey Veen",
+    "host": "Granola",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
+  },
   "evt-x4NyMvQPG9vheCC": {
     "name": "From Trust to Practice: AI and the Clinician Experience",
     "host": "BehSci Meets AI",
@@ -5186,6 +5228,12 @@
     "name": "Grok Bot Meetup London",
     "first_seen_at": "2026-09-01T12:06:55.138Z",
     "first_alerted_at": "2026-09-01T12:06:57.248Z"
+  },
+  "evt-xONUzZnfuw4V88J": {
+    "name": "Blue Lake VC 2026. Our Very First AGM Meeting (London)",
+    "host": "Personal",
+    "first_seen_at": "2026-10-19T19:51:34.445Z",
+    "first_alerted_at": "2026-10-19T19:51:35.610Z"
   },
   "evt-XOq1iwhxvl5YFQ6": {
     "name": "TRD: London Startups Operator RunClub & Social",
