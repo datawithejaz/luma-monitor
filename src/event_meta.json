@@ -910,6 +910,12 @@
     "first_seen_at": "2026-10-06T15:27:41.847Z",
     "first_alerted_at": "2026-10-06T15:27:43.001Z"
   },
+  "evt-A5Hth6nHkYLqSPQ": {
+    "name": "Solana Demo Day | London 2026",
+    "host": "Solana Foundation",
+    "first_seen_at": "2026-10-19T23:10:52.594Z",
+    "first_alerted_at": "2026-10-19T23:10:53.713Z"
+  },
   "evt-a8Bo5simZ7YFAvH": {
     "name": "London Effective Giving Community: Monthly Social",
     "host": "London Effective Giving Community",
@@ -1864,6 +1870,12 @@
     "first_seen_at": "2026-10-18T05:47:57.094Z",
     "first_alerted_at": "2026-10-18T05:47:58.916Z"
   },
+  "evt-F7kq43hyz18xQG0": {
+    "name": "BORN UP — DAS London Community Networking Meetup",
+    "host": "BORN.LIVE | Global Conferences, Side Events & Networking",
+    "first_seen_at": "2026-10-19T23:10:52.594Z",
+    "first_alerted_at": "2026-10-19T23:10:53.713Z"
+  },
   "evt-FBlJYXlYsga9AlB": {
     "name": "Education & AI Connect: Build Your Own Voice AI Multilingual Student Recruitment Advisor",
     "host": "Education & AI Connect (by EduSolv AI)",
@@ -1886,6 +1898,12 @@
     "host": "Novabook",
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
+  "evt-FewFgNmBHHgTX2Q": {
+    "name": "Java Workshops Week 4: Loops and Repetition",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-10-19T23:10:52.594Z",
+    "first_alerted_at": "2026-10-19T23:10:53.713Z"
   },
   "evt-fF9bmvrKf8hLaj2": {
     "name": "YAAD Clubhouse: Work, Create, Lounge + Waistbeads Workshop (Black History Month)",
@@ -2243,6 +2261,12 @@
     "name": "Weekly football 7-aside by Granola!",
     "host": "Granola",
     "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
+  "evt-h19ad1esOXdSh03": {
+    "name": "Dinner → AI in Pharma (London)",
+    "host": "Visium",
+    "first_seen_at": "2026-10-19T23:10:52.594Z",
+    "first_alerted_at": "2026-10-19T23:10:53.713Z"
   },
   "evt-H33DALV51mC8uED": {
     "name": "Voice AI in HealthTech: The Future of Ambient Intelligence",
@@ -3496,6 +3520,12 @@
     "first_seen_at": "2026-09-17T19:04:22.531Z",
     "first_alerted_at": "2026-09-17T19:04:24.505Z"
   },
+  "evt-no4dPWhKPtAMNU0": {
+    "name": "The LOCAL W.M.C - Breakpoint/DAS Edition",
+    "host": "LO:TECH Events",
+    "first_seen_at": "2026-10-19T23:10:52.594Z",
+    "first_alerted_at": "2026-10-19T23:10:53.713Z"
+  },
   "evt-nPYSkdfB0Cm4sJK": {
     "name": "The Real Truth About... Collectibles",
     "host": "London Venture Club",
@@ -4381,6 +4411,12 @@
     "name": "Rare Grind",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
     "first_alerted_at": "2026-08-14T02:43:26.589Z"
+  },
+  "evt-STPAw8AWtq0inqc": {
+    "name": "Could AI Characters Have Minds? – Winnie Street (Google)",
+    "host": "Sentio",
+    "first_seen_at": "2026-10-19T23:10:52.594Z",
+    "first_alerted_at": "2026-10-19T23:10:53.713Z"
   },
   "evt-sU16Ux5U816pfDf": {
     "name": "Shaping the Future of AI with Microsoft",
