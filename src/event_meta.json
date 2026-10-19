@@ -2513,6 +2513,12 @@
     "first_seen_at": "2026-08-04T12:04:14.153Z",
     "first_alerted_at": "2026-08-04T12:04:15.537Z"
   },
+  "evt-IFd623iLTBiHD0C": {
+    "name": "Female Founder Breakfast [FFR]",
+    "host": "Female Founders Rise Events",
+    "first_seen_at": "2026-10-19T14:05:43.306Z",
+    "first_alerted_at": "2026-10-19T14:05:45.098Z"
+  },
   "evt-iG7DhDFMaCi4NRw": {
     "name": "Build vs. Buy: Systematising Efficiency in an AI-Ready Tech Stack - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -3127,6 +3133,12 @@
     "first_seen_at": "2026-09-10T04:59:11.790Z",
     "first_alerted_at": "2026-09-10T04:59:13.280Z"
   },
+  "evt-LXxGAF1c9CAZqvN": {
+    "name": "Energybackers Founder–Investor Reception, London: Save the Date",
+    "host": "Energybackers",
+    "first_seen_at": "2026-10-19T14:05:43.306Z",
+    "first_alerted_at": "2026-10-19T14:05:45.098Z"
+  },
   "evt-Lz8QAHSYXq63l5A": {
     "name": "The Founder Speed Date: powered by BuildHer Labs × Lovable × FounderMatcha × Corgi",
     "host": "BuildHer Labs",
@@ -3527,6 +3539,12 @@
     "first_seen_at": "2026-10-06T15:27:41.847Z",
     "first_alerted_at": "2026-10-06T15:27:43.001Z"
   },
+  "evt-o4E18zGlIsTNc8x": {
+    "name": "Frontier Founders Fika | October",
+    "host": "Lightbringer UK",
+    "first_seen_at": "2026-10-19T14:05:43.306Z",
+    "first_alerted_at": "2026-10-19T14:05:45.098Z"
+  },
   "evt-O5YGFVb288yBtk2": {
     "name": "Microsoft x LSEG - London Hackathon",
     "host": "Personal",
@@ -3853,6 +3871,12 @@
     "host": "Colorintech Events",
     "first_seen_at": "2026-09-10T23:52:26.898Z",
     "first_alerted_at": "2026-09-10T23:52:30.151Z"
+  },
+  "evt-PWu0Wy64LSTIOcj": {
+    "name": "AIDevCamp 2026 Agentic Hackathon | GDG London",
+    "host": "GDG London",
+    "first_seen_at": "2026-10-19T14:05:43.306Z",
+    "first_alerted_at": "2026-10-19T14:05:45.098Z"
   },
   "evt-pZ37TFbb7VBvrSj": {
     "name": "Weekly football 7-aside by Granola!",
