@@ -501,6 +501,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-yQRC7YwpEmCUqGF",
+      "slug": "linear",
+      "name": "Linear Events",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-IxvyTlAxcCwdUtZ",
       "slug": "livingroomlabs",
       "name": "Living Room Labs",

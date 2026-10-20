@@ -219,6 +219,12 @@
     "first_seen_at": "2026-10-01T15:46:34.341Z",
     "first_alerted_at": "2026-10-01T15:46:35.352Z"
   },
+  "evt-21rwNf4HJFTAUyw": {
+    "name": "Media, Entertainment & Digital Technology Networking",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
+  },
   "evt-26MBSA966gVsaBB": {
     "name": "Tano x Corgi Creator Heist Hack",
     "host": "Tano",
@@ -833,6 +839,12 @@
     "first_seen_at": "2026-10-07T18:45:31.263Z",
     "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
+  "evt-8yMPiBZCv2i0QWI": {
+    "name": "London E-commerce & Consumer Brands Networking | Founders & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
+  },
   "evt-93BA9oIKRdCOBoG": {
     "name": "eve eves | LDN",
     "host": "Vercel Events",
@@ -1425,6 +1437,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-cGdNIW8ll8WHNkK": {
+    "name": "Entrepreneurs’ Dinner with Lord Stockwood",
+    "host": "The Entrepreneurs Network",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
   },
   "evt-CGQFbJaOFXXsovg": {
     "name": "Launch Event: Fashion Tech, AI & Luxury",
@@ -3401,6 +3419,12 @@
     "first_seen_at": "2026-07-30T16:54:48.415Z",
     "first_alerted_at": "2026-07-30T16:54:49.943Z"
   },
+  "evt-mxibLEeDYjWCy6X": {
+    "name": "What to Build, What to Trust: Shipping in the Age of AI",
+    "host": "Personal",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
+  },
   "evt-MYvHZUlVVLrhryh": {
     "name": "Winning the war on talent in the AI era",
     "host": "Sifted Summit",
@@ -3442,6 +3466,12 @@
     "first_seen_at": "2026-07-08T20:02:58.613Z",
     "first_alerted_at": "2026-07-08T20:02:59.564Z"
   },
+  "evt-n9uTCh4IQ9sHTPr": {
+    "name": "London Creative Networking Event – Designers, Founders & Startups",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
+  },
   "evt-NboIm6mRMncKUo6": {
     "name": "Made in the UK: Corin Mellor",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -3474,6 +3504,12 @@
     "name": "GATHERING01: DEEP TECH WEEK LONDON 26",
     "host": "AFOCAL INERTIA",
     "first_seen_at": "2026-10-05T00:45:19.261Z"
+  },
+  "evt-nh1LBHr9b6rRBse": {
+    "name": "Linear’s London Launch",
+    "host": "Linear Events",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
   },
   "evt-NHlHfxTCnNjAwJN": {
     "name": "The Chelsea Longevity and Wellness Showcase",
@@ -4448,6 +4484,12 @@
     "first_seen_at": "2026-08-12T18:31:19.453Z",
     "first_alerted_at": "2026-08-12T18:31:20.897Z"
   },
+  "evt-sOBYLVHBRlLkDrg": {
+    "name": "Building AI-Native: A Dinner for Digital-Native Leaders",
+    "host": "SpaceX Super Intelligence",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
+  },
   "evt-Som3hML2sfbwc5R": {
     "name": "EAT_HACK - the world's first AI & eating hackathon",
     "host": "Really Good Culture",
@@ -4915,6 +4957,12 @@
     "host": "Encode Club",
     "first_seen_at": "2026-09-07T09:41:45.629Z",
     "first_alerted_at": "2026-09-07T09:41:46.997Z"
+  },
+  "evt-vGmsaDOpdhzqNNi": {
+    "name": "shipped #2 - London's FDE Meetup",
+    "host": "shipped - London's FDE MeetUp",
+    "first_seen_at": "2026-10-20T12:17:03.284Z",
+    "first_alerted_at": "2026-10-20T12:17:06.594Z"
   },
   "evt-VHERFeCxwq9prXc": {
     "name": "Rebuild Private Markets: The Ylookup x Encode AI Hackathon",
