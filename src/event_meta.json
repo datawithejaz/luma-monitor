@@ -2148,6 +2148,12 @@
     "first_seen_at": "2026-09-28T07:43:50.727Z",
     "first_alerted_at": "2026-09-28T07:43:52.370Z"
   },
+  "evt-garGjZIU2Zoxcjf": {
+    "name": "From Campus to City: AI in Action",
+    "host": "ShallWe Tech Community",
+    "first_seen_at": "2026-10-20T17:16:46.185Z",
+    "first_alerted_at": "2026-10-20T17:16:47.695Z"
+  },
   "evt-GbnQSfMVia90oPx": {
     "name": "Codex Community Meetup - London",
     "host": "London AI",
@@ -2519,6 +2525,12 @@
     "host": "Nourishment Events Calendar",
     "first_seen_at": "2026-10-09T14:41:45.997Z",
     "first_alerted_at": "2026-10-09T14:41:47.796Z"
+  },
+  "evt-i9HMsdHwXp5ERfz": {
+    "name": "Attio x Point Nine Builders Café | London",
+    "host": "Personal",
+    "first_seen_at": "2026-10-20T17:16:46.185Z",
+    "first_alerted_at": "2026-10-20T17:16:47.695Z"
   },
   "evt-iaaEH1PvoS1vEEz": {
     "name": "The Road to Growth | Lessons from Giant Ventures, Atomico & OMERS",
@@ -4569,6 +4581,12 @@
     "host": "Vibe Coding Collective",
     "first_seen_at": "2026-09-08T20:05:05.811Z",
     "first_alerted_at": "2026-09-08T20:05:07.646Z"
+  },
+  "evt-T6VuRMFFJSP2FTF": {
+    "name": "Giving After the AI Windfall: How Should Your Donations Change?",
+    "host": "London Effective Giving Community",
+    "first_seen_at": "2026-10-20T17:16:46.185Z",
+    "first_alerted_at": "2026-10-20T17:16:47.695Z"
   },
   "evt-t90eLlxPaTK1V0F": {
     "name": "Open Code #21",
