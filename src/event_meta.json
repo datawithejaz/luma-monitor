@@ -3473,6 +3473,12 @@
     "first_seen_at": "2026-07-31T03:55:16.297Z",
     "first_alerted_at": "2026-07-31T03:55:18.099Z"
   },
+  "evt-n8rfH1sQszA61Gm": {
+    "name": "Beyond Borders with Rippling, Corgi and Frontline Ventures",
+    "host": "Personal",
+    "first_seen_at": "2026-10-20T23:25:40.118Z",
+    "first_alerted_at": "2026-10-20T23:25:41.782Z"
+  },
   "evt-N8RnLh3QCSc9eyP": {
     "name": "Summer Drinks: an evening with founders, investors and friends of Seapoint",
     "first_seen_at": "2026-07-08T20:02:58.613Z",
@@ -4576,6 +4582,12 @@
     "first_seen_at": "2026-08-04T23:35:25.257Z",
     "first_alerted_at": "2026-08-04T23:35:27.940Z"
   },
+  "evt-t5LqDdDXEdDBFk3": {
+    "name": "FINTECH Circle CEO Dinner",
+    "host": "FINTECH Circle",
+    "first_seen_at": "2026-10-20T23:25:40.118Z",
+    "first_alerted_at": "2026-10-20T23:25:41.782Z"
+  },
   "evt-t5TnXS9wDgAnIZV": {
     "name": "What can AI automate? | Breakfast AI Club w/ Vonage",
     "host": "Vibe Coding Collective",
@@ -5554,6 +5566,12 @@
     "host": "Encode Club",
     "first_seen_at": "2026-10-07T05:37:55.238Z",
     "first_alerted_at": "2026-10-07T05:37:58.505Z"
+  },
+  "evt-yoDJ1aGkkRMy8Ti": {
+    "name": "Mind won't switch off? A practical session to help you settle a busy mind",
+    "host": "Simone Anzböck - Workshops",
+    "first_seen_at": "2026-10-20T23:25:40.118Z",
+    "first_alerted_at": "2026-10-20T23:25:41.782Z"
   },
   "evt-Yp2hI7B58RACUM5": {
     "name": "Entrepreneurs Who Shaped London",
