@@ -410,6 +410,12 @@
     "first_seen_at": "2026-10-09T19:47:53.595Z",
     "first_alerted_at": "2026-10-09T19:47:56.547Z"
   },
+  "evt-461QGC3FVhObGdJ": {
+    "name": "Building the Next AI-Powered BeSci Unicorn",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
+  },
   "evt-48oBtd0YxyPkOOq": {
     "name": "Cursor Cybersecurity London Hackathon",
     "first_seen_at": "2026-07-19T23:11:30.580Z",
@@ -1528,6 +1534,12 @@
     "first_seen_at": "2026-10-17T10:45:30.039Z",
     "first_alerted_at": "2026-10-17T10:45:31.558Z"
   },
+  "evt-d3NXZnB0XOZbFf7": {
+    "name": "Founders Toolkit: Everything You Didn't Know You Need to Know",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
+  },
   "evt-DChfzcho6HREyMh": {
     "name": "Builders Club #06",
     "host": "Light",
@@ -1726,6 +1738,12 @@
     "host": "London Longevity",
     "first_seen_at": "2026-09-26T06:41:57.977Z",
     "first_alerted_at": "2026-09-26T06:41:59.392Z"
+  },
+  "evt-eKBE5KH3SyNP1GE": {
+    "name": "Beyond ChatGPT & Copilot: How Small Businesses Win with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
   },
   "evt-EKJ7Wr0LPbO7E9D": {
     "name": "Founders & AI: What to Buy, What to Build, What to Ignore",
@@ -2830,6 +2848,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-jw6WiutE9UqjLva": {
+    "name": "Beyond Excel & Copilot: How Accountants Win with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
+  },
   "evt-jx0BJH9nvmIMBjD": {
     "name": "Games Night Social 🎲",
     "host": "Personal",
@@ -2846,6 +2870,11 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-JYq5JRcbvojZHdc": {
+    "name": "Beyond Harvey & Legora: How to Win with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z"
   },
   "evt-jyTRrvcgbIM3n5U": {
     "name": "ICPC Training Session #4",
@@ -3581,6 +3610,12 @@
     "host": "GetFutureReady Community",
     "first_seen_at": "2026-09-08T13:34:30.167Z"
   },
+  "evt-O3HxZcDgHEkwyHF": {
+    "name": "Startup Inside: Building Like a Founder at a Big Company",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
+  },
   "evt-o3lmOpphMFhMzT2": {
     "name": "💙 She Leads Tech Build - In Person: Build Your First AI-Powered React App",
     "host": "She Leads Tech | by Unlock Her Tech",
@@ -3932,6 +3967,12 @@
     "first_seen_at": "2026-09-10T23:52:26.898Z",
     "first_alerted_at": "2026-09-10T23:52:30.151Z"
   },
+  "evt-Pu0xIMyxnGt10dp": {
+    "name": "Beyond Lemonade & Tractable: How Insurers Win with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
+  },
   "evt-PWu0Wy64LSTIOcj": {
     "name": "AIDevCamp 2026 Agentic Hackathon | GDG London",
     "host": "GDG London",
@@ -3992,6 +4033,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:05.844Z"
+  },
+  "evt-qGesMPWMSweZbVs": {
+    "name": "Beyond Cision & ChatGPT: How PR Wins with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:51.608Z"
   },
   "evt-QHgMlQLJYpDA5PD": {
     "name": "Building AI - Founders 002 - Founder Dinner",
@@ -4228,6 +4275,12 @@
     "name": "funded founders coworking + pizza night (ft AI Agents workshop)",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-RUC9HRBqMjME9HC": {
+    "name": "Wellness Hackathon: Build AI That Makes People Feel Better",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
   },
   "evt-rVStRVzrkq433AN": {
     "name": "Beyond Harvey & Legora: How to Win with AI",
@@ -4933,6 +4986,12 @@
     "name": "Move & Mend - Yoga & Sound Bath with Jason DaPonte and Cheryl Ndione",
     "host": "Entrepreneurs Wellbeing Club (EWC)",
     "first_seen_at": "2026-10-14T20:55:37.609Z"
+  },
+  "evt-VUQpN8RPZ4dN7Zz": {
+    "name": "Consumer AI Hackathon: Ship an App People Love in a Day",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-20T01:49:48.958Z",
+    "first_alerted_at": "2026-10-20T01:49:50.856Z"
   },
   "evt-vuuEqX78luNSx5a": {
     "name": "Roundtable on what AI actually costs to run",
