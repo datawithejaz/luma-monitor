@@ -1223,6 +1223,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:17.743Z"
   },
+  "evt-BEGMsYdhNvDP1D6": {
+    "name": "Fireside Chat with Quinten Selhorst (Partner @EWOR, Co-Founder & ex-CEO @felyx)",
+    "host": "EWOR",
+    "first_seen_at": "2026-10-21T12:24:52.547Z",
+    "first_alerted_at": "2026-10-21T12:24:55.687Z"
+  },
   "evt-BF9m98CBU55A1wx": {
     "name": "London Startups Operator RunClub & Social",
     "first_seen_at": "2026-07-18T16:07:12.554Z",
@@ -1344,6 +1350,11 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
+  },
+  "evt-BwOGHwdlzI57h3c": {
+    "name": "VentureSpace Induction",
+    "host": "CityVentures",
+    "first_seen_at": "2026-10-21T12:24:52.547Z"
   },
   "evt-BwSHsPPPw0vddaN": {
     "name": "Biotech, Pharma & Life Sciences Networking London | Founders & Investors",
@@ -1992,6 +2003,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-FjTTjXwkPicVjzs": {
+    "name": "Entr Tech Community Mixer",
+    "host": "Personal",
+    "first_seen_at": "2026-10-21T12:24:52.547Z",
+    "first_alerted_at": "2026-10-21T12:24:55.687Z"
+  },
   "evt-fJTY4CCxbUcRRr7": {
     "name": "Deep Tech London: Neurotech Showcase",
     "host": "Imperial College Neurotech Society",
@@ -2073,6 +2090,12 @@
     "host": "Techspace",
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:21.512Z"
+  },
+  "evt-fTlIU87yx8ygXrm": {
+    "name": "In person, founder pitch & feedback session",
+    "host": "SeedLegals Events Calendar",
+    "first_seen_at": "2026-10-21T12:24:52.547Z",
+    "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
   "evt-ftU8mTVuTsTdltF": {
     "name": "Zone 1: Inhabitation Modelmaking and Collage Workshop w Soumia Sadoun",
@@ -2726,6 +2749,12 @@
     "first_seen_at": "2026-10-07T18:45:31.263Z",
     "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
+  "evt-IVbcQcxnXvYyYRH": {
+    "name": "AI DevCon LDN",
+    "host": "AI Native Dev",
+    "first_seen_at": "2026-10-21T12:24:52.547Z",
+    "first_alerted_at": "2026-10-21T12:24:55.687Z"
+  },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -3047,6 +3076,12 @@
     "name": "Architect x Corgi Cafe - Sunday Designathon",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-kKjMOcz9P2sKD3M": {
+    "name": "DevDay Community Hackathon: London",
+    "host": "London AI",
+    "first_seen_at": "2026-10-21T12:24:52.547Z",
+    "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
   "evt-kloQ7IuDRXfsswj": {
     "name": "[London] AI After Hours - London Library",
@@ -4038,6 +4073,12 @@
     "host": "Colorintech Events",
     "first_seen_at": "2026-09-10T23:52:26.898Z",
     "first_alerted_at": "2026-09-10T23:52:30.151Z"
+  },
+  "evt-pRSFCgOqFinODQC": {
+    "name": "The Tech Spill @CORGI 2",
+    "host": "Personal",
+    "first_seen_at": "2026-10-21T12:24:52.547Z",
+    "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
   "evt-Pu0xIMyxnGt10dp": {
     "name": "Beyond Lemonade & Tractable: How Insurers Win with AI",
