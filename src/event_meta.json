@@ -690,6 +690,12 @@
     "first_seen_at": "2026-09-11T23:21:26.373Z",
     "first_alerted_at": "2026-09-11T23:21:27.869Z"
   },
+  "evt-6tmN87665vaD1pb": {
+    "name": "HACKATHON - Agent Eval Harness",
+    "host": "The Friendly Data Meetup London",
+    "first_seen_at": "2026-10-21T01:49:10.008Z",
+    "first_alerted_at": "2026-10-21T01:49:12.163Z"
+  },
   "evt-6UXr2nHrhLGgYso": {
     "name": "Rooftop Startup Funding & Networking | Founders, VCs & Angel Investors",
     "host": "Networx London - Connect & Grow",
@@ -3609,6 +3615,12 @@
     "first_seen_at": "2026-10-19T23:10:52.594Z",
     "first_alerted_at": "2026-10-19T23:10:53.713Z"
   },
+  "evt-npuskVBY8CAE8xL": {
+    "name": "Life After Layoffs: The Reality of Finding a Job in Tech Today",
+    "host": "Personal",
+    "first_seen_at": "2026-10-21T01:49:10.008Z",
+    "first_alerted_at": "2026-10-21T01:49:12.163Z"
+  },
   "evt-nPYSkdfB0Cm4sJK": {
     "name": "The Real Truth About... Collectibles",
     "host": "London Venture Club",
@@ -4371,6 +4383,12 @@
     "host": "{Tech: Europe}",
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
+  },
+  "evt-s1bhks86jeAn5Ou": {
+    "name": "Fireside: AI with Prod Data - Hype vs Reality",
+    "host": "The Friendly Data Meetup London",
+    "first_seen_at": "2026-10-21T01:49:10.008Z",
+    "first_alerted_at": "2026-10-21T01:49:12.163Z"
   },
   "evt-s2suRhWNibAOBi1": {
     "name": "Exclusive Winter Drinks",
