@@ -325,6 +325,12 @@
     "first_seen_at": "2026-07-28T20:05:48.516Z",
     "first_alerted_at": "2026-07-28T20:05:50.186Z"
   },
+  "evt-3e7V2gQzGJYT70i": {
+    "name": "F&B Founder Supper Club",
+    "host": "Singapore Global Network",
+    "first_seen_at": "2026-10-21T17:28:11.588Z",
+    "first_alerted_at": "2026-10-21T17:28:13.505Z"
+  },
   "evt-3fwvwD3pWX05U3v": {
     "name": "Design Engineering Night #10",
     "host": "Granola",
@@ -1535,6 +1541,12 @@
     "host": "Lifestack",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-Cv8S5Hd5loSjXHw": {
+    "name": "Pat's Prime Time Panel: An ask me anything with marketplace leaders",
+    "host": "3Search London",
+    "first_seen_at": "2026-10-21T17:28:11.588Z",
+    "first_alerted_at": "2026-10-21T17:28:13.505Z"
   },
   "evt-CvJ2xlXhoRfd4x0": {
     "name": "Fem Grind",
@@ -3153,6 +3165,12 @@
     "first_seen_at": "2026-09-11T11:48:08.355Z",
     "first_alerted_at": "2026-09-11T11:48:10.509Z"
   },
+  "evt-L2h0zKTsg1u8G4y": {
+    "name": "Digital Deliberative Spaces, Infrastructure, & Methods",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-10-21T17:28:11.588Z",
+    "first_alerted_at": "2026-10-21T17:28:13.505Z"
+  },
   "evt-l4Sjovwpo9T124i": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -3163,6 +3181,12 @@
     "host": "Sentio",
     "first_seen_at": "2026-10-05T21:50:28.936Z",
     "first_alerted_at": "2026-10-05T21:50:30.876Z"
+  },
+  "evt-L7AyDVDypKuBS95": {
+    "name": "Tech for Good Meetup",
+    "host": "Tech for Good Community",
+    "first_seen_at": "2026-10-21T17:28:11.588Z",
+    "first_alerted_at": "2026-10-21T17:28:13.505Z"
   },
   "evt-L7BSGdGOLud5FkA": {
     "name": "Build your UX Portfolio with Claude Code",
@@ -5737,6 +5761,12 @@
     "host": "Dust",
     "first_seen_at": "2026-09-15T18:56:18.694Z",
     "first_alerted_at": "2026-09-15T18:56:20.345Z"
+  },
+  "evt-zcJqllfEB5tMN8M": {
+    "name": "AI Salon: Decision-Making in the age of AI [London]",
+    "host": "Personal",
+    "first_seen_at": "2026-10-21T17:28:11.588Z",
+    "first_alerted_at": "2026-10-21T17:28:13.505Z"
   },
   "evt-zDs4mdQLLhDReFR": {
     "name": "London Systems Club",
