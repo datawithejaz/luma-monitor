@@ -146,6 +146,12 @@
     "first_seen_at": "2026-09-13T14:21:24.776Z",
     "first_alerted_at": "2026-09-13T14:21:26.245Z"
   },
+  "evt-1DbJ18nDUbIUtpY": {
+    "name": "growth 101: fix your GTM funnel with Plugged and Stripe London Community",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-10-22T17:50:33.417Z",
+    "first_alerted_at": "2026-10-22T17:50:37.468Z"
+  },
   "evt-1DneHw4hhZdYSRg": {
     "name": "Win Search Results in an AI-First World | A Masterclass",
     "host": "TechAlliance",
@@ -1110,6 +1116,12 @@
     "name": "Fin x Fyxer: Building AI Products that Scale",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-AuAnrW1WpSiuqkN": {
+    "name": "EF x Stripe: Off The Wall",
+    "host": "Entrepreneurs First",
+    "first_seen_at": "2026-10-22T17:50:33.417Z",
+    "first_alerted_at": "2026-10-22T17:50:37.468Z"
   },
   "evt-AULHfQaTiGytzUw": {
     "name": "MVP Bootcamp - Build 10x Faster with AI",
@@ -2241,6 +2253,12 @@
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
   },
+  "evt-GIediKXRa5hoD12": {
+    "name": "Bodies Before Badges //AdventureX 2026",
+    "host": "ASTERA Welldoing Wellbeing",
+    "first_seen_at": "2026-10-22T17:50:33.417Z",
+    "first_alerted_at": "2026-10-22T17:50:37.468Z"
+  },
   "evt-GKCYFTm7MSauz9P": {
     "name": "Scaling financial crime compliance without losing control",
     "host": "Sifted Summit",
@@ -3004,6 +3022,12 @@
     "name": "founder coworking + pizza night",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-k83NQJ5jjEJNkpn": {
+    "name": "Lenny’s Newsletter Meetup in Asheville (with free drinks courtesy of PostHog)",
+    "host": "Lenny's Newsletter Meetups",
+    "first_seen_at": "2026-10-22T17:50:33.417Z",
+    "first_alerted_at": "2026-10-22T17:50:37.468Z"
   },
   "evt-K8XM4WVcNx2fPyI": {
     "name": "Builders & Backers Run",
@@ -4941,6 +4965,12 @@
     "first_seen_at": "2026-10-06T15:27:41.847Z",
     "first_alerted_at": "2026-10-06T15:27:43.001Z"
   },
+  "evt-U9262kh3qAccTOE": {
+    "name": "AlgoRhythms",
+    "host": "London Live Coding?",
+    "first_seen_at": "2026-10-22T17:50:33.417Z",
+    "first_alerted_at": "2026-10-22T17:50:37.468Z"
+  },
   "evt-UAe1KjIWVcXJB7L": {
     "name": "Monad Blitz London Hackathon",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
@@ -5547,6 +5577,12 @@
     "host": "CPO Circles",
     "first_seen_at": "2026-09-05T13:01:56.119Z",
     "first_alerted_at": "2026-09-05T13:01:58.550Z"
+  },
+  "evt-xxL10zWNaCk8eok": {
+    "name": "What Makes a Startup Worth Buying? With Ramen Club & Stephen Wilks",
+    "host": "Novabook",
+    "first_seen_at": "2026-10-22T17:50:33.417Z",
+    "first_alerted_at": "2026-10-22T17:50:37.468Z"
   },
   "evt-XYakDbymezTd8qT": {
     "name": "Hot girls, Go Hiking | Hot Gal Hike Club x AI After 5",
