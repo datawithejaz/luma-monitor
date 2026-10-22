@@ -3591,6 +3591,12 @@
     "first_seen_at": "2026-10-20T12:17:03.284Z",
     "first_alerted_at": "2026-10-20T12:17:06.594Z"
   },
+  "evt-NbDc8WMozmjWPlx": {
+    "name": "London | Claude & Coffee Meetup",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-10-22T23:43:31.603Z",
+    "first_alerted_at": "2026-10-22T23:43:34.361Z"
+  },
   "evt-NboIm6mRMncKUo6": {
     "name": "Made in the UK: Corin Mellor",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
