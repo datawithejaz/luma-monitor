@@ -1307,6 +1307,12 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-bqNI6SHfBm3rCxZ": {
+    "name": "Build Your Client Portal with AI in an Evening",
+    "host": "Softr",
+    "first_seen_at": "2026-10-22T12:56:21.348Z",
+    "first_alerted_at": "2026-10-22T12:56:25.369Z"
+  },
   "evt-bqwM0BsMgNETulf": {
     "name": "Conversations in the AI era | Builder Community Meetup | London 💂",
     "host": "Twilio UK",
@@ -3731,10 +3737,22 @@
     "first_seen_at": "2026-07-24T21:44:16.952Z",
     "first_alerted_at": "2026-07-24T21:44:21.156Z"
   },
+  "evt-NVy8WyomAa91IaF": {
+    "name": "Build on Tangem: MCP Workshop & Build Night",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-22T12:56:21.348Z",
+    "first_alerted_at": "2026-10-22T12:56:25.369Z"
+  },
   "evt-nztwmY6cKhFx3T9": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-O2kKN0L6DF2klvK": {
+    "name": "Built in London with Google DeepMind",
+    "host": "Vercel Events",
+    "first_seen_at": "2026-10-22T12:56:21.348Z",
+    "first_alerted_at": "2026-10-22T12:56:25.369Z"
   },
   "evt-o2wr08EFiwMc2Op": {
     "name": "GetFutureReady FinTech 5K Run",
