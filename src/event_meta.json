@@ -1577,6 +1577,12 @@
     "host": "Rare Founders Calendar",
     "first_seen_at": "2026-10-14T20:55:37.609Z"
   },
+  "evt-cxZMPilqUJXcEmr": {
+    "name": "Dine with Fuel Ventures: from pre-seed to Series A",
+    "host": "TableCrowd - dinners for entrepreneurs and startups",
+    "first_seen_at": "2026-10-23T17:29:38.447Z",
+    "first_alerted_at": "2026-10-23T17:29:40.650Z"
+  },
   "evt-CyEdAOwOZhxMN3O": {
     "name": "Pr1me [London Series] - Exclusive Dinner for Web3 Finance",
     "host": "Personal",
@@ -2455,6 +2461,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-09-19T21:43:07.862Z",
     "first_alerted_at": "2026-09-19T21:43:09.734Z"
+  },
+  "evt-hj7ObeemnBUZFgQ": {
+    "name": "Unofficial Official After Party to Breakpoint 2026: The Great British Pub Crawl",
+    "host": "Superteam",
+    "first_seen_at": "2026-10-23T17:29:38.447Z",
+    "first_alerted_at": "2026-10-23T17:29:40.650Z"
   },
   "evt-hJA5juddp6mJOul": {
     "name": "Lychee's Startup Games Night",
