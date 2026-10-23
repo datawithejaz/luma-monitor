@@ -3507,6 +3507,12 @@
     "first_seen_at": "2026-09-06T20:47:48.906Z",
     "first_alerted_at": "2026-09-06T20:47:50.618Z"
   },
+  "evt-mo4Mj1riATgXMm8": {
+    "name": "Wellbeing Week: Who has your power? with Lynda Dennis (IRL)",
+    "host": "Entrepreneurs Wellbeing Club (EWC)",
+    "first_seen_at": "2026-10-23T20:37:07.594Z",
+    "first_alerted_at": "2026-10-23T20:37:09.168Z"
+  },
   "evt-moiNt78PYnCKane": {
     "name": "Notion Startup Meetup London",
     "host": "HYPE: IRL tech events",
@@ -4412,6 +4418,12 @@
     "first_seen_at": "2026-10-15T12:01:51.914Z",
     "first_alerted_at": "2026-10-15T12:01:54.380Z"
   },
+  "evt-rHkMm9gas8bahqZ": {
+    "name": "Wellbeing Week: The Time is Now with Dr Kenisha Jackson (IRL)",
+    "host": "Entrepreneurs Wellbeing Club (EWC)",
+    "first_seen_at": "2026-10-23T20:37:07.594Z",
+    "first_alerted_at": "2026-10-23T20:37:09.168Z"
+  },
   "evt-RJaE6sweDogCS3o": {
     "name": "Shaping Tomorrow’s Portfolio: AI, Efficiency, and Sustainable Performance - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -4584,6 +4596,12 @@
     "host": "London Data & AI Product Management meetup",
     "first_seen_at": "2026-09-07T00:10:35.196Z",
     "first_alerted_at": "2026-09-07T00:10:37.430Z"
+  },
+  "evt-sDE3SrjTQDouyOa": {
+    "name": "Wellbeing Week: The Founder Operating System with Priscilla Vivian (IRL)",
+    "host": "Entrepreneurs Wellbeing Club (EWC)",
+    "first_seen_at": "2026-10-23T20:37:07.594Z",
+    "first_alerted_at": "2026-10-23T20:37:09.168Z"
   },
   "evt-SEjYdEL5b3NSWko": {
     "name": "The AI Fluency Map: How Good Are You At AI?",
@@ -5136,6 +5154,12 @@
     "name": "Capital & Castling: Chess Night for the Startup Community",
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
+  },
+  "evt-veRsoodYDt2zGJr": {
+    "name": "Imperial BioHack x Anthropic",
+    "host": "Personal",
+    "first_seen_at": "2026-10-23T20:37:07.594Z",
+    "first_alerted_at": "2026-10-23T20:37:09.168Z"
   },
   "evt-vf8POtuaHETWMmi": {
     "name": "Creatives and Media Pitch Night | YAAD x Afribond",
