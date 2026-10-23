@@ -169,6 +169,12 @@
     "host": "Granola",
     "first_seen_at": "2026-09-15T15:05:45.764Z"
   },
+  "evt-1HKCXSHaJqGO3Bg": {
+    "name": "March Against AI Extinction",
+    "host": "PauseAI UK",
+    "first_seen_at": "2026-10-23T07:19:38.203Z",
+    "first_alerted_at": "2026-10-23T07:19:40.989Z"
+  },
   "evt-1ibYIBRYmqQiFSR": {
     "name": "Founders Meetup London - October 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
