@@ -4904,6 +4904,12 @@
     "first_seen_at": "2026-07-17T18:16:18.213Z",
     "first_alerted_at": "2026-07-17T18:16:19.761Z"
   },
+  "evt-TTXXKgRc8nLFP52": {
+    "name": "Norwich - Mercia Ventures NED Dinner",
+    "host": "Mercia Ventures: Curated peer dinners for chairs and NEDs",
+    "first_seen_at": "2026-10-23T02:01:07.803Z",
+    "first_alerted_at": "2026-10-23T02:01:10.424Z"
+  },
   "evt-TunPo94b3oLalDi": {
     "name": "London | Claude Meetup for non coder SMEs",
     "host": "Claude Community Events",
