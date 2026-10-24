@@ -2139,6 +2139,12 @@
     "first_seen_at": "2026-10-21T12:24:52.547Z",
     "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
+  "evt-FtpCWK6lV6oSziU": {
+    "name": "TCK Table: Latin American",
+    "host": "London TCK Home Meetups",
+    "first_seen_at": "2026-10-24T14:51:38.040Z",
+    "first_alerted_at": "2026-10-24T14:51:39.363Z"
+  },
   "evt-ftU8mTVuTsTdltF": {
     "name": "Zone 1: Inhabitation Modelmaking and Collage Workshop w Soumia Sadoun",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
@@ -3880,6 +3886,12 @@
     "name": "Understand the Chinese Frontier AI Models",
     "first_seen_at": "2026-08-06T01:01:40.707Z",
     "first_alerted_at": "2026-08-06T01:01:43.224Z"
+  },
+  "evt-odin6kW5OMybwlD": {
+    "name": "🎤 TCK Karaoke Night",
+    "host": "London TCK Home Meetups",
+    "first_seen_at": "2026-10-24T14:51:38.040Z",
+    "first_alerted_at": "2026-10-24T14:51:39.363Z"
   },
   "evt-oe9QIiPdEX8rFFK": {
     "name": "Bridging the Predictability Gap: Building the Optimal Developer's Plan of Work - Roundtable",
@@ -5893,6 +5905,12 @@
     "first_seen_at": "2026-10-09T01:26:22.383Z",
     "first_alerted_at": "2026-10-09T01:26:24.556Z"
   },
+  "evt-zfXiagoJlCBAYdi": {
+    "name": "Ikat Weaving Workshop with TCK Home",
+    "host": "London TCK Home Meetups",
+    "first_seen_at": "2026-10-24T14:51:38.040Z",
+    "first_alerted_at": "2026-10-24T14:51:39.363Z"
+  },
   "evt-zgnQtwzqGyv4sH6": {
     "name": "Ground Game 101: Cutting Through the Noise with IRL Events | Hearts, Minds & Market Share",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -6009,6 +6027,12 @@
     "name": "Staying Ahead of the Curve: Policy & Compliance in Audiovisual AI",
     "first_seen_at": "2026-09-01T12:06:55.138Z",
     "first_alerted_at": "2026-09-01T12:06:57.248Z"
+  },
+  "evt-Zwhp9EnqW75lKLJ": {
+    "name": "hardware builder coffee",
+    "host": "london calling",
+    "first_seen_at": "2026-10-24T14:51:38.040Z",
+    "first_alerted_at": "2026-10-24T14:51:39.363Z"
   },
   "evt-ZwVEGDGpZRtBOqB": {
     "name": "Can AI Be Conscious In Ohio? (Austin Smith/Heather Alexander) + Q&A + Networking",
