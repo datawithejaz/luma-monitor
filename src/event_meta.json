@@ -2049,6 +2049,12 @@
     "first_seen_at": "2026-07-31T03:55:16.297Z",
     "first_alerted_at": "2026-07-31T03:55:18.099Z"
   },
+  "evt-Fhp8UoAf4T7kEgc": {
+    "name": "Sports Meets Solana: The Future of Sports is On-chain ⚽",
+    "host": "Chiliz Community Meetup",
+    "first_seen_at": "2026-10-25T09:26:32.098Z",
+    "first_alerted_at": "2026-10-25T09:26:33.149Z"
+  },
   "evt-Fia5HPhS9WfnNrK": {
     "name": "Is Your Dream VC Into You? (Metal x Corgi)",
     "host": "Metal",
@@ -5241,6 +5247,12 @@
     "host": "SHIPYARD",
     "first_seen_at": "2026-10-01T15:46:34.341Z",
     "first_alerted_at": "2026-10-01T15:46:35.352Z"
+  },
+  "evt-V4GQ0ty1R0ME5hY": {
+    "name": "Peer Suite | Curated Women's Networking Morning",
+    "host": "Peer Suite",
+    "first_seen_at": "2026-10-25T09:26:32.098Z",
+    "first_alerted_at": "2026-10-25T09:26:33.149Z"
   },
   "evt-VaxGbawnuO23yJv": {
     "name": "Capital & Castling: Chess Night for the Startup Community",
