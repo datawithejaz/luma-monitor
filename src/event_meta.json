@@ -1566,6 +1566,12 @@
     "first_seen_at": "2026-09-29T19:14:49.607Z",
     "first_alerted_at": "2026-09-29T19:14:50.736Z"
   },
+  "evt-Cnr0g7gAzVKtYve": {
+    "name": "Sales & Business Development Networking | Deals, Growth & Partnerships",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-25T22:06:42.006Z",
+    "first_alerted_at": "2026-10-25T22:06:43.992Z"
+  },
   "evt-cqB2EmcF1o3HaRu": {
     "name": "Grishin Robotics Accelerator Cohort 4 Demo Day",
     "first_seen_at": "2026-08-26T16:16:05.960Z",
@@ -2631,6 +2637,12 @@
     "host": "Education & AI Connect (by EduSolv AI)",
     "first_seen_at": "2026-09-17T00:57:49.909Z",
     "first_alerted_at": "2026-09-17T00:57:50.887Z"
+  },
+  "evt-HvXNOBbaxgQPCgX": {
+    "name": "Founders & Entrepreneurs Networking | Startups & Business Owners",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-25T22:06:42.006Z",
+    "first_alerted_at": "2026-10-25T22:06:43.992Z"
   },
   "evt-HyJbkZge25gU484": {
     "name": "London Data & AI Product Management meetup #25",
@@ -4155,6 +4167,12 @@
     "first_seen_at": "2026-10-16T18:29:29.560Z",
     "first_alerted_at": "2026-10-16T18:29:31.116Z"
   },
+  "evt-P96VWgEQZDBgJDI": {
+    "name": "Agentic AI & Technology: Beyond Automation",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-10-25T22:06:42.006Z",
+    "first_alerted_at": "2026-10-25T22:06:43.992Z"
+  },
   "evt-P9bk9MwVIo7cCcy": {
     "name": "Introduction to Alma & the Venture World: A workshop exclusive to RBC Brewin Dolphin & Smart Works",
     "host": "Alma Angels",
@@ -4507,6 +4525,12 @@
     "name": "Founder Nation: Breakie @ The Savoy",
     "host": "Founder Nation",
     "first_seen_at": "2026-09-25T12:03:40.920Z"
+  },
+  "evt-rkuyQfsxF9qNXzj": {
+    "name": "An Evening with Gamma: A Celebration of Gamma 5",
+    "host": "Gamma",
+    "first_seen_at": "2026-10-25T22:06:42.006Z",
+    "first_alerted_at": "2026-10-25T22:06:43.992Z"
   },
   "evt-rlgege86MEjVOFe": {
     "name": "OpenAI Builder Lounge London",
