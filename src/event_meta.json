@@ -3298,6 +3298,12 @@
     "first_seen_at": "2026-10-21T17:28:11.588Z",
     "first_alerted_at": "2026-10-21T17:28:13.505Z"
   },
+  "evt-L3UbREJfqu71ElH": {
+    "name": "#3 Open London Quantum Computing: Quantum Communications, Noise & Machine Learning with Prof. Colbeck and Asst. Prof. Mitchison",
+    "host": "KCL Quantum Mechanics Society",
+    "first_seen_at": "2026-10-26T21:29:33.166Z",
+    "first_alerted_at": "2026-10-26T21:29:34.471Z"
+  },
   "evt-l4Sjovwpo9T124i": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -4474,6 +4480,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-10T04:59:11.790Z",
     "first_alerted_at": "2026-09-10T04:59:13.280Z"
+  },
+  "evt-rapM2fdZlPErBBU": {
+    "name": "Demos Anon #7",
+    "host": "Personal",
+    "first_seen_at": "2026-10-26T21:29:33.166Z",
+    "first_alerted_at": "2026-10-26T21:29:34.471Z"
   },
   "evt-RAQ6UM0nSZKKKXh": {
     "name": "Friction As Freedom: Why We Build Cyberdecks",
