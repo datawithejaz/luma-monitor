@@ -5289,6 +5289,12 @@
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
   },
+  "evt-VC4dbg81gVRmHEy": {
+    "name": "Crypto Coffee - CW3",
+    "host": "Christians in Web3",
+    "first_seen_at": "2026-10-26T04:52:33.150Z",
+    "first_alerted_at": "2026-10-26T04:52:34.915Z"
+  },
   "evt-veRsoodYDt2zGJr": {
     "name": "Imperial BioHack x Anthropic",
     "host": "Personal",
