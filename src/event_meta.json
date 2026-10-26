@@ -4048,6 +4048,12 @@
     "first_seen_at": "2026-09-25T12:03:40.920Z",
     "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
+  "evt-oO77SMFUsZL9vKf": {
+    "name": "FFR Christmas Social",
+    "host": "Female Founders Rise Events",
+    "first_seen_at": "2026-10-26T16:59:23.395Z",
+    "first_alerted_at": "2026-10-26T16:59:24.515Z"
+  },
   "evt-OOCAuwcjCMC4frM": {
     "name": "💻 Female Builders Co-Working Day: Open Work Session",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -5074,6 +5080,12 @@
     "host": "Claude Community Events",
     "first_seen_at": "2026-10-09T19:47:53.595Z",
     "first_alerted_at": "2026-10-09T19:47:56.547Z"
+  },
+  "evt-TuOfmV5Ee4Bu2WZ": {
+    "name": "Build your first AI sales workflow with Claude and Zapier",
+    "host": "Zapier Partner Events Calendar",
+    "first_seen_at": "2026-10-26T16:59:23.395Z",
+    "first_alerted_at": "2026-10-26T16:59:24.515Z"
   },
   "evt-TUxxE7ly6L6PFI9": {
     "name": "Effective Giving in UK Politics",
