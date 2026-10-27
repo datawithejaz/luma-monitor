@@ -1587,6 +1587,12 @@
     "host": "CityVentures",
     "first_seen_at": "2026-09-21T06:14:30.460Z"
   },
+  "evt-cTkhXkyvUmZ2YWG": {
+    "name": "Startup Stroll × design impact lab: The Design Stroll",
+    "host": "The Startup Stroll",
+    "first_seen_at": "2026-10-27T10:59:49.021Z",
+    "first_alerted_at": "2026-10-27T10:59:51.657Z"
+  },
   "evt-cUaD8QYgaJNqRGA": {
     "name": "London Fintech Breakfast",
     "first_seen_at": "2026-08-30T01:17:25.395Z",
@@ -2571,6 +2577,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-10-04T11:18:36.708Z",
     "first_alerted_at": "2026-10-04T11:18:38.566Z"
+  },
+  "evt-HPXCcivqWHLHl6F": {
+    "name": "AI Builders London - Jan 20",
+    "host": "AI Builders",
+    "first_seen_at": "2026-10-27T10:59:49.021Z",
+    "first_alerted_at": "2026-10-27T10:59:51.657Z"
   },
   "evt-HqPblS8TmVWFWZ8": {
     "name": "From Data to Decisions - Powering the Modern Real Estate Firm - Roundtable",
