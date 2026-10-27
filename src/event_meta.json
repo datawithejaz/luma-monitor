@@ -5763,6 +5763,12 @@
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-24T19:50:16.779Z"
   },
+  "evt-XmzWvTragEmeR2R": {
+    "name": "After Connect: Fintech Founders' Drinks",
+    "host": "ProtectifyAI",
+    "first_seen_at": "2026-10-27T00:43:36.943Z",
+    "first_alerted_at": "2026-10-27T00:43:38.465Z"
+  },
   "evt-xNyz8C4YRMozJrU": {
     "name": "The Fair Fight Coalition: Funding Female Founders",
     "host": "enki events",
