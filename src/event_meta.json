@@ -857,6 +857,12 @@
     "first_seen_at": "2026-09-24T19:59:42.900Z",
     "first_alerted_at": "2026-09-24T19:59:43.966Z"
   },
+  "evt-8IZZEa466kcNk9Q": {
+    "name": "Claude x Softr Build Sprint in London: Build Your Ops App in 60 Minutes",
+    "host": "Softr",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
+  },
   "evt-8NZOp42w426wU3B": {
     "name": "The Road Ahead: AI Web3, & Staking",
     "host": "XDC Network",
@@ -1061,6 +1067,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-AhFngO7K8h8d9zi": {
+    "name": "Builders Breakfast Hack - Replit x Corgi",
+    "host": "Replit",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
+  },
   "evt-AhH7eTRFMAhykIX": {
     "name": "Physical AI Builders Meet-up with AWS and NVIDIA",
     "host": "Personal",
@@ -1178,6 +1190,12 @@
     "name": "Battle of the Accelerators: YC vs Speedrun vs EF vs Techstars",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-B1d2RkTg3AyxAaW": {
+    "name": "Coffee Bench #01",
+    "host": "Events",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
   "evt-b38s68EyCLsg7lU": {
     "name": "Runway by Sifted - Summit",
@@ -1334,6 +1352,12 @@
     "name": "Battle Bots Hack Night & Watch Party",
     "first_seen_at": "2026-07-20T16:15:19.429Z",
     "first_alerted_at": "2026-07-20T16:15:22.962Z"
+  },
+  "evt-BLP4QN2rp1cfG0c": {
+    "name": "Java Workshops Week 5: Lists, Maps and Sets",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
   "evt-BQ3HYxDppFBQDPF": {
     "name": "Product Evenings LDN: Clarity Wins, Not the Model",
@@ -1621,6 +1645,12 @@
     "first_seen_at": "2026-10-23T17:29:38.447Z",
     "first_alerted_at": "2026-10-23T17:29:40.650Z"
   },
+  "evt-CyAjLRjbSYqD9SL": {
+    "name": "The World’s Largest Startup Christmas Jumper Party",
+    "host": "Jumpstart",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
+  },
   "evt-CyEdAOwOZhxMN3O": {
     "name": "Pr1me [London Series] - Exclusive Dinner for Web3 Finance",
     "host": "Personal",
@@ -1747,6 +1777,12 @@
     "name": "Tech Leaders London - September 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
+  },
+  "evt-DmGewH2DhbADYTJ": {
+    "name": "the incident social",
+    "host": "incident.io",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
   "evt-dMp9HB1yhkBgIa9": {
     "name": "Council Data Hack Day",
@@ -2274,6 +2310,12 @@
     "host": "European Defense Tech Hub",
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:24.703Z"
+  },
+  "evt-GaD6LscmFnmcHoM": {
+    "name": "Pitch Perfect at Corgi Cafe | Powered by Dream Brew",
+    "host": "HelpBnk",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
   "evt-gaGkAg8hrIgBGt7": {
     "name": "Grok Bot London Cowork",
@@ -3233,6 +3275,12 @@
     "host": "London AI",
     "first_seen_at": "2026-10-21T12:24:52.547Z",
     "first_alerted_at": "2026-10-21T12:24:55.687Z"
+  },
+  "evt-KLhFXvFVrmcKbhA": {
+    "name": "What's the point of RevOps?",
+    "host": "3Search London",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
   "evt-kloQ7IuDRXfsswj": {
     "name": "[London] AI After Hours - London Library",
@@ -5900,6 +5948,12 @@
     "host": "Modo Energy",
     "first_seen_at": "2026-10-05T14:55:53.526Z",
     "first_alerted_at": "2026-10-05T14:55:54.725Z"
+  },
+  "evt-YbExK9qndjM8AZW": {
+    "name": "Agents in Prod | London",
+    "host": "Agents in Prod",
+    "first_seen_at": "2026-10-27T16:18:04.194Z",
+    "first_alerted_at": "2026-10-27T16:18:08.640Z"
   },
   "evt-yBoZFDq2o7K2a2G": {
     "name": "Halloween Potluck",
