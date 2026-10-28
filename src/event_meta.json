@@ -2057,6 +2057,12 @@
     "first_seen_at": "2026-10-19T23:10:52.594Z",
     "first_alerted_at": "2026-10-19T23:10:53.713Z"
   },
+  "evt-FbIyzpCKfSNYtUU": {
+    "name": "Canary Wharf's Biggest Night for Women in Business",
+    "host": "CW Female Entrepreneurs Community",
+    "first_seen_at": "2026-10-28T00:05:51.321Z",
+    "first_alerted_at": "2026-10-28T00:05:53.209Z"
+  },
   "evt-FBlJYXlYsga9AlB": {
     "name": "Education & AI Connect: Build Your Own Voice AI Multilingual Student Recruitment Advisor",
     "host": "Education & AI Connect (by EduSolv AI)",
@@ -2912,6 +2918,12 @@
     "host": "Wilbe",
     "first_seen_at": "2026-09-14T18:59:29.929Z",
     "first_alerted_at": "2026-09-14T18:59:31.582Z"
+  },
+  "evt-IQBfv9kFGiFIgah": {
+    "name": "Female Founders Christmas Party 2026 | Connect, Celebrate & Grow 🥂✨",
+    "host": "Personal",
+    "first_seen_at": "2026-10-28T00:05:51.321Z",
+    "first_alerted_at": "2026-10-28T00:05:53.209Z"
   },
   "evt-isLdUlifxGywJAe": {
     "name": "Stripe padel club",
