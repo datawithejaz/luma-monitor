@@ -803,15 +803,15 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-QQGEIJl1K33N0zb",
-      "slug": "spacexai-london",
-      "name": "SpaceXAI for London, England",
-      "reason": "User subscription"
-    },
-    {
       "api_id": "cal-61Cv6COs4g9GKw7",
       "slug": "spacexsi-community",
       "name": "SpaceXSI Community",
+      "reason": "User subscription"
+    },
+    {
+      "api_id": "cal-QQGEIJl1K33N0zb",
+      "slug": "spacexai-london",
+      "name": "SpaceXSI for London, England",
       "reason": "User subscription"
     },
     {
