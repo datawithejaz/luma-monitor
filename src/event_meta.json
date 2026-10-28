@@ -672,6 +672,12 @@
     "first_seen_at": "2026-09-08T20:05:05.811Z",
     "first_alerted_at": "2026-09-08T20:05:07.646Z"
   },
+  "evt-68eAafhhcB3hhMc": {
+    "name": "Founder Nation: Breakie @ The Savoy",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-10-28T11:33:26.978Z",
+    "first_alerted_at": "2026-10-28T11:33:30.128Z"
+  },
   "evt-6bTnOrQNM2FyNGV": {
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-08-03T08:17:13.430Z",
@@ -5280,6 +5286,11 @@
     "host": "React Native London",
     "first_seen_at": "2026-09-09T20:00:32.009Z"
   },
+  "evt-UFiaepB3ZsvBcuU": {
+    "name": "Founder Nation: Breakie @ The Savoy",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-10-28T11:33:26.978Z"
+  },
   "evt-uggetDuBDitbr8i": {
     "name": "Frontier Nights: From Software Engineer to Forward Deployed Engineer",
     "host": "SolveAI",
@@ -5809,11 +5820,23 @@
     "first_seen_at": "2026-08-06T22:36:38.510Z",
     "first_alerted_at": "2026-08-06T22:36:40.348Z"
   },
+  "evt-xcFSSUVIcHYlf4l": {
+    "name": "AI Builders London - Mar 24",
+    "host": "AI Builders",
+    "first_seen_at": "2026-10-28T11:33:26.978Z",
+    "first_alerted_at": "2026-10-28T11:33:30.128Z"
+  },
   "evt-xfHH4OhAnvCsKTd": {
     "name": "Founders Coffee n Pitch",
     "host": "GetFutureReady Community",
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
+  },
+  "evt-XfhWbCJfTBdODed": {
+    "name": "[Hands-on Workshop] Production Agent Evals: AAIF London x Braintrust x Modal",
+    "host": "AAIF Community London",
+    "first_seen_at": "2026-10-28T11:33:26.978Z",
+    "first_alerted_at": "2026-10-28T11:33:30.128Z"
   },
   "evt-XIYaxjSiMc6MURx": {
     "name": "Founder Nation: Breakie @ The Savoy (Series A / 1 million+ ARR Founders)",
@@ -5836,6 +5859,11 @@
     "host": "Founder Nation",
     "first_seen_at": "2026-09-25T12:03:40.920Z",
     "first_alerted_at": "2026-09-25T12:03:42.550Z"
+  },
+  "evt-XkZrYZgJ2eyNXs2": {
+    "name": "Founder Nation: Breakie @ The Savoy",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-10-28T11:33:26.978Z"
   },
   "evt-xl85nAVNsu2sa4C": {
     "name": "STUK Member Evening: Inside Product at Solana",
