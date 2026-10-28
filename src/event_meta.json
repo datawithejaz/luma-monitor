@@ -1274,6 +1274,12 @@
     "first_seen_at": "2026-07-23T09:37:50.100Z",
     "first_alerted_at": "2026-07-23T09:37:52.060Z"
   },
+  "evt-BDbcPrxA5nludAT": {
+    "name": "AGI IRL: Are we there yet?",
+    "host": "Ramen Space – Public Events",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
+  },
   "evt-BDCYFgK46agFxI1": {
     "name": "The Legendary Startup Christmas Party!",
     "host": "Rare Founders Calendar",
@@ -1739,6 +1745,12 @@
     "first_seen_at": "2026-08-21T11:35:18.746Z",
     "first_alerted_at": "2026-08-21T11:35:20.519Z"
   },
+  "evt-dFO45aWjwZoCBF6": {
+    "name": "AI Workshop for Charities, CIC's and Volunteer Groups in London with Softr",
+    "host": "Softr",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
+  },
   "evt-DgSGKs5KqbIXv0F": {
     "name": "ABRC X SONDER: TRIVIA & BOARD GAMES NIGHT",
     "first_seen_at": "2026-08-05T18:46:05.562Z",
@@ -2020,6 +2032,12 @@
     "host": "Grishin Robotics VC",
     "first_seen_at": "2026-10-25T13:50:42.744Z",
     "first_alerted_at": "2026-10-25T13:50:43.713Z"
+  },
+  "evt-eZz37kKAP8TFnpf": {
+    "name": "DAS Padel Social with FunFair Ventures,Utila & Brava Finance",
+    "host": "FunFair Ventures",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
   },
   "evt-f2g8vpgaeajG6PG": {
     "name": "Gateway to Dubai: Scaling Foreign PropTech in the World’s Fastest‑Growing Real Estate Market",
@@ -3117,6 +3135,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-jUGmlW28EtTQFua": {
+    "name": "Build your first AI agent in a day",
+    "host": "Ramen Space – Public Events",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
   },
   "evt-jw6WiutE9UqjLva": {
     "name": "Beyond Excel & Copilot: How Accountants Win with AI",
@@ -4819,6 +4843,12 @@
     "host": "The AI Floor",
     "first_seen_at": "2026-09-29T14:00:20.022Z"
   },
+  "evt-SF7dB04APknoRfn": {
+    "name": "Daytona AI Builders - London, November 2026",
+    "host": "Personal",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
+  },
   "evt-SG1UMx3i22rlbx0": {
     "name": "TRD x BEYOND FITNESS Class 2.0 💪🔥🧡",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -5291,6 +5321,12 @@
     "name": "React Native London Meetup - October 2026",
     "host": "React Native London",
     "first_seen_at": "2026-09-09T20:00:32.009Z"
+  },
+  "evt-UFFsmL1qrWgLfk1": {
+    "name": "One-Shot: Prompt Competition w/ Tiiny Host 👇",
+    "host": "Ramen Space – Public Events",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
   },
   "evt-UFiaepB3ZsvBcuU": {
     "name": "Founder Nation: Breakie @ The Savoy",
@@ -6164,6 +6200,12 @@
     "name": "Audio-Reactive Visual Workshop - TouchDesigner + Pure Data",
     "first_seen_at": "2026-08-10T14:40:43.544Z",
     "first_alerted_at": "2026-08-10T14:40:45.182Z"
+  },
+  "evt-z98EIpXhQ56LCKg": {
+    "name": "Mobile App Hackathon Night by Bilt.me",
+    "host": "Personal",
+    "first_seen_at": "2026-10-28T21:45:50.670Z",
+    "first_alerted_at": "2026-10-28T21:45:52.258Z"
   },
   "evt-z9e8NE6GCvFzC4D": {
     "name": "Founder Cowork Club [UNFACILITATED]",
