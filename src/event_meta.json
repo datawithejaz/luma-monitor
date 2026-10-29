@@ -1018,6 +1018,12 @@
     "host": "Modo Energy",
     "first_seen_at": "2026-10-15T12:01:51.914Z"
   },
+  "evt-aBOWxlNETezZ2mz": {
+    "name": "Hitchhiker's Guide to the Galaxy Presents: Who Owns the Future?",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
+  },
   "evt-AbPDoiXIqUIJjEP": {
     "name": "London Healthtech Roundtable 2026",
     "host": "London Venture Capital Network Events",
@@ -1614,6 +1620,12 @@
     "first_seen_at": "2026-10-25T22:06:42.006Z",
     "first_alerted_at": "2026-10-25T22:06:43.992Z"
   },
+  "evt-cpQyksdEbYvuJUm": {
+    "name": "Hate AI slop? Build something better - A Creative Harness Hackathon by 36 Labs",
+    "host": "Personal",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:17.749Z"
+  },
   "evt-cqB2EmcF1o3HaRu": {
     "name": "Grishin Robotics Accelerator Cohort 4 Demo Day",
     "first_seen_at": "2026-08-26T16:16:05.960Z",
@@ -1790,6 +1802,12 @@
     "host": "Ripple Social Club",
     "first_seen_at": "2026-10-14T20:55:37.609Z",
     "first_alerted_at": "2026-10-14T20:55:41.126Z"
+  },
+  "evt-dkSRi1Or83DxHQh": {
+    "name": "Gamma Pyjama Party: AI Girl Gang x Gamma",
+    "host": "Gamma",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
   },
   "evt-dLMc7t9qT8mquv3": {
     "name": "DINNER03: DEEP TECH WEEK LONDON 26",
@@ -2341,6 +2359,11 @@
     "first_seen_at": "2026-09-04T19:51:35.555Z",
     "first_alerted_at": "2026-09-04T19:51:37.639Z"
   },
+  "evt-G5LMUbHgNvG9IFz": {
+    "name": "Founder Nation: Breakie @ The Savoy",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-10-29T19:45:14.551Z"
+  },
   "evt-g6Aj8EEFnx2QL7L": {
     "name": "Understand the Chinese Frontier AI Models",
     "host": "ShallWe Tech Community",
@@ -2410,6 +2433,12 @@
     "host": "Founder Cowork Club",
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
+  },
+  "evt-GhKnBECin3o1ulH": {
+    "name": "Founder x Investor: Fundraising for Consumer Tech",
+    "host": "Grishin Robotics VC",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
   },
   "evt-GIediKXRa5hoD12": {
     "name": "Bodies Before Badges //AdventureX 2026",
@@ -2955,6 +2984,12 @@
     "first_seen_at": "2026-09-14T18:59:29.929Z",
     "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
+  "evt-Ip209YcP94fiexX": {
+    "name": "PakLaunch x ZIG Finance: London Meetup",
+    "host": "ZIG Finance",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
+  },
   "evt-IQBfv9kFGiFIgah": {
     "name": "Female Founders Christmas Party 2026 | Connect, Celebrate & Grow 🥂✨",
     "host": "Personal",
@@ -2983,6 +3018,12 @@
     "name": "TRD: London Startups Operator RunClub & Social",
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-24T19:50:16.779Z"
+  },
+  "evt-IYhZhXPBNMw2dNr": {
+    "name": "Founder Nation: Co-working & Advisory Board Day - London - Come Build Together",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
   },
   "evt-iYNBhkU2E3Q1jpW": {
     "name": "Summer Sundown Social @ the Hub",
@@ -3530,6 +3571,12 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-lnWJlXdvHIHVOzC": {
+    "name": "Habermas Machine workshop",
+    "host": "Personal",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
+  },
   "evt-lQrg0LyTxv10mrn": {
     "name": "JAIKU Storytelling Summit 2026: Can stories save us?",
     "host": "JAIKU",
@@ -3751,6 +3798,12 @@
     "host": "Fetch.ai Innovation Lab",
     "first_seen_at": "2026-09-08T13:34:30.167Z",
     "first_alerted_at": "2026-09-08T13:34:31.803Z"
+  },
+  "evt-mRSEUwQIKaVGAE2": {
+    "name": "Agentic Banking: when your next customer is an AI agent",
+    "host": "Alpic",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
   },
   "evt-msOvtSEv21VWxgy": {
     "name": "Creative Coding Bookclub- Vectors",
@@ -4239,6 +4292,12 @@
     "first_seen_at": "2026-09-18T17:13:46.194Z",
     "first_alerted_at": "2026-09-18T17:13:47.530Z"
   },
+  "evt-orXbGsMipkMi4Mi": {
+    "name": "ABRC FILM CLUB: ETERNAL SUNSHINE OF THE SPOTLESS MIND",
+    "host": "Personal",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:17.749Z"
+  },
   "evt-Orz6XNcl8delRad": {
     "name": "AI Breakfast Club",
     "host": "Twin Path Ventures",
@@ -4268,6 +4327,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-17T15:14:17.477Z",
     "first_alerted_at": "2026-09-17T15:14:18.586Z"
+  },
+  "evt-OWMYeAwS2h4baPg": {
+    "name": "Genomics x AI: Reading Biology at Scale",
+    "host": "Personal",
+    "first_seen_at": "2026-10-29T19:45:14.551Z",
+    "first_alerted_at": "2026-10-29T19:45:15.790Z"
   },
   "evt-Oye0S4kSwbdFZkx": {
     "name": "London Startup Operator RunClub & Social",
