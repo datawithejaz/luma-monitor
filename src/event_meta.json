@@ -360,6 +360,12 @@
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
+  "evt-3HSPW9vnhBL7QWO": {
+    "name": "Building Abundance: How Britain can flourish in the age of AI",
+    "host": "Stripe Press / Works in Progress ",
+    "first_seen_at": "2026-10-30T20:49:53.068Z",
+    "first_alerted_at": "2026-10-30T20:49:56.029Z"
+  },
   "evt-3IvgVLdQNgh4yRe": {
     "name": "Executive Dinner: Retail Rewired: Turning AI & Data into Operational Advantage",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -4536,6 +4542,12 @@
     "first_seen_at": "2026-10-20T01:49:48.958Z",
     "first_alerted_at": "2026-10-20T01:49:50.856Z"
   },
+  "evt-pW5MuCyoDvBtEkt": {
+    "name": "Encode Coffee Club: Saturday Co-working",
+    "host": "Encode Club",
+    "first_seen_at": "2026-10-30T20:49:53.068Z",
+    "first_alerted_at": "2026-10-30T20:49:56.029Z"
+  },
   "evt-PWu0Wy64LSTIOcj": {
     "name": "AIDevCamp 2026 Agentic Hackathon | GDG London",
     "host": "GDG London",
@@ -5530,6 +5542,12 @@
     "host": "AI Pilled",
     "first_seen_at": "2026-10-14T12:29:04.439Z",
     "first_alerted_at": "2026-10-14T12:29:05.739Z"
+  },
+  "evt-UTGA1pOQzCDlFoW": {
+    "name": "Zapier x Gamma: The AI-Native GTM Stack",
+    "host": "Gamma",
+    "first_seen_at": "2026-10-30T20:49:53.068Z",
+    "first_alerted_at": "2026-10-30T20:49:56.029Z"
   },
   "evt-Uv7Te4pSYm4Xrca": {
     "name": "Women in Applied AI Breakfast, London",
