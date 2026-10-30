@@ -1091,6 +1091,12 @@
     "first_seen_at": "2026-10-27T16:18:04.194Z",
     "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
+  "evt-ahH1BlieX47J2oh": {
+    "name": "NO MORE PITCHES",
+    "host": "Akca Network",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:43.041Z"
+  },
   "evt-AhH7eTRFMAhykIX": {
     "name": "Physical AI Builders Meet-up with AWS and NVIDIA",
     "host": "Personal",
@@ -1377,6 +1383,12 @@
     "first_seen_at": "2026-07-20T16:15:19.429Z",
     "first_alerted_at": "2026-07-20T16:15:22.962Z"
   },
+  "evt-bl169MElYq0sCpJ": {
+    "name": "BORN UP — Breakpoint London Community Networking Meetup",
+    "host": "BORN.LIVE | Global Conferences, Side Events & Networking",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
+  },
   "evt-BLP4QN2rp1cfG0c": {
     "name": "Java Workshops Week 5: Lists, Maps and Sets",
     "host": "KCL Tech",
@@ -1564,6 +1576,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
+  },
+  "evt-cGD25DOpSxEabJi": {
+    "name": "Beyond Business: An Exclusive Dinner in Mayfair",
+    "host": "Personal",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
   },
   "evt-cGdNIW8ll8WHNkK": {
     "name": "Entrepreneurs’ Dinner with Lord Stockwood",
@@ -2278,6 +2296,12 @@
     "host": "Personal",
     "first_seen_at": "2026-10-24T22:01:36.510Z",
     "first_alerted_at": "2026-10-24T22:01:38.895Z"
+  },
+  "evt-FSXaYyzgm8GTiHb": {
+    "name": "Solana Breakpoint Security Drinks - by Fidesium",
+    "host": "Personal",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:43.041Z"
   },
   "evt-FT3LHg8CbDBVIn0": {
     "name": "Halloween Cocktail Club",
@@ -3521,6 +3545,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-LDSErNQQ6jx89G5": {
+    "name": "Founder x VC Summit | VIP Dinner | Breakpoint Week 🇬🇧",
+    "host": "BackersStage Capital",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
+  },
   "evt-lduhfQOUklca3Lv": {
     "name": "Marketing, Sales & Business Growth Networking | Founders & Professionals",
     "host": "Networx London - Connect & Grow",
@@ -3684,6 +3714,12 @@
     "name": "Ship & Chips: Open Tech/AI Demos",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-m82atAu2UejIrTi": {
+    "name": "445 CREW x Solana Breakpoint | Community Run",
+    "host": "Personal",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
   },
   "evt-M8VuD1ompC66Iqy": {
     "name": "Move & Mend - Yoga & Sound Bath with Jason DaPonte and Cheryl Ndione",
@@ -4436,6 +4472,12 @@
     "name": "London Systems Club",
     "host": "London Systems Club",
     "first_seen_at": "2026-09-18T19:39:03.823Z"
+  },
+  "evt-Pfb1j5bJZxVmbGS": {
+    "name": "Founder x VC Summit | Demo Day | Breakpoint 🇬🇧",
+    "host": "BackersStage Capital",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
   },
   "evt-pFcQwUTOA8oLMMD": {
     "name": "AI x Crypto: Innovation, Efficiency and Staying Safe in a New Digital Economy",
@@ -5534,6 +5576,12 @@
     "first_seen_at": "2026-10-01T15:46:34.341Z",
     "first_alerted_at": "2026-10-01T15:46:35.352Z"
   },
+  "evt-v4fP4XaBqrkS0cw": {
+    "name": "LONDON CALLING 🇬🇧",
+    "host": "CryptoMondays London",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
+  },
   "evt-V4GQ0ty1R0ME5hY": {
     "name": "Peer Suite | Curated Women's Networking Morning",
     "host": "Peer Suite",
@@ -5587,6 +5635,12 @@
     "first_seen_at": "2026-10-20T12:17:03.284Z",
     "first_alerted_at": "2026-10-20T12:17:06.594Z"
   },
+  "evt-vgWXB5qezoXEUVS": {
+    "name": "CodeCup: AI x Solana Builder Arena — Breakpoint 2026",
+    "host": "Web3 World",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
+  },
   "evt-VHERFeCxwq9prXc": {
     "name": "Rebuild Private Markets: The Ylookup x Encode AI Hackathon",
     "first_seen_at": "2026-08-17T08:53:57.782Z",
@@ -5607,6 +5661,12 @@
     "name": "TypeScript AI: The only conference for TypeScript AI developers | In-person + Online",
     "first_seen_at": "2026-07-09T01:14:25.533Z",
     "first_alerted_at": "2026-07-09T01:14:26.589Z"
+  },
+  "evt-vL3kHCN39reaPwE": {
+    "name": "Solana Fitness Zone: Mental Reset Workshop | Breakpoint 2026",
+    "host": "OFFLINE",
+    "first_seen_at": "2026-10-30T09:34:37.731Z",
+    "first_alerted_at": "2026-10-30T09:34:40.153Z"
   },
   "evt-vmdhfw1vPy7PDEw": {
     "name": "Dine with Octopus Ventures: portfolio insights + securing an institutional cheque",
