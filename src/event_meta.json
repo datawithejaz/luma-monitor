@@ -947,6 +947,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-9OV9XDFjNkGPivU": {
+    "name": "IE x FOMO: Journey To $550M In One Year",
+    "host": "Imperial Entrepreneurs",
+    "first_seen_at": "2026-11-01T23:46:14.112Z",
+    "first_alerted_at": "2026-11-01T23:46:17.629Z"
+  },
   "evt-9PsRXKvj1Hqf55o": {
     "name": "AI Native Autonomous Lending - Panel Discussion",
     "host": "GetFutureReady Community",
@@ -1197,6 +1203,12 @@
     "host": "The Personal Branding Series",
     "first_seen_at": "2026-09-09T05:08:33.577Z",
     "first_alerted_at": "2026-09-09T05:08:34.766Z"
+  },
+  "evt-AwHMDlI7OvsbvO5": {
+    "name": "Maritime Hackathon",
+    "host": "Imperial Entrepreneurs",
+    "first_seen_at": "2026-11-01T23:46:14.112Z",
+    "first_alerted_at": "2026-11-01T23:46:17.629Z"
   },
   "evt-AY4iBZRUwX57CRn": {
     "name": "PaperJam Game Jam: Don't Look Up",
@@ -4217,6 +4229,12 @@
     "first_seen_at": "2026-10-24T14:51:38.040Z",
     "first_alerted_at": "2026-10-24T14:51:39.363Z"
   },
+  "evt-oduxD6e0VSEHKeU": {
+    "name": "Data, Lies & Society: Can You Really Trust The Machine?",
+    "host": "UCL Data Science Society",
+    "first_seen_at": "2026-11-01T23:46:14.112Z",
+    "first_alerted_at": "2026-11-01T23:46:17.629Z"
+  },
   "evt-oe9QIiPdEX8rFFK": {
     "name": "Bridging the Predictability Gap: Building the Optimal Developer's Plan of Work - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -4791,6 +4809,12 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-rCf2rOg8tbLmBR5": {
+    "name": "Skill, Luck, and Impact: Data Analysis in Football",
+    "host": "UCL Data Science Society",
+    "first_seen_at": "2026-11-01T23:46:14.112Z",
+    "first_alerted_at": "2026-11-01T23:46:17.629Z"
+  },
   "evt-Rd0kTBukhJAT2tc": {
     "name": "Google DeepMind x Corgi: London Builder Evening",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -4993,6 +5017,12 @@
     "host": "Mason & Fifth",
     "first_seen_at": "2026-09-29T19:14:49.607Z",
     "first_alerted_at": "2026-09-29T19:14:50.736Z"
+  },
+  "evt-SBQuxnir4upyria": {
+    "name": "SpaceX Hackathon",
+    "host": "Imperial Entrepreneurs",
+    "first_seen_at": "2026-11-01T23:46:14.112Z",
+    "first_alerted_at": "2026-11-01T23:46:17.629Z"
   },
   "evt-SbRJq1b952aWaFH": {
     "name": "Tech & Tonic | Summer Drinks",
