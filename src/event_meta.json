@@ -4548,6 +4548,12 @@
     "first_seen_at": "2026-10-21T12:24:52.547Z",
     "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
+  "evt-psDDBK2V1ovchVK": {
+    "name": "hardware builder coffee (& makerversity tour)",
+    "host": "london calling",
+    "first_seen_at": "2026-11-01T16:02:02.102Z",
+    "first_alerted_at": "2026-11-01T16:02:03.325Z"
+  },
   "evt-Pu0xIMyxnGt10dp": {
     "name": "Beyond Lemonade & Tractable: How Insurers Win with AI",
     "host": "Encode Club",
@@ -5440,6 +5446,12 @@
     "name": "Made in the UK: Anne Boden",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-U4fgqA95e32ALNs": {
+    "name": "Fashion, Frustrations & Fixes: Where AI meets fashion",
+    "host": "AI After 5",
+    "first_seen_at": "2026-11-01T16:02:02.102Z",
+    "first_alerted_at": "2026-11-01T16:02:03.325Z"
   },
   "evt-u75fxSEJZOILXCr": {
     "name": "Education in the Age of AI: What Happens to University Learning?",
