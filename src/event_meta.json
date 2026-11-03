@@ -1919,6 +1919,12 @@
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
   },
+  "evt-DU680Z5iDQUzI8Z": {
+    "name": "🚀Union Social 🚀",
+    "host": "Imperial Entrepreneurs",
+    "first_seen_at": "2026-11-03T22:26:43.312Z",
+    "first_alerted_at": "2026-11-03T22:26:46.432Z"
+  },
   "evt-DVq3b5MtRwjlApx": {
     "name": "AI Meetup - Summer Drinks by Glassray, Vercel & 1Deploy",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
@@ -2200,6 +2206,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-fcjSluaBTDqoVQq": {
+    "name": "Zed x Rust London Meetup",
+    "host": "Zed",
+    "first_seen_at": "2026-11-03T22:26:43.312Z",
+    "first_alerted_at": "2026-11-03T22:26:46.432Z"
+  },
   "evt-fdd3C52dtAnEEXx": {
     "name": "Governed by Design: How Institutional Real Estate Teams Are Replacing Manual Reporting with Structured Intelligence - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -2402,6 +2414,12 @@
     "host": "KCL Tech",
     "first_seen_at": "2026-10-16T18:29:29.560Z",
     "first_alerted_at": "2026-10-16T18:29:31.116Z"
+  },
+  "evt-Fy39vMg7PQ6ecpH": {
+    "name": "Building in Britain: AI in Defence",
+    "host": "London AI Hub",
+    "first_seen_at": "2026-11-03T22:26:43.312Z",
+    "first_alerted_at": "2026-11-03T22:26:46.432Z"
   },
   "evt-fYNAXfCBLj6ymvS": {
     "name": "LIaiSE Community social",
@@ -3021,6 +3039,12 @@
     "host": "enki events",
     "first_seen_at": "2026-10-04T18:51:38.286Z",
     "first_alerted_at": "2026-10-04T18:51:39.407Z"
+  },
+  "evt-IkPOF2D7I2DL0KV": {
+    "name": "Ship an agent before lunch",
+    "host": "Lua",
+    "first_seen_at": "2026-11-03T22:26:43.312Z",
+    "first_alerted_at": "2026-11-03T22:26:46.432Z"
   },
   "evt-ikTqcdFJnaAMoFq": {
     "name": "Newspeak House: State of the House Address & Christmas Party",
