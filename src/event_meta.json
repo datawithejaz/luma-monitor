@@ -1918,6 +1918,12 @@
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
   },
+  "evt-dvSwF8wSG6LXRmM": {
+    "name": "Dev Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-03T02:25:15.803Z",
+    "first_alerted_at": "2026-11-03T02:25:17.176Z"
+  },
   "evt-dXILDlnp0E7ohoP": {
     "name": "How to build product organisations that last",
     "host": "3Search London",
@@ -2745,6 +2751,12 @@
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-hOYy6nFkzdsMzv2": {
+    "name": "Rare Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-03T02:25:15.803Z",
+    "first_alerted_at": "2026-11-03T02:25:17.176Z"
   },
   "evt-hpHErNDYGnGEzZ9": {
     "name": "Exploring Opportunities in... Philanthropy",
@@ -5166,6 +5178,12 @@
     "first_seen_at": "2026-08-12T18:31:19.453Z",
     "first_alerted_at": "2026-08-12T18:31:20.897Z"
   },
+  "evt-sobN92kTUXqRbGH": {
+    "name": "Biology After AI",
+    "host": "Personal",
+    "first_seen_at": "2026-11-03T02:25:15.803Z",
+    "first_alerted_at": "2026-11-03T02:25:17.176Z"
+  },
   "evt-sOBYLVHBRlLkDrg": {
     "name": "Building AI-Native: A Dinner for Digital-Native Leaders",
     "host": "SpaceX Super Intelligence",
@@ -6058,6 +6076,12 @@
     "name": "React Native London Meetup - September 2026",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-wZAbotrRQpqhEyi": {
+    "name": "Fem Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-03T02:25:15.803Z",
+    "first_alerted_at": "2026-11-03T02:25:17.176Z"
   },
   "evt-x09K5Wqe0duRyqf": {
     "name": "House of Lords Meet Up",
