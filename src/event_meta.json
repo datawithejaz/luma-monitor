@@ -3207,6 +3207,12 @@
     "first_seen_at": "2026-09-14T13:55:19.662Z",
     "first_alerted_at": "2026-09-14T13:55:21.482Z"
   },
+  "evt-jg8DW37cBhfMlla": {
+    "name": "Vibecoding 101: an Introduction to Claude Code",
+    "host": "Personal",
+    "first_seen_at": "2026-11-03T09:48:49.030Z",
+    "first_alerted_at": "2026-11-03T09:48:52.194Z"
+  },
   "evt-JH9CJLAGjJ2WsgX": {
     "name": "Shipping AI agents in the EU: What the new rules mean for dev teams",
     "host": "Arize AI",
