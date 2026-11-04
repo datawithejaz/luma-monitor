@@ -507,6 +507,12 @@
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-24T19:50:16.779Z"
   },
+  "evt-4i6mYTBI2gG75RV": {
+    "name": "Coffee for Creatives: A Gamma Hang",
+    "host": "Gamma",
+    "first_seen_at": "2026-11-04T22:52:31.886Z",
+    "first_alerted_at": "2026-11-04T22:52:35.043Z"
+  },
   "evt-4j5LZqUJ1bQaoGf": {
     "name": "🇧🇪🇬🇧 Embassy Pitch Series: UK x Belgium",
     "first_seen_at": "2026-08-14T02:43:24.836Z",
@@ -2912,6 +2918,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-10-25T22:06:42.006Z",
     "first_alerted_at": "2026-10-25T22:06:43.992Z"
+  },
+  "evt-HWcDbDw8h2ZEcwq": {
+    "name": "Coffee & Conversation with Gamma × Dust",
+    "host": "Gamma",
+    "first_seen_at": "2026-11-04T22:52:31.886Z",
+    "first_alerted_at": "2026-11-04T22:52:35.043Z"
   },
   "evt-HyJbkZge25gU484": {
     "name": "London Data & AI Product Management meetup #25",
