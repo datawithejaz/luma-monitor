@@ -524,6 +524,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:17.743Z"
   },
+  "evt-4O3PPvSXgRJSSkF": {
+    "name": "London L&D Shakers Meetup #46",
+    "host": "L&D Shakers London",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:45.385Z"
+  },
   "evt-4ocjf1HqB25okG2": {
     "name": "Beyond AI Coding: Build an Autonomous Product Loop",
     "first_seen_at": "2026-08-05T11:37:08.390Z",
@@ -871,6 +877,12 @@
     "name": "The Startup Stroll",
     "first_seen_at": "2026-08-15T11:56:55.856Z",
     "first_alerted_at": "2026-08-15T11:56:57.418Z"
+  },
+  "evt-88AcnrPndKXDrgU": {
+    "name": "Startup Funding & Networking: VCs, Angels & Founders",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
   "evt-8b5xBZ7g0yjlZ4M": {
     "name": "2026 Amazon Sustainability Accelerator Demo Day",
@@ -2519,6 +2531,12 @@
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:14.661Z"
   },
+  "evt-gGgy0hGFKKHRkEs": {
+    "name": "Codex Community Hackathon – London",
+    "host": "Codex Community Events",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
+  },
   "evt-GgGzmQJ7o6cNuBQ": {
     "name": "Pride in FinTech 2026 | Celebratory Event",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -2577,6 +2595,12 @@
     "host": "The Tech Bros",
     "first_seen_at": "2026-09-25T16:13:35.276Z",
     "first_alerted_at": "2026-09-25T16:13:36.812Z"
+  },
+  "evt-gnfJlgr3rMjYRHf": {
+    "name": "Saturday Club",
+    "host": "Entrepreneurs First",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
   "evt-GOCpoDECq7nVhkb": {
     "name": "Rebuilding marketing for the AI era",
@@ -3709,6 +3733,12 @@
     "first_seen_at": "2026-07-27T16:30:22.572Z",
     "first_alerted_at": "2026-07-27T16:30:24.711Z"
   },
+  "evt-lNTCgIhOt29cUh0": {
+    "name": "Rooftop Networking Night | Founders, Finance, Tech & Business Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
+  },
   "evt-lnWJlXdvHIHVOzC": {
     "name": "Habermas Machine workshop",
     "host": "Personal",
@@ -4229,6 +4259,12 @@
     "first_seen_at": "2026-10-31T11:14:53.267Z",
     "first_alerted_at": "2026-10-31T11:14:56.244Z"
   },
+  "evt-nYZRTzHFoC3idXR": {
+    "name": "GTM After Dark: Talks, Drinks & Founders",
+    "host": "Personal",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:45.385Z"
+  },
   "evt-nztwmY6cKhFx3T9": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -4621,6 +4657,12 @@
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
   },
+  "evt-PLs0d7NACDOh0Cd": {
+    "name": "Build Your First Onchain App: Prompts + Building with Arc Studio",
+    "host": "Encode Club",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
+  },
   "evt-pNQsZy8lNWQloW2": {
     "name": "Building AI Products with Hyperstack",
     "first_seen_at": "2026-08-24T09:11:26.754Z",
@@ -4758,6 +4800,12 @@
     "host": "Encode Club",
     "first_seen_at": "2026-10-20T01:49:48.958Z",
     "first_alerted_at": "2026-10-20T01:49:51.608Z"
+  },
+  "evt-QHaBp5uRD8TowUF": {
+    "name": "Business Owners & SME Networking | London Rooftop Edition",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
   "evt-QHgMlQLJYpDA5PD": {
     "name": "Building AI - Founders 002 - Founder Dinner",
@@ -5272,6 +5320,12 @@
     "first_seen_at": "2026-10-08T02:46:49.077Z",
     "first_alerted_at": "2026-10-08T02:46:50.796Z"
   },
+  "evt-sv3oBaBjLVbOsPg": {
+    "name": "The Thread: A Flightpath Writing Workshop",
+    "host": "Flightpath",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:45.385Z"
+  },
   "evt-SvTI9hdCuqHVeTd": {
     "name": "Live Marketing Ideation for Brands with Soul",
     "host": "JAIKU",
@@ -5579,6 +5633,12 @@
     "host": "AI Builders",
     "first_seen_at": "2026-09-14T01:36:49.759Z",
     "first_alerted_at": "2026-09-14T01:36:53.091Z"
+  },
+  "evt-u0G5JSz9ltLHhIM": {
+    "name": "Daytona Builder Brunch - London, November 2026",
+    "host": "Corgi",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
   "evt-u43Qknslj7rBc1O": {
     "name": "Up Club Personal Development Workshop",
@@ -6728,6 +6788,12 @@
     "name": "Cursor Conversations London | Maximising ROI on Intelligence",
     "first_seen_at": "2026-08-27T04:11:49.452Z",
     "first_alerted_at": "2026-08-27T04:11:50.614Z"
+  },
+  "evt-ZPXn2ivB2LXCnWF": {
+    "name": "Launch It Tonight: Build Your Brand with Canva",
+    "host": "Encode Club",
+    "first_seen_at": "2026-11-04T17:36:39.808Z",
+    "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
   "evt-zqAHmwcW2yZfoPz": {
     "name": "The Agentic Web Explained",
