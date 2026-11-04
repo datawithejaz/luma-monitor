@@ -1358,6 +1358,12 @@
     "first_seen_at": "2026-11-02T20:17:11.458Z",
     "first_alerted_at": "2026-11-02T20:17:12.796Z"
   },
+  "evt-BEyIHZxumFZfIs1": {
+    "name": "London Generative AI Builders Night",
+    "host": "Personal",
+    "first_seen_at": "2026-11-04T09:47:32.734Z",
+    "first_alerted_at": "2026-11-04T09:47:35.979Z"
+  },
   "evt-BF9m98CBU55A1wx": {
     "name": "London Startups Operator RunClub & Social",
     "first_seen_at": "2026-07-18T16:07:12.554Z",
@@ -4153,6 +4159,12 @@
     "host": "LO:TECH Events",
     "first_seen_at": "2026-10-19T23:10:52.594Z",
     "first_alerted_at": "2026-10-19T23:10:53.713Z"
+  },
+  "evt-noiXoKPx4P4haK1": {
+    "name": "Finnovation Day London - Fintech × Banks: Building the Next Generation of Financial Services",
+    "host": "TechEmbassy",
+    "first_seen_at": "2026-11-04T09:47:32.734Z",
+    "first_alerted_at": "2026-11-04T09:47:35.979Z"
   },
   "evt-npuskVBY8CAE8xL": {
     "name": "Life After Layoffs: The Reality of Finding a Job in Tech Today",
