@@ -2090,6 +2090,12 @@
     "first_seen_at": "2026-10-03T21:31:20.107Z",
     "first_alerted_at": "2026-10-03T21:31:21.889Z"
   },
+  "evt-Epz5d3vKT0L6NgR": {
+    "name": "AI & Social Salon",
+    "host": "Personal",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
+  },
   "evt-eqeoMPOoPozfr05": {
     "name": "Asia Fusion: Tech, AI & Culture | Networx London x AspirASIAN (Dataiku)",
     "host": "Networx London - Connect & Grow",
@@ -2654,6 +2660,12 @@
     "name": "ABRC POTTERY & CERAMICS WORKSHOP",
     "first_seen_at": "2026-07-28T17:04:40.078Z",
     "first_alerted_at": "2026-07-28T17:04:41.689Z"
+  },
+  "evt-GrtC9TUcGYFirbV": {
+    "name": "Not Your Keys, Not Your Cheese: Wallet and Security for Solana 🍕",
+    "host": "Blockaid Events",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
   "evt-gsuMsueLuWCWmYD": {
     "name": "GetFutureReady | December 2026 Edition",
@@ -3443,6 +3455,12 @@
     "host": "London Interface for AI Safety",
     "first_seen_at": "2026-10-14T20:55:37.609Z",
     "first_alerted_at": "2026-10-14T20:55:41.126Z"
+  },
+  "evt-K2W8ylv2rhcH5le": {
+    "name": "Building on Solana: Colosseum & Founders",
+    "host": "Personal",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
   "evt-k5MGG2aJ5iuIy1t": {
     "name": "House of Sol Workshop: Why Tokenized RWAs Are Superior: SRI x ioBuilders",
@@ -4373,6 +4391,12 @@
     "first_seen_at": "2026-11-01T23:46:14.112Z",
     "first_alerted_at": "2026-11-01T23:46:17.629Z"
   },
+  "evt-ODYLpVRssgsX354": {
+    "name": "kickoff(): hack, demo, play FC27 at Fulham’s Craven Cottage",
+    "host": "ClickHouse Events",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
+  },
   "evt-oe9QIiPdEX8rFFK": {
     "name": "Bridging the Predictability Gap: Building the Optimal Developer's Plan of Work - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -5011,6 +5035,12 @@
     "host": "Entrepreneurs Wellbeing Club (EWC)",
     "first_seen_at": "2026-10-23T20:37:07.594Z",
     "first_alerted_at": "2026-10-23T20:37:09.168Z"
+  },
+  "evt-rifQUccAP7Oz7Hs": {
+    "name": "AI Verification x Crypto",
+    "host": "Personal",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
   "evt-RJaE6sweDogCS3o": {
     "name": "Shaping Tomorrow’s Portfolio: AI, Efficiency, and Sustainable Performance - Roundtable",
@@ -5845,6 +5875,12 @@
     "host": "SHIPYARD",
     "first_seen_at": "2026-10-01T15:46:34.341Z",
     "first_alerted_at": "2026-10-01T15:46:35.352Z"
+  },
+  "evt-uZV0zBISxwyGGDF": {
+    "name": "Founder x Investor: Fundraising for Robotics & Physical AI",
+    "host": "Grishin Robotics VC",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
   "evt-v4fP4XaBqrkS0cw": {
     "name": "LONDON CALLING 🇬🇧",
@@ -6790,6 +6826,12 @@
     "host": "House of Sol",
     "first_seen_at": "2026-10-07T12:00:56.239Z",
     "first_alerted_at": "2026-10-07T12:01:00.964Z"
+  },
+  "evt-zoDCMxuWJdJjD9m": {
+    "name": "Builder Zone @ Breakpoint",
+    "host": "Asymmetric Research",
+    "first_seen_at": "2026-11-05T18:03:57.672Z",
+    "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
   "evt-zoVXICARIvIDTL2": {
     "name": "Builders Club #07",
