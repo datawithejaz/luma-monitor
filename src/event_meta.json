@@ -214,6 +214,12 @@
     "first_seen_at": "2026-08-18T17:14:50.403Z",
     "first_alerted_at": "2026-08-18T17:14:52.004Z"
   },
+  "evt-1q1qA17roWodNfx": {
+    "name": "GTM Sprint: Shipping is not enough",
+    "host": "Personal",
+    "first_seen_at": "2026-11-05T23:34:05.734Z",
+    "first_alerted_at": "2026-11-05T23:34:07.337Z"
+  },
   "evt-1sfm4C7VojC7caz": {
     "name": "Buy, Build & Grow a Business | Acquisition & Franchising Rooftop Networking",
     "host": "Networx London - Connect & Grow",
@@ -849,6 +855,12 @@
     "name": "The Future of Finance Hackathon",
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
+  },
+  "evt-7QM9IyNeaxXfTYB": {
+    "name": "AI for PR: Mastering GEO",
+    "host": "Encode Club",
+    "first_seen_at": "2026-11-05T23:34:05.734Z",
+    "first_alerted_at": "2026-11-05T23:34:07.337Z"
   },
   "evt-7qmCccVz8cOqWtH": {
     "name": "Co-Working Fridays : London Chapter",
@@ -3479,6 +3491,12 @@
     "first_seen_at": "2026-10-22T17:50:33.417Z",
     "first_alerted_at": "2026-10-22T17:50:37.468Z"
   },
+  "evt-K8HhI6XGg7XUUHg": {
+    "name": "Beyond LinkedIn & ChatGPT: How Executive Search Wins with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-11-05T23:34:05.734Z",
+    "first_alerted_at": "2026-11-05T23:34:07.337Z"
+  },
   "evt-K8XM4WVcNx2fPyI": {
     "name": "Builders & Backers Run",
     "host": "Proximo Ventures",
@@ -3622,6 +3640,12 @@
     "name": "London Fintech Breakfast",
     "first_seen_at": "2026-07-17T01:09:54.619Z",
     "first_alerted_at": "2026-07-17T01:09:56.320Z"
+  },
+  "evt-KQw9EBtwoNBkWgE": {
+    "name": "Securing Finance in the Age of AI",
+    "host": "ZIG Finance",
+    "first_seen_at": "2026-11-05T23:34:05.734Z",
+    "first_alerted_at": "2026-11-05T23:34:07.337Z"
   },
   "evt-kTENvcnnpQQtMZO": {
     "name": "ABRC FILM CLUB & DISCUSSION: PARASITE",
