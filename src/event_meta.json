@@ -1022,6 +1022,12 @@
     "first_seen_at": "2026-07-12T12:32:09.745Z",
     "first_alerted_at": "2026-07-12T12:32:11.019Z"
   },
+  "evt-A3zqLfP6vOp6cnD": {
+    "name": "VIP Cocktail Night, Hosted by A&M Crypto and Latham & Watkins",
+    "host": "Personal",
+    "first_seen_at": "2026-11-05T02:56:07.000Z",
+    "first_alerted_at": "2026-11-05T02:56:09.319Z"
+  },
   "evt-A408HD1bgKP62Rg": {
     "name": "Deep Tech Founder & Investor Breakfast vol.2",
     "host": "Frontier Deep Tech x Silicon Roundabout Ventures",
