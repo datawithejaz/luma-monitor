@@ -737,6 +737,11 @@
     "first_seen_at": "2026-10-08T16:53:37.104Z",
     "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
+  "evt-6h10VaQY0CBvDQU": {
+    "name": "London Tech Run Club",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-06T11:29:56.944Z"
+  },
   "evt-6hP48WJCPCkE0bv": {
     "name": "Lunch & Learn - Designing Your Portfolio Career with Charlie Rogers",
     "host": "CityVentures",
@@ -1018,6 +1023,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:05.844Z"
+  },
+  "evt-9Xh6AuDmkAEcq5l": {
+    "name": "London Tech Run Club",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-06T11:29:56.944Z",
+    "first_alerted_at": "2026-11-06T11:29:59.275Z"
   },
   "evt-9zEUa3fdngsuxlD": {
     "name": "LVC March Lunch",
@@ -2520,6 +2531,11 @@
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:24.703Z"
   },
+  "evt-g81vB5bJBwm8p0h": {
+    "name": "London Tech Run Club",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-06T11:29:56.944Z"
+  },
   "evt-GaD6LscmFnmcHoM": {
     "name": "Pitch Perfect at Corgi Cafe | Powered by Dream Brew",
     "host": "HelpBnk",
@@ -2864,6 +2880,11 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-10-04T11:18:36.708Z",
     "first_alerted_at": "2026-10-04T11:18:38.566Z"
+  },
+  "evt-HpUaZdPvDUsJWfz": {
+    "name": "AlgoRhythms",
+    "host": "London Live Coding?",
+    "first_seen_at": "2026-11-06T11:29:56.944Z"
   },
   "evt-HPXCcivqWHLHl6F": {
     "name": "AI Builders London - Jan 20",
@@ -4432,6 +4453,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-oGFGvmC0AlUQcwt": {
+    "name": "London Tech Run Club",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-06T11:29:56.944Z"
+  },
   "evt-OGyk34qP273KcPU": {
     "name": "Demo Event LDN:Prompt, Build, Deploy with Replit",
     "first_seen_at": "2026-08-17T10:46:12.833Z",
@@ -4763,6 +4789,11 @@
     "host": "london calling",
     "first_seen_at": "2026-11-01T16:02:02.102Z",
     "first_alerted_at": "2026-11-01T16:02:03.325Z"
+  },
+  "evt-pshCtrDe9MQz5fj": {
+    "name": "London Tech Run Club",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-06T11:29:56.944Z"
   },
   "evt-Pu0xIMyxnGt10dp": {
     "name": "Beyond Lemonade & Tractable: How Insurers Win with AI",
@@ -6082,6 +6113,12 @@
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:21.512Z"
   },
+  "evt-VxF32pPmCpXNZw8": {
+    "name": "Building the Agentic Business: Strategy, Systems and Smarter AI Spend",
+    "host": "Flowgrammer.Club",
+    "first_seen_at": "2026-11-06T11:29:56.944Z",
+    "first_alerted_at": "2026-11-06T11:29:59.275Z"
+  },
   "evt-VyCg0wgUi2ypAhL": {
     "name": "The Connected Estate: Turning Asset Intelligence into Portfolio Performance - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -6749,6 +6786,11 @@
     "host": "Personal",
     "first_seen_at": "2026-10-21T17:28:11.588Z",
     "first_alerted_at": "2026-10-21T17:28:13.505Z"
+  },
+  "evt-zCleVGgACOpnTij": {
+    "name": "London Tech Run Club",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-06T11:29:56.944Z"
   },
   "evt-zDs4mdQLLhDReFR": {
     "name": "London Systems Club",
