@@ -266,6 +266,12 @@
     "first_seen_at": "2026-09-03T18:39:12.018Z",
     "first_alerted_at": "2026-09-03T18:39:13.755Z"
   },
+  "evt-2aEAgZFya5TuqWj": {
+    "name": "Research Night",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
+  },
   "evt-2B8c18ea6qzTSV3": {
     "name": "November AI Workshop",
     "host": "London Venture Club",
@@ -933,6 +939,18 @@
     "host": "Softr",
     "first_seen_at": "2026-10-27T16:18:04.194Z",
     "first_alerted_at": "2026-10-27T16:18:06.552Z"
+  },
+  "evt-8MKH5TRSAzdLiCI": {
+    "name": "Frontier Safety & Evals",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
+  },
+  "evt-8NBqgEoba8OnImu": {
+    "name": "Women in FinTech Powerlist 2026 - Launch Event",
+    "host": "Innovate Finance",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:37.865Z"
   },
   "evt-8NZOp42w426wU3B": {
     "name": "The Road Ahead: AI Web3, & Staking",
@@ -1640,6 +1658,12 @@
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
   },
+  "evt-caBslBOCsZ23mDk": {
+    "name": "Imperial AI Week Ticket",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
+  },
   "evt-CC6KASp7LV2DfB3": {
     "name": "Harness Engineering: Code and Data That Agents Can Trust",
     "first_seen_at": "2026-07-14T19:56:54.657Z",
@@ -1971,6 +1995,18 @@
     "host": "Novabook",
     "first_seen_at": "2026-09-09T13:56:50.691Z",
     "first_alerted_at": "2026-09-09T13:56:52.378Z"
+  },
+  "evt-DOWoXAavTDlMGTI": {
+    "name": "Christmas Cocktails: Design and Brand Leaders",
+    "host": "Rare&Chosen",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:37.865Z"
+  },
+  "evt-DRAJLSqraa4ovrA": {
+    "name": "Meet All3 Mantis: Live Robot Demo in London",
+    "host": "Rare&Chosen",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
   },
   "evt-DU680Z5iDQUzI8Z": {
     "name": "🚀Union Social 🚀",
@@ -2565,6 +2601,12 @@
     "host": "London AI",
     "first_seen_at": "2026-09-15T15:05:45.764Z",
     "first_alerted_at": "2026-09-15T15:05:47.834Z"
+  },
+  "evt-gD2tJbshnk9FlXr": {
+    "name": "The Startup Stroll",
+    "host": "The Startup Stroll",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
   },
   "evt-Ge5yKXIGH2AcALr": {
     "name": "TRD: London Startups Operator RunClub & Social",
@@ -4868,6 +4910,12 @@
     "first_seen_at": "2026-08-20T17:22:15.492Z",
     "first_alerted_at": "2026-08-20T17:22:16.949Z"
   },
+  "evt-QACqj6XBjyJO0pK": {
+    "name": "Low-key Data, AI, and Product Drinks — London",
+    "host": "London Data & AI Product Management meetup",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:37.865Z"
+  },
   "evt-QbcIgnVXbvFxRYv": {
     "name": "Breakfast with OpenAI - AI in Financial Services",
     "host": "AI in FS",
@@ -5067,6 +5115,12 @@
     "first_seen_at": "2026-10-17T13:59:10.912Z",
     "first_alerted_at": "2026-10-17T13:59:12.273Z"
   },
+  "evt-rf9w5kAtf4KlQg3": {
+    "name": "The Year-End Table - MOXIE community dinner",
+    "host": "MOXIE",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:37.865Z"
+  },
   "evt-rgLRwvc9vdRfmrW": {
     "name": "Moonfire • Build Night Hackathon",
     "host": "Moonfire Events",
@@ -5084,6 +5138,12 @@
     "host": "London AI Hub",
     "first_seen_at": "2026-10-15T12:01:51.914Z",
     "first_alerted_at": "2026-10-15T12:01:54.380Z"
+  },
+  "evt-rH3bFDaWNDKckJP": {
+    "name": "Founders & Investors Panel",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
   },
   "evt-rHkMm9gas8bahqZ": {
     "name": "Wellbeing Week: The Time is Now with Dr Kenisha Jackson (IRL)",
@@ -5664,6 +5724,12 @@
     "first_seen_at": "2026-09-23T17:16:45.519Z",
     "first_alerted_at": "2026-09-23T17:16:46.568Z"
   },
+  "evt-tsw5NS786xEsdPW": {
+    "name": "Humaans × Dust | AI in HR",
+    "host": "Humaans Events",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
+  },
   "evt-tSzTDiQMVBI87rC": {
     "name": "Building Your Financial Stack",
     "host": "Personal",
@@ -5819,11 +5885,23 @@
     "host": "Founder Nation",
     "first_seen_at": "2026-10-28T11:33:26.978Z"
   },
+  "evt-ug0nNaGWRtWjR2s": {
+    "name": "Imperial AI Hackathon",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:37.865Z"
+  },
   "evt-uggetDuBDitbr8i": {
     "name": "Frontier Nights: From Software Engineer to Forward Deployed Engineer",
     "host": "SolveAI",
     "first_seen_at": "2026-09-29T23:00:44.940Z",
     "first_alerted_at": "2026-09-29T23:00:46.204Z"
+  },
+  "evt-UK7p6Ho7qrYKw84": {
+    "name": "Fireside with John Willett, co-founder of Rogo",
+    "host": "Personal",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:35.953Z"
   },
   "evt-UKJRN1uz3HDeMdH": {
     "name": "dev_night London",
@@ -6892,6 +6970,12 @@
     "host": "House of Sol",
     "first_seen_at": "2026-10-07T12:00:56.239Z",
     "first_alerted_at": "2026-10-07T12:01:00.964Z"
+  },
+  "evt-ZNWQIXmGTRxaIES": {
+    "name": "AI for Science Night",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-06T18:18:30.851Z",
+    "first_alerted_at": "2026-11-06T18:18:37.865Z"
   },
   "evt-zoDCMxuWJdJjD9m": {
     "name": "Builder Zone @ Breakpoint",
