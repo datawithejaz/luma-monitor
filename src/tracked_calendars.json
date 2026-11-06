@@ -224,6 +224,12 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-DBw2gK428IQbiSO",
+      "slug": "CopilotKit",
+      "name": "CopilotKit",
+      "reason": "Not in your follows — suggested: CopilotKit"
+    },
+    {
       "api_id": "cal-v8PuFjastlj2pZp",
       "slug": "corgilondon",
       "name": "Corgi London",
