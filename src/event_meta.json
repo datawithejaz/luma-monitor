@@ -907,6 +907,12 @@
     "first_seen_at": "2026-08-15T11:56:55.856Z",
     "first_alerted_at": "2026-08-15T11:56:57.418Z"
   },
+  "evt-86nTzotkqTSMkKs": {
+    "name": "You Can See Everything [Private Viewing]",
+    "host": "Granola",
+    "first_seen_at": "2026-11-06T23:17:28.176Z",
+    "first_alerted_at": "2026-11-06T23:17:31.429Z"
+  },
   "evt-88AcnrPndKXDrgU": {
     "name": "Startup Funding & Networking: VCs, Angels & Founders",
     "host": "Networx London - Connect & Grow",
@@ -2392,6 +2398,12 @@
     "name": "AI Agents for CS Teams Workshop",
     "first_seen_at": "2026-07-20T18:22:24.568Z",
     "first_alerted_at": "2026-07-20T18:22:25.993Z"
+  },
+  "evt-fl1xwFe4DvEARcN": {
+    "name": "Breakpoint Coffee for DeFi Builders & Traders",
+    "host": "Personal",
+    "first_seen_at": "2026-11-06T23:17:28.176Z",
+    "first_alerted_at": "2026-11-06T23:17:31.429Z"
   },
   "evt-FM2ByBOUKQp2IpB": {
     "name": "Builders & Brews London",
