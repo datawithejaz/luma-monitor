@@ -1760,6 +1760,12 @@
     "first_seen_at": "2026-10-19T19:51:34.445Z",
     "first_alerted_at": "2026-10-19T19:51:35.610Z"
   },
+  "evt-ClcU6QY4XgmdYq5": {
+    "name": "At the Table with Stripe Crypto, Visa, & Open Standard",
+    "host": "Privy, a Stripe company",
+    "first_seen_at": "2026-11-07T23:02:54.540Z",
+    "first_alerted_at": "2026-11-07T23:03:00.616Z"
+  },
   "evt-clyhSgSo7RIMvBe": {
     "name": "If Your AI Were Conscious, How Would You Know? (Megan Peters) + Q&A + Networking",
     "first_seen_at": "2026-08-04T16:28:51.673Z",
@@ -3579,6 +3585,12 @@
     "first_seen_at": "2026-11-05T18:03:57.672Z",
     "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
+  "evt-K2Www3eAXn6sL78": {
+    "name": "Community Linkup: Light and Magic",
+    "host": "Personal",
+    "first_seen_at": "2026-11-07T23:02:54.540Z",
+    "first_alerted_at": "2026-11-07T23:03:00.616Z"
+  },
   "evt-k5MGG2aJ5iuIy1t": {
     "name": "House of Sol Workshop: Why Tokenized RWAs Are Superior: SRI x ioBuilders",
     "host": "House of Sol",
@@ -3720,6 +3732,12 @@
     "host": "BehSci Meets AI",
     "first_seen_at": "2026-10-09T07:40:51.676Z",
     "first_alerted_at": "2026-10-09T07:40:54.585Z"
+  },
+  "evt-knbGIJ1OZYBUDsT": {
+    "name": "Cafe Compute Meetup: London",
+    "host": "Cerebras",
+    "first_seen_at": "2026-11-07T23:02:54.540Z",
+    "first_alerted_at": "2026-11-07T23:03:00.616Z"
   },
   "evt-KOCVwinZciUq0S4": {
     "name": "Build the Future of Healthcare with Juno & Anthropic",
