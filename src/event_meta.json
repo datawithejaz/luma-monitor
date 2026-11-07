@@ -502,6 +502,12 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-4DJSKW1rdUvJ2H3": {
+    "name": "Hackathon Eve: How We Build with Agents",
+    "host": "Imperial AI Week (9th-15 Nov)",
+    "first_seen_at": "2026-11-07T15:48:50.378Z",
+    "first_alerted_at": "2026-11-07T15:48:56.346Z"
+  },
   "evt-4fE3TpP7GyPkzWU": {
     "name": "Fish & Ships: A Jupiter Community Afternoon",
     "host": "Personal",
@@ -1546,6 +1552,12 @@
     "first_seen_at": "2026-08-14T17:28:51.292Z",
     "first_alerted_at": "2026-08-14T17:28:53.019Z"
   },
+  "evt-bRjTWgRGBUKTuLJ": {
+    "name": "Software Craftsmanship For The AI Age",
+    "host": "AI for the rest of us",
+    "first_seen_at": "2026-11-07T15:48:50.378Z",
+    "first_alerted_at": "2026-11-07T15:48:56.346Z"
+  },
   "evt-bScaY0gEiPsl49n": {
     "name": "EF saturday_club",
     "host": "Entrepreneurs First",
@@ -1735,6 +1747,12 @@
     "name": "Weekly football 7-aside by Granola!",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-CK7YIFF2taELYDX": {
+    "name": "PaperJam Game Jam: 1 in 8 Billion",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-11-07T15:48:50.378Z",
+    "first_alerted_at": "2026-11-07T15:48:56.346Z"
   },
   "evt-cKrLsCOy4HDL2dX": {
     "name": "Halloween At Imperial: Gemini Edition",
@@ -2410,6 +2428,12 @@
     "host": "Personal",
     "first_seen_at": "2026-11-06T23:17:28.176Z",
     "first_alerted_at": "2026-11-06T23:17:31.429Z"
+  },
+  "evt-fljtyQNo0BCW0vx": {
+    "name": "London | Claude x RepresentAI x BCS Pride | Festive meet-up",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-11-07T15:48:50.378Z",
+    "first_alerted_at": "2026-11-07T15:48:56.346Z"
   },
   "evt-FM2ByBOUKQp2IpB": {
     "name": "Builders & Brews London",
@@ -3976,6 +4000,11 @@
     "name": "Engineering Leaders Building AI 001 - Private Dinner",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
     "first_alerted_at": "2026-07-14T00:53:00.486Z"
+  },
+  "evt-m6dZKFfJZwlKfMV": {
+    "name": "LIaiSE Community social",
+    "host": "London Interface for AI Safety",
+    "first_seen_at": "2026-11-07T15:48:50.378Z"
   },
   "evt-m6eYkENIPGSEpum": {
     "name": "Profound Platform Deep Dive",
