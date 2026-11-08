@@ -824,6 +824,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-78x2F7z5K5TWemG": {
+    "name": "Pitch Night",
+    "host": "Lumina House",
+    "first_seen_at": "2026-11-08T15:58:57.567Z",
+    "first_alerted_at": "2026-11-08T15:58:58.878Z"
+  },
   "evt-7Ei3mxMg4ybu72D": {
     "name": "No Agenda Breakfast: ThatRound",
     "host": "The Entrepreneurs Network",
