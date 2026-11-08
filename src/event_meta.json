@@ -6455,6 +6455,12 @@
     "first_seen_at": "2026-11-03T02:25:15.803Z",
     "first_alerted_at": "2026-11-03T02:25:17.176Z"
   },
+  "evt-WzcTcTD7fplbgnu": {
+    "name": "Crypto Quant Capital Connect in London",
+    "host": "Personal",
+    "first_seen_at": "2026-11-08T09:12:42.298Z",
+    "first_alerted_at": "2026-11-08T09:12:43.713Z"
+  },
   "evt-x09K5Wqe0duRyqf": {
     "name": "House of Lords Meet Up",
     "host": "UK AI Agents Lab",
