@@ -958,6 +958,12 @@
     "first_seen_at": "2026-09-24T19:59:42.900Z",
     "first_alerted_at": "2026-09-24T19:59:43.966Z"
   },
+  "evt-8H3UsfR5v3eJbBQ": {
+    "name": "AI for Insurers: How Insurers Win with AI",
+    "host": "Encode Club",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
+  },
   "evt-8IZZEa466kcNk9Q": {
     "name": "Claude x Softr Build Sprint in London: Build Your Ops App in 60 Minutes",
     "host": "Softr",
@@ -1390,6 +1396,12 @@
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
   },
+  "evt-bb06d8Tjp65TcVC": {
+    "name": "LO:Limit HOLD'em",
+    "host": "Personal",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
+  },
   "evt-bb2dEU5nf1xoxsm": {
     "name": "London AI Builders: The Devin Mixer",
     "first_seen_at": "2026-08-31T23:10:38.291Z",
@@ -1753,6 +1765,12 @@
     "name": "Weekly football 7-aside by Granola!",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-CjkXcRLEI5VcTC1": {
+    "name": "AI with Python, Week 1: Train Your First AI Model",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:18.431Z"
   },
   "evt-CK7YIFF2taELYDX": {
     "name": "PaperJam Game Jam: 1 in 8 Billion",
@@ -2159,6 +2177,12 @@
     "first_seen_at": "2026-10-08T16:53:37.104Z",
     "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
+  "evt-eKorgwiqCOszSYx": {
+    "name": "Claude Code Curious: 1 year anniversary 🎉",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
+  },
   "evt-eLnI19zEa5g30UF": {
     "name": "Public First presents: Tech YoPro Drinks",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -2237,6 +2261,12 @@
     "host": "Twilio UK",
     "first_seen_at": "2026-09-24T11:54:45.720Z",
     "first_alerted_at": "2026-09-24T11:54:46.665Z"
+  },
+  "evt-EXhZJhGO0Cp93f0": {
+    "name": "#5 Open London Quantum Computing: Quantum Policy & Optimal Control with Assoc. Prof. Jess Wade and Prof. Florian Mintert",
+    "host": "KCL Quantum Mechanics Society",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:18.431Z"
   },
   "evt-eYsdWRsovYsHFQP": {
     "name": "#2 Physical I/O: Robotics",
@@ -2383,6 +2413,12 @@
     "name": "{Tech: Europe} x VEED Hackathon | The Summer Lock-In",
     "first_seen_at": "2026-07-31T03:55:16.297Z",
     "first_alerted_at": "2026-07-31T03:55:18.099Z"
+  },
+  "evt-FgnshfsIDuhSPlv": {
+    "name": "House of Sol Workshops: Privacy on Solana for Institutions: SRI x Helius",
+    "host": "House of Sol",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:18.431Z"
   },
   "evt-Fhp8UoAf4T7kEgc": {
     "name": "Sports Meets Solana: The Future of Sports is On-chain ⚽",
@@ -2812,6 +2848,12 @@
     "host": "BuildHer Labs",
     "first_seen_at": "2026-09-04T10:00:59.477Z",
     "first_alerted_at": "2026-09-04T10:01:01.115Z"
+  },
+  "evt-GV3pCLshbTQWDFc": {
+    "name": "Agentic AI Foundation Turns One | London Celebration 🎉",
+    "host": "AAIF Community London",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:18.431Z"
   },
   "evt-gvAkSX9aC6SxDC4": {
     "name": "A Guide to Thriving in the Middle East: Building Partnerships in Dubai",
@@ -3323,6 +3365,12 @@
     "first_seen_at": "2026-10-21T12:24:52.547Z",
     "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
+  "evt-IWtEs1U4uHG1LJ8": {
+    "name": "Women in sales",
+    "host": "incident.io",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
+  },
   "evt-IXt8C2LQdpVHcIb": {
     "name": "TRD: London Startups Operator RunClub & Social",
     "host": "The Run Down: Operators Runclub",
@@ -3631,6 +3679,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-03T23:36:53.954Z",
     "first_alerted_at": "2026-09-03T23:36:57.130Z"
+  },
+  "evt-KDP5OfJAeLlxhJA": {
+    "name": "Healthtech: Built Different | Networking & Pizza (6-8PM)",
+    "host": "Assuric",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
   },
   "evt-kdSBgi1SrUdeG2d": {
     "name": "Lychee's Startup Games Night",
@@ -4195,6 +4249,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-Mvq3xzEfaFz2X1P": {
+    "name": "AI Everything · Demo Inn London Demo Night",
+    "host": "Demo Inn London",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:18.431Z"
+  },
   "evt-MxcXOzGaZgbUoWi": {
     "name": "EF x Omnea - Lessons for Future Founders",
     "first_seen_at": "2026-07-30T16:54:48.415Z",
@@ -4725,6 +4785,12 @@
     "first_seen_at": "2026-09-28T16:02:05.474Z",
     "first_alerted_at": "2026-09-28T16:02:09.137Z"
   },
+  "evt-oT9Hyv2XlvRbRw5": {
+    "name": "Lord Ed Vaizey: \"Gearing Up for AI: A National Imperative for Business and Government\"",
+    "host": "Cubs Privé events",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:18.431Z"
+  },
   "evt-OuWUrDKc9wmdb4x": {
     "name": "AlgoRhythms",
     "host": "London Live Coding?",
@@ -4884,6 +4950,12 @@
     "host": "AssemblyAI",
     "first_seen_at": "2026-09-16T17:04:28.437Z",
     "first_alerted_at": "2026-09-16T17:04:30.178Z"
+  },
+  "evt-PpbjAkIzKZrprb6": {
+    "name": "Open Court Hackathon with Wonder Studios",
+    "host": "Open Court",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
   },
   "evt-PpPGLikiabC4Dd1": {
     "name": "Hacker News London Meetup #10 Demo Night",
@@ -6597,6 +6669,12 @@
     "first_seen_at": "2026-09-25T12:03:40.920Z",
     "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
+  "evt-XJzCsFyVYnePjZd": {
+    "name": "Tech Leaders London - November 2026",
+    "host": "Tech Leaders London",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
+  },
   "evt-XkxrmwARo64IIbp": {
     "name": "FINANCE LEADERS CLUB | VIP Dinner & Cocktail Evening for Founders, Investors and Finance Leaders",
     "host": "Personal",
@@ -6656,6 +6734,12 @@
     "host": "Encode Club",
     "first_seen_at": "2026-10-07T05:37:55.238Z",
     "first_alerted_at": "2026-10-07T05:37:58.505Z"
+  },
+  "evt-Xuv3klMjMaONF8O": {
+    "name": "Hardware Startups: Prototyping Pitfalls",
+    "host": "Humbird - For Hardware Startups",
+    "first_seen_at": "2026-11-09T21:31:12.949Z",
+    "first_alerted_at": "2026-11-09T21:31:16.942Z"
   },
   "evt-xUZrUSJW7DxAnMA": {
     "name": "Scaling Real Time AI: London",
