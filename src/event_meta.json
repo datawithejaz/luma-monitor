@@ -3917,6 +3917,12 @@
     "first_seen_at": "2026-10-05T14:55:53.526Z",
     "first_alerted_at": "2026-10-05T14:55:54.725Z"
   },
+  "evt-LNGPn9oN4huOFCx": {
+    "name": "We Saved You a Seat - A Roundtable on Returning to Work in the AI Era",
+    "host": "Women in AI Forum",
+    "first_seen_at": "2026-11-09T11:20:23.159Z",
+    "first_alerted_at": "2026-11-09T11:20:26.134Z"
+  },
   "evt-LNQtBv91h7ovmeh": {
     "name": "UNKNW x Metaview Design Leaders Ship on Saturday.",
     "first_seen_at": "2026-07-27T16:30:22.572Z",
@@ -6918,6 +6924,12 @@
     "name": "Founder Cowork Club [UNFACILITATED]",
     "first_seen_at": "2026-08-05T13:19:39.803Z",
     "first_alerted_at": "2026-08-05T13:19:42.463Z"
+  },
+  "evt-z9nMUsduDbVHtdZ": {
+    "name": "edgerunners.app networking drinks @ Annabel's",
+    "host": "Personal",
+    "first_seen_at": "2026-11-09T11:20:23.159Z",
+    "first_alerted_at": "2026-11-09T11:20:26.134Z"
   },
   "evt-zbD5OpLsWaIw0B8": {
     "name": "Build your AI Outbound Cockpit - a Hands-On London Workshop",
