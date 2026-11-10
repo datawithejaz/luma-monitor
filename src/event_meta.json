@@ -237,6 +237,12 @@
     "first_seen_at": "2026-08-12T15:37:54.176Z",
     "first_alerted_at": "2026-08-12T15:37:55.856Z"
   },
+  "evt-1XBmEkfDdw9C39K": {
+    "name": "Mayfair Business and Funding - Mayfair Mercato. MEETUP Sponsored by www.thefundingcaptain.com",
+    "host": "Chelsea Collective",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
+  },
   "evt-1xok1FGmCd6sHoF": {
     "name": "Ideation Hackathon",
     "host": "CityVentures",
@@ -331,6 +337,12 @@
     "host": "Personal",
     "first_seen_at": "2026-10-08T09:33:15.923Z",
     "first_alerted_at": "2026-10-08T09:33:19.064Z"
+  },
+  "evt-2wogfU0RdwsKB7Y": {
+    "name": "Sales MaterClass with David McClements",
+    "host": "Imperial Entrepreneurs",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
   },
   "evt-2yr4YmnhmhZtOha": {
     "name": "Build your content-led GTM motion: Hackathon",
@@ -1065,6 +1077,11 @@
     "host": "London Venture Club",
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
+  },
+  "evt-9Tz6UwG6OQ0Q3Vg": {
+    "name": "Lychee's Startup Games Night",
+    "host": "Lychee",
+    "first_seen_at": "2026-11-10T18:56:35.854Z"
   },
   "evt-9wIgw4wVbxvt4Io": {
     "name": "Agentic AI & Technology: Beyond Automation",
@@ -1834,6 +1851,12 @@
     "first_seen_at": "2026-08-26T16:16:05.960Z",
     "first_alerted_at": "2026-08-26T16:16:07.192Z"
   },
+  "evt-Cqmn42H7rihjrif": {
+    "name": "Lychee's Startup Games Night",
+    "host": "Lychee",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:39.161Z"
+  },
   "evt-CqsI2fTQHTn9zrr": {
     "name": "Wine, Dine, Refine: From Procrastination to Productivity",
     "first_seen_at": "2026-07-23T13:06:59.491Z",
@@ -2238,6 +2261,12 @@
     "first_seen_at": "2026-10-05T21:50:28.936Z",
     "first_alerted_at": "2026-10-05T21:50:30.876Z"
   },
+  "evt-ERZD24Q6cHJb06E": {
+    "name": "GTM Sprint Demo Day",
+    "host": "Personal",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
+  },
   "evt-euUItKVI5WHemaf": {
     "name": "Morning Masterclass | Before You Sign - What every founder should know about investment terms and negotiation",
     "host": "The Dura Society 2026",
@@ -2267,6 +2296,12 @@
     "host": "KCL Quantum Mechanics Society",
     "first_seen_at": "2026-11-09T21:31:12.949Z",
     "first_alerted_at": "2026-11-09T21:31:18.431Z"
+  },
+  "evt-EYs31ORiWaAlSmo": {
+    "name": "Viktor.com Coffee + Cinnamon Buns Meetup",
+    "host": "viktor.com",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
   },
   "evt-eYsdWRsovYsHFQP": {
     "name": "#2 Physical I/O: Robotics",
@@ -3662,6 +3697,11 @@
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
   },
+  "evt-K67K2pw9qHrwPSH": {
+    "name": "Lychee's Startup Games Night",
+    "host": "Lychee",
+    "first_seen_at": "2026-11-10T18:56:35.854Z"
+  },
   "evt-k83NQJ5jjEJNkpn": {
     "name": "Lenny’s Newsletter Meetup in Asheville (with free drinks courtesy of PostHog)",
     "host": "Lenny's Newsletter Meetups",
@@ -4244,6 +4284,11 @@
     "first_seen_at": "2026-08-25T19:22:14.042Z",
     "first_alerted_at": "2026-08-25T19:22:15.292Z"
   },
+  "evt-MTI27ZznA7siZcM": {
+    "name": "Lychee's Startup Games Night",
+    "host": "Lychee",
+    "first_seen_at": "2026-11-10T18:56:35.854Z"
+  },
   "evt-MTyN5NUPqvBljAO": {
     "name": "Founders Meetup London - September 2026",
     "first_seen_at": "2026-07-24T14:29:18.094Z",
@@ -4474,6 +4519,11 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-nra54Fv9bxQGWI1": {
+    "name": "Lychee's Startup Games Night",
+    "host": "Lychee",
+    "first_seen_at": "2026-11-10T18:56:35.854Z"
+  },
   "evt-nrolBr5gQohsts8": {
     "name": "Real Estate & Property Investment Networking for Startups & Professionals",
     "host": "Networx London - Connect & Grow",
@@ -4570,6 +4620,11 @@
     "host": "Lightbringer UK",
     "first_seen_at": "2026-10-19T14:05:43.306Z",
     "first_alerted_at": "2026-10-19T14:05:45.098Z"
+  },
+  "evt-O4MfhOiUBoBo58w": {
+    "name": "Lychee's Startup Games Night",
+    "host": "Lychee",
+    "first_seen_at": "2026-11-10T18:56:35.854Z"
   },
   "evt-O5YGFVb288yBtk2": {
     "name": "Microsoft x LSEG - London Hackathon",
@@ -5004,6 +5059,12 @@
     "first_seen_at": "2026-10-30T20:49:53.068Z",
     "first_alerted_at": "2026-10-30T20:49:56.029Z"
   },
+  "evt-pwEFfsIVqVBHucS": {
+    "name": "Reinventing a Sustainable Future: Breakthrough Material Technologies to New Business Models",
+    "host": "deeptech futures",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
+  },
   "evt-PWu0Wy64LSTIOcj": {
     "name": "AIDevCamp 2026 Agentic Hackathon | GDG London",
     "host": "GDG London",
@@ -5140,6 +5201,12 @@
     "host": "Deepgram",
     "first_seen_at": "2026-09-07T09:41:45.629Z",
     "first_alerted_at": "2026-09-07T09:41:46.997Z"
+  },
+  "evt-QMtuYDBmm0MtGw9": {
+    "name": "London TechPoker by MongoDB",
+    "host": "TechGames",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
   },
   "evt-qNafjyLhgy4CN6q": {
     "name": "AI Builders Monthly London",
@@ -6770,6 +6837,12 @@
     "host": "Stripe Startups",
     "first_seen_at": "2026-09-23T06:49:57.780Z"
   },
+  "evt-Xw86rGPOdLxygNR": {
+    "name": "Navigating Polarisation about Tech",
+    "host": "Personal",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
+  },
   "evt-xWS8yCPbhsPDSGc": {
     "name": "Accelerating Product Discovery with AI - Jim Morris, Pippa Topp & Dave Killeen",
     "host": "CPO Circles",
@@ -6955,6 +7028,12 @@
     "host": "Founder Nation",
     "first_seen_at": "2026-11-02T20:17:11.458Z",
     "first_alerted_at": "2026-11-02T20:17:12.796Z"
+  },
+  "evt-YqfUixMIvSXq6nf": {
+    "name": "Run With Grief Club | November Community Run",
+    "host": "Run With Grief Club",
+    "first_seen_at": "2026-11-10T18:56:35.854Z",
+    "first_alerted_at": "2026-11-10T18:56:37.369Z"
   },
   "evt-ytft3HdEr20vngN": {
     "name": "Stop Building the Wrong Thing with AI",
