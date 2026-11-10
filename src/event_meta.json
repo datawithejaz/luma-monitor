@@ -3347,6 +3347,12 @@
     "first_seen_at": "2026-10-28T00:05:51.321Z",
     "first_alerted_at": "2026-10-28T00:05:53.209Z"
   },
+  "evt-iqUzWs80LeWq0nY": {
+    "name": "💻Offline Women Coworking Day",
+    "host": "Offline Women",
+    "first_seen_at": "2026-11-10T11:51:50.236Z",
+    "first_alerted_at": "2026-11-10T11:51:56.416Z"
+  },
   "evt-isLdUlifxGywJAe": {
     "name": "Stripe padel club",
     "host": "Stripe Startups",
@@ -5207,6 +5213,12 @@
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
   },
+  "evt-QzBQ4l7lWGF3HjT": {
+    "name": "Java Workshops Week 6: Class Relationships",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-10T11:51:50.236Z",
+    "first_alerted_at": "2026-11-10T11:51:56.416Z"
+  },
   "evt-R1T3FoigSaT4BA6": {
     "name": "Omarchy London Meetup 002",
     "host": "Personal",
@@ -6507,6 +6519,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:17.743Z"
   },
+  "evt-wTp9iuRRhTnOvTC": {
+    "name": "Claude Code for Senior B2B Marketers: Claude Community x B2B Unplugged",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-11-10T11:51:50.236Z",
+    "first_alerted_at": "2026-11-10T11:51:56.416Z"
+  },
   "evt-wuZc7OHnxQO6g1H": {
     "name": "CTA 5 Year Anniversary",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -6895,6 +6913,12 @@
     "host": "Aptura AI",
     "first_seen_at": "2026-09-13T21:43:58.944Z",
     "first_alerted_at": "2026-09-13T21:44:00.177Z"
+  },
+  "evt-yLlx2nYZ6HBYCzi": {
+    "name": "Beyond SEO: How to Get Your Business Recommended by AI",
+    "host": "BeeGlobal",
+    "first_seen_at": "2026-11-10T11:51:50.236Z",
+    "first_alerted_at": "2026-11-10T11:51:56.416Z"
   },
   "evt-YN4Ynh2OLmNp3hV": {
     "name": "Air-Gap Night: Private AI, Live and Unplugged",
