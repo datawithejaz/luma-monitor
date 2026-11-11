@@ -1476,6 +1476,12 @@
     "first_seen_at": "2026-10-21T12:24:52.547Z",
     "first_alerted_at": "2026-10-21T12:24:55.687Z"
   },
+  "evt-bEHrHkdAbBTkYX1": {
+    "name": "Builders' Morning: Europe's Hard Problems",
+    "host": "Personal",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
+  },
   "evt-BEVFtGlF2Tp0Icj": {
     "name": "The Future Is a Story We Haven’t Finished Writing: How storytelling can steer us away from an AI dystopia",
     "host": "IDEALondon",
@@ -2914,6 +2920,12 @@
     "first_seen_at": "2026-10-03T21:31:20.107Z",
     "first_alerted_at": "2026-10-03T21:31:21.889Z"
   },
+  "evt-GwfsElE7mMH12C0": {
+    "name": "Founders & AI: How to Build an AI Startup That Big Tech Can’t Kill",
+    "host": "Founders & AI",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
+  },
   "evt-Gy3SRjlxt3Ea5m4": {
     "name": "Exploring Opportunities in... Space Innovation",
     "host": "London Venture Club",
@@ -3532,6 +3544,12 @@
     "host": "Personal",
     "first_seen_at": "2026-11-03T09:48:49.030Z",
     "first_alerted_at": "2026-11-03T09:48:52.194Z"
+  },
+  "evt-JGfKXylSdV2PzRd": {
+    "name": "✨ Jingle & Mingle ✨ with Seapoint, Aether and Shuttle",
+    "host": "Seapoint",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
   },
   "evt-JH9CJLAGjJ2WsgX": {
     "name": "Shipping AI agents in the EU: What the new rules mean for dev teams",
@@ -4586,6 +4604,12 @@
     "host": "Networx London - Connect & Grow",
     "first_seen_at": "2026-10-31T11:14:53.267Z",
     "first_alerted_at": "2026-10-31T11:14:56.244Z"
+  },
+  "evt-NYRyxru5W7CxBYo": {
+    "name": "merry vibe-mas: festive hackathon w/ tiiny.host + plugged",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
   },
   "evt-nYZRTzHFoC3idXR": {
     "name": "GTM After Dark: Talks, Drinks & Founders",
@@ -5711,6 +5735,12 @@
     "first_seen_at": "2026-08-14T02:43:24.836Z",
     "first_alerted_at": "2026-08-14T02:43:26.589Z"
   },
+  "evt-sroDwE6hlBeS1G1": {
+    "name": "QuillAudits 1:1 Meetings at Solana Breakpoint",
+    "host": "QuillAudits Events",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
+  },
   "evt-STPAw8AWtq0inqc": {
     "name": "Could AI Characters Have Minds? – Winnie Street (Google)",
     "host": "Sentio",
@@ -6137,6 +6167,12 @@
     "first_seen_at": "2026-09-29T23:00:44.940Z",
     "first_alerted_at": "2026-09-29T23:00:46.204Z"
   },
+  "evt-uHn5eEkF4dMF3hY": {
+    "name": "Crypto Padel: Solana Breakpoint Week",
+    "host": "TechChain Talent",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
+  },
   "evt-UK7p6Ho7qrYKw84": {
     "name": "Fireside with John Willett, co-founder of Rogo",
     "host": "Personal",
@@ -6158,6 +6194,12 @@
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-UmY7Q3S2UptpjMT": {
+    "name": "Pulsar Money // Coffee Meetup in London with LI.FI",
+    "host": "Personal",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
   },
   "evt-Un7LciHzFwys0S3": {
     "name": "DEEPTECH LONDON",
@@ -6505,6 +6547,12 @@
     "host": "Attio",
     "first_seen_at": "2026-10-12T17:45:00.626Z",
     "first_alerted_at": "2026-10-12T17:45:01.704Z"
+  },
+  "evt-wbnF4isYJBpqRHQ": {
+    "name": "FirstYearHack 2026",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-11T18:30:10.131Z",
+    "first_alerted_at": "2026-11-11T18:30:11.605Z"
   },
   "evt-WdoJtojy1nfzSSm": {
     "name": "Newspeak House Constitutional Convention (Day 2 of 2)",
