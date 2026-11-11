@@ -2091,6 +2091,12 @@
     "first_seen_at": "2026-11-06T18:18:30.851Z",
     "first_alerted_at": "2026-11-06T18:18:37.865Z"
   },
+  "evt-DQRtYyFpAEc9feA": {
+    "name": "CMS equIP - Festive Drinks for Founders",
+    "host": "Personal",
+    "first_seen_at": "2026-11-11T10:59:56.820Z",
+    "first_alerted_at": "2026-11-11T10:59:58.406Z"
+  },
   "evt-DRAJLSqraa4ovrA": {
     "name": "Meet All3 Mantis: Live Robot Demo in London",
     "host": "Rare&Chosen",
