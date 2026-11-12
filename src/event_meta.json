@@ -379,6 +379,12 @@
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-24T19:50:16.779Z"
   },
+  "evt-37RDh4AOYbcgY5F": {
+    "name": "Boring is Beautiful",
+    "host": "Corgi London",
+    "first_seen_at": "2026-11-12T22:28:43.829Z",
+    "first_alerted_at": "2026-11-12T22:28:45.389Z"
+  },
   "evt-3bESVZ83Uqe4w8i": {
     "name": "Can You Trust the Data Running Your Portfolio? Building the Infrastructure for AI-Ready Compliance - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -3910,6 +3916,12 @@
     "first_seen_at": "2026-07-13T19:06:44.719Z",
     "first_alerted_at": "2026-07-13T19:06:46.051Z"
   },
+  "evt-KoO2G4i0PNhnfrY": {
+    "name": "Hacker News London Meetup #11",
+    "host": "Hacker News London",
+    "first_seen_at": "2026-11-12T22:28:43.829Z",
+    "first_alerted_at": "2026-11-12T22:28:45.389Z"
+  },
   "evt-kpum5YmA0JNGLcK": {
     "name": "Build Community Around Your Craft with GUAP Founder Ibrahim Kamara",
     "first_seen_at": "2026-08-10T10:01:23.679Z",
@@ -5514,6 +5526,12 @@
     "host": "Source Code",
     "first_seen_at": "2026-10-09T14:41:45.997Z"
   },
+  "evt-rpPas8Kx339W726": {
+    "name": "Le Chonk in London - Mistral Vibe Hackathon",
+    "host": "Mistral Events",
+    "first_seen_at": "2026-11-12T22:28:43.829Z",
+    "first_alerted_at": "2026-11-12T22:28:45.389Z"
+  },
   "evt-RpWNRVPU5sbfos5": {
     "name": "Takeover by NipNip Bike Doctors",
     "host": "Techspace",
@@ -6226,6 +6244,12 @@
     "host": "TechChain Talent",
     "first_seen_at": "2026-11-11T18:30:10.131Z",
     "first_alerted_at": "2026-11-11T18:30:11.605Z"
+  },
+  "evt-UICgGRztsRhNHde": {
+    "name": "ABRC BOOKCLUB: THE SECRET HISTORY",
+    "host": "Personal",
+    "first_seen_at": "2026-11-12T22:28:43.829Z",
+    "first_alerted_at": "2026-11-12T22:28:45.389Z"
   },
   "evt-UK7p6Ho7qrYKw84": {
     "name": "Fireside with John Willett, co-founder of Rogo",
@@ -6968,6 +6992,12 @@
     "host": "Personal",
     "first_seen_at": "2026-11-10T18:56:35.854Z",
     "first_alerted_at": "2026-11-10T18:56:37.369Z"
+  },
+  "evt-XWDONc7AE7g5QSE": {
+    "name": "Creating Games with AI | Jam–workshop w/ElevenLabs",
+    "host": "Vibe Coding Collective",
+    "first_seen_at": "2026-11-12T22:28:43.829Z",
+    "first_alerted_at": "2026-11-12T22:28:45.389Z"
   },
   "evt-xWS8yCPbhsPDSGc": {
     "name": "Accelerating Product Discovery with AI - Jim Morris, Pippa Topp & Dave Killeen",
