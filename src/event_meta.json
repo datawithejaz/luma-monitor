@@ -2409,6 +2409,12 @@
     "first_seen_at": "2026-10-09T19:47:53.595Z",
     "first_alerted_at": "2026-10-09T19:47:56.547Z"
   },
+  "evt-f5dyVMHqx3GmqUT": {
+    "name": "CAD & Cure: 3D Design & Silicone Molding Workshop",
+    "host": "KCL SynBioTech 2026/27",
+    "first_seen_at": "2026-11-12T08:00:17.663Z",
+    "first_alerted_at": "2026-11-12T08:00:21.116Z"
+  },
   "evt-F5OPsNM3PUdC2xY": {
     "name": "The Rise of Solopreneurship: AI, Work and the Future of Self-Employment",
     "host": "The Entrepreneurs Network",
@@ -5299,6 +5305,12 @@
     "name": "Design Evenings LDN: The Future of Design in the Age of AI",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
     "first_alerted_at": "2026-07-09T16:42:00.295Z"
+  },
+  "evt-QuBRkEzOt0YB0oY": {
+    "name": "Revolut Connect: Tech in London",
+    "host": "Revolut Connect",
+    "first_seen_at": "2026-11-12T08:00:17.663Z",
+    "first_alerted_at": "2026-11-12T08:00:21.116Z"
   },
   "evt-QweLB7bWd37LZru": {
     "name": "Demo Event LDN:Prompt, Build, Deploy with Replit",

@@ -5,7 +5,7 @@
     "slug": "astera",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-22T21:37:58.772Z"
   },
@@ -15,7 +15,7 @@
     "slug": "no10",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-11T21:18:15.000Z"
   },
@@ -25,7 +25,7 @@
     "slug": "createconnectevents",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-0Hm4rRqtyGbM8ke": {
@@ -34,7 +34,7 @@
     "slug": "doordash-design",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-0jikzPhENNNJBGU": {
@@ -43,7 +43,7 @@
     "slug": "incident",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-0kBRoElM4CvTC3v": {
@@ -52,7 +52,7 @@
     "slug": "Artsect",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-14T22:21:07.347Z"
   },
@@ -62,7 +62,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-0nXOMDEVHCta5Uk": {
@@ -71,7 +71,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-18T05:47:13.366Z"
   },
@@ -81,7 +81,7 @@
     "slug": "GetFutureReady",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 5,
     "first_seen_at": "2026-09-06T16:30:11.606Z"
   },
@@ -91,7 +91,7 @@
     "slug": "growthxclub",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-17AUCmfDoCXYfit": {
@@ -100,7 +100,7 @@
     "slug": "daytona",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3,
     "first_seen_at": "2026-09-10T04:58:57.151Z"
   },
@@ -110,7 +110,7 @@
     "slug": "peer-suite",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2
   },
   "cal-1jpHLZNu3tnuu9t": {
@@ -137,7 +137,7 @@
     "slug": "digitalassetsummit26",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-23T12:20:21.152Z"
   },
@@ -147,7 +147,7 @@
     "slug": "Vibecoders.global",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-2Hq1giyzsyaa38m": {
@@ -156,7 +156,7 @@
     "slug": "hackuity-our-events",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-24T06:16:00.006Z"
   },
@@ -166,7 +166,7 @@
     "slug": "landtalks",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1
   },
   "cal-2L887IzA5fgFN7m": {
@@ -175,7 +175,7 @@
     "slug": "caribbeantechcollective",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-2RFjmQ4ZSmQPCkA": {
@@ -184,7 +184,7 @@
     "slug": "cccl",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-2TypVSAgXXmEYXZ": {
@@ -193,7 +193,7 @@
     "slug": "commercecircle",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-08T20:04:50.559Z"
   },
@@ -203,7 +203,7 @@
     "slug": "ldn-calling",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-2Zsb01qk36LiRnv": {
@@ -212,7 +212,7 @@
     "slug": "colourlab",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-19T19:31:12.057Z"
   },
@@ -222,7 +222,7 @@
     "slug": "aperturesessions",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-3cSIAYCExLIMy4C": {
@@ -231,7 +231,7 @@
     "slug": "altitude-events",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-27T20:47:11.430Z"
   },
@@ -241,7 +241,7 @@
     "slug": "FWA",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 4,
     "first_seen_at": "2026-09-04T01:06:07.633Z"
   },
@@ -271,7 +271,7 @@
     "slug": "UCLAISociety",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-29T01:19:28.645Z"
   },
@@ -281,7 +281,7 @@
     "slug": "dex-live",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-49qhLqBX81HTefm": {
@@ -290,7 +290,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-10T18:55:54.366Z"
   },
@@ -300,7 +300,7 @@
     "slug": "joinfleek",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-4PiLxz7UOGy5kxK": {
@@ -309,7 +309,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-09T01:25:37.946Z"
   },
@@ -319,7 +319,7 @@
     "slug": "london-dpm-meetup",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-07T00:10:10.932Z"
   },
@@ -329,7 +329,7 @@
     "slug": "loomery",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-08T20:04:50.559Z"
   },
@@ -349,7 +349,7 @@
     "slug": "revolut-business",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T14:21:10.296Z"
   },
@@ -359,7 +359,7 @@
     "slug": "hcompany.ai",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-05T02:55:48.875Z"
   },
@@ -369,7 +369,7 @@
     "slug": "spacexsi-community",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T01:06:07.633Z"
   },
@@ -379,7 +379,7 @@
     "slug": "codex-community",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-09T20:00:11.125Z"
   },
@@ -389,7 +389,7 @@
     "slug": "london-ai-meetup",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-05T21:49:43.015Z"
   },
@@ -399,7 +399,7 @@
     "slug": "opencover",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-18T01:04:05.165Z"
   },
@@ -409,7 +409,7 @@
     "slug": "ethldn",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-6JZ52WMKJ2Ni04d": {
@@ -418,7 +418,7 @@
     "slug": "pillarvc-encode",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-6kiBYwYIMToEQCp": {
@@ -427,7 +427,7 @@
     "slug": "basedhouseldn",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-6mGTsM4VnBmQFal": {
@@ -436,7 +436,7 @@
     "slug": "",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-04T05:57:36.310Z"
   },
@@ -446,7 +446,7 @@
     "slug": "EntrepreneursWellbeingClub",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 4,
     "first_seen_at": "2026-10-14T20:54:51.900Z"
   },
@@ -465,7 +465,7 @@
     "slug": "entrepreneurs-first",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-6z5Ol4oDVFIDiWA": {
@@ -474,7 +474,7 @@
     "slug": "sifted",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-03T23:36:29.368Z"
   },
@@ -484,7 +484,7 @@
     "slug": "demoroom",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-73DrqykM2XUzHje": {
@@ -493,7 +493,7 @@
     "slug": "alpic",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-07T02:53:32.337Z"
   },
@@ -503,7 +503,7 @@
     "slug": "solana-accelerate",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-15T01:47:20.295Z"
   },
@@ -513,7 +513,7 @@
     "slug": "adelineartsandscience",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T00:22:49.342Z"
   },
@@ -523,7 +523,7 @@
     "slug": "Londonlongevity",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-26T06:41:17.451Z"
   },
@@ -533,7 +533,7 @@
     "slug": "deepmind",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-7QGqgiHd7VBRpVv": {
@@ -542,7 +542,7 @@
     "slug": "jetbrains-uk",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T05:53:38.070Z"
   },
@@ -552,7 +552,7 @@
     "slug": "Pini",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T16:12:47.327Z"
   },
@@ -562,7 +562,7 @@
     "slug": "cityprayer",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-26T06:41:17.451Z"
   },
@@ -582,7 +582,7 @@
     "slug": "marker",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 6,
     "first_seen_at": "2026-10-24T22:00:48.772Z"
   },
@@ -592,7 +592,7 @@
     "slug": "themarmaladegroup",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2
   },
   "cal-8hcK7emYCS5LbFl": {
@@ -610,7 +610,7 @@
     "slug": "",
     "source": "manual",
     "reason": "User request — personal calendar (no public slug); all London events",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-8LJYo5N7QObN2DI": {
@@ -619,7 +619,7 @@
     "slug": "encode-club",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 24
   },
   "cal-8OdEth5TqN2qvOy": {
@@ -628,7 +628,7 @@
     "slug": "arujam",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-8R5h2fthl7npVqi": {
@@ -637,7 +637,7 @@
     "slug": "sentientpro",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-8vets9EGgoyauM0": {
@@ -646,7 +646,7 @@
     "slug": "assuric",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-24T01:51:59.810Z"
   },
@@ -656,7 +656,7 @@
     "slug": "knowledgequarter",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2
   },
   "cal-9kv20CgHVcEX0lS": {
@@ -665,7 +665,7 @@
     "slug": "apache-iceberg",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-29T13:59:30.941Z"
   },
@@ -684,7 +684,7 @@
     "slug": "intelligentinternet",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-9z9Z51rDySHOPuW": {
@@ -703,7 +703,7 @@
     "slug": "aiengine",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-AAdwFAPB21Ubd8m": {
@@ -712,7 +712,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-21T22:05:22.285Z"
   },
@@ -722,7 +722,7 @@
     "slug": "rarefounders",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4
   },
   "cal-ABI7elazqd7tcsz": {
@@ -731,7 +731,7 @@
     "slug": "mglive",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-19T19:50:47.127Z"
   },
@@ -741,7 +741,7 @@
     "slug": "capvise",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-24T01:19:46.959Z"
   },
@@ -751,7 +751,7 @@
     "slug": "netlifycommunity",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-aHGTSTbW8OELrqu": {
@@ -760,7 +760,7 @@
     "slug": "getmoxie",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-26T06:41:17.451Z"
   },
@@ -770,7 +770,7 @@
     "slug": "qonfx",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-08T22:35:22.978Z"
   },
@@ -789,7 +789,7 @@
     "slug": "cerebras",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-09T22:25:14.911Z"
   },
@@ -799,7 +799,7 @@
     "slug": "london-tech",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-B0KNgG9yflZ0SmO": {
@@ -808,7 +808,7 @@
     "slug": "intruder",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-09T01:25:37.946Z"
   },
@@ -828,7 +828,7 @@
     "slug": "creative.ai",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-10T21:59:20.650Z"
   },
@@ -838,7 +838,7 @@
     "slug": "founder-writers",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-BLmM2AMRit3A4og": {
@@ -847,7 +847,7 @@
     "slug": "foundercoworkclub",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-BohjOVw24zi3Bsi": {
@@ -856,7 +856,7 @@
     "slug": "masschallengeuk2026",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T01:06:07.633Z"
   },
@@ -866,7 +866,7 @@
     "slug": "londonmaxxing",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-BtUDu4eBX4fYrzh": {
@@ -894,7 +894,7 @@
     "slug": "londonmaxxing-ai",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-BZcj7LqI9zC3JyN": {
@@ -903,7 +903,7 @@
     "slug": "global-ai-community",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-C3EVyspzoIhe1yA": {
@@ -922,7 +922,7 @@
     "slug": "nebius_events_",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T05:01:41.154Z"
   },
@@ -932,7 +932,7 @@
     "slug": "reallygoodculture",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-10T13:58:44.753Z"
   },
@@ -942,7 +942,7 @@
     "slug": "ai-builders",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-14T01:36:19.126Z"
   },
@@ -961,7 +961,7 @@
     "slug": "londonaihub",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-cl57AMcV2gdbbau": {
@@ -970,7 +970,7 @@
     "slug": "superteam",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 11
   },
   "cal-cL7rmdsYRDYfxQC": {
@@ -979,7 +979,7 @@
     "slug": "",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-CvIpKRM5YbmuITz": {
@@ -988,7 +988,7 @@
     "slug": "Syrena_",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-CwdMJjV20evdBPo": {
@@ -997,7 +997,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-18T16:59:22.169Z"
   },
@@ -1017,7 +1017,7 @@
     "slug": "tenexlabs",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-15T18:55:56.779Z"
   },
@@ -1027,7 +1027,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-dCIVCipaWBngRnI": {
@@ -1036,7 +1036,7 @@
     "slug": "foundersnfunders",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-DjA8RBzCDCCpK2A": {
@@ -1045,7 +1045,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-dJITEHKdiSK8PhE": {
@@ -1054,7 +1054,7 @@
     "slug": "odscai",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-15T00:43:53.317Z"
   },
@@ -1073,7 +1073,7 @@
     "slug": "wilbe",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-14T22:21:07.347Z"
   },
@@ -1092,7 +1092,7 @@
     "slug": "heygencommunityevents",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-11T23:21:06.345Z"
   },
@@ -1102,7 +1102,7 @@
     "slug": "seedrun",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-28T00:05:05.188Z"
   },
@@ -1112,7 +1112,7 @@
     "slug": "allin-london",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-dQkYDcDRZVSSG60": {
@@ -1121,7 +1121,7 @@
     "slug": "merge-events",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-19T21:42:34.097Z"
   },
@@ -1131,7 +1131,7 @@
     "slug": "alma-angels",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-08T00:14:07.864Z"
   },
@@ -1141,7 +1141,7 @@
     "slug": "thestartupstroll",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-dSbNs34WsIUmJjI": {
@@ -1150,7 +1150,7 @@
     "slug": "agents-in-prod",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-24T01:19:46.959Z"
   },
@@ -1160,7 +1160,7 @@
     "slug": "_HeySalad",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-DuVvqgynuS9fF8M": {
@@ -1178,7 +1178,7 @@
     "slug": "PauseAI",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-23T07:18:55.033Z"
   },
@@ -1188,7 +1188,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-26T21:28:59.364Z"
   },
@@ -1198,7 +1198,7 @@
     "slug": "OpenCourt",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-ecn6mL2sknkVKqO": {
@@ -1207,7 +1207,7 @@
     "slug": "cityventures",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-21T06:13:57.877Z"
   },
@@ -1217,7 +1217,7 @@
     "slug": "founder_nation",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 10,
     "first_seen_at": "2026-09-28T16:01:18.652Z"
   },
@@ -1227,7 +1227,7 @@
     "slug": "aiafter5",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-ef4jXYk9xJeXY0e": {
@@ -1236,7 +1236,7 @@
     "slug": "animahealth",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-07T22:03:37.534Z"
   },
@@ -1246,7 +1246,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-ElvU4UVlAD13ewe": {
@@ -1255,7 +1255,7 @@
     "slug": "builderandbrews",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-eN3KGLR5jYicSEf": {
@@ -1264,7 +1264,7 @@
     "slug": "grishin-robotics",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-EoGe99CeR1R8F6J": {
@@ -1273,7 +1273,7 @@
     "slug": "ldn-hardware-meetup",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-11T18:39:19.749Z"
   },
@@ -1283,7 +1283,7 @@
     "slug": "ldn",
     "source": "featured",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-EQVbDFOC8FMATyY": {
@@ -1292,7 +1292,7 @@
     "slug": "c3s",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-ERMF7WUm4YMa57L": {
@@ -1301,7 +1301,7 @@
     "slug": "hy.pe",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-29T22:59:56.213Z"
   },
@@ -1311,7 +1311,7 @@
     "slug": "londonventureclub",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 13,
     "first_seen_at": "2026-09-08T09:07:22.322Z"
   },
@@ -1321,7 +1321,7 @@
     "slug": "privy",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-11-07T23:02:10.831Z"
   },
@@ -1331,7 +1331,7 @@
     "slug": "INPUTGlobalEvents",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-23T01:52:29.903Z"
   },
@@ -1341,7 +1341,7 @@
     "slug": "tokensand",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-ezovQpEyDDItGWN": {
@@ -1359,7 +1359,7 @@
     "slug": "plugged",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-FhWvOxHV0AGL38z": {
@@ -1368,7 +1368,7 @@
     "slug": "",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-FKCBaLZVlxQaeK9": {
@@ -1377,7 +1377,7 @@
     "slug": "thebaehq",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-21T06:13:57.877Z"
   },
@@ -1387,7 +1387,7 @@
     "slug": "nml",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-14T18:58:59.294Z"
   },
@@ -1397,7 +1397,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-fU27ZaRxVdYXzab": {
@@ -1406,7 +1406,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-11-10T18:55:54.366Z"
   },
@@ -1416,7 +1416,7 @@
     "slug": "notionlondon",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-05T21:49:43.015Z"
   },
@@ -1426,7 +1426,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-05T21:49:43.015Z"
   },
@@ -1436,7 +1436,7 @@
     "slug": "IterateHacks",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-09T17:30:54.195Z"
   },
@@ -1446,7 +1446,7 @@
     "slug": "pst",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1
   },
   "cal-FxYKP21d68671vF": {
@@ -1465,7 +1465,7 @@
     "slug": "jaiku",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-G5ck2cV8kldiVXA": {
@@ -1474,7 +1474,7 @@
     "slug": "boncharge",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-G6RucUfw1nBs8qT": {
@@ -1483,7 +1483,7 @@
     "slug": "fetch.ai",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-08T13:34:11.591Z"
   },
@@ -1493,7 +1493,7 @@
     "slug": "lafosse",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-08T00:14:07.864Z"
   },
@@ -1512,7 +1512,7 @@
     "slug": "clickhouse-events",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3,
     "first_seen_at": "2026-09-06T01:22:51.744Z"
   },
@@ -1522,7 +1522,7 @@
     "slug": "gdglondon",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-26T01:46:27.937Z"
   },
@@ -1532,7 +1532,7 @@
     "slug": "AI-for-the-rest-of-us",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-Gs1GHAFSsQG4qhQ": {
@@ -1541,9 +1541,19 @@
     "slug": "PropTechConnectEU26",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T21:53:51.609Z"
+  },
+  "cal-gTc4xITKfKpj4Um": {
+    "api_id": "cal-gTc4xITKfKpj4Um",
+    "name": "KCL SynBioTech 2026/27",
+    "slug": "kclsynbiotech26_27",
+    "source": "sitemap",
+    "reason": "Sitemap discovery — runs London events",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
+    "first_seen_at": "2026-11-12T07:59:35.948Z",
+    "london_event_count": 3
   },
   "cal-gtnLeknylYPXsol": {
     "api_id": "cal-gtnLeknylYPXsol",
@@ -1551,7 +1561,7 @@
     "slug": "criticalmass",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-26T18:36:06.874Z"
   },
@@ -1571,7 +1581,7 @@
     "slug": "meetgamma",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 5
   },
   "cal-h0cZOlkq3AGhPoK": {
@@ -1580,7 +1590,7 @@
     "slug": "londonagenticai",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-09T17:30:54.195Z"
   },
@@ -1590,7 +1600,7 @@
     "slug": "genailondon",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-H7TLyVnG1Z0pyuO": {
@@ -1599,7 +1609,7 @@
     "slug": "femcapitalsalon",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-24T23:07:11.482Z"
   },
@@ -1618,9 +1628,9 @@
     "slug": "humanoid",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
-    "first_seen_at": "2026-11-12T00:57:51.271Z",
-    "london_event_count": 1
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
+    "london_event_count": 1,
+    "first_seen_at": "2026-11-12T00:57:51.271Z"
   },
   "cal-hE08AsQ4cybbRaG": {
     "api_id": "cal-hE08AsQ4cybbRaG",
@@ -1628,7 +1638,7 @@
     "slug": "nationofartisans",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-05T09:35:01.926Z"
   },
@@ -1638,7 +1648,7 @@
     "slug": "house-of-sol",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 5,
     "first_seen_at": "2026-09-08T00:14:07.864Z"
   },
@@ -1648,7 +1658,7 @@
     "slug": "orbs",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T01:06:07.633Z"
   },
@@ -1658,7 +1668,7 @@
     "slug": "techspace",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-25T20:25:42.535Z"
   },
@@ -1668,7 +1678,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-hoJOad2gnCAn32t": {
@@ -1687,7 +1697,7 @@
     "slug": "age",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T00:22:49.342Z"
   },
@@ -1697,7 +1707,7 @@
     "slug": "vercel-events",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-HrtkAzdQ9HX5Aab": {
@@ -1706,7 +1716,7 @@
     "slug": "evals-london",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-11-06T23:16:48.095Z"
   },
@@ -1716,7 +1726,7 @@
     "slug": "novabook",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-HUj9G3RtLCRmtBx": {
@@ -1725,7 +1735,7 @@
     "slug": "connectedinnovation",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-i6safuEqWFPKO7T": {
@@ -1734,7 +1744,7 @@
     "slug": "beeglobal",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-26T01:46:27.937Z"
   },
@@ -1744,7 +1754,7 @@
     "slug": "outlierlabs",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-I7xBYdP5W0ZlkPS": {
@@ -1753,7 +1763,7 @@
     "slug": "CCLFall2026",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-10T23:52:37.846Z"
   },
@@ -1773,7 +1783,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-inj4UfkKnAAR9X5": {
@@ -1782,7 +1792,7 @@
     "slug": "JumpstartEvents",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2
   },
   "cal-inLTbBIZPpPPkRP": {
@@ -1791,7 +1801,7 @@
     "slug": "auth0events-europe",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-iohMMcrslVE7AsP": {
@@ -1800,7 +1810,7 @@
     "slug": "lisbonloras-events",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-iRJOAxy06J8zCJd": {
@@ -1809,7 +1819,7 @@
     "slug": "spacexsi",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-iRYNvJr9vGv1QhH": {
@@ -1818,7 +1828,7 @@
     "slug": "MonadFoundation",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-itHSqxwXjGOzVSn": {
@@ -1827,7 +1837,7 @@
     "slug": "",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-21T12:52:46.246Z"
   },
@@ -1847,7 +1857,7 @@
     "slug": "vilnius_founders",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T16:24:37.492Z"
   },
@@ -1857,7 +1867,7 @@
     "slug": "techstartupmeetups",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 54
   },
   "cal-iVZwlwZ4piJh2eO": {
@@ -1866,7 +1876,7 @@
     "slug": "lifterscoalition",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 27,
     "first_seen_at": "2026-09-26T01:46:27.937Z"
   },
@@ -1886,7 +1896,7 @@
     "slug": "hackwimbledon",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 3,
     "first_seen_at": "2026-10-06T20:29:11.638Z"
   },
@@ -1896,7 +1906,7 @@
     "slug": "livingroomlabs",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-05T09:35:01.926Z"
   },
@@ -1906,7 +1916,7 @@
     "slug": "not-another-pizza",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-06T18:35:04.790Z"
   },
@@ -1926,7 +1936,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-J8WZ4jDbwzD9TWi": {
@@ -1935,7 +1945,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 5,
     "first_seen_at": "2026-10-22T20:52:53.636Z"
   },
@@ -1945,7 +1955,7 @@
     "slug": "glassray",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-jB6wQdja44wssec": {
@@ -1954,7 +1964,7 @@
     "slug": "luminaevents",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-jePkEWbp9h3docL": {
@@ -1963,7 +1973,7 @@
     "slug": "abundance",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-jFrbmEpxJCDVauf": {
@@ -1972,7 +1982,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-jhER54DdmapscWG": {
@@ -1991,7 +2001,7 @@
     "slug": "liaise",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1
   },
   "cal-jkDrcPHAefzhgmF": {
@@ -2000,7 +2010,7 @@
     "slug": "finimize",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-18T09:15:19.399Z"
   },
@@ -2010,7 +2020,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-jlk3J9rW008HHOx": {
@@ -2019,7 +2029,7 @@
     "slug": "lukka",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-15T21:54:38.824Z"
   },
@@ -2029,7 +2039,7 @@
     "slug": "yourtribesouthwark",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T23:32:12.723Z"
   },
@@ -2039,7 +2049,7 @@
     "slug": "attio",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-jvRrCBfKE0G06XV": {
@@ -2048,7 +2058,7 @@
     "slug": "softr-events",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3,
     "first_seen_at": "2026-09-14T22:21:07.347Z"
   },
@@ -2058,7 +2068,7 @@
     "slug": "portobellomornings",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-25T00:11:52.144Z"
   },
@@ -2068,7 +2078,7 @@
     "slug": "motherduck",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T01:21:17.087Z"
   },
@@ -2078,7 +2088,7 @@
     "slug": "latereveal",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 4,
     "first_seen_at": "2026-11-11T18:29:45.860Z"
   },
@@ -2098,7 +2108,7 @@
     "slug": "conexen",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T23:24:07.237Z"
   },
@@ -2117,7 +2127,7 @@
     "slug": "NEEREVENTS",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 4,
     "first_seen_at": "2026-10-04T15:50:55.486Z"
   },
@@ -2137,7 +2147,7 @@
     "slug": "climate-clarity",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-09T17:30:54.195Z"
   },
@@ -2156,7 +2166,7 @@
     "slug": "cw3UK",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-26T04:52:08.681Z"
   },
@@ -2166,7 +2176,7 @@
     "slug": "offlinewomen",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 6
   },
   "cal-KUVrWECuYa2l5zB": {
@@ -2175,7 +2185,7 @@
     "slug": "legora",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-KwZeQ0HC9LFQ3Fk": {
@@ -2184,7 +2194,7 @@
     "slug": "raycast",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-kxHmhVOJEvWII8E": {
@@ -2193,7 +2203,7 @@
     "slug": "epicllama",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-06T06:06:09.819Z"
   },
@@ -2203,7 +2213,7 @@
     "slug": "kcltech",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-15T16:50:22.823Z"
   },
@@ -2213,7 +2223,7 @@
     "slug": "srv-frontier",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-19T21:42:34.097Z"
   },
@@ -2223,7 +2233,7 @@
     "slug": "reasoningproject",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-LJAMacm3VnwgvIV": {
@@ -2232,7 +2242,7 @@
     "slug": "akeysh",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-25T19:44:55.800Z"
   },
@@ -2252,7 +2262,7 @@
     "slug": "mostly-working",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-lmw7BmkkUszdcd6": {
@@ -2271,7 +2281,7 @@
     "slug": "gradientdescending",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T13:01:45.276Z"
   },
@@ -2281,7 +2291,7 @@
     "slug": "claude-startups",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-lwyHHvjKfw5YVxI": {
@@ -2290,7 +2300,7 @@
     "slug": "backgammonsociallondon",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4,
     "first_seen_at": "2026-10-27T00:43:04.088Z"
   },
@@ -2300,7 +2310,7 @@
     "slug": "fivetwonine",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-11T07:18:20.055Z"
   },
@@ -2310,7 +2320,7 @@
     "slug": "lennysnewsletter",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1
   },
   "cal-lYa2810srHvkQRC": {
@@ -2319,7 +2329,7 @@
     "slug": "modal-labs",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-Lzz5NtU1Dtc2zIA": {
@@ -2328,7 +2338,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-MeZEH0axGTgm5dv": {
@@ -2337,7 +2347,7 @@
     "slug": "FUNLondon",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-mF7QKemfbZcFa3M": {
@@ -2346,7 +2356,7 @@
     "slug": "LondonTCKHome",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-09T20:00:11.125Z"
   },
@@ -2376,7 +2386,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-16T22:53:18.830Z"
   },
@@ -2386,7 +2396,7 @@
     "slug": "uk-builders-collective",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-Miuq00LlirLs0sF": {
@@ -2404,7 +2414,7 @@
     "slug": "living-culture-coffee",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-26T16:59:02.111Z"
   },
@@ -2414,7 +2424,7 @@
     "slug": "intheroom",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-09T21:30:41.356Z"
   },
@@ -2424,7 +2434,7 @@
     "slug": "mason-fifth",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 14
   },
   "cal-MOncCKcQaXSQlrB": {
@@ -2452,7 +2462,7 @@
     "slug": "Oxford",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-MrMVZNAToYyS1CM": {
@@ -2470,7 +2480,7 @@
     "slug": "modoenergylive",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 3,
     "first_seen_at": "2026-09-26T11:48:39.754Z"
   },
@@ -2480,7 +2490,7 @@
     "slug": "launch-london",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-mSOSxfBzMdGDINR": {
@@ -2489,7 +2499,7 @@
     "slug": "OAS",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 20
   },
   "cal-mxsloRHMjU9sPrP": {
@@ -2498,8 +2508,18 @@
     "slug": "manuscommunity",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
+  },
+  "cal-myomJiOCsi3cCTY": {
+    "api_id": "cal-myomJiOCsi3cCTY",
+    "name": "Revolut Connect",
+    "slug": "revolutconnect",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
+    "first_seen_at": "2026-11-12T07:59:35.948Z",
+    "london_event_count": 1
   },
   "cal-NFEDisEmJoSg0TU": {
     "api_id": "cal-NFEDisEmJoSg0TU",
@@ -2507,7 +2527,7 @@
     "slug": "BP-SideEvents",
     "source": "featured",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 105,
     "first_seen_at": "2026-10-30T09:33:54.617Z"
   },
@@ -2526,7 +2546,7 @@
     "slug": "elyos.ai",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-21T12:52:46.246Z"
   },
@@ -2536,7 +2556,7 @@
     "slug": "ntl",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 12,
     "first_seen_at": "2026-09-18T19:38:26.326Z"
   },
@@ -2546,7 +2566,7 @@
     "slug": "festiwal-polska-teraz",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-18T19:38:26.326Z"
   },
@@ -2556,7 +2576,7 @@
     "slug": "imperialaiweek",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 3,
     "first_seen_at": "2026-11-06T18:17:50.837Z"
   },
@@ -2576,7 +2596,7 @@
     "slug": "myfounders.club",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-20T23:11:10.253Z"
   },
@@ -2596,7 +2616,7 @@
     "slug": "herankandfile",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-10T15:16:20.614Z"
   },
@@ -2616,7 +2636,7 @@
     "slug": "CampaignLab",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4
   },
   "cal-NVlEkwr3d6kyDC0": {
@@ -2625,7 +2645,7 @@
     "slug": "dealroom.co",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-24T11:54:06.616Z"
   },
@@ -2635,7 +2655,7 @@
     "slug": "3search",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4,
     "first_seen_at": "2026-09-08T04:40:36.348Z"
   },
@@ -2645,7 +2665,7 @@
     "slug": "shredeatsleep",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-20T12:01:03.062Z"
   },
@@ -2655,7 +2675,7 @@
     "slug": "expcalender",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1
   },
   "cal-nZhSan1N3ddowIg": {
@@ -2664,7 +2684,7 @@
     "slug": "mastra",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-nzOAgynAmCRqYgW": {
@@ -2673,7 +2693,7 @@
     "slug": "voiceroom",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-14T20:54:51.900Z"
   },
@@ -2683,7 +2703,7 @@
     "slug": "KingsRising",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T23:24:07.237Z"
   },
@@ -2693,7 +2713,7 @@
     "slug": "aiagentslab",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-OCSfN320OzjhUpH": {
@@ -2702,7 +2722,7 @@
     "slug": "",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-odVn0iSboTMyS0t": {
@@ -2711,7 +2731,7 @@
     "slug": "grantham_ic",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-23T17:16:05.339Z"
   },
@@ -2721,7 +2741,7 @@
     "slug": "london-ai",
     "source": "known",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-oFnfdlscmIGjWvs": {
@@ -2740,7 +2760,7 @@
     "slug": "granola",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 6
   },
   "cal-oGKPs8y5BbMisbK": {
@@ -2749,7 +2769,7 @@
     "slug": "artificially-intelligent",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-oH9WsPVFnrBJjBm": {
@@ -2758,7 +2778,7 @@
     "slug": "bionicawards",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-05T22:03:42.055Z"
   },
@@ -2768,7 +2788,7 @@
     "slug": "IDEALondon",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-28T21:49:30.513Z"
   },
@@ -2778,7 +2798,7 @@
     "slug": "frontiertraders",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-30T20:49:07.344Z"
   },
@@ -2788,7 +2808,7 @@
     "slug": "adamsmithinstituteevents",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-OTLA6Ppc1wXRy16": {
@@ -2797,7 +2817,7 @@
     "slug": "zedindustries",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-OTlpCMdM5L7Gj4B": {
@@ -2806,7 +2826,7 @@
     "slug": "conceptionx",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-08T22:35:22.978Z"
   },
@@ -2816,7 +2836,7 @@
     "slug": "joinlychee",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 7
   },
   "cal-oVo9cQ4EP19G6xQ": {
@@ -2825,7 +2845,7 @@
     "slug": "analogue",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-oXhqkb73JmpMnQA": {
@@ -2834,7 +2854,7 @@
     "slug": "Hbayit",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 4,
     "first_seen_at": "2026-09-25T16:24:37.492Z"
   },
@@ -2844,7 +2864,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-p0Ty8dnCk4rsXxC": {
@@ -2853,7 +2873,7 @@
     "slug": "badlondon",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4
   },
   "cal-P7qqIylywpCl85Q": {
@@ -2862,7 +2882,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-06T23:16:48.095Z"
   },
@@ -2872,7 +2892,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-09T14:41:14.831Z"
   },
@@ -2891,7 +2911,7 @@
     "slug": "openorg.fyi",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-21T18:21:46.694Z"
   },
@@ -2901,7 +2921,7 @@
     "slug": "reachai",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-06T20:47:37.823Z"
   },
@@ -2911,7 +2931,7 @@
     "slug": "alidad",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T20:05:07.103Z"
   },
@@ -2921,7 +2941,7 @@
     "slug": "journocoders",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-pI0TeC2lUbzZFOW": {
@@ -2930,7 +2950,7 @@
     "slug": "lo-tech",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-26T21:28:59.364Z"
   },
@@ -2940,7 +2960,7 @@
     "slug": "FFRevents",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-19T01:38:14.641Z"
   },
@@ -2950,7 +2970,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-pMjwAfN0msdzm8I": {
@@ -2959,7 +2979,7 @@
     "slug": "nightoffice",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-26T11:48:39.755Z"
   },
@@ -2969,7 +2989,7 @@
     "slug": "thelissome",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-11-01T23:45:35.090Z"
   },
@@ -2979,7 +2999,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 4
   },
   "cal-PxHlJqXViBgYBpV": {
@@ -2988,7 +3008,7 @@
     "slug": "london-tech-week",
     "source": "featured",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-PXKqPzUJdglytAZ": {
@@ -3007,7 +3027,7 @@
     "slug": "multic",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T01:21:17.087Z"
   },
@@ -3027,7 +3047,7 @@
     "slug": "londonlivecoding",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4
   },
   "cal-Qb2jFfezFMiVkF1": {
@@ -3036,7 +3056,7 @@
     "slug": "phyiscal-io",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-16T22:53:18.830Z"
   },
@@ -3046,7 +3066,7 @@
     "slug": "eurodefensetech",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T20:25:42.535Z"
   },
@@ -3056,7 +3076,7 @@
     "slug": "cwfemaleentrepreneurs",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-28T00:05:05.188Z"
   },
@@ -3085,7 +3105,7 @@
     "slug": "deepgram",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-qJCKF7ct5XX3pwB": {
@@ -3094,7 +3114,7 @@
     "slug": "posthog",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1
   },
   "cal-QQGEIJl1K33N0zb": {
@@ -3103,7 +3123,7 @@
     "slug": "spacexai-london",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-qQsgmTTcoDwHfhP": {
@@ -3112,7 +3132,7 @@
     "slug": "cpocircles",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T13:01:45.276Z"
   },
@@ -3132,7 +3152,7 @@
     "slug": "ccd",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-27T20:47:11.430Z"
   },
@@ -3142,7 +3162,7 @@
     "slug": "tech-europe",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-R60T0PAi3t6r8aF": {
@@ -3151,7 +3171,7 @@
     "slug": "tablecrowd",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-09T05:08:03.575Z"
   },
@@ -3161,7 +3181,7 @@
     "slug": "odyssey.ml",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-R9IQUb53FUrolUF": {
@@ -3170,7 +3190,7 @@
     "slug": "AssemblyAI",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-16T20:02:41.823Z"
   },
@@ -3180,7 +3200,7 @@
     "slug": "London_AI_Practitioners",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-30T23:10:00.984Z"
   },
@@ -3200,7 +3220,7 @@
     "slug": "rarechosen",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-11-06T18:17:50.837Z"
   },
@@ -3210,7 +3230,7 @@
     "slug": "metal.raise",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-26T21:28:59.364Z"
   },
@@ -3240,8 +3260,18 @@
     "slug": "lookingforgrowth",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
+  },
+  "cal-Rt6wAxeAxicO1UW": {
+    "api_id": "cal-Rt6wAxeAxicO1UW",
+    "name": "Whitepaper Reading Club",
+    "slug": "whitepaper",
+    "source": "discover",
+    "reason": "",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
+    "first_seen_at": "2026-11-12T07:59:35.948Z",
+    "london_event_count": 1
   },
   "cal-RWhwSG0mbNbTZVU": {
     "api_id": "cal-RWhwSG0mbNbTZVU",
@@ -3249,7 +3279,7 @@
     "slug": "PinkPoodleSociety",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-21T06:13:57.877Z"
   },
@@ -3259,7 +3289,7 @@
     "slug": "cur8",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-08T17:27:03.916Z"
   },
@@ -3269,7 +3299,7 @@
     "slug": "Aptura",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T21:43:42.727Z"
   },
@@ -3289,7 +3319,7 @@
     "slug": "omarchy",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-17T00:57:17.571Z"
   },
@@ -3309,7 +3339,7 @@
     "slug": "MTUK",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2
   },
   "cal-SGbJvazqFv8mdfQ": {
@@ -3328,7 +3358,7 @@
     "slug": "ai-automations-make-global-calendar",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-09T13:56:21.837Z"
   },
@@ -3338,7 +3368,7 @@
     "slug": "enki",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2
   },
   "cal-soob6Y8Ye4P8K2L": {
@@ -3366,7 +3396,7 @@
     "slug": "edusolvai",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-17T00:57:17.571Z"
   },
@@ -3376,7 +3406,7 @@
     "slug": "entrep",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 7,
     "first_seen_at": "2026-11-01T23:45:35.090Z"
   },
@@ -3386,7 +3416,7 @@
     "slug": "aloevents",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-sTpcuYmvvYXvEtd": {
@@ -3395,7 +3425,7 @@
     "slug": "halkin",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-sV0fuGpbX06Jp8w": {
@@ -3404,7 +3434,7 @@
     "slug": "girlswhoml-events",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-swGAM7jWRRz8pur": {
@@ -3423,7 +3453,7 @@
     "slug": "dust",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3
   },
   "cal-sx2p8SLoDPbnHQB": {
@@ -3432,7 +3462,7 @@
     "slug": "seapoint.co",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-SXGLdns9g6dOhOU": {
@@ -3441,7 +3471,7 @@
     "slug": "inertia",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T19:41:25.610Z"
   },
@@ -3451,7 +3481,7 @@
     "slug": "house-london",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-16T01:47:58.514Z"
   },
@@ -3461,7 +3491,7 @@
     "slug": "techgames",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-tCpFUIvEWStz3eC": {
@@ -3470,7 +3500,7 @@
     "slug": "OpenSourceIRL",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-TIm7UJmG29YvMBs": {
@@ -3479,7 +3509,7 @@
     "slug": "rtm",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-tIVlGWmxHLpUZ0Y": {
@@ -3488,7 +3518,7 @@
     "slug": "lovablelondon",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-09T01:25:37.946Z"
   },
@@ -3508,7 +3538,7 @@
     "slug": "Cognition-london",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-28T21:49:30.513Z"
   },
@@ -3518,7 +3548,7 @@
     "slug": "Light.inc",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 3,
     "first_seen_at": "2026-09-10T04:58:57.151Z"
   },
@@ -3528,7 +3558,7 @@
     "slug": "claudecommunity",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 4
   },
   "cal-tTJmdFz6EzwFYYO": {
@@ -3557,7 +3587,7 @@
     "slug": "momentumproductcompany",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T16:20:30.751Z"
   },
@@ -3567,7 +3597,7 @@
     "slug": "deeptechfutures",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-04T15:50:55.486Z"
   },
@@ -3577,7 +3607,7 @@
     "slug": "Maisonzero",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-11T22:33:43.256Z"
   },
@@ -3587,7 +3617,7 @@
     "slug": "cycolgallery",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-18T23:38:24.532Z"
   },
@@ -3597,7 +3627,7 @@
     "slug": "ltaa",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-18T19:38:26.326Z"
   },
@@ -3617,7 +3647,7 @@
     "slug": "dessn",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-uDWKG3Rz8tSrcoH": {
@@ -3645,7 +3675,7 @@
     "slug": "mongodb-community",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-18T21:36:48.870Z"
   },
@@ -3655,7 +3685,7 @@
     "slug": "colorintech-official",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-uhxab7dgzR07hHE": {
@@ -3674,7 +3704,7 @@
     "slug": "blockstories",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-18T19:19:58.634Z"
   },
@@ -3684,7 +3714,7 @@
     "slug": "london-systems-club",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-uKMOEdgNb7KzyWM": {
@@ -3693,7 +3723,7 @@
     "slug": "Herinfocus",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-02T16:42:45.272Z"
   },
@@ -3713,7 +3743,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-22T12:55:41.603Z"
   },
@@ -3733,7 +3763,7 @@
     "slug": "heysalad",
     "source": "known",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-URMirodEj9zxhoq": {
@@ -3742,7 +3772,7 @@
     "slug": "networklife",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-28T21:49:30.513Z"
   },
@@ -3752,7 +3782,7 @@
     "slug": "flabelus-trunk-shows",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-07T22:03:37.534Z"
   },
@@ -3762,7 +3792,7 @@
     "slug": "energybackers",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-19T14:05:06.427Z"
   },
@@ -3772,7 +3802,7 @@
     "slug": "bdauk",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-25T06:24:46.061Z"
   },
@@ -3782,7 +3812,7 @@
     "slug": "ai-pilled",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-09-08T22:35:22.978Z"
   },
@@ -3792,7 +3822,7 @@
     "slug": "earthscale1",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-18T16:59:22.169Z"
   },
@@ -3812,7 +3842,7 @@
     "slug": "ainativedev",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-Uzt4MvgUpfoSstH": {
@@ -3821,7 +3851,7 @@
     "slug": "ai-demo-days",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-V4hGl3ge6NWRiTy": {
@@ -3840,7 +3870,7 @@
     "slug": "corgilondon",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 9
   },
   "cal-vb2zQHUVREdaYC9": {
@@ -3849,7 +3879,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-18T21:36:48.870Z"
   },
@@ -3859,7 +3889,7 @@
     "slug": "gtmworldtour",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T17:36:44.106Z"
   },
@@ -3869,9 +3899,19 @@
     "slug": "ChelseaCollective",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-17T13:58:40.395Z"
+  },
+  "cal-vFvgaH9k8XYqK8n": {
+    "api_id": "cal-vFvgaH9k8XYqK8n",
+    "name": "FLOCKHERE",
+    "slug": "flockhere",
+    "source": "sitemap",
+    "reason": "Sitemap discovery — runs London events",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
+    "first_seen_at": "2026-11-12T07:59:35.948Z",
+    "london_event_count": 1
   },
   "cal-VGL3ZnCtDZem51S": {
     "api_id": "cal-VGL3ZnCtDZem51S",
@@ -3879,7 +3919,7 @@
     "slug": "wearecookclub",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-02T05:32:12.473Z"
   },
@@ -3899,7 +3939,7 @@
     "slug": "afterhours0",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-vkx5Viign0lakAH": {
@@ -3908,7 +3948,7 @@
     "slug": "backbone",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-04T01:06:07.633Z"
   },
@@ -3928,7 +3968,7 @@
     "slug": "celesto",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-vNSkiAwLTGDRyNO": {
@@ -3947,7 +3987,7 @@
     "slug": "theninthseat",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-05T09:35:01.926Z"
   },
@@ -3957,7 +3997,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-VsMY2z5THO8cEsE": {
@@ -3966,7 +4006,7 @@
     "slug": "Hubble",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-VTfiBVEyUWNfOSb": {
@@ -3985,7 +4025,7 @@
     "slug": "bsmai",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-VZENENTrkl8dteA": {
@@ -4004,7 +4044,7 @@
     "slug": "DAS2026SideEvents",
     "source": "featured",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 9,
     "first_seen_at": "2026-10-19T23:10:01.341Z"
   },
@@ -4014,7 +4054,7 @@
     "slug": "llmlondon",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-W5uNHzH6QfjPvTj": {
@@ -4023,7 +4063,7 @@
     "slug": "tano",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-13T00:22:49.342Z"
   },
@@ -4033,7 +4073,7 @@
     "slug": "staaake",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-08T22:35:22.978Z"
   },
@@ -4043,7 +4083,7 @@
     "slug": "newspeak-house",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 18
   },
   "cal-WhYFLhJHVydczem": {
@@ -4052,7 +4092,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 3
   },
   "cal-WIqFqBCs69nSFDO": {
@@ -4061,7 +4101,7 @@
     "slug": "lndshakers",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-03T21:30:37.779Z"
   },
@@ -4071,7 +4111,7 @@
     "slug": "arizeai",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-WkCW0mB7CNqZRl3": {
@@ -4080,7 +4120,7 @@
     "slug": "movewithcraft",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-18T21:52:15.915Z"
   },
@@ -4099,7 +4139,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-Wr4LXGWinr1UiCW": {
@@ -4108,7 +4148,7 @@
     "slug": "aidemonights",
     "source": "known",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-WuC7fwXvvdeFd3N": {
@@ -4117,7 +4157,7 @@
     "slug": "openai-emea",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-wUKLVX9VWOdVkpg": {
@@ -4126,7 +4166,7 @@
     "slug": "futureforward-events",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-13T23:01:38.432Z"
   },
@@ -4136,7 +4176,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-WyILghhqAbtJdH5": {
@@ -4155,7 +4195,7 @@
     "slug": "FINTECHCircle",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-20T23:25:07.320Z"
   },
@@ -4165,7 +4205,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-wyxwhprF4I5ZA5c": {
@@ -4184,7 +4224,7 @@
     "slug": "graphgeeks.org",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-20T23:25:07.320Z"
   },
@@ -4194,7 +4234,7 @@
     "slug": "basedhouse",
     "source": "known",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-X5SDIC7nEqQDEDk": {
@@ -4203,7 +4243,7 @@
     "slug": "beyondconnections",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-24T19:59:05.690Z"
   },
@@ -4213,7 +4253,7 @@
     "slug": "techtalkuk",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-XGMKpPA6jxyunKG": {
@@ -4232,7 +4272,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-XHP0h06pKGJWnAI": {
@@ -4251,7 +4291,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-13T23:01:38.432Z"
   },
@@ -4261,7 +4301,7 @@
     "slug": "fin",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-Xtd3aTHiMpcX3vF": {
@@ -4280,7 +4320,7 @@
     "slug": "host_planet",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-20T12:16:19.297Z"
   },
@@ -4290,7 +4330,7 @@
     "slug": "operators_runclub",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 17
   },
   "cal-xvZHN4RFtr0UwR6": {
@@ -4299,7 +4339,7 @@
     "slug": "joinfivedegrees",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-17T19:03:46.011Z"
   },
@@ -4309,7 +4349,7 @@
     "slug": "foundryfive",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-18T23:41:17.662Z"
   },
@@ -4319,7 +4359,7 @@
     "slug": "laravel",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-22T14:56:59.369Z"
   },
@@ -4329,7 +4369,7 @@
     "slug": "london-effective-giving-community",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-03T18:22:25.357Z"
   },
@@ -4339,7 +4379,7 @@
     "slug": "zapierpartnerscalendar",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-yaAecNXjJ1eu6Pc": {
@@ -4348,7 +4388,7 @@
     "slug": "ramen-space-london",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 5,
     "first_seen_at": "2026-10-28T21:45:16.829Z"
   },
@@ -4367,7 +4407,7 @@
     "slug": "OpenCode",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   },
   "cal-yCnujAnSUJXmLFQ": {
@@ -4376,7 +4416,7 @@
     "slug": "aaif-london",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.270Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-16T01:47:58.514Z"
   },
@@ -4386,7 +4426,7 @@
     "slug": "NWC",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-19T01:38:14.641Z"
   },
@@ -4396,7 +4436,7 @@
     "slug": "Housedelight",
     "source": "discover",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-14T01:48:10.895Z"
   },
@@ -4406,7 +4446,7 @@
     "slug": "codurance",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-05T05:53:38.070Z"
   },
@@ -4416,7 +4456,7 @@
     "slug": "mafia",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-yQRC7YwpEmCUqGF": {
@@ -4425,7 +4465,7 @@
     "slug": "linear",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-20T12:16:19.297Z"
   },
@@ -4435,7 +4475,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-YsrJozJ532nOmgW": {
@@ -4454,7 +4494,7 @@
     "slug": "BreakingBurnout",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2,
     "first_seen_at": "2026-10-21T20:49:18.012Z"
   },
@@ -4464,7 +4504,7 @@
     "slug": "Aerospike",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-09T23:36:10.233Z"
   },
@@ -4474,7 +4514,7 @@
     "slug": "",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-10T21:59:20.650Z"
   },
@@ -4484,7 +4524,7 @@
     "slug": "",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-06T16:30:11.606Z"
   },
@@ -4503,7 +4543,7 @@
     "slug": "",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-Z9Y8mFluRzInkDV": {
@@ -4522,7 +4562,7 @@
     "slug": "CDTMakerClub",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 6,
     "first_seen_at": "2026-09-19T01:38:14.641Z"
   },
@@ -4532,7 +4572,7 @@
     "slug": "londontechleaders",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 2
   },
   "cal-zDVR851q25N1HwR": {
@@ -4541,7 +4581,7 @@
     "slug": "deeptechldn",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-10T17:17:41.402Z"
   },
@@ -4551,7 +4591,7 @@
     "slug": "architect",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-zJIVes3fEKrIWt2": {
@@ -4560,7 +4600,7 @@
     "slug": "MerciaNEDSeries",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-23T02:00:21.114Z"
   },
@@ -4570,7 +4610,7 @@
     "slug": "markedasurgent",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-21T06:39:02.159Z"
   },
@@ -4580,7 +4620,7 @@
     "slug": "formacity",
     "source": "discover",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-10-30T02:56:41.332Z"
   },
@@ -4590,7 +4630,7 @@
     "slug": "cubsprive.com",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-10-21T06:39:02.159Z"
   },
@@ -4600,7 +4640,7 @@
     "slug": "lifestack",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0,
     "first_seen_at": "2026-09-07T19:14:40.146Z"
   },
@@ -4610,7 +4650,7 @@
     "slug": "imagination.ooo",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 0
   },
   "cal-ZSyFOE4yAVFecLW": {
@@ -4619,7 +4659,7 @@
     "slug": "rampevents",
     "source": "manual",
     "reason": "User subscription",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-ZWrWpoeVBtPozgp": {
@@ -4628,7 +4668,7 @@
     "slug": "5050UK",
     "source": "known",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 0
   },
   "cal-ZxCjWl8LoPrG7Td": {
@@ -4637,7 +4677,7 @@
     "slug": "devin",
     "source": "sitemap",
     "reason": "Sitemap discovery — runs London events",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.949Z",
     "london_event_count": 1,
     "first_seen_at": "2026-09-29T07:02:05.058Z"
   },
@@ -4657,7 +4697,7 @@
     "slug": "breakpoint",
     "source": "featured",
     "reason": "",
-    "last_seen_at": "2026-11-12T00:57:51.271Z",
+    "last_seen_at": "2026-11-12T07:59:35.948Z",
     "london_event_count": 1
   }
 }
