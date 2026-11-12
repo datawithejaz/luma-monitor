@@ -311,6 +311,12 @@
     "first_seen_at": "2026-08-07T19:55:05.559Z",
     "first_alerted_at": "2026-08-07T19:55:07.603Z"
   },
+  "evt-2NQcX0zFaSRF6d5": {
+    "name": "Humanoid AI Meetup",
+    "host": "Humanoid Events",
+    "first_seen_at": "2026-11-12T00:58:22.764Z",
+    "first_alerted_at": "2026-11-12T00:58:24.314Z"
+  },
   "evt-2PTxLKCyGiF87oC": {
     "name": "Scientist to Founder: London",
     "host": "Conception X",
@@ -1818,6 +1824,12 @@
     "host": "Privy, a Stripe company",
     "first_seen_at": "2026-11-07T23:02:54.540Z",
     "first_alerted_at": "2026-11-07T23:03:00.616Z"
+  },
+  "evt-CluMCHDnNjIsglV": {
+    "name": "Community Heroes Coworking Day ☕️",
+    "host": "Led by Community",
+    "first_seen_at": "2026-11-12T00:58:22.764Z",
+    "first_alerted_at": "2026-11-12T00:58:24.314Z"
   },
   "evt-clyhSgSo7RIMvBe": {
     "name": "If Your AI Were Conscious, How Would You Know? (Megan Peters) + Q&A + Networking",
@@ -6166,6 +6178,12 @@
     "host": "SolveAI",
     "first_seen_at": "2026-09-29T23:00:44.940Z",
     "first_alerted_at": "2026-09-29T23:00:46.204Z"
+  },
+  "evt-UhGSFFsCEoHR4Jc": {
+    "name": "Creative coding bookclub - Oscillation",
+    "host": "Creative Coding Bookclub",
+    "first_seen_at": "2026-11-12T00:58:22.764Z",
+    "first_alerted_at": "2026-11-12T00:58:24.314Z"
   },
   "evt-uHn5eEkF4dMF3hY": {
     "name": "Crypto Padel: Solana Breakpoint Week",
