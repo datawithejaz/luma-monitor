@@ -923,17 +923,17 @@
       "reason": "User subscription"
     },
     {
+      "api_id": "cal-2ARnYOB5PIHpxbh",
+      "slug": "Vibecoders.global",
+      "name": "VCC Club",
+      "reason": "User subscription"
+    },
+    {
       "api_id": "cal-hp9HP2UFTGNaMnY",
       "slug": "vercel-events",
       "name": "Vercel Events",
       "reason": "User subscription",
       "auto_apply": true
-    },
-    {
-      "api_id": "cal-2ARnYOB5PIHpxbh",
-      "slug": "Vibecoders.global",
-      "name": "Vibe Coding Collective",
-      "reason": "User subscription"
     },
     {
       "api_id": "cal-iVB97cIEYEuArQ4",
