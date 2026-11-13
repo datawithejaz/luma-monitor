@@ -2023,6 +2023,12 @@
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
   },
+  "evt-dCs2ZyIpC9pxNgH": {
+    "name": "Mochi & Code",
+    "host": "InstaLILY AI",
+    "first_seen_at": "2026-11-13T22:54:46.677Z",
+    "first_alerted_at": "2026-11-13T22:54:47.915Z"
+  },
   "evt-DDCFdYEoSYsy1PQ": {
     "name": "London Startups Operator RunClub & Social",
     "first_seen_at": "2026-07-18T16:07:12.554Z",
@@ -4048,6 +4054,12 @@
     "first_seen_at": "2026-10-26T21:29:33.166Z",
     "first_alerted_at": "2026-10-26T21:29:34.471Z"
   },
+  "evt-L4ldum5989BzxYH": {
+    "name": "build circuit",
+    "host": "Deen Developers",
+    "first_seen_at": "2026-11-13T22:54:46.677Z",
+    "first_alerted_at": "2026-11-13T22:54:47.915Z"
+  },
   "evt-l4Sjovwpo9T124i": {
     "name": "The Startup Stroll",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
@@ -5402,6 +5414,12 @@
     "name": "Health Hack Your GP: Workshops and Social Mixer",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-qR4kbzUtLzd94eE": {
+    "name": "Antidote Tech Chess Night",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-13T22:54:46.677Z",
+    "first_alerted_at": "2026-11-13T22:54:47.915Z"
   },
   "evt-QruPorpcyAsDMsj": {
     "name": "Future of the Grid Dinner - EF x TDK Ventures",
