@@ -1068,6 +1068,12 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-97z5pYWZhghuu2D": {
+    "name": "Female Founders Raise 2027",
+    "host": "Female Founders Rise Events",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
   "evt-9bfnAST5DY2R0Ky": {
     "name": "ABRC: PHILOSOPHY SALON & JOURNALLING",
     "host": "Personal",
@@ -1464,6 +1470,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-17T00:57:49.909Z",
     "first_alerted_at": "2026-09-17T00:57:50.887Z"
+  },
+  "evt-BBzeID6rceh48WY": {
+    "name": "Design Engineering Night #11",
+    "host": "Granola",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
   },
   "evt-BCyYYY4MD33ybEt": {
     "name": "Exploring Opportunities in... Quantum Computing",
@@ -1882,6 +1894,12 @@
     "first_seen_at": "2026-10-25T22:06:42.006Z",
     "first_alerted_at": "2026-10-25T22:06:43.992Z"
   },
+  "evt-cogJOyHpuoYG3BL": {
+    "name": "Startup & Business Growth London | Founders, Clients & Partnerships",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
   "evt-cpQyksdEbYvuJUm": {
     "name": "Hate AI slop? Build something better - A Creative Harness Hackathon by 36 Labs",
     "host": "Personal",
@@ -2206,6 +2224,12 @@
     "first_seen_at": "2026-09-26T06:41:57.977Z",
     "first_alerted_at": "2026-09-26T06:41:59.392Z"
   },
+  "evt-ED7UG5hfXASMOa7": {
+    "name": "Reality Check - Robotic Hackathon Kickoff Drinks",
+    "host": "AI Engine",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
+  },
   "evt-eib5jSCKnpQpPAJ": {
     "name": "Education & AI Connect: AI Videos for Marketing and Beyond (Breakfast Club)",
     "host": "Education & AI Connect (by EduSolv AI)",
@@ -2508,6 +2532,12 @@
     "host": "House of Sol",
     "first_seen_at": "2026-11-09T21:31:12.949Z",
     "first_alerted_at": "2026-11-09T21:31:18.431Z"
+  },
+  "evt-FgTdeClbSAA8dGm": {
+    "name": "LFG Westminster: Christmas Party",
+    "host": "LFG",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
   },
   "evt-Fhp8UoAf4T7kEgc": {
     "name": "Sports Meets Solana: The Future of Sports is On-chain ⚽",
@@ -3008,6 +3038,12 @@
     "first_seen_at": "2026-09-07T15:17:12.035Z",
     "first_alerted_at": "2026-09-07T15:17:13.381Z"
   },
+  "evt-HA9nvJsM79LiE0b": {
+    "name": "AI & Business Networking London | Founders, Entrepreneurs & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
+  },
   "evt-haOQRS4IBLYgabZ": {
     "name": "Conversations by IF: AI triage",
     "host": "Personal",
@@ -3297,6 +3333,12 @@
     "name": "She Bytes Back x Funding Circle: Bringing Engineering Standards to Agentic Workflows",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-IcltAT16ylFTxOo": {
+    "name": "Wealth, Property & Private Capital Networking for Investors & Professionals",
+    "host": "Networx London - Connect & Grow",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
   },
   "evt-ICUOPWF0RP6fhh8": {
     "name": "Google's Geoff Keeling – AI Moral Patienthood Is Probably Not Relational",
@@ -3849,6 +3891,12 @@
     "first_seen_at": "2026-09-03T23:36:53.954Z",
     "first_alerted_at": "2026-09-03T23:36:57.130Z"
   },
+  "evt-KhUw0Q9F8jmAsQa": {
+    "name": "HCI Reading Club + Workshop | Accent, Voice and Being Heard",
+    "host": "VCC Club",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
   "evt-KHzpQaZ4FjN2FWf": {
     "name": "ABRC BOOKCLUB: LOVE IN THE TIME OF CHOLERA",
     "first_seen_at": "2026-07-25T11:38:35.321Z",
@@ -3947,6 +3995,12 @@
     "host": "ZIG Finance",
     "first_seen_at": "2026-11-05T23:34:05.734Z",
     "first_alerted_at": "2026-11-05T23:34:07.337Z"
+  },
+  "evt-kryGW0e7tQmGuah": {
+    "name": "Agent Connect London: Is your product agent-ready?",
+    "host": "Alpic",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
   },
   "evt-kTENvcnnpQQtMZO": {
     "name": "ABRC FILM CLUB & DISCUSSION: PARASITE",
@@ -4603,6 +4657,12 @@
     "first_seen_at": "2026-09-08T09:07:47.857Z",
     "first_alerted_at": "2026-09-08T09:07:50.135Z"
   },
+  "evt-NqPnRyHAfCUmEMp": {
+    "name": "GTM Sprint: Coworking & Build Day",
+    "host": "PLUGGED",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
   "evt-nra54Fv9bxQGWI1": {
     "name": "Lychee's Startup Games Night",
     "host": "Lychee",
@@ -4727,6 +4787,12 @@
     "host": "3Search London",
     "first_seen_at": "2026-10-19T19:51:34.445Z",
     "first_alerted_at": "2026-10-19T19:51:35.610Z"
+  },
+  "evt-O6r1AvEocNEWkMt": {
+    "name": "Colorintech: Community Co-working Day",
+    "host": "Colorintech Events",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
   },
   "evt-oa56F3eiC54iuwO": {
     "name": "Elyos Dinner Club: Lifting the lid on AI Agents for field services",
@@ -4899,6 +4965,12 @@
     "host": "London Effective Giving Community",
     "first_seen_at": "2026-10-03T18:22:53.877Z",
     "first_alerted_at": "2026-10-03T18:22:55.109Z"
+  },
+  "evt-oQDum5RU3nXgrVr": {
+    "name": "Build a Privacy-Safe GenAI App in 45 Minutes with Skyflow Detect",
+    "host": "GenAI London",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
   },
   "evt-oRFAACmhWgRxgpL": {
     "name": "London SME Networking Event | Business Owners, Founders & Professionals",
@@ -5439,6 +5511,12 @@
     "first_seen_at": "2026-10-17T13:59:10.912Z",
     "first_alerted_at": "2026-10-17T13:59:12.273Z"
   },
+  "evt-reZ8ZsUObfZjrOS": {
+    "name": "December Demo Night",
+    "host": "CityVentures",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.058Z"
+  },
   "evt-rf9w5kAtf4KlQg3": {
     "name": "The Year-End Table - MOXIE community dinner",
     "host": "MOXIE",
@@ -5837,6 +5915,12 @@
     "first_seen_at": "2026-10-14T12:29:04.439Z",
     "first_alerted_at": "2026-10-14T12:29:05.739Z"
   },
+  "evt-sVUzAE3Lx0XyCLF": {
+    "name": "Build Hardware Like a Founder: Silixon Masterclass",
+    "host": "Personal",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
   "evt-sw9mrAEqJopzXHc": {
     "name": "Exploring Opportunities in... Geopolitics and Fintech",
     "host": "London Venture Club",
@@ -6221,6 +6305,12 @@
     "host": "Founder Nation",
     "first_seen_at": "2026-10-28T11:33:26.978Z"
   },
+  "evt-ufZrGT7GRw2bymB": {
+    "name": "Spin Effects in Quantum Biology | Prof Ismael Díez-Pérez",
+    "host": "KCL Quantum Mechanics Society",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
   "evt-ug0nNaGWRtWjR2s": {
     "name": "Imperial AI Hackathon",
     "host": "Imperial AI Week (9th-15 Nov)",
@@ -6499,6 +6589,12 @@
     "host": "HYPE: IRL tech events",
     "first_seen_at": "2026-09-25T12:03:40.920Z",
     "first_alerted_at": "2026-09-25T12:03:42.550Z"
+  },
+  "evt-VQyGutx4zelL3VE": {
+    "name": "Solana RWA & DeFi VC Drinks",
+    "host": "Personal",
+    "first_seen_at": "2026-11-13T17:42:10.961Z",
+    "first_alerted_at": "2026-11-13T17:42:12.913Z"
   },
   "evt-vsGtD3qnQYilxBB": {
     "name": "Breakfast with Anthropic - AI in Financial Services",
