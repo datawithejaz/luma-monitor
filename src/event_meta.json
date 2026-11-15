@@ -2180,6 +2180,12 @@
     "first_seen_at": "2026-11-03T02:25:15.803Z",
     "first_alerted_at": "2026-11-03T02:25:17.176Z"
   },
+  "evt-dx9DRu7dCqlUTbB": {
+    "name": "Creator Cinema Night",
+    "host": "Personal",
+    "first_seen_at": "2026-11-15T06:38:22.685Z",
+    "first_alerted_at": "2026-11-15T06:38:24.411Z"
+  },
   "evt-dXILDlnp0E7ohoP": {
     "name": "How to build product organisations that last",
     "host": "3Search London",
