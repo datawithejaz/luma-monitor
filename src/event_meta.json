@@ -690,6 +690,11 @@
     "first_seen_at": "2026-07-13T10:39:04.580Z",
     "first_alerted_at": "2026-07-13T10:39:06.918Z"
   },
+  "evt-5TELYYCNeUVvU7g": {
+    "name": "Rare Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
+  },
   "evt-5V7TdzAzGSNM7jA": {
     "name": "EF saturday_club",
     "first_seen_at": "2026-07-27T18:08:20.579Z",
@@ -1006,6 +1011,11 @@
     "first_seen_at": "2026-10-27T16:18:04.194Z",
     "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
+  "evt-8JZ4PPPdHum7eaT": {
+    "name": "Dev Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
+  },
   "evt-8MKH5TRSAzdLiCI": {
     "name": "Frontier Safety & Evals",
     "host": "Imperial AI Week (9th-15 Nov)",
@@ -1241,6 +1251,11 @@
     "host": "London AI Hub",
     "first_seen_at": "2026-09-24T16:06:23.593Z",
     "first_alerted_at": "2026-09-24T16:06:25.227Z"
+  },
+  "evt-aegStP10BuikCSp": {
+    "name": "Dev Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
   },
   "evt-AF405pllTYHGFdK": {
     "name": "AI Pilled [Builder] #04",
@@ -2007,6 +2022,12 @@
     "first_seen_at": "2026-10-20T01:49:48.958Z",
     "first_alerted_at": "2026-10-20T01:49:50.856Z"
   },
+  "evt-d9bnPQfdE9UczCt": {
+    "name": "⚡ Build Your Own Cyberdeck: A Hands-On Electronics Workshop",
+    "host": "FoundHers",
+    "first_seen_at": "2026-11-15T19:51:55.436Z",
+    "first_alerted_at": "2026-11-15T19:51:56.698Z"
+  },
   "evt-DChfzcho6HREyMh": {
     "name": "Builders Club #06",
     "host": "Light",
@@ -2201,6 +2222,11 @@
     "name": "FuN Hackathon",
     "first_seen_at": "2026-08-18T16:50:21.772Z",
     "first_alerted_at": "2026-08-18T16:50:23.029Z"
+  },
+  "evt-E4EyXM2AKe3NsX2": {
+    "name": "Fem Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
   },
   "evt-E5BRYLG4tpk1Puj": {
     "name": "Co-Working Fridays : London Chapter",
@@ -2555,6 +2581,12 @@
     "host": "LFG",
     "first_seen_at": "2026-11-13T17:42:10.961Z",
     "first_alerted_at": "2026-11-13T17:42:12.913Z"
+  },
+  "evt-FHlfDkXkKUP2xP7": {
+    "name": "Build your own Chrome Extension: AI for Beginners",
+    "host": "OpenAI Student Collective at University College London",
+    "first_seen_at": "2026-11-15T19:51:55.436Z",
+    "first_alerted_at": "2026-11-15T19:51:56.698Z"
   },
   "evt-Fhp8UoAf4T7kEgc": {
     "name": "Sports Meets Solana: The Future of Sports is On-chain ⚽",
@@ -4105,6 +4137,11 @@
     "first_seen_at": "2026-09-25T12:03:40.920Z",
     "first_alerted_at": "2026-09-25T12:03:42.550Z"
   },
+  "evt-L7Il3uHOqXmCXbH": {
+    "name": "Dev Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
+  },
   "evt-l7XVdpspIbHwkJ4": {
     "name": "AI for the rest of us | Summer Social",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
@@ -4394,6 +4431,12 @@
     "name": "Impact by Innovation | Breakfast for Climate, Health & Bio Founders",
     "first_seen_at": "2026-07-16T17:37:19.564Z",
     "first_alerted_at": "2026-07-16T17:37:21.047Z"
+  },
+  "evt-Ml2mtWNWHgOdc6a": {
+    "name": "Proof of Coffee: Accuracy, Auditing & Accounting",
+    "host": "onocoy",
+    "first_seen_at": "2026-11-15T19:51:55.436Z",
+    "first_alerted_at": "2026-11-15T19:51:56.698Z"
   },
   "evt-MlAedCD8ECSpCNe": {
     "name": "Arc Blockrun Workshop",
@@ -5455,6 +5498,11 @@
     "first_seen_at": "2026-11-12T08:00:17.663Z",
     "first_alerted_at": "2026-11-12T08:00:21.116Z"
   },
+  "evt-QVKreNWEiGBVjOd": {
+    "name": "Fem Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
+  },
   "evt-QweLB7bWd37LZru": {
     "name": "Demo Event LDN:Prompt, Build, Deploy with Replit",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -5604,6 +5652,11 @@
     "name": "Founder Nation: Breakie @ The Savoy",
     "host": "Founder Nation",
     "first_seen_at": "2026-09-25T12:03:40.920Z"
+  },
+  "evt-RKT2dFfDKdQGq8z": {
+    "name": "Rare Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-15T19:51:55.436Z"
   },
   "evt-rkuyQfsxF9qNXzj": {
     "name": "An Evening with Gamma: A Celebration of Gamma 5",
@@ -6397,6 +6450,12 @@
     "name": "Peer Suite | Women's Networking Morning",
     "first_seen_at": "2026-07-05T20:01:15.022Z",
     "first_alerted_at": "2026-07-05T20:01:16.788Z"
+  },
+  "evt-umsf6mg6yQnXIgG": {
+    "name": "How to Win a Hackathon",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-15T19:51:55.436Z",
+    "first_alerted_at": "2026-11-15T19:51:56.698Z"
   },
   "evt-UmY7Q3S2UptpjMT": {
     "name": "Pulsar Money // Coffee Meetup in London with LI.FI",
