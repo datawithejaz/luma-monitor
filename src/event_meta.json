@@ -1017,6 +1017,12 @@
     "first_seen_at": "2026-10-27T16:18:04.194Z",
     "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
+  "evt-8Jh281yzsgP6pkO": {
+    "name": "Chrome Unprompted: Coffee Pop-up",
+    "host": "Chrome for Developers",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
+  },
   "evt-8JZ4PPPdHum7eaT": {
     "name": "Dev Grind",
     "host": "Rare Founders Calendar",
@@ -2046,6 +2052,11 @@
     "first_seen_at": "2026-11-15T19:51:55.436Z",
     "first_alerted_at": "2026-11-15T19:51:56.698Z"
   },
+  "evt-d9na05HLSAQMOhH": {
+    "name": "LGBTQ+ Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-16T20:53:14.248Z"
+  },
   "evt-DChfzcho6HREyMh": {
     "name": "Builders Club #06",
     "host": "Light",
@@ -2321,6 +2332,12 @@
     "first_seen_at": "2026-09-26T06:41:57.977Z",
     "first_alerted_at": "2026-09-26T06:41:59.392Z"
   },
+  "evt-eKB4vOY8A0Av6TS": {
+    "name": "LGBTQ+ Grind",
+    "host": "Rare Founders Calendar",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
+  },
   "evt-eKBE5KH3SyNP1GE": {
     "name": "Beyond ChatGPT & Copilot: How Small Businesses Win with AI",
     "host": "Encode Club",
@@ -2359,6 +2376,12 @@
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
+  },
+  "evt-EnEVxKFzG2DBbV1": {
+    "name": "Pre-Seed to Series A Founders Dinner",
+    "host": "Critical Mass",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
   },
   "evt-eoJYasLjmMqV65I": {
     "name": "AI Movie Club x The Matrix (1999)",
@@ -3183,6 +3206,12 @@
     "name": "AgentCon London",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
+  },
+  "evt-HNj3iZZzFAIeIUX": {
+    "name": "Tech for Good Lightning Talks",
+    "host": "Tech for Good Community",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
   },
   "evt-HO11SyNYHeVlqFa": {
     "name": "All About Love - Writing Workshop",
@@ -4169,6 +4198,12 @@
     "name": "AI for the rest of us | Summer Social",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
+  },
+  "evt-L8gtMwZpDtzs5rO": {
+    "name": "Founder Nation: Padel Social - London",
+    "host": "Founder Nation",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
   },
   "evt-L8rLibM9thbvynV": {
     "name": "October Demo Night",
@@ -5442,6 +5477,12 @@
     "first_seen_at": "2026-09-11T18:39:51.119Z",
     "first_alerted_at": "2026-09-11T18:39:52.441Z"
   },
+  "evt-QJWKpK3sARfazGK": {
+    "name": "ERA × Impact First: AI Safety Community Social",
+    "host": "Personal",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
+  },
   "evt-qK6iXK0Mf0BMjsA": {
     "name": "The Tech Spill @CORGI",
     "host": "Personal",
@@ -6351,6 +6392,11 @@
     "first_seen_at": "2026-11-04T17:36:39.808Z",
     "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
+  "evt-u0yJqCzGOEpKF7V": {
+    "name": "Marker Writers Meetup",
+    "host": "Marker",
+    "first_seen_at": "2026-11-16T20:53:14.248Z"
+  },
   "evt-u43Qknslj7rBc1O": {
     "name": "Up Club Personal Development Workshop",
     "host": "Up Club Events",
@@ -6991,6 +7037,12 @@
     "name": "React Native London Meetup - September 2026",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
     "first_alerted_at": "2026-09-02T23:53:49.027Z"
+  },
+  "evt-wyyf8HFi382JOKA": {
+    "name": "Chrome Unprompted: Dinner for Builders and Developers",
+    "host": "Chrome for Developers",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
   },
   "evt-wZAbotrRQpqhEyi": {
     "name": "Fem Grind",
@@ -7701,6 +7753,12 @@
     "host": "london calling",
     "first_seen_at": "2026-10-24T14:51:38.040Z",
     "first_alerted_at": "2026-10-24T14:51:39.363Z"
+  },
+  "evt-zWPSmLz3nZf7TFr": {
+    "name": "Build a Game w/JavaFX #1: World and Movement",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-16T20:53:14.248Z",
+    "first_alerted_at": "2026-11-16T20:53:15.652Z"
   },
   "evt-ZwVEGDGpZRtBOqB": {
     "name": "Can AI Be Conscious In Ohio? (Austin Smith/Heather Alexander) + Q&A + Networking",
