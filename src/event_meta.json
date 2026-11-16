@@ -1151,6 +1151,12 @@
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-03T14:52:48.266Z"
   },
+  "evt-A1fbhcpLoB2RANj": {
+    "name": "KCLCreaTech Live Coding Amapiano Workshop",
+    "host": "MelanatedCoalition",
+    "first_seen_at": "2026-11-16T10:59:58.340Z",
+    "first_alerted_at": "2026-11-16T11:00:02.330Z"
+  },
   "evt-a2KjaxeQ1DnY717": {
     "name": "ABRC FILM CLUB & DISCUSSION: SINNERS",
     "first_seen_at": "2026-07-12T12:32:09.745Z",
@@ -1273,6 +1279,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:18.974Z"
+  },
+  "evt-AGTdjZ0LCsHRqrH": {
+    "name": "Coworking w/Laylight",
+    "host": "Laylight",
+    "first_seen_at": "2026-11-16T10:59:58.340Z",
+    "first_alerted_at": "2026-11-16T11:00:02.330Z"
   },
   "evt-Ah2q78Rw0iKqgio": {
     "name": "London Responsible Tech Summer Social",
@@ -3918,6 +3930,11 @@
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:05.844Z"
   },
+  "evt-KeWqofAjA0Wf9Jo": {
+    "name": "Coworking w/Laylight",
+    "host": "Laylight",
+    "first_seen_at": "2026-11-16T10:59:58.340Z"
+  },
   "evt-KFMoWLwQIBjVCet": {
     "name": "Build with AI: A Hands-on Lab for Product, Design & Innovation Teams",
     "host": "Momentum Product Co.",
@@ -5241,6 +5258,12 @@
     "first_seen_at": "2026-11-04T17:36:39.808Z",
     "first_alerted_at": "2026-11-04T17:36:43.802Z"
   },
+  "evt-plTUz2bsyWurucv": {
+    "name": "LLMday + Prompt Engineering Conference - London 2026 Q4",
+    "host": "SREday + LLMday + PLATFORMday",
+    "first_seen_at": "2026-11-16T10:59:58.340Z",
+    "first_alerted_at": "2026-11-16T11:00:02.330Z"
+  },
   "evt-pNQsZy8lNWQloW2": {
     "name": "Building AI Products with Hyperstack",
     "first_seen_at": "2026-08-24T09:11:26.754Z",
@@ -6316,6 +6339,11 @@
     "host": "AI Builders",
     "first_seen_at": "2026-09-14T01:36:49.759Z",
     "first_alerted_at": "2026-09-14T01:36:53.091Z"
+  },
+  "evt-TYFtJfF4PXIdK8M": {
+    "name": "Coworking w/Laylight",
+    "host": "Laylight",
+    "first_seen_at": "2026-11-16T10:59:58.340Z"
   },
   "evt-u0G5JSz9ltLHhIM": {
     "name": "Daytona Builder Brunch - London, November 2026",
