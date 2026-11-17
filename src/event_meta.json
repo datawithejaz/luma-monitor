@@ -311,6 +311,12 @@
     "first_seen_at": "2026-08-07T19:55:05.559Z",
     "first_alerted_at": "2026-08-07T19:55:07.603Z"
   },
+  "evt-2LAZgzyoEA0Uwhs": {
+    "name": "AI with Python, Week 2: Put AI Models to the test",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-17T03:17:14.119Z",
+    "first_alerted_at": "2026-11-17T03:17:15.609Z"
+  },
   "evt-2LiO2al4bqJ0J6B": {
     "name": "Grishin Robotics Accelerator Cohort 5 Demo Day",
     "host": "Grishin Robotics VC",
@@ -910,6 +916,12 @@
     "name": "Encode London Hackathon and Conference",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-7iyasYaO1kS9J0O": {
+    "name": "Vibecoding 101 × Claude Builder Club: Frontend (Workshop 2)",
+    "host": "Personal",
+    "first_seen_at": "2026-11-17T03:17:14.119Z",
+    "first_alerted_at": "2026-11-17T03:17:15.609Z"
   },
   "evt-7jm4SWeamyFimP5": {
     "name": "Grishin Robotics Accelerator: Pitch Practice (Founders Only)",
@@ -2952,6 +2964,12 @@
     "host": "ASTERA Welldoing Wellbeing",
     "first_seen_at": "2026-10-22T17:50:33.417Z",
     "first_alerted_at": "2026-10-22T17:50:37.468Z"
+  },
+  "evt-GK5a4rVJrltXpN5": {
+    "name": "From Corporate to Startup: Building Quiddy",
+    "host": "UCL Entrepreneurs",
+    "first_seen_at": "2026-11-17T03:17:14.119Z",
+    "first_alerted_at": "2026-11-17T03:17:15.609Z"
   },
   "evt-GKCYFTm7MSauz9P": {
     "name": "Scaling financial crime compliance without losing control",
