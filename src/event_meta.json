@@ -5393,6 +5393,12 @@
     "first_seen_at": "2026-10-29T14:22:00.636Z",
     "first_alerted_at": "2026-10-29T14:22:05.846Z"
   },
+  "evt-PY5v6U6iGxxI2cj": {
+    "name": "Build Fast, Don’t Drown: Running the Database Behind Your AI Agents",
+    "host": "GenAI London",
+    "first_seen_at": "2026-11-17T12:00:51.232Z",
+    "first_alerted_at": "2026-11-17T12:00:55.966Z"
+  },
   "evt-pZ37TFbb7VBvrSj": {
     "name": "Weekly football 7-aside by Granola!",
     "host": "Granola",
@@ -7180,6 +7186,12 @@
     "name": "Founder Nation: Breakie @ The Savoy (Series A / 1 million+ ARR Founders)",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
+  },
+  "evt-Xiz7t09KvpbRAUV": {
+    "name": "TouchDesigner Meetup - Talks, Open Visuals & Live Electronic Sets",
+    "host": "New Media London",
+    "first_seen_at": "2026-11-17T12:00:51.232Z",
+    "first_alerted_at": "2026-11-17T12:00:55.966Z"
   },
   "evt-xIZgvVKRlH1heLk": {
     "name": "Election bias and ballot mapping",
