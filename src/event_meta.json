@@ -5025,6 +5025,12 @@
     "first_seen_at": "2026-08-17T10:46:12.833Z",
     "first_alerted_at": "2026-08-17T10:46:14.568Z"
   },
+  "evt-OHii2TGH9sY3KsN": {
+    "name": "Women+ Tech Leaders Summit 2027",
+    "host": "London Tech Leaders",
+    "first_seen_at": "2026-11-18T19:06:47.227Z",
+    "first_alerted_at": "2026-11-18T19:06:48.128Z"
+  },
   "evt-oIhBm1f7zAee2AF": {
     "name": "How to create 2D characters with voice in ElevenLabs",
     "first_seen_at": "2026-08-19T11:36:29.079Z",
@@ -5268,6 +5274,12 @@
     "name": "Cursor Commerce London Hackathon",
     "first_seen_at": "2026-08-31T11:58:54.114Z",
     "first_alerted_at": "2026-08-31T11:58:55.682Z"
+  },
+  "evt-pcGZ7C93wM7bCAC": {
+    "name": "Notion November 2026: Build a Theme Park Together 🎡",
+    "host": "Notion London: Campus Leaders",
+    "first_seen_at": "2026-11-18T19:06:47.227Z",
+    "first_alerted_at": "2026-11-18T19:06:48.128Z"
   },
   "evt-pD7xYsX6zlKwWO6": {
     "name": "Co-Working Fridays : London Chapter",
@@ -7484,6 +7496,12 @@
     "host": "BeeGlobal",
     "first_seen_at": "2026-11-10T11:51:50.236Z",
     "first_alerted_at": "2026-11-10T11:51:56.416Z"
+  },
+  "evt-ym7GcCyKdoHvPwf": {
+    "name": "Grishin Robotics Accelerator: Pitch Practice (Founders Only)",
+    "host": "Grishin Robotics VC",
+    "first_seen_at": "2026-11-18T19:06:47.227Z",
+    "first_alerted_at": "2026-11-18T19:06:48.128Z"
   },
   "evt-YN4Ynh2OLmNp3hV": {
     "name": "Air-Gap Night: Private AI, Live and Unplugged",
