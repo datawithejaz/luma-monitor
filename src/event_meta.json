@@ -1175,6 +1175,12 @@
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-03T14:52:48.266Z"
   },
+  "evt-a0hFM9NLt54vlBG": {
+    "name": "Startup Pitch & Networking in London",
+    "host": "Startup Valley",
+    "first_seen_at": "2026-11-19T17:43:00.099Z",
+    "first_alerted_at": "2026-11-19T17:43:01.469Z"
+  },
   "evt-A1fbhcpLoB2RANj": {
     "name": "KCLCreaTech Live Coding Amapiano Workshop",
     "host": "MelanatedCoalition",
@@ -1666,6 +1672,11 @@
     "first_seen_at": "2026-10-27T16:18:04.194Z",
     "first_alerted_at": "2026-10-27T16:18:06.552Z"
   },
+  "evt-Bokp9ja9zQie3dN": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
+  },
   "evt-BQ3HYxDppFBQDPF": {
     "name": "Product Evenings LDN: Clarity Wins, Not the Model",
     "first_seen_at": "2026-07-09T16:41:58.357Z",
@@ -1889,6 +1900,11 @@
     "first_seen_at": "2026-07-21T17:44:54.707Z",
     "first_alerted_at": "2026-07-21T17:44:56.406Z"
   },
+  "evt-cgTFn8gXxQDLG85": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
+  },
   "evt-chxCQWRaz25Mv4f": {
     "name": "Weekly football 7-aside by Granola!",
     "first_seen_at": "2026-09-02T23:10:06.267Z",
@@ -2000,6 +2016,12 @@
     "name": "London Fintech Breakfast",
     "first_seen_at": "2026-08-30T01:17:25.395Z",
     "first_alerted_at": "2026-08-30T01:17:26.774Z"
+  },
+  "evt-cUizWqtcOzyUNlY": {
+    "name": "AI & Business Breakfast with Gamma × Sterling Law",
+    "host": "Personal",
+    "first_seen_at": "2026-11-19T17:43:00.099Z",
+    "first_alerted_at": "2026-11-19T17:43:01.469Z"
   },
   "evt-CV1VYx3SFifhcFF": {
     "name": "London Walking Meetup — Hyde Park",
@@ -2577,6 +2599,11 @@
     "first_seen_at": "2026-10-19T23:10:52.594Z",
     "first_alerted_at": "2026-10-19T23:10:53.713Z"
   },
+  "evt-fAk1va1Ns6trNSZ": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
+  },
   "evt-FbIyzpCKfSNYtUU": {
     "name": "Canary Wharf's Biggest Night for Women in Business",
     "host": "CW Female Entrepreneurs Community",
@@ -2747,6 +2774,11 @@
     "name": "BiteLabs Digital Health & Innovation Demo Day (Summer 2026)",
     "first_seen_at": "2026-07-15T18:42:33.488Z",
     "first_alerted_at": "2026-07-15T18:42:36.179Z"
+  },
+  "evt-FQbQ8ABAHQAR4nG": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
   },
   "evt-fREItN7eWaN7lM6": {
     "name": "UM x EF Coworking",
@@ -4981,6 +5013,11 @@
     "host": "Superteam",
     "first_seen_at": "2026-09-06T18:35:15.817Z"
   },
+  "evt-ObgBcGo1Vbc2jNy": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
+  },
   "evt-oC9eHETQHkUH25I": {
     "name": "Understand the Chinese Frontier AI Models",
     "first_seen_at": "2026-08-06T01:01:40.707Z",
@@ -5192,11 +5229,23 @@
     "first_seen_at": "2026-09-16T12:16:14.143Z",
     "first_alerted_at": "2026-09-16T12:16:16.084Z"
   },
+  "evt-OvJgUA5QFDj0iA4": {
+    "name": "Transition to Open Source, the era of Specialised Intelligence",
+    "host": "Gradient Descending",
+    "first_seen_at": "2026-11-19T17:43:00.099Z",
+    "first_alerted_at": "2026-11-19T17:43:01.469Z"
+  },
   "evt-ovUxVAmMdpHobJo": {
     "name": "AI Vision Challenge | Breakfast Edition",
     "host": "Personal",
     "first_seen_at": "2026-09-17T15:14:17.477Z",
     "first_alerted_at": "2026-09-17T15:14:18.586Z"
+  },
+  "evt-oW9YatncWW4Fewj": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z",
+    "first_alerted_at": "2026-11-19T17:43:01.469Z"
   },
   "evt-OWMYeAwS2h4baPg": {
     "name": "Genomics x AI: Reading Biology at Scale",
@@ -5334,6 +5383,11 @@
     "name": "Arts + Tech Mixer",
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
+  },
+  "evt-pLd9nyy7FfYixd4": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
   },
   "evt-PLs0d7NACDOh0Cd": {
     "name": "Build Your First Onchain App: Prompts + Building with Arc Studio",
@@ -6614,6 +6668,11 @@
     "first_seen_at": "2026-07-14T23:09:20.778Z",
     "first_alerted_at": "2026-07-14T23:09:22.356Z"
   },
+  "evt-UNT0kF9MpKmMHru": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
+  },
   "evt-uPnRUV5dmCV7Rwx": {
     "name": "GetFutureReady | November 2026 Edition",
     "host": "GetFutureReady Community",
@@ -7387,6 +7446,12 @@
     "first_seen_at": "2026-09-07T19:15:05.699Z",
     "first_alerted_at": "2026-09-07T19:15:07.801Z"
   },
+  "evt-Y24EZtKibF3nD1k": {
+    "name": "Pathfounders Winter Party | An Evening for Europe’s Tech Builders",
+    "host": "Pathfounders",
+    "first_seen_at": "2026-11-19T17:43:00.099Z",
+    "first_alerted_at": "2026-11-19T17:43:01.469Z"
+  },
   "evt-y31jzu5Z8Zje4fb": {
     "name": "How FinTech's best marketing leaders earn their seat",
     "host": "3Search London",
@@ -7464,6 +7529,11 @@
     "host": "Encode Club",
     "first_seen_at": "2026-10-26T10:37:29.993Z",
     "first_alerted_at": "2026-10-26T10:37:31.070Z"
+  },
+  "evt-yg0ytr6fqpd0qti": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
   },
   "evt-YgesUCxJL2Rr7hl": {
     "name": "Stripe padel club",
@@ -7602,6 +7672,11 @@
     "host": "Witsend Event Calendar",
     "first_seen_at": "2026-09-11T01:33:23.260Z",
     "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
+  "evt-z54omWvYYHj34HM": {
+    "name": "Antidote Tech 5-a-side",
+    "host": "Antidote",
+    "first_seen_at": "2026-11-19T17:43:00.099Z"
   },
   "evt-Z5s65x3pNjweEja": {
     "name": "The Big Startup 5k hosted by Jumpstart **HOLD**",
@@ -7898,6 +7973,12 @@
     "name": "TRD: London Startups Operator RunClub & Social",
     "host": "The Run Down: Operators Runclub",
     "first_seen_at": "2026-10-24T19:50:16.779Z"
+  },
+  "evt-zzbebpj3qTeWRBG": {
+    "name": "AI Jam: Show Us What You’ve Built",
+    "host": "The AI Floor",
+    "first_seen_at": "2026-11-19T17:43:00.099Z",
+    "first_alerted_at": "2026-11-19T17:43:01.469Z"
   },
   "evt-zzdEnX0zLnBFuYt": {
     "name": "Physical Tech Series: Build Your Own NFC Keychain",
