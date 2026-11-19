@@ -6184,6 +6184,12 @@
     "first_seen_at": "2026-09-08T20:05:05.811Z",
     "first_alerted_at": "2026-09-08T20:05:07.646Z"
   },
+  "evt-t6EnsJC1IfTfn8B": {
+    "name": "LLM Personas As Potential Moral Patients – Patrick Butlin (Eleos AI)",
+    "host": "Sentio",
+    "first_seen_at": "2026-11-19T01:08:06.308Z",
+    "first_alerted_at": "2026-11-19T01:08:07.413Z"
+  },
   "evt-T6VuRMFFJSP2FTF": {
     "name": "Giving After the AI Windfall: How Should Your Donations Change?",
     "host": "London Effective Giving Community",
