@@ -402,6 +402,12 @@
     "first_seen_at": "2026-07-28T20:05:48.516Z",
     "first_alerted_at": "2026-07-28T20:05:50.186Z"
   },
+  "evt-3cY7BGDJFPEPqcn": {
+    "name": "CMO Roundtable | From Challenger to Champion: How FinTechs Build Trust, Resilience and Reputation for the Next Stage of Growth",
+    "host": "Innovate Finance",
+    "first_seen_at": "2026-11-20T21:25:53.251Z",
+    "first_alerted_at": "2026-11-20T21:25:57.354Z"
+  },
   "evt-3e7V2gQzGJYT70i": {
     "name": "F&B Founder Supper Club",
     "host": "Singapore Global Network",
@@ -5871,6 +5877,12 @@
     "first_seen_at": "2026-09-25T20:26:19.441Z",
     "first_alerted_at": "2026-09-25T20:26:21.512Z"
   },
+  "evt-rLrSiORZ0B3HOPQ": {
+    "name": "Moth Social",
+    "host": "Personal",
+    "first_seen_at": "2026-11-20T21:25:53.251Z",
+    "first_alerted_at": "2026-11-20T21:25:57.354Z"
+  },
   "evt-RmirpOpp1HEDrPN": {
     "name": "House of Sol Workshops - Tokenisation 101",
     "host": "House of Sol",
@@ -6588,6 +6600,12 @@
     "name": "AI Engineering Benchmarks: What Good Actually Looks Like",
     "first_seen_at": "2026-07-26T21:32:32.624Z",
     "first_alerted_at": "2026-07-26T21:32:34.226Z"
+  },
+  "evt-UCRVUCUGVM0XEQt": {
+    "name": "Claude After Hours: Cybersecurity Edition | London",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-11-20T21:25:53.251Z",
+    "first_alerted_at": "2026-11-20T21:25:57.354Z"
   },
   "evt-UCU7FVEEYFNkSTc": {
     "name": "Marker Writers Meetup",
