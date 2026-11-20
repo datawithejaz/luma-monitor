@@ -487,6 +487,12 @@
     "first_seen_at": "2026-07-29T16:52:29.228Z",
     "first_alerted_at": "2026-07-29T16:52:30.693Z"
   },
+  "evt-3viYWOEaMh4AUAV": {
+    "name": "Hardware Startups: Holiday Party!",
+    "host": "Humbird - For Hardware Startups",
+    "first_seen_at": "2026-11-20T13:27:12.820Z",
+    "first_alerted_at": "2026-11-20T13:27:15.919Z"
+  },
   "evt-3xq94oPi1UCCKPs": {
     "name": "AI Pilled [Builder] #03",
     "host": "AI Pilled",
@@ -882,6 +888,12 @@
     "host": "Lumina House",
     "first_seen_at": "2026-11-08T15:58:57.567Z",
     "first_alerted_at": "2026-11-08T15:58:58.878Z"
+  },
+  "evt-7AIas6N01TrcVJc": {
+    "name": "After Hours Salon: Should the Future be Built with Nostalgia?",
+    "host": "london calling",
+    "first_seen_at": "2026-11-20T13:27:12.820Z",
+    "first_alerted_at": "2026-11-20T13:27:15.919Z"
   },
   "evt-7C0sdSUFD5SC4gO": {
     "name": "The Revenue Engine Hackathon: London",
@@ -5514,6 +5526,12 @@
     "name": "WORKSHOP: GB Battery Market Outlook",
     "host": "Modo Energy",
     "first_seen_at": "2026-10-15T12:01:51.914Z"
+  },
+  "evt-Q9Dxp95cFEDQ0Pt": {
+    "name": "AI Private Dinner - London",
+    "host": "Glassray",
+    "first_seen_at": "2026-11-20T13:27:12.820Z",
+    "first_alerted_at": "2026-11-20T13:27:15.919Z"
   },
   "evt-Q9H6AmuvKqZsCnH": {
     "name": "Agents in Production at MongoDB",
