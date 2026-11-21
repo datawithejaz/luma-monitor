@@ -6806,6 +6806,12 @@
     "first_seen_at": "2026-11-05T18:03:57.672Z",
     "first_alerted_at": "2026-11-05T18:03:59.765Z"
   },
+  "evt-V3dHoziA9AhS6IC": {
+    "name": "LLM London Social Meetup November: The Flying Horse Pub near Liverpool Street",
+    "host": "LLM London",
+    "first_seen_at": "2026-11-21T22:21:41.804Z",
+    "first_alerted_at": "2026-11-21T22:21:43.285Z"
+  },
   "evt-v4fP4XaBqrkS0cw": {
     "name": "LONDON CALLING 🇬🇧",
     "host": "CryptoMondays London",
