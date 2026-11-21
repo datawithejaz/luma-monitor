@@ -625,6 +625,12 @@
     "first_seen_at": "2026-10-12T23:48:42.801Z",
     "first_alerted_at": "2026-10-12T23:48:44.144Z"
   },
+  "evt-4QgS31sV2JDLZJH": {
+    "name": "Female Founder Pitch Night",
+    "host": "networkd",
+    "first_seen_at": "2026-11-21T17:36:35.339Z",
+    "first_alerted_at": "2026-11-21T17:36:36.266Z"
+  },
   "evt-4R6AAI8dof3XIpf": {
     "name": "Welcome Breakfast + Walk",
     "host": "YourTRIBE Southwark",
