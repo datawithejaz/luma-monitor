@@ -1397,6 +1397,12 @@
     "first_seen_at": "2026-10-02T11:19:44.933Z",
     "first_alerted_at": "2026-10-02T11:19:48.022Z"
   },
+  "evt-akmSgswmSLpqxp3": {
+    "name": "LatamTech Hub & Latin Women in Tech EOY Party!",
+    "host": "Personal",
+    "first_seen_at": "2026-11-22T02:23:43.315Z",
+    "first_alerted_at": "2026-11-22T02:23:46.038Z"
+  },
   "evt-al7LhTLnv75nMOF": {
     "name": "LVC January Lunch",
     "host": "London Venture Club",
