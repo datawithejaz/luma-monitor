@@ -6431,6 +6431,12 @@
     "first_seen_at": "2026-09-30T07:51:50.502Z",
     "first_alerted_at": "2026-09-30T07:51:53.438Z"
   },
+  "evt-TnMyVT4MnJYQyFG": {
+    "name": "MMC x Wave (Founders Circle) - Forward Deployed Engineering in Practice",
+    "host": "Personal",
+    "first_seen_at": "2026-11-22T22:49:48.737Z",
+    "first_alerted_at": "2026-11-22T22:49:49.629Z"
+  },
   "evt-tNPqHwtBuavNN1N": {
     "name": "Side-project September: Get some writing done",
     "first_seen_at": "2026-09-03T11:41:11.182Z",
