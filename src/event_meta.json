@@ -192,6 +192,12 @@
     "first_seen_at": "2026-10-08T16:53:37.104Z",
     "first_alerted_at": "2026-10-08T16:53:38.526Z"
   },
+  "evt-1jXHFoGlGKuKzLH": {
+    "name": "Lunch & Learn - Sustainable Action for Founders and Creatives",
+    "host": "CityVentures",
+    "first_seen_at": "2026-11-23T12:54:45.222Z",
+    "first_alerted_at": "2026-11-23T12:54:48.010Z"
+  },
   "evt-1kdipKhakh5l98O": {
     "name": "AI Agents in Finance, Fintech & Production - AAIF London x Gradient Labs",
     "host": "AAIF Community London",
@@ -213,6 +219,11 @@
     "name": "Founder Cowork Club [UNFACILITATED]",
     "first_seen_at": "2026-08-18T17:14:50.403Z",
     "first_alerted_at": "2026-08-18T17:14:52.004Z"
+  },
+  "evt-1OY3dm95P18kNpT": {
+    "name": "The Thread: A Flightpath Writing Workshop",
+    "host": "Flightpath",
+    "first_seen_at": "2026-11-23T12:54:45.222Z"
   },
   "evt-1q1qA17roWodNfx": {
     "name": "GTM Sprint: Shipping is not enough",
@@ -2237,6 +2248,12 @@
     "name": "Tech Leaders London - September 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
     "first_alerted_at": "2026-08-22T21:15:37.752Z"
+  },
+  "evt-dM1TrLBh7NBeqfR": {
+    "name": "AI Breakfast Club",
+    "host": "Twin Path Ventures",
+    "first_seen_at": "2026-11-23T12:54:45.222Z",
+    "first_alerted_at": "2026-11-23T12:54:48.010Z"
   },
   "evt-DmGewH2DhbADYTJ": {
     "name": "the incident social",
@@ -6075,6 +6092,12 @@
     "first_seen_at": "2026-10-23T20:37:07.594Z",
     "first_alerted_at": "2026-10-23T20:37:09.168Z"
   },
+  "evt-SEFrZ11MFZg1GAY": {
+    "name": "Build a Game w/JavaFX #2: Bring It to Life",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-23T12:54:45.222Z",
+    "first_alerted_at": "2026-11-23T12:54:48.010Z"
+  },
   "evt-SEjYdEL5b3NSWko": {
     "name": "The AI Fluency Map: How Good Are You At AI?",
     "host": "The AI Floor",
@@ -7251,6 +7274,12 @@
     "host": "Personal",
     "first_seen_at": "2026-11-08T09:12:42.298Z",
     "first_alerted_at": "2026-11-08T09:12:43.713Z"
+  },
+  "evt-wZYQcyt7DwswGM9": {
+    "name": "London | Claude x Okta Workshop: Build Enterprise-Ready MCP for AI Agents",
+    "host": "Claude Community Events",
+    "first_seen_at": "2026-11-23T12:54:45.222Z",
+    "first_alerted_at": "2026-11-23T12:54:48.010Z"
   },
   "evt-x09K5Wqe0duRyqf": {
     "name": "House of Lords Meet Up",
