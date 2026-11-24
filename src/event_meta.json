@@ -3776,6 +3776,12 @@
     "first_seen_at": "2026-10-17T01:40:58.395Z",
     "first_alerted_at": "2026-10-17T01:41:01.533Z"
   },
+  "evt-j3HMUdVyq3qmmKm": {
+    "name": "London Systems Club",
+    "host": "London Systems Club",
+    "first_seen_at": "2026-11-24T10:18:52.687Z",
+    "first_alerted_at": "2026-11-24T10:18:55.010Z"
+  },
   "evt-j3pBXMWm96Lc3XK": {
     "name": "Open House at VentureSpace",
     "host": "CityVentures",
@@ -6383,6 +6389,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-16T17:04:28.437Z",
     "first_alerted_at": "2026-09-16T17:04:30.178Z"
+  },
+  "evt-tbB3fG0RdiwNZJj": {
+    "name": "Your Agent Works. Can It Scale?",
+    "host": "Gradient Descending",
+    "first_seen_at": "2026-11-24T10:18:52.687Z",
+    "first_alerted_at": "2026-11-24T10:18:55.010Z"
   },
   "evt-TBP1ArKG9I8f0VQ": {
     "name": "FemTech x IE Hackathon",
