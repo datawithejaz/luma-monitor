@@ -906,6 +906,12 @@
     "first_seen_at": "2026-09-06T18:35:15.817Z",
     "first_alerted_at": "2026-09-06T18:35:19.179Z"
   },
+  "evt-75IkjtE3ZJrTlaB": {
+    "name": "Morning Yoga with Corgi",
+    "host": "Corgi London",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
+  },
   "evt-78x2F7z5K5TWemG": {
     "name": "Pitch Night",
     "host": "Lumina House",
@@ -1086,6 +1092,12 @@
     "host": "Imperial AI Week (9th-15 Nov)",
     "first_seen_at": "2026-11-06T18:18:30.851Z",
     "first_alerted_at": "2026-11-06T18:18:35.953Z"
+  },
+  "evt-8mq4L1guEsfAnVW": {
+    "name": "The JetBrains Student Tech Quiz, Vol. 6",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
   },
   "evt-8NBqgEoba8OnImu": {
     "name": "Women in FinTech Powerlist 2026 - Launch Event",
@@ -1991,6 +2003,12 @@
     "host": "Future Water Association Events",
     "first_seen_at": "2026-09-04T01:06:31.479Z",
     "first_alerted_at": "2026-09-04T01:06:33.691Z"
+  },
+  "evt-cMcweooNE8xXVF6": {
+    "name": "Conversations in the AI era | Builder Community Meetup | London 💂",
+    "host": "Twilio London",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
   },
   "evt-cmH0G2f4dRnds5q": {
     "name": "Capital & Castling: Chess Night for the Startup Community (November edition)",
@@ -3618,6 +3636,12 @@
     "first_seen_at": "2026-09-11T01:33:23.260Z",
     "first_alerted_at": "2026-09-11T01:33:25.876Z"
   },
+  "evt-Ij6U6T1SvEBbycS": {
+    "name": "Agents in Production: Multi-Agent Systems",
+    "host": "SurrealDB Events",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
+  },
   "evt-ijFEM7faBVCrJEp": {
     "name": "Capital & Castling: Chess Night for the Startup Community (October edition)",
     "host": "enki events",
@@ -4263,6 +4287,12 @@
     "first_seen_at": "2026-09-11T11:48:08.355Z",
     "first_alerted_at": "2026-09-11T11:48:10.509Z"
   },
+  "evt-l04wVZkaov7Gz1D": {
+    "name": "Build a Game w/JavaFX #3: Break, Build & Create",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
+  },
   "evt-L2h0zKTsg1u8G4y": {
     "name": "Digital Deliberative Spaces, Infrastructure, & Methods",
     "host": "Newspeak House",
@@ -4808,6 +4838,12 @@
     "host": "Linear Events",
     "first_seen_at": "2026-10-20T12:17:03.284Z",
     "first_alerted_at": "2026-10-20T12:17:06.594Z"
+  },
+  "evt-NHHwGLn80OPrl2R": {
+    "name": "Wonder x Mirelo: Creative Tech Soirée - The Future of Advertising",
+    "host": "Wonder Studios",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
   },
   "evt-NHlHfxTCnNjAwJN": {
     "name": "The Chelsea Longevity and Wellness Showcase",
@@ -6347,6 +6383,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-16T17:04:28.437Z",
     "first_alerted_at": "2026-09-16T17:04:30.178Z"
+  },
+  "evt-TBP1ArKG9I8f0VQ": {
+    "name": "FemTech x IE Hackathon",
+    "host": "Personal",
+    "first_seen_at": "2026-11-24T00:30:07.307Z",
+    "first_alerted_at": "2026-11-24T00:30:08.301Z"
   },
   "evt-tCgNsXo1AFfZZXA": {
     "name": "ODSC AI Skills Accelerator | London",
