@@ -266,6 +266,12 @@
     "first_seen_at": "2026-10-20T12:17:03.284Z",
     "first_alerted_at": "2026-10-20T12:17:06.594Z"
   },
+  "evt-22SIJVG8ONID8hZ": {
+    "name": "AI with Python, Week 3: Find Hidden Patterns with AI",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-24T20:44:21.179Z",
+    "first_alerted_at": "2026-11-24T20:44:22.418Z"
+  },
   "evt-26MBSA966gVsaBB": {
     "name": "Tano x Corgi Creator Heist Hack",
     "host": "Tano",
@@ -1211,6 +1217,12 @@
     "host": "Antidote",
     "first_seen_at": "2026-11-06T11:29:56.944Z",
     "first_alerted_at": "2026-11-06T11:29:59.275Z"
+  },
+  "evt-9XOHcIxyItYSXC0": {
+    "name": "Post Like a Founder: 8x x Corgi",
+    "host": "8x",
+    "first_seen_at": "2026-11-24T20:44:21.179Z",
+    "first_alerted_at": "2026-11-24T20:44:22.418Z"
   },
   "evt-9zEUa3fdngsuxlD": {
     "name": "LVC March Lunch",
@@ -2824,6 +2836,12 @@
     "first_seen_at": "2026-09-08T13:34:30.167Z",
     "first_alerted_at": "2026-09-08T13:34:31.803Z"
   },
+  "evt-FmzPiVcGH6DaYkc": {
+    "name": "Games Night 2.0",
+    "host": "KCL Tech",
+    "first_seen_at": "2026-11-24T20:44:21.179Z",
+    "first_alerted_at": "2026-11-24T20:44:22.418Z"
+  },
   "evt-FPAQGfy4VtUKOtF": {
     "name": "Graphics programming with GLSL shaders [c3s meetup #12]",
     "first_seen_at": "2026-07-06T21:57:34.392Z",
@@ -3892,6 +3910,12 @@
     "first_seen_at": "2026-10-07T18:45:31.263Z",
     "first_alerted_at": "2026-10-07T18:45:33.973Z"
   },
+  "evt-jovzJng8WfPvySL": {
+    "name": "Rebuilding marketing for the AI era",
+    "host": "3Search London",
+    "first_seen_at": "2026-11-24T20:44:21.179Z",
+    "first_alerted_at": "2026-11-24T20:44:22.418Z"
+  },
   "evt-jQGx9vYnoPCoW1m": {
     "name": "Π – The Robotics Hack",
     "host": "AI Engine",
@@ -3924,6 +3948,12 @@
     "name": "Weekly football 7-aside by Granola!",
     "host": "Granola",
     "first_seen_at": "2026-09-15T15:05:45.764Z"
+  },
+  "evt-jRX5EQY7KETyVSD": {
+    "name": "Orchestra Hackathon",
+    "host": "Stacksquare.ai",
+    "first_seen_at": "2026-11-24T20:44:21.179Z",
+    "first_alerted_at": "2026-11-24T20:44:22.418Z"
   },
   "evt-JRXNS9SfOsMfk7j": {
     "name": "Demo Event LDN: From Idea to Prototype with Lovable",
@@ -7808,6 +7838,12 @@
     "host": "London TCK Home Meetups",
     "first_seen_at": "2026-10-02T16:43:18.365Z",
     "first_alerted_at": "2026-10-02T16:43:19.714Z"
+  },
+  "evt-YwpcOWGug3lFHfF": {
+    "name": "Common Ground: AI Safety, translated",
+    "host": "Personal",
+    "first_seen_at": "2026-11-24T20:44:21.179Z",
+    "first_alerted_at": "2026-11-24T20:44:22.418Z"
   },
   "evt-Yz7RR89Zlv56tya": {
     "name": "Agentic AI in Financial Services and Insurance: Pilot to Production",
