@@ -1504,6 +1504,12 @@
     "first_seen_at": "2026-11-01T23:46:14.112Z",
     "first_alerted_at": "2026-11-01T23:46:17.629Z"
   },
+  "evt-AX3CVRxMFQmHTBg": {
+    "name": "Elyos Dinner Club: Lifting the lid on AI Agents for field services - January 2027",
+    "host": "Elyos AI: Events",
+    "first_seen_at": "2026-11-25T22:45:18.685Z",
+    "first_alerted_at": "2026-11-25T22:45:20.408Z"
+  },
   "evt-AY4iBZRUwX57CRn": {
     "name": "PaperJam Game Jam: Don't Look Up",
     "host": "Newspeak House",
@@ -2026,6 +2032,12 @@
     "name": "Capital & Castling: Chess Night for the Startup Community (November edition)",
     "host": "enki events",
     "first_seen_at": "2026-10-04T18:51:38.286Z"
+  },
+  "evt-Cmvp4MjVcoriMUJ": {
+    "name": "Builders After Hours: Replit × OpenAI",
+    "host": "Replit",
+    "first_seen_at": "2026-11-25T22:45:18.685Z",
+    "first_alerted_at": "2026-11-25T22:45:20.408Z"
   },
   "evt-cNFaO7alNhoMCDR": {
     "name": "KQ Social: Data in the City",
@@ -5863,6 +5875,12 @@
     "first_seen_at": "2026-10-14T12:29:04.439Z",
     "first_alerted_at": "2026-10-14T12:29:05.739Z"
   },
+  "evt-R5XwQJgZBuhmng3": {
+    "name": "Merry Shipmas · London",
+    "host": "MERRY SHIPMAS 🎄",
+    "first_seen_at": "2026-11-25T22:45:18.685Z",
+    "first_alerted_at": "2026-11-25T22:45:20.408Z"
+  },
   "evt-RaGAmUhYOxTCqGZ": {
     "name": "Founder Cowork Club [UNFACILITATED]",
     "host": "Founder Cowork Club",
@@ -7001,6 +7019,12 @@
     "first_seen_at": "2026-09-19T21:43:07.862Z",
     "first_alerted_at": "2026-09-19T21:43:09.734Z"
   },
+  "evt-vfCR9IKzN7zen61": {
+    "name": "The Secret After Party — Reverse Network Meet",
+    "host": "staaake",
+    "first_seen_at": "2026-11-25T22:45:18.685Z",
+    "first_alerted_at": "2026-11-25T22:45:20.408Z"
+  },
   "evt-vFLYAMIOycYG8um": {
     "name": "Newspeak House Welcome Dinner 2026",
     "host": "Newspeak House",
@@ -7287,6 +7311,12 @@
     "host": "Entrepreneurs First",
     "first_seen_at": "2026-11-12T16:42:54.289Z",
     "first_alerted_at": "2026-11-12T16:42:55.764Z"
+  },
+  "evt-WngHNYaHKDSqHPU": {
+    "name": "Grand Rounds Founders' Club🍸 x BuildHer",
+    "host": "Personal",
+    "first_seen_at": "2026-11-25T22:45:18.685Z",
+    "first_alerted_at": "2026-11-25T22:45:20.408Z"
   },
   "evt-wOaW36kGioe9ZEA": {
     "name": "The Operational Owner: Turning Occupancy Data into Investment Decisions - Roundtable",
