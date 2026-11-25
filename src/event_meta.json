@@ -4870,6 +4870,12 @@
     "first_seen_at": "2026-09-14T18:59:29.929Z",
     "first_alerted_at": "2026-09-14T18:59:31.582Z"
   },
+  "evt-nfxiCl3EHbKyvU1": {
+    "name": "Girl Dinner 2.0",
+    "host": "Encode Club",
+    "first_seen_at": "2026-11-25T13:36:49.550Z",
+    "first_alerted_at": "2026-11-25T13:36:51.553Z"
+  },
   "evt-nGwbfFoFE0gAraV": {
     "name": "GATHERING01: DEEP TECH WEEK LONDON 26",
     "host": "AFOCAL INERTIA",
@@ -6029,6 +6035,12 @@
     "first_seen_at": "2026-07-31T20:09:42.522Z",
     "first_alerted_at": "2026-07-31T20:09:44.056Z"
   },
+  "evt-RSFHjz9AXrxJKps": {
+    "name": "Buildathon London by MongoDB & HYPE",
+    "host": "HYPE: IRL tech events",
+    "first_seen_at": "2026-11-25T13:36:49.550Z",
+    "first_alerted_at": "2026-11-25T13:36:51.553Z"
+  },
   "evt-RsOjQftYNCs1oa9": {
     "name": "The New Blueprint for Heads of Development: Benchmarking, Reporting, Financing & AI - Roundtable",
     "host": "PropTech Connect Europe 2026",
@@ -6425,6 +6437,12 @@
     "host": "Personal",
     "first_seen_at": "2026-09-16T17:04:28.437Z",
     "first_alerted_at": "2026-09-16T17:04:30.178Z"
+  },
+  "evt-TB4CWBr6vD7dgsn": {
+    "name": "Get your AI stack right: AI for Growth × Corgi Café",
+    "host": "Personal",
+    "first_seen_at": "2026-11-25T13:36:49.550Z",
+    "first_alerted_at": "2026-11-25T13:36:51.553Z"
   },
   "evt-tbB3fG0RdiwNZJj": {
     "name": "Your Agent Works. Can It Scale?",
@@ -7533,6 +7551,12 @@
     "host": "ProtectifyAI",
     "first_seen_at": "2026-10-27T00:43:36.943Z",
     "first_alerted_at": "2026-10-27T00:43:38.465Z"
+  },
+  "evt-XNmxnhG3KLefoXV": {
+    "name": "Risk in an Uncertain World: AI, Modelling and Decision-Making",
+    "host": "deeptech futures",
+    "first_seen_at": "2026-11-25T13:36:49.550Z",
+    "first_alerted_at": "2026-11-25T13:36:51.553Z"
   },
   "evt-xNyz8C4YRMozJrU": {
     "name": "The Fair Fight Coalition: Funding Female Founders",
