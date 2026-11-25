@@ -2163,6 +2163,12 @@
     "first_seen_at": "2026-10-20T01:49:48.958Z",
     "first_alerted_at": "2026-10-20T01:49:50.856Z"
   },
+  "evt-D5YrbHkz5mgWFrn": {
+    "name": "AI Research Foundry London: Session 02 - Generative Design in AI for Science",
+    "host": "Personal",
+    "first_seen_at": "2026-11-25T03:47:48.476Z",
+    "first_alerted_at": "2026-11-25T03:47:50.503Z"
+  },
   "evt-d9bnPQfdE9UczCt": {
     "name": "⚡ Build Your Own Cyberdeck: A Hands-On Electronics Workshop",
     "host": "FoundHers",
