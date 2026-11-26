@@ -1043,6 +1043,12 @@
     "first_seen_at": "2026-08-15T11:56:55.856Z",
     "first_alerted_at": "2026-08-15T11:56:57.418Z"
   },
+  "evt-7ywdniCOsVi86Tc": {
+    "name": "Using the Civic Tech Field Guide",
+    "host": "Personal",
+    "first_seen_at": "2026-11-26T23:01:03.230Z",
+    "first_alerted_at": "2026-11-26T23:01:04.579Z"
+  },
   "evt-86nTzotkqTSMkKs": {
     "name": "You Can See Everything [Private Viewing]",
     "host": "Granola",
@@ -3085,6 +3091,12 @@
     "host": "The Startup Stroll",
     "first_seen_at": "2026-11-06T18:18:30.851Z",
     "first_alerted_at": "2026-11-06T18:18:35.953Z"
+  },
+  "evt-gdtfIpWqcl1SJkV": {
+    "name": "Cocktail Club",
+    "host": "Techspace",
+    "first_seen_at": "2026-11-26T23:01:03.230Z",
+    "first_alerted_at": "2026-11-26T23:01:04.579Z"
   },
   "evt-Ge5yKXIGH2AcALr": {
     "name": "TRD: London Startups Operator RunClub & Social",
@@ -5555,6 +5567,12 @@
     "first_seen_at": "2026-07-19T20:24:59.422Z",
     "first_alerted_at": "2026-07-19T20:25:00.769Z"
   },
+  "evt-PKirDudT0SpP6wx": {
+    "name": "OxBrIm | Co-Founder Matching | Oxford 20th • Cambridge 23rd • Imperial 7th",
+    "host": "Oxbridge AI X",
+    "first_seen_at": "2026-11-26T23:01:03.230Z",
+    "first_alerted_at": "2026-11-26T23:01:04.579Z"
+  },
   "evt-pLd9nyy7FfYixd4": {
     "name": "Antidote Tech 5-a-side",
     "host": "Antidote",
@@ -6008,6 +6026,12 @@
     "host": "PropTech Connect Europe 2026",
     "first_seen_at": "2026-09-04T21:54:13.212Z",
     "first_alerted_at": "2026-09-04T21:54:16.149Z"
+  },
+  "evt-RjdeTuFRa4GfprY": {
+    "name": "DAILIESESSIONS: SIGNING & WORKING WITH AN AGENT",
+    "host": "Mason & Fifth",
+    "first_seen_at": "2026-11-26T23:01:03.230Z",
+    "first_alerted_at": "2026-11-26T23:01:04.579Z"
   },
   "evt-RKmv8wiZtnyoYRf": {
     "name": "Founder Nation: Breakie @ The Savoy",
