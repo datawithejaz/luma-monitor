@@ -681,6 +681,12 @@
     "first_seen_at": "2026-09-18T19:39:03.823Z",
     "first_alerted_at": "2026-09-18T19:39:04.844Z"
   },
+  "evt-4ZkONd9MqZg8TaD": {
+    "name": "Building for the global growth journey: lessons, mistakes and breakthroughs",
+    "host": "3Search London",
+    "first_seen_at": "2026-11-26T14:12:39.708Z",
+    "first_alerted_at": "2026-11-26T14:12:41.071Z"
+  },
   "evt-51sAvaOjXuneFpo": {
     "name": "Revolut Business x Great British Chefs executive dinner",
     "host": "Revolut Business",
@@ -2118,6 +2124,11 @@
     "first_seen_at": "2026-10-21T17:28:11.588Z",
     "first_alerted_at": "2026-10-21T17:28:13.505Z"
   },
+  "evt-cvfjAGOCRDCdzYH": {
+    "name": "London L&D Shakers Meetup #47",
+    "host": "L&D Shakers London",
+    "first_seen_at": "2026-11-26T14:12:39.708Z"
+  },
   "evt-CvJ2xlXhoRfd4x0": {
     "name": "Fem Grind",
     "host": "Rare Founders Calendar",
@@ -3062,6 +3073,12 @@
     "host": "London AI",
     "first_seen_at": "2026-09-15T15:05:45.764Z",
     "first_alerted_at": "2026-09-15T15:05:47.834Z"
+  },
+  "evt-gCwOzKtIHrxe1Av": {
+    "name": "Christmas Builders Club",
+    "host": "Light",
+    "first_seen_at": "2026-11-26T14:12:39.708Z",
+    "first_alerted_at": "2026-11-26T14:12:41.071Z"
   },
   "evt-gD2tJbshnk9FlXr": {
     "name": "The Startup Stroll",
