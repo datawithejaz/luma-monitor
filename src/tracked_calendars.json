@@ -65,21 +65,9 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-a6GjHykuKt5q8iI",
-      "slug": "aiengine",
-      "name": "AI Engine",
-      "reason": "User subscription"
-    },
-    {
       "api_id": "cal-uYzPjdxdCyDtuNO",
       "slug": "ainativedev",
       "name": "AI Native Dev",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-UVqp4TtefuCg69F",
-      "slug": "ai-pilled",
-      "name": "AI Pilled",
       "reason": "User subscription"
     },
     {
@@ -362,18 +350,6 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-H0TZXVNhkEOsD04",
-      "slug": "genailondon",
-      "name": "GenAI London",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-0VoAbfCQEAG1nRo",
-      "slug": "GetFutureReady",
-      "name": "GetFutureReady Community",
-      "reason": "User subscription"
-    },
-    {
       "api_id": "cal-jaeWPGfix6gUTec",
       "slug": "glassray",
       "name": "Glassray",
@@ -391,12 +367,6 @@
       "name": "Google DeepMind",
       "reason": "User subscription",
       "auto_apply": true
-    },
-    {
-      "api_id": "cal-LPMnCK72N8V1Wro",
-      "slug": "gradientdescending",
-      "name": "Gradient Descending",
-      "reason": "User subscription"
     },
     {
       "api_id": "cal-ofXMwxW9NLr0RDU",
@@ -477,12 +447,6 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-OADyLCQJTXS3jhL",
-      "slug": "KingsRising",
-      "name": "Kings Rising",
-      "reason": "User subscription"
-    },
-    {
       "api_id": "cal-KUVrWECuYa2l5zB",
       "slug": "legora",
       "name": "Legora",
@@ -510,12 +474,6 @@
       "api_id": "cal-IxvyTlAxcCwdUtZ",
       "slug": "livingroomlabs",
       "name": "Living Room Labs",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-W1UumipyMqrUEsF",
-      "slug": "llmlondon",
-      "name": "LLM London",
       "reason": "User subscription"
     },
     {
@@ -624,12 +582,6 @@
       "api_id": "cal-URMirodEj9zxhoq",
       "slug": "networklife",
       "name": "Networklife Group",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-NKb9BgiZnwShuM4",
-      "slug": "ntl",
-      "name": "Networx London - Connect & Grow",
       "reason": "User subscription"
     },
     {
@@ -767,12 +719,6 @@
       "reason": "User subscription"
     },
     {
-      "api_id": "cal-5Fn2C58SzHu8WOO",
-      "slug": "revolut-business",
-      "name": "Revolut Business",
-      "reason": "User subscription"
-    },
-    {
       "api_id": "cal-sx2p8SLoDPbnHQB",
       "slug": "seapoint.co",
       "name": "Seapoint",
@@ -788,12 +734,6 @@
       "api_id": "cal-6z5Ol4oDVFIDiWA",
       "slug": "sifted",
       "name": "Sifted Summit",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-jvRrCBfKE0G06XV",
-      "slug": "softr-events",
-      "name": "Softr",
       "reason": "User subscription"
     },
     {
@@ -860,12 +800,6 @@
       "api_id": "cal-XbpmR42wDZE9lri",
       "slug": "techtalkuk",
       "name": "TechTalk",
-      "reason": "User subscription"
-    },
-    {
-      "api_id": "cal-daclmhDgynRuKSD",
-      "slug": "tenexlabs",
-      "name": "Tenex",
       "reason": "User subscription"
     },
     {

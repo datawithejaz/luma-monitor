@@ -4586,6 +4586,12 @@
     "first_seen_at": "2026-09-08T13:34:30.167Z",
     "first_alerted_at": "2026-09-08T13:34:31.803Z"
   },
+  "evt-M3Iv34kAD9RpEEa": {
+    "name": "Jam session at Newspeak House",
+    "host": "Newspeak House",
+    "first_seen_at": "2026-11-26T04:27:47.506Z",
+    "first_alerted_at": "2026-11-26T04:27:48.413Z"
+  },
   "evt-M5aSQieY4xfY3Ef": {
     "name": "Engineering Leaders Building AI 001 - Private Dinner",
     "first_seen_at": "2026-07-14T00:52:58.804Z",
