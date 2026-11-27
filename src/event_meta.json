@@ -2309,6 +2309,11 @@
     "first_seen_at": "2026-09-10T17:18:12.772Z",
     "first_alerted_at": "2026-09-10T17:18:14.710Z"
   },
+  "evt-DlPIy8MGEcDU1HU": {
+    "name": "💻Offline Women Coworking Day",
+    "host": "Offline Women",
+    "first_seen_at": "2026-11-27T14:34:56.837Z"
+  },
   "evt-dLrJWfM41HcnLRs": {
     "name": "Tech Leaders London - September 2026",
     "first_seen_at": "2026-08-22T21:15:35.755Z",
@@ -7963,6 +7968,12 @@
     "host": "Witsend Event Calendar",
     "first_seen_at": "2026-09-11T01:33:23.260Z",
     "first_alerted_at": "2026-09-11T01:33:25.876Z"
+  },
+  "evt-Z4ZGR8jzpMuBGeH": {
+    "name": "British Clean AI Compute Mixer",
+    "host": "Personal",
+    "first_seen_at": "2026-11-27T14:34:56.837Z",
+    "first_alerted_at": "2026-11-27T14:34:58.323Z"
   },
   "evt-z54omWvYYHj34HM": {
     "name": "Antidote Tech 5-a-side",
