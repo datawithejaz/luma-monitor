@@ -4347,6 +4347,12 @@
     "first_seen_at": "2026-09-20T18:32:37.041Z",
     "first_alerted_at": "2026-09-20T18:32:38.700Z"
   },
+  "evt-KTwubqUBcHbFjDS": {
+    "name": "From Creative to Founder with Molly Park (BOTARI)",
+    "host": "Mason & Fifth",
+    "first_seen_at": "2026-11-27T22:56:00.034Z",
+    "first_alerted_at": "2026-11-27T22:56:00.990Z"
+  },
   "evt-Kv2qvIlXHp3FpGY": {
     "name": "Co-Working Fridays : London Chapter",
     "host": "Superteam",
@@ -8214,6 +8220,12 @@
     "name": "Staying Ahead of the Curve: Policy & Compliance in Audiovisual AI",
     "first_seen_at": "2026-09-01T12:06:55.138Z",
     "first_alerted_at": "2026-09-01T12:06:57.248Z"
+  },
+  "evt-zt9F0Ml39HPjGbh": {
+    "name": "All You Can Eat Hot Pot!🍲",
+    "host": "London TCK Home Meetups",
+    "first_seen_at": "2026-11-27T22:56:00.034Z",
+    "first_alerted_at": "2026-11-27T22:56:00.990Z"
   },
   "evt-Zwhp9EnqW75lKLJ": {
     "name": "hardware builder coffee",
